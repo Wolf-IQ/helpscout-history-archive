@@ -1,0 +1,26 @@
+name: Help Scout Archive Sync
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install requests
+      - name: Run Archive
+        env:
+          HS_APP_ID: ${{ secrets.HS_APP_ID }}
+          HS_APP_SECRET: ${{ secrets.HS_APP_SECRET }}
+        run: python sync_helpscout.py
+      - name: Commit Data
+        run: |
+          git config --global user.name "Archive-Bot"
+          git config --global user.email "bot@github.com"
+          git add archive/
+          git commit -m "Automated backup: $(date +'%Y-%m-%d')" || exit 0
+          git push
