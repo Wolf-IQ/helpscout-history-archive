@@ -16,12 +16,23 @@ def get_token():
     return response.json()['access_token']
 
 def get_threads(convo_id, headers):
-    """Fetches the full history (replies/notes) of a conversation."""
+    """Fetches the full history (replies/notes) of a conversation with error handling."""
     url = f"https://api.helpscout.net/v2/conversations/{convo_id}/threads"
-    res = requests.get(url, headers=headers)
-    if res.status_code == 200:
-        return res.json().get('_embedded', {}).get('threads', [])
-    return []
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        # Check if the response is actually JSON
+        if res.status_code == 200:
+            return res.json().get('_embedded', {}).get('threads', [])
+        elif res.status_code == 429:
+            print("Rate limit hit. Sleeping for 10 seconds...")
+            time.sleep(10)
+            return get_threads(convo_id, headers) # Retry once
+        else:
+            print(f"Non-JSON response for ticket {convo_id}: Status {res.status_code}")
+            return []
+    except Exception as e:
+        print(f"Error fetching threads for ticket {convo_id}: {e}")
+        return []
 
 def sync():
     token = get_token()
