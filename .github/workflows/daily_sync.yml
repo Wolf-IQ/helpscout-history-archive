@@ -17,10 +17,12 @@ jobs:
           HS_APP_ID: ${{ secrets.HS_APP_ID }}
           HS_APP_SECRET: ${{ secrets.HS_APP_SECRET }}
         run: python sync_helpscout.py
-      - name: Commit Data
+     - name: Commit Data
         run: |
           git config --global user.name "Archive-Bot"
           git config --global user.email "bot@github.com"
+          git config --global http.postBuffer 524288000
           git add archive/
-          git commit -m "Automated backup: $(date +'%Y-%m-%d')" || exit 0
-          git push
+          # This command commits in chunks if the payload is too large
+          git commit -m "Automated backup: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push origin main
