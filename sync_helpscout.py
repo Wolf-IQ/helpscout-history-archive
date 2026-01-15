@@ -2,12 +2,18 @@ import os
 import requests
 import json
 import time
+import sys
 from datetime import datetime
 
 # Credentials from GitHub Secrets
 APP_ID = os.getenv('HS_APP_ID')
 APP_SECRET = os.getenv('HS_APP_SECRET')
 CHECKPOINT_FILE = "last_page.txt"
+
+def print_flush(text):
+    """Ensures logs appear immediately in GitHub Actions."""
+    print(text)
+    sys.stdout.flush()
 
 def get_token():
     url = "https://api.helpscout.net/v2/oauth2/token"
@@ -19,26 +25,23 @@ def get_threads(convo_id, headers):
     """Fetches the full history (replies/notes) of a conversation with error handling."""
     url = f"https://api.helpscout.net/v2/conversations/{convo_id}/threads"
     try:
-        res = requests.get(url, headers=headers, timeout=10)
-        # Check if the response is actually JSON
+        res = requests.get(url, headers=headers, timeout=15)
         if res.status_code == 200:
             return res.json().get('_embedded', {}).get('threads', [])
         elif res.status_code == 429:
-            print("Rate limit hit. Sleeping for 10 seconds...")
+            print_flush("Rate limit hit. Sleeping for 10 seconds...")
             time.sleep(10)
-            return get_threads(convo_id, headers) # Retry once
+            return get_threads(convo_id, headers)
         else:
-            print(f"Non-JSON response for ticket {convo_id}: Status {res.status_code}")
             return []
     except Exception as e:
-        print(f"Error fetching threads for ticket {convo_id}: {e}")
+        print_flush(f"Error fetching threads for ticket {convo_id}: {e}")
         return []
 
 def sync():
     token = get_token()
     headers = {"Authorization": f"Bearer {token}"}
     
-    # Checkpoint Logic
     if os.path.exists(CHECKPOINT_FILE):
         with open(CHECKPOINT_FILE, "r") as f:
             page = int(f.read().strip())
@@ -48,35 +51,39 @@ def sync():
     processed_this_run = 0
 
     while True:
-        # SAFETY BATCH: Commit every 500 pages to avoid 6-hour timeout
+        # Batch limit to prevent GitHub timeout
         if processed_this_run >= 500:
-            print(f"Batch limit reached. Progress saved at page {page}.")
+            print_flush(f"Batch limit reached. Progress saved at page {page}.")
             break
 
         url = f"https://api.helpscout.net/v2/conversations?page={page}&status=all&sortField=createdAt&sortOrder=asc"
-        response = requests.get(url, headers=headers).json()
+        try:
+            res = requests.get(url, headers=headers)
+            response = res.json()
+        except Exception as e:
+            print_flush(f"Critical error on page {page}: {e}")
+            break
+
         conversations = response.get('_embedded', {}).get('conversations', [])
         
         if not conversations:
-            print("Reached the end of history.")
+            print_flush("Reached the end of history.")
             if os.path.exists(CHECKPOINT_FILE):
                 os.remove(CHECKPOINT_FILE)
             break
 
         for convo in conversations:
-            # 1. Categorization Logic (Company > Domain > Uncategorized)
             customer = convo.get('customer', {})
             company = customer.get('organization')
             if not company:
                 company = customer.get('email', '').split('@')[-1] or "Uncategorized"
             
-            # Sanitize folder name
             clean_company = "".join(x for x in company if x.isalnum() or x in "._- ").strip().replace(" ", "_")
             
-            # 2. Get Full Conversation Detail (Threads/Notes)
+            # Fetch threads
             convo['full_threads'] = get_threads(convo['id'], headers)
             
-            # 3. Save to Organized Folder Structure
+            # Organize by Company/Year
             year = convo['createdAt'][:4]
             folder_path = f"archive/{clean_company}/{year}"
             os.makedirs(folder_path, exist_ok=True)
@@ -85,39 +92,51 @@ def sync():
             with open(file_path, 'w') as f:
                 json.dump(convo, f, indent=4)
         
-        # Update checkpoint
         page += 1
         processed_this_run += 1
         with open(CHECKPOINT_FILE, "w") as f:
             f.write(str(page))
             
-        print(f"Successfully processed page {page - 1}")
-        time.sleep(0.2) # Help Scout Rate Limit Protection
+        print_flush(f"Successfully processed page {page - 1}")
+        time.sleep(0.3)
 
-    # Re-build the Master Search Index
     generate_index()
 
 def generate_index():
-    """Creates a searchable map for the team's tools."""
+    """Robust index generation to prevent crashing on large datasets."""
     master_index = []
-    print("Generating Master Index...")
+    print_flush("Generating Master Index...")
+    
+    if not os.path.exists("archive"):
+        return
+
     for root, dirs, files in os.walk("archive"):
         for file in files:
-            if file.endswith(".json"):
-                with open(os.path.join(root, file), 'r') as f:
-                    data = json.load(f)
-                    master_index.append({
-                        "id": data.get("id"),
-                        "subject": data.get("subject"),
-                        "company": root.split('/')[1],
-                        "tags": [tag['name'] for tag in data.get('tags', [])],
-                        "customer": data.get('customer', {}).get('email'),
-                        "status": data.get("status"),
-                        "path": f"{root}/{file}"
-                    })
+            if file.endswith(".json") and file != "index.json":
+                file_path = os.path.join(root, file)
+                try:
+                    with open(file_path, 'r') as f:
+                        data = json.load(f)
+                        # Extract company name from the folder path safely
+                        path_parts = root.split(os.sep)
+                        company_name = path_parts[1] if len(path_parts) > 1 else "Unknown"
+                        
+                        master_index.append({
+                            "id": data.get("id"),
+                            "subject": data.get("subject"),
+                            "company": company_name,
+                            "tags": [tag['name'] for tag in data.get('tags', [])],
+                            "customer": data.get('customer', {}).get('email'),
+                            "status": data.get("status"),
+                            "path": file_path
+                        })
+                except Exception as e:
+                    # Skip the file if it's empty or corrupted
+                    continue
     
     with open("index.json", "w") as f:
         json.dump(master_index, f, indent=4)
+    print_flush(f"Index successfully generated with {len(master_index)} tickets.")
 
 if __name__ == "__main__":
     sync()
