@@ -1,0 +1,189 @@
+{
+    "id": 948793245,
+    "number": 4190,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Undeliverable: Re: [Western Insurance Brokers] Password Reset",
+    "preview": "Delivery has failed to these recipients or groups:  Wordpress (wordpress@westernib.com.au) The e-mail address you entered couldn't be found. Please check the recipient's e-mail address and try to rese",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 281198957,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "postmaster@wib.local"
+    },
+    "createdAt": "2019-09-06T02:08:11Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2019-09-06T02:08:49Z",
+    "userUpdatedAt": "2019-09-06T02:08:49Z",
+    "customerWaitingSince": {
+        "time": "2019-09-06T02:08:49Z",
+        "friendly": "Sep 6, '19"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 281198957,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "postmaster@wib.local"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/948793245"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/281198957"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/281198957"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/948793245/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/948793245/4190"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2665793493,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-09-06T02:08:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2665792939,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Delivery has failed to these recipients or groups:<br><br>Wordpress (wordpress@westernib.com.au)&lt;mailto:wordpress@westernib.com.au&gt;<br>The e-mail address you entered couldn't be found. Please check the recipient's e-mail address and try to resend the message. If the problem continues, please contact your helpdesk.<br><br><br><br><br><br><br><br>Diagnostic information for administrators:<br><br>Generating server: wib.local<br><br>wordpress@westernib.com.au<br>#550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##<br><br>Original message headers:<br><br>Received: from mail-io1-f47.google.com (209.85.166.47) by WIB-EM-01.wib.local<br> (192.168.1.14) with Microsoft SMTP Server (TLS) id 14.3.123.3; Fri, 6 Sep<br> 2019 12:05:22 +1000<br>Received: by mail-io1-f47.google.com with SMTP id f12so9205669iog.12<br>        for &lt;wordpress@westernib.com.au&gt;; Thu, 05 Sep 2019 19:07:58 -0700<br> (PDT)<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wpperk-com.20150623.gappssmtp.com; s=20150623;<br>        h=from:mime-version:in-reply-to:auto-submitted:date:message-id<br>         :subject:to;<br>        bh=RjUgoxQrhF2gZk4t+TQenZPL+yfuVOYk14rjx7twBtY=;<br>        b=Cc2LUSoAkUCTRg2ZKhclkdY5Pe8tkEY0Kw4lYyhLDBEmbRy/rUU0yF4nb5II2EpPCu<br>         XF0lI+ZNI4eRZzXJZjYVxw3mhVjUCc22vOPvrKWdPu7D9YIfQep5QPcMDQz1HBCq532Z<br>         /ml2JIyewxs6IW+dI3hFFyPRWopccnXpDNWz6mF92lM4sUOQwlOETASsmwflJOfyQS3L<br>         Xxvqw8ocXyzUfB7V7a9HeJ3tS54miOq72dlqSMqcITN9rNbYFmRaOAKZc6/y2hMQcF50<br>         REkgjsJCp3KraCnttKabQ4soczWh5ZfqWrJ5jh+Os3ygNnmd3u0bEU1Qfv0532ugB58y<br>         /Npw==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20161025;<br>        h=x-gm-message-state:from:mime-version:in-reply-to:auto-submitted<br>         :date:message-id:subject:to;<br>        bh=RjUgoxQrhF2gZk4t+TQenZPL+yfuVOYk14rjx7twBtY=;<br>        b=QAemwe2Ckz+LhVtTkQa0xLzCy2AzZV+4hRv7iaCn/tT/TZV7JcfCt5ZnFkcQtJ/Xrg<br>         eKlVz9PFb1HJF48s8yvR4pY49Njz+NDfrBwzF/syWw7UU78ivIvonYnrrCuFrCLGdPgj<br>         2WeW0+OgCIIv69G7uPJ3yBN7MAP4197vIb9SA9lmpMurHMR/ihvkoVaZCAjPGRgrJSJu<br>         ebKun5UXjQTAczXIvBNt30km67eStg9G+7jYhuX8sfSLhhSmALkQr5lAvcwj3HdRDEIv<br>         H3LBG4YhYiq9NRr86Mm/Wb5jslfm6AJDpF2FkTKzawLH0juRhC4YI8Y3gCC+T6y5RQxz<br>         lCnA==<br>X-Gm-Message-State: APjAAAWzR6f1KbD3a4N2KrO37mOdZUGdyhUV7TTsQiNK2R9s4Srir9rM<br>        2O693nLW1RFfu55eNNmsfoawXQM0OklQJ2sxeayKNr0p<br>X-Google-Smtp-Source: APXvYqxRPyLcR71DDxiKvQ0cpqOtAIRM+KmBvlY9c3I/B6zWhiM9giodECLvfncJeHmPK8d/697tie2+SdwhVsy3jYE=<br>X-Received: by 2002:a5d:88ce:: with SMTP id i14mr7255063iol.307.1567735676330;<br> Thu, 05 Sep 2019 19:07:56 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 5 Sep 2019 19:07:55 -0700<br>From: WP Perk Support &lt;support@wpperk.com&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-948793140-2665792654<br>X-Hs-Origin: pconsumer-05a36a352184befe8 [65f98f8698]<br>X-Hs-Message-Id: reply-87172-948793140-2665792654-1567735675-857199760@helpscout.net<br>In-Reply-To: &lt;882f1cef3e62293fd600757723b87d7c@westernib.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 5 Sep 2019 19:07:55 -0700<br>Message-ID: &lt;CAK7D+dbfUBY4pucy-QpHTfiU=DPJbANSftXfyC1o_zYFsH3qKQ@mail.gmail.com&gt;<br>Subject: Re: [Western Insurance Brokers] Password Reset<br>To: Wordpress &lt;wordpress@westernib.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"0000000000001701130591d8e894\"<br>Return-Path: support@wpperk.com<br>X-ESET-AS: R=OK;S=0;OP=CALC;TIME=1567735522;VERSION=7819;MFE-VER=58;MC=1395799378;TRN=21;CRV=0;IPC=209.85.166.47<br>X-ESET-Antispam: OK<br>X-EsetResult: clean, is OK<br>X-EsetId: 37303A2915882E6B637262<br><br><br>Reporting-MTA: dns;wib.local<br>Received-From-MTA: dns;mail-io1-f47.google.com<br>Arrival-Date: Fri, 6 Sep 2019 02:05:22 +0000<br><br>Final-Recipient: rfc822;wordpress@westernib.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found<br>X-Display-Name: Wordpress",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 281198957,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "postmaster@wib.local"
+            },
+            "createdBy": {
+                "id": 281198957,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "postmaster@wib.local"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-09-06T02:08:11Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 216922591,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 4521,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/948793245/attachments/216922591"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/948793245/attachments/216922591/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/216922591/5a923b680f5bf5d8c3d290a64005d91e81392b6e/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/281198957"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/281198957"
+                }
+            }
+        }
+    ]
+}

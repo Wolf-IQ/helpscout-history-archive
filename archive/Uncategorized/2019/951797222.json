@@ -1,0 +1,209 @@
+{
+    "id": 951797222,
+    "number": 4293,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  Your message couldn't be delivered to wordpress@bluewatercontrol.com because the remote server is misconfigured. See technical details below for more information.    The r",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2019-09-10T06:54:46Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2019-09-10T06:58:07Z",
+    "userUpdatedAt": "2019-09-10T06:58:07Z",
+    "customerWaitingSince": {
+        "time": "2019-09-10T06:58:07Z",
+        "friendly": "Sep 10, '19"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/951797222"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/951797222/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/951797222/4293"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2674368601,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-09-10T06:58:07Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2674364246,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>Your message couldn't be delivered to wordpress@bluewatercontrol.com because the remote server is misconfigured. See technical details below for more information.<br><br><br><br>The response from the remote server was:<br>550 5.4.1 [wordpress@bluewatercontrol.com]: Recipient address rejected: Access denied [SY3AUS01FT012.eop-AUS01.prod.protection.outlook.com]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Mon, 09 Sep 2019 23:54:40 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAK7D+dZU3TzC4-Ay+AbL8gHZoBjna0r=522BMzbBXHD=WZavdQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@bluewatercontrol.com<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; bluewatercontrol-com.mail.protection.outlook.com.<br> (104.47.117.36, the server for the domain bluewatercontrol.com.)<br>Diagnostic-Code: smtp; 550 5.4.1 [wordpress@bluewatercontrol.com]: Recipient address rejected: Access denied [SY3AUS01FT012.eop-AUS01.prod.protection.outlook.com]<br>Last-Attempt-Date: Mon, 09 Sep 2019 23:54:43 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-09-10T06:54:46Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 217646814,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/951797222/attachments/217646814"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/951797222/attachments/217646814/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/217646814/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 217646815,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 3969,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/951797222/attachments/217646815"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/951797222/attachments/217646815/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/217646815/0b375fdb8d3ce79bdcdac45cac6bc6a1d912b362/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
