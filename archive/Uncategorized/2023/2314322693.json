@@ -1,0 +1,209 @@
+{
+    "id": 2314322693,
+    "number": 79671,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@barry.dental because the address couldn't be found, or is unable to receive mail.  Learn more here: https://support.google.com/mail/",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2023-07-27T21:00:37Z",
+    "closedBy": 435792,
+    "closedByUser": {
+        "id": 435792,
+        "type": "user",
+        "first": "Glen",
+        "last": "Tenorio",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/435792.341358.jpg",
+        "email": "glen@wolfiq.com.au"
+    },
+    "closedAt": "2023-07-27T22:01:58Z",
+    "userUpdatedAt": "2023-07-27T22:01:58Z",
+    "customerWaitingSince": {
+        "time": "2023-07-27T22:01:58Z",
+        "friendly": "Jul 28, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2314322693"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/435792"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2314322693/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2314322693/79671"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6917640420,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Glen Tenorio marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 435792,
+                "type": "user",
+                "first": "Glen",
+                "last": "Tenorio",
+                "email": "glen@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-07-27T22:01:58Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/435792"
+                }
+            }
+        },
+        {
+            "id": 6917485264,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@barry.dental because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://support.google.com/mail/?p=NoSuchUser<br><br>The response from the remote server was:<br>550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. Learn more at https://support.google.com/mail/?p=NoSuchUser t14-20020a056402524e00b0051e6316130dsi146401edd.5 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Received-From-MTA: dns; support@wolfiq.com.au<br>Arrival-Date: Thu, 27 Jul 2023 14:00:32 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGD+f2-jYUzuOGOB7Zq3PiNMZ9Yy34U3Zg1aL-2ZpUniQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@barry.dental<br>Action: failed<br>Status: 5.1.1<br>Remote-MTA: dns; gmr-smtp-in.l.google.com. (108.177.126.14, the server for the<br> domain domains.google.com.)<br>Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try<br> 550-5.1.1 double-checking the recipient's email address for typos or<br> 550-5.1.1 unnecessary spaces. Learn more at<br> 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser t14-20020a056402524e00b0051e6316130dsi146401edd.5 - gsmtp<br>Last-Attempt-Date: Thu, 27 Jul 2023 14:00:34 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-07-27T21:00:37Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 594826239,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2314322693/attachments/594826239"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2314322693/attachments/594826239/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/594826239/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 594826245,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7385,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2314322693/attachments/594826245"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2314322693/attachments/594826245/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/594826245/0432e3bf8bd9a5d07f9e86cc05437b55a7594fd5/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
