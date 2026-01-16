@@ -1,0 +1,209 @@
+{
+    "id": 2415371511,
+    "number": 92885,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  Your message couldn't be delivered to smtp@mail.breakthru.org.au because the remote server is misconfigured. See technical details below for more information.    The respo",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2023-11-09T03:56:58Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-11-09T04:10:09Z",
+    "userUpdatedAt": "2023-11-09T04:10:09Z",
+    "customerWaitingSince": {
+        "time": "2023-11-09T04:10:09Z",
+        "friendly": "Nov 9, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2415371511"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2415371511/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2415371511/92885"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7235948143,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-11-09T04:10:09Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7235931582,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>Your message couldn't be delivered to smtp@mail.breakthru.org.au because the remote server is misconfigured. See technical details below for more information.<br><br><br><br>The response from the remote server was:<br>550 5.7.51 TenantInboundAttribution; There is a partner connector configured that matched the message's recipient domain. The connector had either the RestrictDomainsToIPAddresses or RestrictDomainsToCertificate set [SY4AUS01FT014.eop-AUS01.prod.protection.outlook.com 2023-11-09T03:56:49.810Z 08DBE059B0B7A438]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 08 Nov 2023 19:56:46 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnFsK9FDzCtJsQAZRAAxFq+zMOCjB1F3JeCiHx_ht73R3Q@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; smtp@mail.breakthru.org.au<br>Action: failed<br>Status: 5.7.51<br>Remote-MTA: dns; mail-breakthru-org-au.mail.protection.outlook.com.<br> (104.47.71.138, the server for the domain mail.breakthru.org.au.)<br>Diagnostic-Code: smtp; 550 5.7.51 TenantInboundAttribution; There is a partner connector configured that matched the message's recipient domain. The connector had either the RestrictDomainsToIPAddresses or RestrictDomainsToCertificate set [SY4AUS01FT014.eop-AUS01.prod.protection.outlook.com 2023-11-09T03:56:49.810Z 08DBE059B0B7A438]<br>Last-Attempt-Date: Wed, 08 Nov 2023 19:56:50 -0800 (PST)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-11-09T03:56:58Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 626839156,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2415371511/attachments/626839156"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2415371511/attachments/626839156/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/626839156/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 626839157,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 5364,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2415371511/attachments/626839157"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2415371511/attachments/626839157/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/626839157/70fa94335aba9256a8f0d13369129c4ce0038041/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
