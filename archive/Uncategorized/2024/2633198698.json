@@ -1,0 +1,168 @@
+{
+    "id": 2633198698,
+    "number": 117705,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Cable Pro] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 659154500,
+        "type": "customer",
+        "first": "Cable",
+        "last": "Pro",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "enquiries@cablepro.net.au"
+    },
+    "createdAt": "2024-06-23T21:46:10Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2024-06-23T22:09:10Z",
+    "userUpdatedAt": "2024-06-23T22:09:10Z",
+    "customerWaitingSince": {
+        "time": "2024-06-23T22:09:10Z",
+        "friendly": "Jun 24, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 659154500,
+        "type": "customer",
+        "first": "Cable",
+        "last": "Pro",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "enquiries@cablepro.net.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2633198698"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/659154500"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/659154500"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2633198698/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2633198698/117705"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7923377785,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-06-23T22:09:10Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7923348683,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WooCommerce - World Options Shipping.<br><br>First, visit your website (https://cablepro.net.au/) and check for any visible issues. Next, visit the page where the error was caught (https://cablepro.net.au/wp-admin/admin.php?page=wc-settings&amp;tab=world_options) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://cablepro.net.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=XyPoCNlmxWYk7GUP4U7AXr&amp;rm_key=6HX2x6q2amEJopdy3fC5rC<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.3.4<br>Active theme: Avada (version 7.4.1)<br>Current plugin: WooCommerce - World Options Shipping (version 1.2.5)<br>PHP version 8.1.27<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 51 of the file /www/cablepro_860/public/wp-content/plugins/world-options/vendor/worldoptions/php-sdk/src/Endpoint/Endpoint.php. Error message: Uncaught WorldOptions\\Utils\\ResponseException: Ocurred error, please contact with developer! in /www/cablepro_860/public/wp-content/plugins/world-options/vendor/worldoptions/php-sdk/src/Endpoint/Endpoint.php:51<br>Stack trace:<br>#0 /www/cablepro_860/public/wp-content/plugins/world-options/vendor/worldoptions/php-sdk/src/Endpoint/Localization/Countries.php(77): WorldOptions\\Endpoint\\Endpoint-&gt;throwException(NULL, 'array', 502)<br>#1 /www/cablepro_860/public/wp-content/plugins/world-options/world-options.php(2121): WorldOptions\\Endpoint\\Localization\\Countries-&gt;wo()<br>#2 /www/cablepro_860/public/wp-content/plugins/world-options/classes/admin/class-settings.php(1990): WC_WorldOptions::countries(true)<br>#3 /www/cablepro_860/public/wp-content/plugins/world-options/classes/admin/class-settings.php(1343): WC_WorldOptions_Settings_General::countries(true)<br>#4 /www/cablepro_860/public/wp-content/plugins/world-options/classes/admin/class-settings.php(1401): WC_WorldOptions_Settings_General-&gt;get_settings()<br>#5 /www/cablepro_860/public/wp-includes/class-wp-hook.php(310): WC_WorldOptions_Settings_General-&gt;output('')<br>#6 /www/cablepro_860/public/wp-includes/class-wp-hook.php(334): WP_Hook-&gt;apply_filters('', Array)<br>#7 /www/cablepro_860/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#8 /www/cablepro_860/public/wp-content/plugins/woocommerce/includes/admin/views/html-admin-settings.php(40): do_action('woocommerce_set...')<br>#9 /www/cablepro_860/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-settings.php(154): include('/www/cablepro_8...')<br>#10 /www/cablepro_860/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-menus.php(291): WC_Admin_Settings::output()<br>#11 /www/cablepro_860/public/wp-includes/class-wp-hook.php(310): WC_Admin_Menus-&gt;settings_page('')<br>#12 /www/cablepro_860/public/wp-includes/class-wp-hook.php(334): WP_Hook-&gt;apply_filters('', Array)<br>#13 /www/cablepro_860/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#14 /www/cablepro_860/public/wp-admin/admin.php(259): do_action('woocommerce_pag...')<br>#15 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 659154500,
+                "first": "Cable",
+                "last": "Pro",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "enquiries@cablepro.net.au"
+            },
+            "createdBy": {
+                "id": 659154500,
+                "type": "customer",
+                "first": "Cable",
+                "last": "Pro",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "enquiries@cablepro.net.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-06-23T21:46:10Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/659154500"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/659154500"
+                }
+            }
+        }
+    ]
+}
