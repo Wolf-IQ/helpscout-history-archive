@@ -1,0 +1,170 @@
+{
+    "id": 2023530274,
+    "number": 44818,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Unitron Marketing] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 465087384,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "wordpress@unitronmarketing.com.au"
+    },
+    "createdAt": "2022-09-29T11:44:00Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-09-29T22:23:35Z",
+    "userUpdatedAt": "2022-09-29T22:23:35Z",
+    "customerWaitingSince": {
+        "time": "2022-09-29T22:23:35Z",
+        "friendly": "Sep 30, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 465087384,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "wordpress@unitronmarketing.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2023530274"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/465087384"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/465087384"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2023530274/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2023530274/44818"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6013577689,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-09-29T22:23:35Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6011405900,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Elementor Pro.<br><br>First, visit your website (https://unitronmarketing.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://unitronmarketing.com.au/wp-admin/) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://unitronmarketing.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=lWDTGKZShsgl9a0UyOH8px&amp;rm_key=hpAL5LS53UKNbMjoUrEhf1<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 5.7.7<br>Current theme: Hello Elementor Child (version 1.0.1)<br>Current plugin: Elementor Pro (version 3.4.0)<br>PHP version 7.4.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 48 of the file /www/unitronmarketing_627/public/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php. Error message: Uncaught ReflectionException: Method get_site_editor_type does not exist in /www/unitronmarketing_627/public/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php:48<br>Stack trace:<br>#0 /www/unitronmarketing_627/public/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(48): ReflectionClass-&gt;getMethod('get_site_editor...')<br>#1 /www/unitronmarketing_627/public/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(129): ElementorPro\\Modules\\ThemeBuilder\\Documents\\Theme_Document::get_site_editor_type_bc()<br>#2 /www/unitronmarketing_627/public/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(94): ElementorPro\\Modules\\ThemeBuilder\\Documents\\Theme_Document::get_create_url()<br>#3 /www/unitronmarketing_627/public/wp-content/plugins/elementor/core/common/modules/finder/categories/create.php(67): Elementor\\Core\\Common\\Modules\\Finder\\Categories\\Create-&gt;create_item_url_by_document_class('ElementorPro\\\\Mo...')<br>#",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 465087384,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "wordpress@unitronmarketing.com.au"
+            },
+            "createdBy": {
+                "id": 465087384,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "wordpress@unitronmarketing.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-09-29T11:44:00Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/465087384"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/465087384"
+                }
+            }
+        }
+    ]
+}

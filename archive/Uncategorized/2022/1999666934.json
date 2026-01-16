@@ -1,0 +1,170 @@
+{
+    "id": 1999666934,
+    "number": 40439,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Royal Rehab] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 204600614,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "wordpress@royalrehab.com.au"
+    },
+    "createdAt": "2022-09-05T07:43:29Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2022-09-05T07:52:59Z",
+    "userUpdatedAt": "2022-09-05T07:52:59Z",
+    "customerWaitingSince": {
+        "time": "2022-09-05T07:52:59Z",
+        "friendly": "Sep 5, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 204600614,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "wordpress@royalrehab.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1999666934"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600614"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600614"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1999666934/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1999666934/40439"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5936519503,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-09-05T07:52:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 5936497341,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WPJobBoard.<br><br>First, visit your website (https://royalrehab.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://royalrehab.com.au/wp-admin/admin.php?page=wpjb-resumes&amp;query=aaronspud70%40gmail.com) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://royalrehab.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=riFtzexDkM9c6ef5f8uLa7&amp;rm_key=t7EXyRYvW35NQ66Kl5PtFT<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.0.2<br>Active theme: Royal Rehab (version 1.0.0)<br>Current plugin: WPJobBoard (version 5.8.7)<br>PHP version 7.4.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 398 of the file /www/royalrehab2020_522/public/wp-content/plugins/wpjobboard/framework/Db/Query.php. Error message: Uncaught Daq_Db_Exception: syntax error, unexpected '@', expecting $end occured in query: SELECT COUNT(*) as `cnt` FROM `wp_wpjb_resume` AS `t1` INNER JOIN `wp_wpjb_resume_search` AS `t2` ON `t1`.`id`=`t2`.`resume_id` WHERE  MATCH(t2.details) AGAINST ('+aaronspud70@gmail.com' IN BOOLEAN MODE)  ORDER BY t1.featured_level, t1.modified_at DESC, t1.id DESC in /www/royalrehab2020_522/public/wp-content/plugins/wpjobboard/framework/Db/Query.php:398<br>Stack trace:<br>#0 /www/royalrehab2020_522/public/wp-content/plugins/wpjobboard/application/libraries/Model/ResumeSearch.php(83): Daq_Db_Query-&gt;fetchColumn()<br>#1 /www/royalrehab2020_522/public/wp-content/plugins/wpjobboard/application/libraries/Model/ResumeSearch.php(314): Wpjb_Model_ResumeSearch::_found(Object(Daq_Db_Query), false)<br>#2 /www/royalrehab2020_522/public/wp-content/plugins/wpjobboard/application/libraries/Module/Admin/Resumes.php(53): Wpjb_Model_ResumeSearch::search(Array)<br>#3 /www/royalrehab2020_522/public/wp-content/plugins/wpjobboard/application/lib",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204600614,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "wordpress@royalrehab.com.au"
+            },
+            "createdBy": {
+                "id": 204600614,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "wordpress@royalrehab.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-09-05T07:43:29Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600614"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600614"
+                }
+            }
+        }
+    ]
+}
