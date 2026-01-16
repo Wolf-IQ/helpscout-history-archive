@@ -1,0 +1,209 @@
+{
+    "id": 2233236501,
+    "number": 68382,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@crowtherscoaches.com.au because the address couldn't be found, or is unable to receive mail.    The response from the remote server ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2023-05-04T16:41:41Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-05-04T21:55:38Z",
+    "userUpdatedAt": "2023-05-04T21:55:38Z",
+    "customerWaitingSince": {
+        "time": "2023-05-04T21:55:38Z",
+        "friendly": "May 5, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2233236501"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2233236501/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2233236501/68382"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6662660897,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-05-04T21:55:38Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6661646864,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@crowtherscoaches.com.au because the address couldn't be found, or is unable to receive mail.<br><br><br><br>The response from the remote server was:<br>550 5.1.1 &lt;wordpress@crowtherscoaches.com.au&gt;: Recipient address rejected: User unknown in virtual mailbox table<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 04 May 2023 09:41:37 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGKo=NoTuOEz1NbPz5j7bENTKE5RV3LNa3Zd7PaA5ErbA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@crowtherscoaches.com.au<br>Action: failed<br>Status: 5.1.1<br>Remote-MTA: dns; crowtherscoaches-com-au.p10.mxthunder.com. (216.172.106.23,<br> the server for the domain crowtherscoaches.com.au.)<br>Diagnostic-Code: smtp; 550 5.1.1 &lt;wordpress@crowtherscoaches.com.au&gt;: Recipient address rejected: User unknown in virtual mailbox table<br>Last-Attempt-Date: Thu, 04 May 2023 09:41:39 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-05-04T16:41:41Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 569298846,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2233236501/attachments/569298846"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2233236501/attachments/569298846/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/569298846/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 569298848,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 4288,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2233236501/attachments/569298848"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2233236501/attachments/569298848/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/569298848/543e514b3562d3d1e1ceca9ec41af9d0531e6772/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
