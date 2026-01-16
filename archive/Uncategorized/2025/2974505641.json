@@ -1,0 +1,168 @@
+{
+    "id": 2974505641,
+    "number": 157158,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Total Contacts] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "createdAt": "2025-06-18T23:52:40Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-22T22:38:41Z",
+    "userUpdatedAt": "2025-06-22T22:38:41Z",
+    "customerWaitingSince": {
+        "time": "2025-06-22T22:38:41Z",
+        "friendly": "Jun 23, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2974505641"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2974505641/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2974505641/157158"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9058857792,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-22T22:38:41Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9049899921,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WooCommerce CyberSource Gateway.<br><br>First, visit your website (https://totalcontacts.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://totalcontacts.com.au/wp-admin/plugins.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://totalcontacts.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=Bckx2a4YF10koAVWwSuZlr&amp;rm_key=8tKW3bPAnZ25Dzepvooxk0<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.1<br>Active theme: Total Eyecare (version 1.0.1)<br>Current plugin: WooCommerce CyberSource Gateway (version 2.9.4)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 40 of the file /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Admin.php. Error message: Uncaught Error: Class \"SkyVerge\\WooCommerce\\PluginFramework\\v5_15_11\\Payment_Gateway\\External_Checkout\\Admin\" not found in /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Admin.php:40<br>Stack trace:<br>#0 /www/totalcontacts2021_947/public/wp-content/plugins/elementor-pro/vendor/composer/ClassLoader.php(576): include()<br>#1 /www/totalcontacts2021_947/public/wp-content/plugins/elementor-pro/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/www/totalconta...')<br>#2 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Google_Pay.php(85): Composer\\Autoload\\ClassLoader-&gt;loadClass('SkyVerge\\\\WooCom...')<br>#3 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/External_Checkout.php(92): SkyVerge\\WooCommerce\\PluginFramework\\v5_15_10\\Payment_Gateway\\External_Checkout\\Google_Pay\\Google_Pay-&gt;init_admin()<br>#4 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/External_Checkout.php(80): SkyVerge\\WooCommerce\\PluginFramework\\v5_15_10\\Payment_Gateway\\External_Checkout\\External_Checkout-&gt;init()<br>#5 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/External_Checkout/Google_Pay/Google_Pay.php(70): SkyVerge\\WooCommerce\\PluginFramework\\v5_15_10\\Payment_Gateway\\External_Checkout\\External_Checkout-&gt;__construct(Object(SkyVerge\\WooCommerce\\Cybersource\\Plugin), Array)<br>#6 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-plugin.php(480): SkyVerge\\WooCommerce\\PluginFramework\\v5_15_10\\Payment_Gateway\\External_Checkout\\Google_Pay\\Google_Pay-&gt;__construct(Object(SkyVerge\\WooCommerce\\Cybersource\\Plugin))<br>#7 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce-gateway-cybersource/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/class-sv-wc-payment-gateway-plugin.php(464): SkyVerge\\WooCommerce\\PluginFramework\\v5_15_10\\SV_WC_Payment_Gateway_Plugin-&gt;build_google_pay_instance()<br>#8 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(324): SkyVerge\\WooCommerce\\PluginFramework\\v5_15_10\\SV_WC_Payment_Gateway_Plugin-&gt;maybe_init_google_pay('')<br>#9 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#10 /www/totalcontacts2021_947/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#11 /www/totalcontacts2021_947/public/wp-settings.php(749): do_action('wp_loaded')<br>#12 /www/totalcontacts2021_947/public/wp-config.php(91): require_once('/www/totalconta...')<br>#13 /www/totalcontacts2021_947/public/wp-load.php(50): require_once('/www/totalconta...')<br>#14 /www/totalcontacts2021_947/public/wp-admin/admin.php(35): require_once('/www/totalconta...')<br>#15 /www/totalcontacts2021_947/public/wp-admin/plugins.php(10): require_once('/www/totalconta...')<br>#16 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 475596117,
+                "type": "customer",
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-18T23:52:40Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1160 @@
+{
+    "id": 2977702003,
+    "number": 157505,
+    "threads": 13,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: Apple pay/Google pay",
+    "preview": "Hi Erin,  Yes, that's correct, WooPayments does require a Stripe account to be set up. However, if your intention is solely to enable Apple Pay and Google Pay, you don\u2019t need to switch your entire c",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 475129199,
+        "type": "customer",
+        "first": "Lee",
+        "last": "Baumwol",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "lbaumwol@totaleyecare.com.au"
+    },
+    "createdAt": "2025-06-23T04:58:23Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2025-07-08T11:51:23Z",
+    "userUpdatedAt": "2025-07-08T11:51:23Z",
+    "customerWaitingSince": {
+        "time": "2025-07-08T11:51:23Z",
+        "friendly": "Jul 8, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 14500942,
+            "color": "#3197D6",
+            "tag": "custom dev",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#37A4FF"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#ACE3FF"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        },
+        {
+            "id": 12388259,
+            "color": "#A5B2BD",
+            "tag": "totalcontacts.com.au",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#8E8E93"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#E5E9EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475129199,
+        "type": "customer",
+        "first": "Lee",
+        "last": "Baumwol",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "lbaumwol@totaleyecare.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2977702003"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475129199"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475129199"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2977702003/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2977702003/157505"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9110860295,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-08T11:51:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 9110841232,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Erin,<br><br>Yes, that's correct, WooPayments does require a Stripe account to be set up. However, if your intention is solely to enable Apple Pay and Google Pay, you <em>don\u2019t</em> need to switch your entire credit card processing to Stripe.<br><br>In this case, I\u2019d recommend using the WooCommerce Stripe Gateway plugin instead of WooPayments. With this setup:<br><ul><li>You <em>can</em> enable Apple Pay and Google Pay via Stripe.<br></li><li>Your existing credit card facility through Cybersource will remain untouched and continue functioning as it currently does.<br></li></ul><br>This ensures that only Apple Pay and Google Pay transactions are routed through Stripe, while all other card payments go through your current provider.<br><br>Let me know how you'd like to proceed, we're ready to assist as soon as you give the go-ahead.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 655169762,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "accounts@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-08T11:51:11Z",
+            "openedAt": "2025-07-08T21:23:17Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/655169762"
+                }
+            }
+        },
+        {
+            "id": 9110678091,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<p>\n    Hi Joel,<br>\n    <br>\n    I'm looking at the WooPayments for us today and I've hit a point with the setup that I just need to check before we go any further\u2026<br>\n    <br>\n    It seems to be wanting us to setup a Stripe account, is that right? To my knowledge, we are only wanting to setup Apple Pay and Google Pay, and we want to keep our credit card facility unchanged from what we have now. If we setup a Stripe account will our current credit card facility continue or will it force us to send all payment types through WooPayments/Stripe now?<br>\n    <br>\n    If that is the case I just need Lee to understand that before we go any further.<br>\n    <br>\n    Thanks\n</p><div class=\"helpscout-signature\">\nErin Skinner <strong>TOTAL EYECARE SUPPORT GROUP</strong><br>\n<br>\nAdministration Manager<br>\n<br>\n<br>\n<br>\n<strong>Total Eyecare Support Group</strong><br>\n<br>\n18 Magnet Court, Sandy Bay TAS 7005<br>\n<br>\n<strong>P</strong>: 03 6231 5744 <strong>E</strong>: accounts@totaleyecare.com.au<br>\n<br>\ntotaleyecare.com.au<br>\n<br>\n<img width=\"268\" height=\"97\" class=\"ex-c10\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/8c7cbc4aa659dfa0804a73e787afa58704f1e9f3/100f3f99f34952897d0ebaedddddeddcd7f0db2c/image001.png\" alt=\"image001.png@01DBF04B.6253E3C0\"><br>\n<br>\n<em>CONFIDENTIAL: This email and any files transmitted with it are confidential and intended solely for the use of the individual or entity to whom they are addressed. If you have received this email in error please notify the system manager. This message contains confidential information and is intended only for the individual named. If you are not the named addressee you should not disseminate, distribute or copy this email. Please notify the sender immediately by email if you have received this email by mistake and delete this email from your system. If you are not the intended recipient you are notified that disclosing, copying, distributing or taking any action in reliance on the contents of this information is strictly prohibited.</em>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "accounts@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 655169762,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "accounts@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-08T11:01:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/655169762"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9109155917,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-08T02:06:41Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 9109151866,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi Erin,<br><br>Could you ladies set that up for us as per Joels advice here?<br><br>Thanks<br>Lee",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 475129199,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-07-08T02:05:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9109044135,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Lee,<br><br>Hope you\u2019re doing well!<br><br>Just a quick update - we're currently waiting on someone from your team to set up the WooPayments account. If it's already been created, you can complete the setup by following this link:<br><a href=\"https://totalcontacts.com.au/wp-admin/admin.php?page=wc-admin&amp;path=%2Fpayments%2Fconnect&amp;source=wcadmin-settings-page&amp;from=WCPAY_ACTIVE\" target=\"_new\">Connect WooPayments to Your Store</a><br><br>It just requires a few basic details like your business info and bank account. Once that's done, we can enable it on the site.<br><br>Once activated, customers using compatible devices will see options like \u201cBuy with Apple Pay\u201d or \u201cCheckout with Google Pay\u201d at checkout, depending on their device.<br><br>Let me know if you need help with anything.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-07-08T01:34:21Z",
+            "openedAt": "2025-07-08T01:47:08Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9109028945,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<p>\n    Hi Joel,<br>\n    IS this one going yet?\n</p><div class=\"helpscout-signature\">\nThanks<br>\nLee\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 475129199,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-07-08T01:18:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9070105175,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Lee,<br><br>Great, sounds like a plan!<br><br>We may need you or someone on your team to quickly set up the WooPayments account and connect it (just a few basic details like business info and bank account). Once that\u2019s done, we can enable it on the site.<br><br>And yes once it\u2019s active, customers on compatible devices will see Apple Pay or Google Pay options right at checkout. It\u2019ll say things like \u201cBuy with Apple Pay\u201d or \u201cCheckout with Google Pay\u201d depending on their device.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-25T23:46:26Z",
+            "openedAt": "2025-06-25T23:49:37Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9066261834,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey Joel,<br><br>OK, those fees are a bit higher than our ANZ but not dramatically so. Lets try it for a bit.<br><br>Happy for you to flick it on when you like. There will be icons showing at checkout, :checkout with applepay\" \"checkout with google pay\"?<br><br>Lee:)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 475129199,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-24T23:55:08Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9063313698,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Lee,<br><br>Not quite, with WooPayments, ANZ isn\u2019t involved in the online payments anymore. Everything goes through WooPayments, so you\u2019d just pay WooPayments\u2019 fee per transaction. The funds still get deposited into your ANZ account, but ANZ wouldn\u2019t charge you merchant fees for those online sales.<br><br>If you're concerned about covering the fees, some stores add a small surcharge at checkout to offset transaction costs.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-24T07:37:14Z",
+            "openedAt": "2025-06-24T22:34:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9062832362,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi Joel, Im trying to email woocommerce but cant seem to...<br><br>So from the pricing snapshot there then, it seems this would cost us the merchant fee currently charged by ANZ plus the fee per transaction from WooCommerce? Is that right?<br><br>Lee",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 475129199,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-24T02:05:26Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9062538866,
+            "type": "note",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "(Time: 30mins)<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-23T23:00:11Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9060160862,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Lee,<br><br>All transaction fees for Apple Pay and Google Pay through WooPayments are handled by WooPayments/Stripe. You will see their transaction fees clearly outlined in WooPayments settings. ANZ will not charge any extra fees for processing these payments since they are not involved in the transaction itself.<br><br>However, it doesn't hurt to check with ANZ if you want complete peace of mind or if you have any special banking arrangements.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-23T11:51:54Z",
+            "openedAt": "2025-06-23T12:04:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9059459479,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Cool, so i should check with anz re transaction costs, or it is just the same??<br><br>Lee",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 475129199,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-23T06:37:07Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9059428997,
+            "type": "note",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "(Time: 15mins)<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-23T06:21:57Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9059415295,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Lee,<br><br>I hope you are doing well.<br><br>Yes, we have set this up before. <br><br>We don't use woopayments, but I have installed this to the site and ready for you to setup.<br><a href=\"https://totalcontacts.com.au/wp-admin/admin.php?page=wc-admin&amp;path=%2Fpayments%2Fconnect\">https://totalcontacts.com.au/wp-admin/admin.php?page=wc-admin&amp;path=%2Fpayments%2Fconnect</a><br><br>Let me know if you need assistance on setting this up. <br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-23T06:21:36Z",
+            "openedAt": "2025-06-23T06:31:48Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        },
+        {
+            "id": 9059352406,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Escalate to T3** was triggered",
+                "associatedEntities": {
+                    "workflow": 1229229,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-23T05:30:31Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9059312289,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Hi Joel,</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Just looking a bit at the option of incorporating apple pay and Google pay for easier customer checkouts at their end. I like to use Apple pay when shopping, is super fast skipping entering credit card and delivery address details.</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Do u have experience setting this up for woocommerce sites?</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Looks likes it very simple (this from woocommerce support):</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><img id=\"ex-image_0\" style=\"max-width:1227px;\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/a28d50f06ee26917f93f7ebcc4b0f29449fb32cb/eb1686bdfbed716620e49d6f69254fcf56cee939/image.png\" alt=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/a28d50f06ee26917f93f7ebcc4b0f29449fb32cb/eb1686bdfbed716620e49d6f69254fcf56cee939/image.png\" /></div>\n<div id=\"ex-Signature\" class=\"ex-elementToProof\">\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Apologies for my ignorance, but we do use Woopayments, yes?</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">And they say the transaction fees are same as regular cards:</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><img style=\"max-width:1227px;\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/8684f48b9a441e166559f4dc857d2cc387c19db3/5a2f63453e0fe263d6865eb1f72ba69d60686bf2/image.png\" alt=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/8684f48b9a441e166559f4dc857d2cc387c19db3/5a2f63453e0fe263d6865eb1f72ba69d60686bf2/image.png\" /></div>\n<div id=\"ex-divtagdefaultwrapper\" class=\"ex-elementToProof\">\n<p class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;\"><span style=\"font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\"><br></span></p>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\">Can you advise? Looks like theres no reason not to do it? No costs to set up and same ongoing transaction fee we currently pay. Do I needc to speak to ANZ cybersource, our gateway provider? </div>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\">Thanks</div>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\">Lee</div>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"margin-top:0px;margin-bottom:0px;font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\">Lee Baumwol</div>\n<div class=\"ex-elementToProof\" style=\"font-family:arial, sans-serif;font-size:12.8px;color:rgb(34,34,34);\">Optometrist</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:8pt;color:rgb(0,0,0);\">CONFIDENTIAL: The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without a written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.</div>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475129199,
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "createdBy": {
+                "id": 475129199,
+                "type": "customer",
+                "first": "Lee",
+                "last": "Baumwol",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "lbaumwol@totaleyecare.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@totalcontacts.com.au",
+                "adunham@totaleyecare.com.au",
+                "accounts@totaleyecare.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-06-23T04:58:22Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475129199"
+                }
+            }
+        }
+    ]
+}

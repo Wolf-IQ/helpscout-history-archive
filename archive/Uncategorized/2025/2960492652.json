@@ -1,0 +1,168 @@
+{
+    "id": 2960492652,
+    "number": 155737,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Acoufelt] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 498524684,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@acoufelt.com.au"
+    },
+    "createdAt": "2025-06-05T03:34:03Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-05T20:43:41Z",
+    "userUpdatedAt": "2025-06-05T20:43:41Z",
+    "customerWaitingSince": {
+        "time": "2025-06-05T20:43:41Z",
+        "friendly": "Jun 6, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 498524684,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@acoufelt.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2960492652"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/498524684"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/498524684"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2960492652/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2960492652/155737"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9010081473,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-05T20:43:41Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9007159318,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Elementor Pro.<br><br>First, visit your website (https://acoufelt.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://acoufelt.com.au/wp-admin/post.php?post=20783&amp;action=elementor) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://acoufelt.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=8p1OZl6ruf38roAqHBWdEv&amp;rm_key=UYBRQk8yF5MsEfE6hZ0kp8<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.1<br>Active theme: Acoufelt (version 1.0.1)<br>Current plugin: Elementor Pro (version 3.29.1)<br>PHP version 8.1.30<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 43 of the file /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/display-conditions/classes/dynamic-tags/dynamic-tags-data-provider.php. Error message: Uncaught TypeError: ElementorPro\\Modules\\DisplayConditions\\Classes\\DynamicTags\\Dynamic_Tags_Data_Provider::get_default_control_option(): Return value must be of type string, null returned in /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/display-conditions/classes/dynamic-tags/dynamic-tags-data-provider.php:43<br>Stack trace:<br>#0 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/display-conditions/conditions/dynamic-tags-condition.php(63): ElementorPro\\Modules\\DisplayConditions\\Classes\\DynamicTags\\Dynamic_Tags_Data_Provider-&gt;get_default_control_option()<br>#1 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/display-conditions/conditions/base/condition-base.php(40): ElementorPro\\Modules\\DisplayConditions\\Conditions\\Dynamic_Tags_Condition-&gt;get_options()<br>#2 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): ElementorPro\\Modules\\DisplayConditions\\Conditions\\Base\\Condition_Base-&gt;register_controls()<br>#3 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\\Controls_Stack-&gt;init_controls()<br>#4 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(315): Elementor\\Controls_Stack-&gt;get_stack()<br>#5 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2299): Elementor\\Controls_Stack-&gt;get_controls()<br>#6 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/display-conditions/conditions/base/condition-base.php(46): Elementor\\Controls_Stack-&gt;get_initial_config()<br>#7 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1071): ElementorPro\\Modules\\DisplayConditions\\Conditions\\Base\\Condition_Base-&gt;get_initial_config()<br>#8 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/display-conditions/classes/conditions-manager.php(184): Elementor\\Controls_Stack-&gt;get_config()<br>#9 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/core/editor/editor.php(168): ElementorPro\\Modules\\DisplayConditions\\Classes\\Conditions_Manager-&gt;get_conditions_config()<br>#10 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): ElementorPro\\Core\\Editor\\Editor-&gt;localize_settings(Array)<br>#11 /www/acoufeltau_185/public/wp-includes/plugin.php(205): WP_Hook-&gt;apply_filters(Array, Array)<br>#12 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/editor/loader/common/editor-common-scripts-settings.php(134): apply_filters('elementor/edito...', Array)<br>#13 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/editor/loader/v2/editor-v2-loader.php(166): Elementor\\Core\\Editor\\Loader\\Common\\Editor_Common_Scripts_Settings::get()<br>#14 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/editor/editor.php(364): Elementor\\Core\\Editor\\Loader\\V2\\Editor_V2_Loader-&gt;enqueue_scripts()<br>#15 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): Elementor\\Core\\Editor\\Editor-&gt;enqueue_scripts('')<br>#16 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#17 /www/acoufeltau_185/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#18 /www/acoufeltau_185/public/wp-includes/script-loader.php(2299): do_action('wp_enqueue_scri...')<br>#19 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')<br>#20 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#21 /www/acoufeltau_185/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#22 /www/acoufeltau_185/public/wp-includes/general-template.php(3192): do_action('wp_head')<br>#23 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/editor-templates/editor-wrapper.php(31): wp_head()<br>#24 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/editor/loader/v2/editor-v2-loader.php(216): include('/www/acoufeltau...')<br>#25 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/editor/editor.php(169): Elementor\\Core\\Editor\\Loader\\V2\\Editor_V2_Loader-&gt;print_root_template()<br>#26 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): Elementor\\Core\\Editor\\Editor-&gt;init('')<br>#27 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#28 /www/acoufeltau_185/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#29 /www/acoufeltau_185/public/wp-admin/admin.php(420): do_action('admin_action_el...')<br>#30 /www/acoufeltau_185/public/wp-admin/post.php(12): require_once('/www/acoufeltau...')<br>#31 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 498524684,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@acoufelt.com.au"
+            },
+            "createdBy": {
+                "id": 498524684,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@acoufelt.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-05T03:34:03Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/498524684"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/498524684"
+                }
+            }
+        }
+    ]
+}

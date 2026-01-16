@@ -1,0 +1,651 @@
+{
+    "id": 2970893512,
+    "number": 156743,
+    "threads": 3,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Fw: New message from customer support at Total Contacts",
+    "preview": "This ticket has been idle for over 24 hours.  If you need to respond to the client, please create a new conversation and close this ticket. Once the new ticket is created, continue the conversation th",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "createdAt": "2025-06-15T23:00:41Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-17T12:55:45Z",
+    "userUpdatedAt": "2025-06-17T12:55:45Z",
+    "customerWaitingSince": {
+        "time": "2025-06-17T12:55:45Z",
+        "friendly": "Jun 17, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 14421543,
+            "color": "#E52F28",
+            "tag": "tier 3",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#FC5D7D"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#FFAFB1"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        },
+        {
+            "id": 12388259,
+            "color": "#A5B2BD",
+            "tag": "totalcontacts.com.au",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#8E8E93"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#E5E9EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2970893512"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2970893512/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2970893512/156743"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9043973349,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-17T12:55:45Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 9043275196,
+            "type": "lineitem",
+            "status": "active",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-17T08:48:37Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9043275194,
+            "type": "note",
+            "state": "published",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "body": "This ticket has been idle for over 24 hours.<br><br>If you need to respond to the client, please create a new conversation and close this ticket. Once the new ticket is created, continue the conversation there.<br><br>For guidance, refer to this walkthrough:&nbsp;<br><a href=\"https://www.loom.com/share/238808eaaeaa428a80a85441547b7e50?sid=c34b6e54-570b-4041-b43b-c2bc078830a1\"><ul><li><a href=\"https://www.loom.com/share/238808eaaeaa428a80a85441547b7e50?sid=1e84bd29-3621-4f82-8dac-5237bd08e5a5\">https://www.loom.com/share/238808eaaeaa428a80a85441547b7e50?sid=1e84bd29-3621-4f82-8dac-5237bd08e5a5</a></li><li><a href=\"https://secure.helpscout.net/settings/workflows/158894/edit/1238177/actions/%E2%80%8Bhttps://www.loom.com/share/b1f338d04eb44b118d915b107a6ed087?sid=1dbc4938-b676-4cd2-a748-5692874039dc\">https://www.loom.com/share/b1f338d04eb44b118d915b107a6ed087?sid=1dbc4938-b676-4cd2-a748-5692874039dc</a></li></ul></a>",
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "photoUrl": "https://secure.helpscout.net//images/users/workflow-2.png",
+                "email": "rica@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-17T08:48:37Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "savedReply": {
+                    "href": "https://api.helpscout.net/v2/mailboxes/158894/saved-replies/0"
+                }
+            }
+        },
+        {
+            "id": 9039289607,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Elise and Lee,<br><br>I hope you are doing well. <br><br>We have been looking into this, upon checking Erin from \"accounting\" mentioned that there is a recent change under ANZ and needed update this under Cybersource. <br><br>Let us know you go with the updates. <br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-16T08:14:44Z",
+            "openedAt": "2025-06-18T11:49:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        },
+        {
+            "id": 9038724694,
+            "type": "note",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi <span class=\"mention-highlight\">@andy</span>,<br><br>There is a recent change on their account in ANZ and they need to update it with Cybersource. <br><br><a href=\"https://secure.helpscout.net/conversation/2970929479/156752?viewId=2315036\">https://secure.helpscout.net/conversation/2970929479/156752?viewId=2315036</a><br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-16T02:21:25Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        },
+        {
+            "id": 9038723434,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 838182
+                }
+            },
+            "body": "Hi <span class=\"mention-highlight\">@joel</span> - looks like Woo Payments not enabled so must be doing it through another gateway. Can you Check?<br><p><img src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/517cdbb5a1b257718b990ad2c2d33f383e8e937b/90357e42adac0316640cb9213f25b313f18a3fb2/Screenshot-2025-06-16-at-11-59-14-AM.png\" style=\"max-width: 100%; \"></p>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838182.354563.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-16T01:59:44Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        },
+        {
+            "id": 9038714849,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 838182
+                }
+            },
+            "body": "Hi <span class=\"mention-highlight\">@joel</span> + <span class=\"mention-highlight\">@ricaR</span> - received a call from Elise expressing the agency. She said they have not changed anything on backend. <br><br>I will look into blogvault now.<br><br><b>Notes</b><br><ul><li>Lisa from Total Contact calls Andy to discuss a problem with their credit card payment platform, which started on Friday, causing errors for customers trying to pay via credit card. <br></li><li>Lisa mentions that they have sent multiple emails to Lee and their accounts department about the issue. Andy confirms receipt of the emails and agrees to follow up. <br></li><li>Lisa mentions that the issue arose after Thursday when everything was functioning properly. <br></li><li>They discuss the need for a screenshot of the error message to help diagnose the problem. <br></li><li>Andy assures Lisa that they will investigate the issue and provide an update.<br></li></ul>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838182.354563.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838182.354563.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-16T01:53:11Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        },
+        {
+            "id": 9038712512,
+            "type": "message",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 838182
+                }
+            },
+            "body": "Hi Elise and Lee,<br><br>Confirming we're looking into this right away.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838182.354563.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-16T01:51:04Z",
+            "openedAt": "2025-06-16T01:52:20Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        },
+        {
+            "id": 9038521185,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Escalate to T3** was triggered",
+                "associatedEntities": {
+                    "workflow": 1229229,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-15T23:02:21Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9038518639,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Good morning!</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">We've had this support request come through over the weekend advising of an error when trying to pay with credit card - we also had a few reports of the same issue on Friday.</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">There are currently no orders that have come through with credit card as the payment method, and 7 orders are currently pending payment.</div>\n<div id=\"ex-Signature\" class=\"ex-elementToProof\">\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">I have asked this person to send through a screenshot of the error message they received, but I'm not sure if they will.</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Can you please look into what the cause could be?</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<p class=\"ex-elementToProof\" style=\"text-align:left;background-color:rgb(255,255,255);margin:0cm;font-family:Calibri, Arial, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><span style=\"font-family:Calibri, sans-serif;color:#000;\">Kind regards,</span></p>\n<div class=\"ex-elementToProof\" style=\"text-align:left;background-color:rgb(255,255,255);margin:0cm;font-family:Calibri, sans-serif;font-size:12pt;color:#000;\"><br></div>\n<div class=\"ex-elementToProof\" style=\"text-align:left;background-color:rgb(255,255,255);margin:0cm;font-family:Calibri, sans-serif;font-size:12pt;color:#000;\">Elise</div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></div>\n<div class=\"ex-elementToProof\" style=\"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><img width=\"280\" height=\"87\" style=\"width:280px;height:87px;max-width:100%;\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/14140b747d0718b84dcb71883f6f6a651dbf6dfe/a86b93f747403fb259775dd725ba7669dfd0b8f5/Outlook-4ua1kgiz.png\" alt=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/14140b747d0718b84dcb71883f6f6a651dbf6dfe/a86b93f747403fb259775dd725ba7669dfd0b8f5/Outlook-4ua1kgiz.png\" /><br></div>\n<p class=\"ex-elementToProof\" style=\"text-align:left;background-color:rgb(255,255,255);margin:0cm;font-family:Calibri, sans-serif;font-size:11pt;color:rgb(32,31,30);\"><span style=\"font-size:8pt;color:#000;\"><b>\u200b</b></span><span style=\"font-size:10pt;color:rgb(5,99,193);\"><a href=\"http://www.totalcontacts.com.au/\" style=\"color:rgb(5,99,193);margin-top:0px;margin-bottom:0px;\">www.totalcontacts.com.au</a></span><br></p>\n<p class=\"ex-elementToProof\" style=\"text-align:left;background-color:rgb(255,255,255);margin:0cm;font-family:Calibri, sans-serif;font-size:11pt;color:rgb(32,31,30);\"><span style=\"font-size:10pt;color:rgb(5,99,193);\"><u><a href=\"https://www.facebook.com/totalcontacts\" style=\"color:rgb(5,99,193);margin:0px;\">https://www.facebook.com/totalcontacts</a></u></span></p>\n<div class=\"ex-elementToProof\"><span style=\"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></span></div>\n</div>\n<div id=\"ex-appendonsend\"></div>\n<hr style=\"width:98%;\" />\n<div id=\"ex-divRplyFwdMsg\" dir=\"ltr\"><b>From:</b> Total Contacts &lt;info@totalcontacts.com.au&gt;<br>\n<b>Sent:</b> Sunday, 15 June 2025 1:33 PM<br>\n<b>To:</b> Total Contacts &lt;info@totalcontacts.com.au&gt;; Lee Baumwol - Total Eyecare &lt;lbaumwol@totaleyecare.com.au&gt;<br>\n<b>Subject:</b> New message from customer support at Total Contacts\n<br>\n</div>\n<div>Name: Christian Baldock<br>\nPlease select your preferred method of contact:: Email<br>\nPhone:<br>\nEmail: christianbaldock@gmail.com<br>\nMessage: Hi there, I'm trying to place an order (have tried Safari, Chrome on both iPhone and Mac) but keep receiving an error message after I enter in my credit card details (Visa) and select Pay.<br>\n<br>\n---<br>\n<br>\nDate: June 15, 2025<br>\nTime: 1:33 pm<br></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 475596117,
+                "type": "customer",
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-15T23:00:41Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "id": 2966300730,
+    "number": 156116,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Artiste Plastic Surgery] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 256348902,
+        "type": "customer",
+        "first": "Staq",
+        "last": "Migrator",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@artisteplasticsurgery.com.au"
+    },
+    "createdAt": "2025-06-11T04:21:05Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-11T21:50:23Z",
+    "userUpdatedAt": "2025-06-11T21:50:23Z",
+    "customerWaitingSince": {
+        "time": "2025-06-11T21:50:23Z",
+        "friendly": "Jun 12, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 256348902,
+        "type": "customer",
+        "first": "Staq",
+        "last": "Migrator",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@artisteplasticsurgery.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2966300730"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/256348902"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/256348902"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2966300730/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2966300730/156116"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9028218571,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-11T21:50:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9024887471,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Advanced Custom Fields PRO.<br><br>First, visit your website (https://www.artisteplasticsurgery.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.artisteplasticsurgery.com.au/wp-admin/post.php?post=8321&amp;action=edit) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.artisteplasticsurgery.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=aDG70iOt6fZadv3qf8SWNn&amp;rm_key=4r5EKK7Y1uAUvKhkMdWIFL<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.1<br>Active theme: Artiste Plastic Surgery (version 1.0.0)<br>Current plugin: Advanced Custom Fields PRO (version 6.4.2)<br>PHP version 8.2.28<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 727 of the file /www/artisteplasticsurgery_243/public/wp-content/plugins/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php. Error message: Uncaught TypeError: Illegal offset type in isset or empty in /www/artisteplasticsurgery_243/public/wp-content/plugins/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php:727<br>Stack trace:<br>#0 /www/artisteplasticsurgery_243/public/wp-includes/class-wp-hook.php(324): acf_field_flexible_content-&gt;load_value(Array, 8321, Array)<br>#1 /www/artisteplasticsurgery_243/public/wp-includes/plugin.php(256): WP_Hook-&gt;apply_filters(Array, Array)<br>#2 /www/artisteplasticsurgery_243/public/wp-content/plugins/advanced-custom-fields-pro/includes/acf-hook-functions.php(109): apply_filters_ref_array('acf/load_value/...', Array)<br>#3 /www/artisteplasticsurgery_243/public/wp-includes/class-wp-hook.php(324): _acf_apply_hook_variations(Array, 8321, Array)<br>#4 /www/artisteplasticsurgery_243/public/wp-includes/plugin.php(205): WP_Hook-&gt;apply_filters(Array, Array)<br>#5 /www/artisteplasticsurgery_243/public/wp-content/plugins/advanced-custom-fields-pro/includes/acf-value-functions.php(137): apply_filters('acf/load_value', Array, 8321, Array)<br>#6 /www/artisteplasticsurgery_243/public/wp-content/plugins/advanced-custom-fields-pro/includes/acf-field-functions.php(610): acf_get_value(8321, Array)<br>#7 /www/artisteplasticsurgery_243/public/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php(223): acf_render_fields(Array, 8321, 'div', 'label')<br>#8 /www/artisteplasticsurgery_243/public/wp-admin/includes/template.php(1456): ACF_Form_Post-&gt;render_meta_box(Object(WP_Post), Array)<br>#9 /www/artisteplasticsurgery_243/public/wp-admin/includes/post.php(2393): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))<br>#10 /www/artisteplasticsurgery_243/public/wp-admin/edit-form-blocks.php(383): the_block_editor_meta_boxes()<br>#11 /www/artisteplasticsurgery_243/public/wp-admin/post.php(187): require('/www/artistepla...')<br>#12 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 256348902,
+                "first": "Staq",
+                "last": "Migrator",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@artisteplasticsurgery.com.au"
+            },
+            "createdBy": {
+                "id": 256348902,
+                "type": "customer",
+                "first": "Staq",
+                "last": "Migrator",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@artisteplasticsurgery.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-11T04:21:05Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/256348902"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/256348902"
+                }
+            }
+        }
+    ]
+}

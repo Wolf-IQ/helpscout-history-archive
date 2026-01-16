@@ -1,0 +1,244 @@
+{
+    "id": 2977140079,
+    "number": 157420,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message blocked **  Your message to wordpress@rockstone.au has been blocked. See technical details below for more information.    The response from the remote server was: 450 4.7.1 Deferred due to ",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-06-22T02:19:50Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-22T22:38:16Z",
+    "userUpdatedAt": "2025-06-22T22:38:16Z",
+    "customerWaitingSince": {
+        "time": "2025-06-22T22:38:16Z",
+        "friendly": "Jun 23, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2977140079"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2977140079/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2977140079/157420"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9058857015,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-22T22:38:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9057760328,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-22T02:19:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9057760324,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message blocked **<br><br>Your message to wordpress@rockstone.au has been blocked. See technical details below for more information.<br><br><br><br>The response from the remote server was:<br>450 4.7.1 Deferred due to complaints E016<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 18 Jun 2025 19:00:11 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnEr17GBQRg5z-ef-LzPQi50sv5OYp6QpSKggqZcgOPkvQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@rockstone.au<br>Action: failed<br>Status: 4.7.1<br>Remote-MTA: dns; mx1.email-hosting.net.au. (103.42.110.227, the server for the<br> domain rockstone.au.)<br>Diagnostic-Code: smtp; 450 4.7.1 Deferred due to complaints E016<br>Last-Attempt-Date: Sat, 21 Jun 2025 19:19:40 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-22T02:19:50Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 802166828,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 4663,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2977140079/attachments/802166828"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2977140079/attachments/802166828/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/802166828/b0a404b033e2e7533dc31f6629d9d89ecc5fd0e7/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 802166829,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6876,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2977140079/attachments/802166829"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2977140079/attachments/802166829/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/802166829/385b8513d0f0bb00ca9221050e9fe7c5a026fadc/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
