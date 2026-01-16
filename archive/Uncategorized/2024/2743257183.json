@@ -1,0 +1,224 @@
+{
+    "id": 2743257183,
+    "number": 132528,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Total Contacts] Password Changed",
+    "preview": "Password changed for user: fionazibens",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "createdAt": "2024-10-24T01:24:58Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2024-10-24T22:21:19Z",
+    "userUpdatedAt": "2024-10-24T22:21:19Z",
+    "customerWaitingSince": {
+        "time": "2024-10-24T22:21:19Z",
+        "friendly": "Oct 25, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2743257183"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2743257183/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2743257183/132528"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8280138989,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-24T22:21:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 8276593206,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Password Changed for Joel to verify** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119831,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-24T01:24:58Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8276593180,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Password changed for user: fionazibens",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 475596117,
+                "type": "customer",
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-24T01:24:58Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        }
+    ]
+}

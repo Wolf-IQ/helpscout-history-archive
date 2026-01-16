@@ -1,0 +1,170 @@
+{
+    "id": 2726880467,
+    "number": 130064,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[love.fish] New User Registration",
+    "preview": "New user registration on your site love.fish:  Username: tessa  Email: tessa@tessamcmahon.com.au",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 545849427,
+        "type": "customer",
+        "first": "bookings@lovefish.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "bookings@lovefish.com.au"
+    },
+    "createdAt": "2024-10-06T03:49:49Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2024-10-06T03:49:49Z",
+    "userUpdatedAt": "2024-10-06T03:49:49Z",
+    "customerWaitingSince": {
+        "time": "2024-10-06T03:49:49Z",
+        "friendly": "Oct 6, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 545849427,
+        "type": "customer",
+        "first": "bookings@lovefish.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "bookings@lovefish.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2726880467"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/545849427"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/545849427"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2726880467/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2726880467/130064"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8223027069,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **New User Registration** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119867,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-06T03:49:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8223027067,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "New user registration on your site love.fish:<br><br>Username: tessa<br><br>Email: tessa@tessamcmahon.com.au",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 545849427,
+                "first": "bookings@lovefish.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "bookings@lovefish.com.au"
+            },
+            "createdBy": {
+                "id": 545849427,
+                "type": "customer",
+                "first": "bookings@lovefish.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "bookings@lovefish.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-06T03:49:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/545849427"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/545849427"
+                }
+            }
+        }
+    ]
+}

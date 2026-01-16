@@ -1,0 +1,170 @@
+{
+    "id": 2733079397,
+    "number": 131124,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Don't Sweat It] New User Registration",
+    "preview": "New user registration on your site Don't Sweat It:  Username: korystrub29864  Email: kory.strub99@emailus.caperly.click",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 562996548,
+        "type": "customer",
+        "first": "Shelly",
+        "last": "Horton",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "info@dontsweatit.com.au"
+    },
+    "createdAt": "2024-10-13T05:27:11Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2024-10-13T05:27:11Z",
+    "userUpdatedAt": "2024-10-13T05:27:11Z",
+    "customerWaitingSince": {
+        "time": "2024-10-13T05:27:11Z",
+        "friendly": "Oct 13, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 562996548,
+        "type": "customer",
+        "first": "Shelly",
+        "last": "Horton",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "info@dontsweatit.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2733079397"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/562996548"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/562996548"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2733079397/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2733079397/131124"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8243040068,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **New User Registration** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119867,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-13T05:27:11Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8243040064,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "New user registration on your site Don't Sweat It:<br><br>Username: korystrub29864<br><br>Email: kory.strub99@emailus.caperly.click",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 562996548,
+                "first": "Shelly",
+                "last": "Horton",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@dontsweatit.com.au"
+            },
+            "createdBy": {
+                "id": 562996548,
+                "type": "customer",
+                "first": "Shelly",
+                "last": "Horton",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@dontsweatit.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-13T05:27:11Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/562996548"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/562996548"
+                }
+            }
+        }
+    ]
+}

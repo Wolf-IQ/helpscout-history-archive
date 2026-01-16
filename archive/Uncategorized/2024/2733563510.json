@@ -1,0 +1,170 @@
+{
+    "id": 2733563510,
+    "number": 131239,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[HeartSmart] New User Registration",
+    "preview": "New user registration on your site HeartSmart:  Username: michael@etchstudio.com.au  Email: michael@etchstudio.com.au",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 713159371,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "accounts@defibsplus.com.au"
+    },
+    "createdAt": "2024-10-14T03:28:14Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2024-10-14T03:28:14Z",
+    "userUpdatedAt": "2024-10-14T03:28:14Z",
+    "customerWaitingSince": {
+        "time": "2024-10-14T03:28:14Z",
+        "friendly": "Oct 14, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 713159371,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "accounts@defibsplus.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2733563510"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/713159371"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/713159371"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2733563510/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2733563510/131239"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8244344554,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **New User Registration** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119867,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-14T03:28:14Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8244344547,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "New user registration on your site HeartSmart:<br><br>Username: michael@etchstudio.com.au<br><br>Email: michael@etchstudio.com.au",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 713159371,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "accounts@defibsplus.com.au"
+            },
+            "createdBy": {
+                "id": 713159371,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "accounts@defibsplus.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-10-14T03:28:14Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/713159371"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/713159371"
+                }
+            }
+        }
+    ]
+}
