@@ -1,0 +1,372 @@
+{
+    "id": 2358302304,
+    "number": 85229,
+    "threads": 2,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Royal Rehab LifeWorks - Errors with Notification Emails",
+    "preview": "Hi Josh, The have worked out why these were failing. The uploaded files in the client submissions were being attached to the emails. If the email total size is too large, it simply won't send. The tem",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 529970688,
+        "type": "customer",
+        "first": "Joshua",
+        "last": "Cook",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "joshua.cook@breakthru.org.au"
+    },
+    "createdAt": "2023-09-12T04:43:25Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2023-09-14T08:28:36Z",
+    "userUpdatedAt": "2023-09-14T08:28:36Z",
+    "customerWaitingSince": {
+        "time": "2023-09-14T08:28:36Z",
+        "friendly": "Sep 14, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 529970688,
+        "type": "customer",
+        "first": "Joshua",
+        "last": "Cook",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "joshua.cook@breakthru.org.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2358302304"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/529970688"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/529970688"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2358302304/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2358302304/85229"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7064894347,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309027
+                }
+            },
+            "body": "Hi Josh, <br /><br />The have worked out why these were failing. <br /><br />The uploaded files in the client submissions were being attached to the emails. If the email total size is too large, it simply won't send. <br /><br />The temporary work around is to include a link from the email to the file, which we have done. However, I strongly advise against sending any of this information via email. The relevant team member(s) should receive a notification that a submission has been received and then either a) log in to the website to securely view or b) this data is sent via API to your CRM. Emails are not a secure means of transferring sensitive data. <br /><br />We should ideally setup GF to automatically delete these submissions after 'x' days so in the event of a breach, you are only exposed for a smaller data set. This can be here, individually for each form: <a href=\"https://royalrehablifeworks.com.au/wp-admin/admin.php?subview=personal-data&amp;page=gf_edit_forms&amp;id=4&amp;view=settings\">https://royalrehablifeworks.com.au/wp-admin/admin.php?subview=personal-data&amp;page=gf_edit_forms&amp;id=4&amp;view=settings</a> <br /><br />Let me know what you think?<br />",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 529970688,
+                "first": "Joshua",
+                "last": "Cook",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "joshua.cook@breakthru.org.au"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-14T08:28:36Z",
+            "openedAt": "2023-09-14T08:40:43Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529970688"
+                }
+            }
+        },
+        {
+            "id": 7064127281,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig assigned to Heath Maguire",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-13T23:34:36Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 7062037612,
+            "type": "note",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "<span class=\"mention-highlight\">@heath</span> I found the issue. The pdf file is too big to be attached to the email that why it keeps failing. So on the notification settings I have turned off the \"Attach uploaded fields to notification\". They can still view the file by clicking the link. <br /><br />Do you think its ok to remove the attached files?<br /><br />Here is the entry <br /><a href=\"https://royalrehablifeworks.com.au/wp-admin/admin.php?page=gf_entries&amp;view=entry&amp;id=4&amp;lid=273&amp;order=ASC&amp;filter&amp;paged=1&amp;pos=0&amp;field_id&amp;operator\">https://royalrehablifeworks.com.au/wp-admin/admin.php?page=gf_entries&amp;view=entry&amp;id=4&amp;lid=273&amp;order=ASC&amp;filter&amp;paged=1&amp;pos=0&amp;field_id&amp;operator</a><br />",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 529970688,
+                "first": "Joshua",
+                "last": "Cook",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "joshua.cook@breakthru.org.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-13T13:18:09Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529970688"
+                }
+            }
+        },
+        {
+            "id": 7057137109,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia assigned to Joel Maligalig",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-12T05:16:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7057096519,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">Hi guys,</div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">I know we're smashing you with a heap of other major projects, but if you can fit it in this week can you take a look at this one? We've encountered an issue recently where some email notifications do not go out from the web server. The attached example can be seen on the Ryde Referral Form for client name NAGWA GERGES. </div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">A quick google tells me this is an error relating to PHP and something not being configured properly (can you tell I know what I'm talking about)? If you can take a look for me please.</div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><span style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\"><br></span></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><span style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">Cheers,</span><br></div>\n<div>\n<div id=\"ex-Signature\">\n<div>\n<div dir=\"ltr\" style=\"font-size:1px;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width:100%;font-size:1px;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"font-size:0;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:400;font-style:normal;text-align:left;line-height:14px;color:rgb(154,78,174);\">\n<tbody>\n<tr style=\"font-size:15px;\">\n<td style=\"font-family:Calibri;\">Joshua Cook<span style=\"font-family:remialcxesans;font-size:1px;line-height:1px;color:rgb(255,255,255);\">\u200b<span style=\"font-family:'template-V1NcYExWEe6ZNwAiSJam5w';\">\u200b</span><span style=\"font-family:'zone-1';\">\u200b</span><span style=\"font-family:'zones-AQ';\">\u200b</span></span><br></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:400;font-style:normal;text-align:left;line-height:14px;color:rgb(0,0,1);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\">Marketing Manager, breakthru</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0;vertical-align:top;\"></td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:4px 0 0;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"font-size:0;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:400;font-style:normal;text-align:left;line-height:14px;color:rgb(0,0,1);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\"><span style=\"font-weight:700;\">T</span> <a href=\"tel:18002076720212\" id=\"ex-LPlnk689713\" style=\"text-decoration:none;color:rgb(0,0,1);\" class=\"ex-OWAAutoLink\">1800 767 212</a><br></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:700;font-style:normal;text-align:left;line-height:14px;color:rgb(154,78,174);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\">  |  <br></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:400;font-style:normal;text-align:left;line-height:14px;color:rgb(0,0,1);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\"><span style=\"font-weight:700;\">M</span> <a href=\"tel:18002076720212\" style=\"text-decoration:none;color:rgb(0,0,1);\" class=\"ex-OWAAutoLink\">0490 305 252</a><br></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:700;font-style:normal;text-align:left;line-height:14px;color:rgb(154,78,174);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\">  |  <br></td>\n</tr>\n</tbody>\n</table>\n</td>\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:400;font-style:normal;text-align:left;line-height:14px;color:rgb(0,0,1);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\"><span style=\"font-weight:700;\">E</span> <a href=\"mailto:Joshua.Cook@breakthru.org.au\" style=\"text-decoration:none;color:rgb(0,0,1);\" class=\"ex-OWAAutoLink\"><span style=\"text-decoration:underline;\">joshua.cook@breakthru.org.au</span></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:700;font-style:normal;text-align:left;line-height:14px;color:rgb(0,0,1);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\">Level 2, 689 Ann Street Fortitude Valley Queensland 4006<br></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:nowrap;font-size:13px;font-family:Calibri;font-weight:700;font-style:normal;text-align:left;line-height:14px;color:rgb(154,78,174);\">\n<tbody>\n<tr style=\"font-size:13px;\">\n<td style=\"font-family:Calibri;\"><a href=\"https://breakthru.org.au/\" style=\"text-decoration:none;color:rgb(154,78,174);\" class=\"ex-OWAAutoLink\">breakthru.org.au</a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"font-size:0;line-height:normal;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0;vertical-align:top;\"><a href=\"https://breakthru.org.au/\" style=\"text-decoration:none;\" class=\"ex-OWAAutoLink\"><img width=\"188\" height=\"54\" border=\"0\" alt=\"\" style=\"width:188px;min-width:188px;max-width:188px;height:54px;min-height:54px;max-height:54px;font-size:0;\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/9ce9dfa58517298c11a4c2b10e52e40d62a24407/5346e8fba5acbd3c25f7fbb7c8fdfe220143e4ff/image877548.png\" /></a></td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:10px 0 0;vertical-align:top;\"><a href=\"https://royalrehabgroup.com.au/\" style=\"text-decoration:none;\" class=\"ex-OWAAutoLink\"><img width=\"119\" height=\"30\" border=\"0\" alt=\"\" style=\"width:119.5px;min-width:119.5px;max-width:119.5px;height:30px;min-height:30px;max-height:30px;font-size:0;\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/404fc9d114a07d1892afba1e9c5899f321807703/c912f655a0b179e2d3e5028e83f8b1b3bef2183c/image910968.png\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"font-size:0;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:10px 0 6px;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"font-size:0;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td style=\"padding:2px;\"> </td>\n<td style=\"padding:2px;\"> </td>\n<td style=\"padding:2px;\"> </td>\n<td style=\"padding:2px;\"> </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"font-size:0;\">\n<tbody>\n<tr style=\"font-size:0;\">\n<td align=\"left\" style=\"padding:0 0 3px;vertical-align:top;\">\n<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"white-space:normal;font-size:13px;font-family:Calibri;font-weight:400;font-style:italic;text-align:left;line-height:14px;color:rgb(0,0,1);\">\n<tbody>\n<tr style=\"font-size:11.33px;\">\n<td style=\"font-family:Aptos, sans-serif;\">I wish to pay my respects to the traditional custodians and all Aboriginal community elders and people, past and present on whose lands I live and work.<br></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr style=\"font-size:0;\">\n<td style=\"padding:0 0 3px;\"> </td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 529970688,
+                "first": "Joshua",
+                "last": "Cook",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "joshua.cook@breakthru.org.au"
+            },
+            "createdBy": {
+                "id": 529970688,
+                "type": "customer",
+                "first": "Joshua",
+                "last": "Cook",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "joshua.cook@breakthru.org.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-12T04:43:24Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 608256138,
+                        "filename": "PHP error.png",
+                        "mimeType": "image/png",
+                        "width": 1911,
+                        "height": 1066,
+                        "size": 126794,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2358302304/attachments/608256138"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2358302304/attachments/608256138/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/608256138/9f6862a2cec1b884db767d7265b1b2c22b328d8e/PHP%20error.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/529970688"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529970688"
+                }
+            }
+        }
+    ]
+}

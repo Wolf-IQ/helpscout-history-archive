@@ -1,0 +1,170 @@
+{
+    "id": 2373667459,
+    "number": 87099,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Pintura 8.66.0 now available",
+    "preview": "A new release of Pintura has been published on the PQINA customer portal.  Changes in 8.66.0:  This release adds support for pixel manipulation using the retouch plugin, for an example implementation ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 547298943,
+        "type": "customer",
+        "first": "Pqina",
+        "last": "Support",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "support@app.pqina.nl"
+    },
+    "createdAt": "2023-09-27T16:47:51Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-09-27T21:58:18Z",
+    "userUpdatedAt": "2023-09-27T21:58:18Z",
+    "customerWaitingSince": {
+        "time": "2023-09-27T21:58:18Z",
+        "friendly": "Sep 28, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 547298943,
+        "type": "customer",
+        "first": "Pqina",
+        "last": "Support",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "support@app.pqina.nl"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2373667459"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/547298943"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/547298943"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2373667459/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2373667459/87099"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7106601001,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-27T21:58:18Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7105597184,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "A new release of Pintura has been published on the PQINA customer portal.<br><br>Changes in 8.66.0:<br><br>This release adds support for pixel manipulation using the retouch plugin, for an example implementation of the new features see: https://github.com/pqina/pintura-example-feature-retouch<br><br>-   Add `textDirection` property, set to `'rtl'` to enable right-to-left text direction.<br>-   Add `retouch` plugin, this plugin just like `sticker` is a plugin that is empty by default.<br>-   Add `getShapeById` helper function to quickly find a shape by id in a collection of shapes.<br>-   Add `updateShapeById` helper function to quickly update a shape in a collection by id.<br>-   Add `selectionToMask` helper function to create a canvas or blob masked when passed a selection array.<br>-   Add `createRetouchShape` helper function to make it easier to create retouch shapes.<br>-   Add `createMarkupEditorBrushSizeControl` helper function to create a brush size control.<br>-   Add `createMarkupEditorSelectionModeControl` helper function to create a selection mode controls showing new, add, subtract selection modes.<br>-   Add `createMarkupEditorSelectionToolStyles` helper function to create brush, lassoo, rectangle, and ellipse selection tool styles.<br>-   Add `createMarkupEditorSelectionTools` helper function to create brush, lassoo, rectangle, and ellipse tool buttons.<br>-   Add `bitmap` prop to shape, set to `true` to render shape with canvas, currently only works for path based shapes.<br>-   Add `letterSpacing` prop to shape.<br>-   Add shape `status` property, set to `'loading'`, or `'error'` to show loading indicator or error state.<br>-   Add support for `strokeDash`, `strokeCap`, and `strokeJoin` to `bitmap` based path shapes.<br>-   Add `showTextInput` and `hideTextInput` editor methods to toggle quick text input.<br>-   Add `imageSelection` array to read out or write to current selection shapes.<br>-   Add `imageManipulation` array to render shapes in image layer.<br>-   Add `cursorStyle: 'ellipse'` to sharpie and eraser shapes.<br>-   Add `strokeJoin: 'round'`, and `strokeCap: 'round'` to sharpie.<br>-   Add `cursorSize` property to shape, takes a fixed size or a shape property reference to read cursor size from.<br>-   Add support for tool groups in the util toolbar.<br>-   Add `'blurshape'`, `'selectiondown'`, `'selectionup'`, and `'selectionchange'`, events.<br>-   Add `feather` property to lower opacity towards edges of rectangle shapes.<br>-   Add `selectionStyle` property to shape, set to `'hook'` to only render selection corners when a shape is selected.<br><br>And a long list of other small fixes and improvements.<br><br>---------------------------<br><br>Log in to your PQINA account at https://app.pqina.nl to download the latest release.<br><br>Navigate to https://app.pqina.nl/settings/notifications to configure your email notifications.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 547298943,
+                "first": "Pqina",
+                "last": "Support",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "support@app.pqina.nl"
+            },
+            "createdBy": {
+                "id": 547298943,
+                "type": "customer",
+                "first": "Pqina",
+                "last": "Support",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "support@app.pqina.nl"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-27T16:47:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/547298943"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/547298943"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "id": 2364514616,
+    "number": 85877,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@stg-phonakmarketing-stg.kinsta.cloud. Gmail will retry for 21 more hours. You'll be notified if the delive",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2023-09-18T16:05:19Z",
+    "closedBy": 435792,
+    "closedByUser": {
+        "id": 435792,
+        "type": "user",
+        "first": "Glen",
+        "last": "Tenorio",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/435792.341358.jpg",
+        "email": "glen@wolfiq.com.au"
+    },
+    "closedAt": "2023-09-18T21:59:46Z",
+    "userUpdatedAt": "2023-09-18T21:59:46Z",
+    "customerWaitingSince": {
+        "time": "2023-09-18T21:59:46Z",
+        "friendly": "Sep 19, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2364514616"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/435792"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2364514616/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2364514616/85877"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7077932223,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Glen Tenorio marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 435792,
+                "type": "user",
+                "first": "Glen",
+                "last": "Tenorio",
+                "email": "glen@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-18T21:59:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/435792"
+                }
+            }
+        },
+        {
+            "id": 7076525800,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@stg-phonakmarketing-stg.kinsta.cloud. Gmail will retry for 21 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 <br>[stg-phonakmarketing-stg.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[stg-phonakmarketing-stg.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[stg-phonakmarketing-stg.kinsta.cloud 162.159.134.42: timed out]<br>[stg-phonakmarketing-stg.kinsta.cloud 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sat, 16 Sep 2023 06:05:41 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnEVgYAg_wQoWQxTPiep7ZO6mYEfuoGJVEgrq8b0BC-E6w@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stg-phonakmarketing-stg.kinsta.cloud<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 <br> [stg-phonakmarketing-stg.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [stg-phonakmarketing-stg.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [stg-phonakmarketing-stg.kinsta.cloud 162.159.134.42: timed out]<br> [stg-phonakmarketing-stg.kinsta.cloud 162.159.135.42: timed out]<br>Last-Attempt-Date: Mon, 18 Sep 2023 09:05:10 -0700 (PDT)<br>Will-Retry-Until: Tue, 19 Sep 2023 06:05:41 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-09-18T16:05:19Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 610315742,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2364514616/attachments/610315742"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2364514616/attachments/610315742/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/610315742/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 610315743,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 5435,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2364514616/attachments/610315743"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2364514616/attachments/610315743/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/610315743/97548d57f06b8fe945799a4531e63551b8ecee1e/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
