@@ -1,0 +1,168 @@
+{
+    "id": 3016261098,
+    "number": 161912,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[METS Training Services] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 530297745,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@mets.edu.au"
+    },
+    "createdAt": "2025-07-28T01:57:59Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-07-29T00:40:33Z",
+    "userUpdatedAt": "2025-07-29T00:40:33Z",
+    "customerWaitingSince": {
+        "time": "2025-07-29T00:40:33Z",
+        "friendly": "Jul 29, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 530297745,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@mets.edu.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3016261098"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/530297745"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/530297745"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3016261098/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3016261098/161912"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9185410114,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-29T00:40:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9181016219,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Rank Math SEO PRO.<br><br>First, visit your website (https://mets.edu.au/) and check for any visible issues. Next, visit the page where the error was caught (https://mets.edu.au/wp-admin/index.php?cherry_x_db_update=1&amp;slug=jet-tabs&amp;_nonce=003c7cc9a6&amp;elementor_updater=continue&amp;_wpnonce=ec2fcff48a) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://mets.edu.au/login/?action=enter_recovery_mode&amp;rm_token=WpXsREJt5OzLFghV9QN4G6&amp;rm_key=gjMr7ETNWk3S56yyyQ4qXu<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.2<br>Active theme: Hello Elementor Child (version 1.0.1)<br>Current plugin: Rank Math SEO PRO (version 3.0.31)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 149 of the file /www/metsedu_768/public/wp-content/plugins/seo-by-rank-math-pro/includes/3rdparty/elementor/class-widget-breadcrumbs.php. Error message: Uncaught Error: Class \"Elementor\\Core\\Schemes\\Typography\" not found in /www/metsedu_768/public/wp-content/plugins/seo-by-rank-math-pro/includes/3rdparty/elementor/class-widget-breadcrumbs.php:149<br>Stack trace:<br>#0 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): RankMathPro\\Elementor\\Widget_Breadcrumbs-&gt;register_controls()<br>#1 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\\Controls_Stack-&gt;init_controls()<br>#2 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\\Widget_Base-&gt;init_controls()<br>#3 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\\Controls_Stack-&gt;get_stack()<br>#4 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/controls-stack.php(315): Elementor\\Widget_Base-&gt;get_stack()<br>#5 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2524): Elementor\\Controls_Stack-&gt;get_controls()<br>#6 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1161): Elementor\\Controls_Stack-&gt;sanitize_settings(Array)<br>#7 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/element-base.php(622): Elementor\\Controls_Stack-&gt;get_data()<br>#8 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/widget-base.php(748): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#9 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/element-base.php(627): Elementor\\Widget_Base-&gt;get_raw_data(false)<br>#10 /www/metsedu_768/public/wp-content/plugins/elementor/includes/base/element-base.php(627): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#11 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/document.php(1094): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#12 /www/metsedu_768/public/wp-content/plugins/elementor/modules/usage/module.php(571): Elementor\\Core\\Base\\Document-&gt;get_elements_raw_data(Array)<br>#13 /www/metsedu_768/public/wp-content/plugins/elementor/modules/usage/module.php(184): Elementor\\Modules\\Usage\\Module-&gt;save_document_usage(Object(Elementor\\Modules\\Library\\Documents\\Container))<br>#14 /www/metsedu_768/public/wp-content/plugins/elementor/modules/usage/module.php(297): Elementor\\Modules\\Usage\\Module-&gt;after_document_save(Object(Elementor\\Modules\\Library\\Documents\\Container))<br>#15 /www/metsedu_768/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(636): Elementor\\Modules\\Usage\\Module-&gt;recalc_usage(100, 0)<br>#16 /www/metsedu_768/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(31): Elementor\\Core\\Upgrade\\Upgrades::recalc_usage_data(Object(Elementor\\Core\\Upgrade\\Updater))<br>#17 [internal function]: Elementor\\Core\\Upgrade\\Upgrades::_on_each_version(Object(Elementor\\Core\\Upgrade\\Updater))<br>#18 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/background-task.php(278): call_user_func(Array, Object(Elementor\\Core\\Upgrade\\Updater))<br>#19 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/background-task.php(181): Elementor\\Core\\Base\\Background_Task-&gt;task(Array)<br>#20 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/background-task.php(136): Elementor\\Core\\Base\\Background_Task-&gt;handle()<br>#21 /www/metsedu_768/public/wp-includes/class-wp-hook.php(324): Elementor\\Core\\Base\\Background_Task-&gt;handle_cron_healthcheck('')<br>#22 /www/metsedu_768/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#23 /www/metsedu_768/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#24 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/background-task.php(96): do_action('elementor_1_ele...')<br>#25 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/background-task-manager.php(71): Elementor\\Core\\Base\\Background_Task-&gt;continue_run()<br>#26 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/background-task-manager.php(86): Elementor\\Core\\Base\\Background_Task_Manager-&gt;continue_run()<br>#27 /www/metsedu_768/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(240): Elementor\\Core\\Base\\Background_Task_Manager-&gt;__construct()<br>#28 /www/metsedu_768/public/wp-content/plugins/elementor/includes/plugin.php(759): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;__construct()<br>#29 /www/metsedu_768/public/wp-content/plugins/elementor/includes/plugin.php(660): Elementor\\Plugin-&gt;init_components()<br>#30 /www/metsedu_768/public/wp-includes/class-wp-hook.php(324): Elementor\\Plugin-&gt;init('')<br>#31 /www/metsedu_768/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#32 /www/metsedu_768/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#33 /www/metsedu_768/public/wp-settings.php(727): do_action('init')<br>#34 /www/metsedu_768/public/wp-config.php(116): require_once('/www/metsedu_76...')<br>#35 /www/metsedu_768/public/wp-load.php(50): require_once('/www/metsedu_76...')<br>#36 /www/metsedu_768/public/wp-admin/admin.php(35): require_once('/www/metsedu_76...')<br>#37 /www/metsedu_768/public/wp-admin/index.php(10): require_once('/www/metsedu_76...')<br>#38 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 530297745,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@mets.edu.au"
+            },
+            "createdBy": {
+                "id": 530297745,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@mets.edu.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-28T01:57:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/530297745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/530297745"
+                }
+            }
+        }
+    ]
+}

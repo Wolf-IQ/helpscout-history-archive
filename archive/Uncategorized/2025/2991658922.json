@@ -1,0 +1,168 @@
+{
+    "id": 2991658922,
+    "number": 159114,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Design Tiles Sydney] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 786736363,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "noreply@designtiles.com.au"
+    },
+    "createdAt": "2025-07-06T07:14:54Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-07-09T03:26:56Z",
+    "userUpdatedAt": "2025-07-09T03:26:56Z",
+    "customerWaitingSince": {
+        "time": "2025-07-09T03:26:56Z",
+        "friendly": "Jul 9, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 786736363,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "noreply@designtiles.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2991658922"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/786736363"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/786736363"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2991658922/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2991658922/159114"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9114546528,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-09T03:26:56Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9103026245,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Meta pixel for WordPress.<br><br>First, visit your website (https://www.designtiles.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.designtiles.com.au/wp-admin/admin-post.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.designtiles.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=AF59ebzLQLwdKUo4ipxweu&amp;rm_key=9xnlOtQzoQpfApCbhOKY4j<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.1<br>Active theme: SWE (version 15.0.7)<br>Current plugin: Meta pixel for WordPress (version 4.1.3)<br>PHP version 8.2.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 174 of the file /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Http/Exception/RequestException.php. Error message: Uncaught FacebookAds\\Http\\Exception\\AuthorizationException: Error validating access token: The application does not belong to system user's businessor its aggregators's business in /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Http/Exception/RequestException.php:174<br>Stack trace:<br>#0 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Http/Client.php(226): FacebookAds\\Http\\Exception\\RequestException::create(Object(FacebookAds\\Http\\Response))<br>#1 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Http/Request.php(286): FacebookAds\\Http\\Client-&gt;sendRequest(Object(FacebookAds\\Http\\Request))<br>#2 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Api.php(152): FacebookAds\\Http\\Request-&gt;execute()<br>#3 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Api.php(205): FacebookAds\\Api-&gt;executeRequest(Object(FacebookAds\\Http\\Request))<br>#4 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/ApiRequest.php(171): FacebookAds\\Api-&gt;call('/65534233974734...', 'POST', Array, Array)<br>#5 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/AdsPixel.php(292): FacebookAds\\ApiRequest-&gt;execute()<br>#6 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/ServerSide/EventRequest.php(284): FacebookAds\\Object\\AdsPixel-&gt;createEvent(Array, Array)<br>#7 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/ServerSide/EventRequest.php(277): FacebookAds\\Object\\ServerSide\\EventRequest-&gt;defaultExecute()<br>#8 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/facebook/php-business-sdk/src/FacebookAds/Object/ServerSide/EventRequest.php(247): FacebookAds\\Object\\ServerSide\\EventRequest-&gt;sendToCAPIEndpoint()<br>#9 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/core/class-facebookserversideevent.php(197): FacebookAds\\Object\\ServerSide\\EventRequest-&gt;execute()<br>#10 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/core/class-servereventasynctask.php(207): FacebookPixelPlugin\\Core\\FacebookServerSideEvent::send(Array)<br>#11 /www/designtiles_304/public/wp-content/plugins/official-facebook-pixel/vendor/techcrunch/wp-async-task/wp-async-task.php(164): FacebookPixelPlugin\\Core\\ServerEventAsyncTask-&gt;run_action()<br>#12 /www/designtiles_304/public/wp-includes/class-wp-hook.php(324): WP_Async_Task-&gt;handle_postback('')<br>#13 /www/designtiles_304/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#14 /www/designtiles_304/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#15 /www/designtiles_304/public/wp-admin/admin-post.php(58): do_action('admin_post_nopr...')<br>#16 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 786736363,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "noreply@designtiles.com.au"
+            },
+            "createdBy": {
+                "id": 786736363,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "noreply@designtiles.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-06T07:14:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/786736363"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/786736363"
+                }
+            }
+        }
+    ]
+}

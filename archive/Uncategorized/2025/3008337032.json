@@ -1,0 +1,244 @@
+{
+    "id": 3008337032,
+    "number": 161102,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@stg-grange-staging.kinsta.cloud. See the technical details below.  Learn more here: https://support.google.com/mai",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-07-21T00:40:12Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-07-21T01:30:52Z",
+    "userUpdatedAt": "2025-07-21T01:30:52Z",
+    "customerWaitingSince": {
+        "time": "2025-07-21T01:30:52Z",
+        "friendly": "Jul 21, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3008337032"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3008337032/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3008337032/161102"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9156134509,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-21T01:30:52Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9156064292,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-21T00:40:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9156064231,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@stg-grange-staging.kinsta.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[stg-grange-staging.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[stg-grange-staging.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[stg-grange-staging.kinsta.cloud 162.159.134.42: timed out]<br>[stg-grange-staging.kinsta.cloud 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 17 Jul 2025 15:12:03 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnFmWpHfrT1ofSWhxPFJ9XWnFpG+CJ=PQ+TYp=ReF=cQ=Q@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stg-grange-staging.kinsta.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [stg-grange-staging.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [stg-grange-staging.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [stg-grange-staging.kinsta.cloud 162.159.134.42: timed out]<br> [stg-grange-staging.kinsta.cloud 162.159.135.42: timed out]<br>Last-Attempt-Date: Sun, 20 Jul 2025 17:40:03 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-21T00:40:12Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 812364063,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3008337032/attachments/812364063"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3008337032/attachments/812364063/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/812364063/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 812364065,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7051,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3008337032/attachments/812364065"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3008337032/attachments/812364065/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/812364065/6c12d75b9745f5f224f7eb60fcabb05b8ba9d9fa/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

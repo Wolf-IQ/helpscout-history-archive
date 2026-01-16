@@ -1,0 +1,264 @@
+{
+    "id": 2999317230,
+    "number": 159852,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@nestify.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpErrors (",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-07-12T08:25:14Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-07-16T03:09:20Z",
+    "userUpdatedAt": "2025-07-16T03:09:20Z",
+    "customerWaitingSince": {
+        "time": "2025-07-16T03:09:20Z",
+        "friendly": "Jul 16, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2999317230"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2999317230/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2999317230/159852"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9138682078,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-16T03:09:20Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 9127285740,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-12T08:25:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9127285710,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@nestify.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY2PEPF00004FF5.ausprd01.prod.outlook.com 2025-07-12T08:25:05.713Z 08DDBEB7DCC6CDEF]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sat, 12 Jul 2025 01:25:02 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnHhrO=DCWot=NFoxyNLz7mVvkuxVQcfN87SsN878bTrdw@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@nestify.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; nestify-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::2, the server for the domain nestify.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY2PEPF00004FF5.ausprd01.prod.outlook.com 2025-07-12T08:25:05.713Z 08DDBEB7DCC6CDEF]<br>Last-Attempt-Date: Sat, 12 Jul 2025 01:25:05 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-07-12T08:25:14Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 809336092,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2999317230/attachments/809336092"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2999317230/attachments/809336092/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/809336092/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 809336093,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2999317230/attachments/809336093"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2999317230/attachments/809336093/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/809336093/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 809336094,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7041,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2999317230/attachments/809336094"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2999317230/attachments/809336094/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/809336094/8b63f5e9af04c24a03ce2a0f525e392083f8b712/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
