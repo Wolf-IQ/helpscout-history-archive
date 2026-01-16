@@ -1,0 +1,399 @@
+{
+    "id": 773780886,
+    "number": 2333,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "FW: UTM code tracking via website forms",
+    "preview": "Hi Heath,My name is Tim Ball at Marketo. We have been testing this afternoon with Fleur to see why the data on one of her forms is not syncing to Marketo on a Shortcuts campaign landing page.https://w",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 204606606,
+        "type": "customer",
+        "first": "Fleur",
+        "last": "Murphy",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "fleur.murphy@shortcuts.com.au"
+    },
+    "createdAt": "2019-02-08T06:11:10Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2019-02-11T05:12:14Z",
+    "userUpdatedAt": "2019-02-11T05:12:14Z",
+    "customerWaitingSince": {
+        "time": "2019-02-11T05:12:14Z",
+        "friendly": "Feb 11, '19"
+    },
+    "source": {
+        "type": "emailfwd",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 204606606,
+        "type": "customer",
+        "first": "Fleur",
+        "last": "Murphy",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "fleur.murphy@shortcuts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/773780886"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204606606"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204606606"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/773780886/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/773780886/2333"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2155717843,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-02-11T05:12:14Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2150389913,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309027
+                }
+            },
+            "body": "Hi Heath,<br /><br />My name is Tim Ball at Marketo. We have been testing this afternoon with Fleur to see why the data on one of her forms is not syncing to Marketo on a Shortcuts campaign landing page.<br /><br /><a href=\"https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.shortcuts.com.au%2Fcloud-reporting%2F%3Futm_source%3Dmarketo%26utm_medium%3Dedm%26utm_campaign%3Dcloudreporting%26utm_content%3Dlandingpage&amp;data=02%7C01%7Ctball%40adobe.com%7Cefb3bb283e2040e485ad08d68d649914%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C1%7C636851860563273576&amp;sdata=5q6XWGmIR5QX%2FDpC3NN60Klq5tTB5FNRDVGTcatBkBM%3D&amp;reserved=0\">https://www.shortcuts.com.au/cloud-reporting/?utm_source=marketo&amp;utm_medium=edm&amp;utm_campaign=cloudreporting&amp;utm_content=landingpage</a><br /><br />It would appear that the form app in Wordpress is picking up the utm parameters but then the hidden field data is not getting pushed over to Marketo. (See attached logs).<br /><br />Can we check that the API names are correct at your end. It only seems to be an issue when we are pulling the url parameters. If we hard code a default string into the fields the data is getting pushed over<br /><br />Kind regards<br /><br />Tim<br /><br /><br /><br /><br /><br />",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 204606606,
+                "first": "Fleur",
+                "last": "Murphy",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "fleur.murphy@shortcuts.com.au"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-02-08T07:29:47Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 173747110,
+                        "filename": "Form_Log2.txt",
+                        "mimeType": "text/plain",
+                        "width": 0,
+                        "height": 0,
+                        "size": 2196,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/773780886/attachments/173747110"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/773780886/attachments/173747110/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/173747110/8fe08bf29fe59d5602c0ae09ca5c9cc650710d41/Form_Log2.txt"
+                            }
+                        }
+                    },
+                    {
+                        "id": 173747111,
+                        "filename": "Form_Log.txt",
+                        "mimeType": "text/plain",
+                        "width": 0,
+                        "height": 0,
+                        "size": 4149,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/773780886/attachments/173747111"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/773780886/attachments/173747111/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/173747111/38a06cb4d74bcf2af5216652abfe52f4ad1f1570/Form_Log.txt"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204606606"
+                }
+            }
+        },
+        {
+            "id": 2150312761,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire assigned to Joel Maligalig",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-02-08T06:22:22Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2150300566,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey <b class=\"mention-highlight\">@joel</b>\u00a0, let's talk about this one... I'll need to quote her before we make any changes. Cheers",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 204606606,
+                "first": "Fleur",
+                "last": "Murphy",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "fleur.murphy@shortcuts.com.au"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-02-08T06:12:35Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204606606"
+                }
+            }
+        },
+        {
+            "id": 2150298776,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi Heath<br><br>Marketo have now looked into this issue and we have confirmed that the website form is not pushing the UTM data through into Marketo.<br><br>It appears that although the form itself is collecting the UTM fields, this is never reaching Marketo, so it is almost certainly an issue on the website end.<br><br>See the attached image which Marketo provided.<br><br>Marketo suggested perhaps a piece of Javascript may be required to fix this? But they can\u2019t really identify the issue for us.<br><br>Any chance you could start work on this on Monday? We have a major campaign going live next week and I would love to be able to track the results.<br><br>NB I need to make a couple of changes before you do this work.<br><br>Please let me know how much this will cost.<br><br>Cheers<br>Fleur<br><br>&lt;&gt;<br>From: Fleur Murphy<br>Sent: Monday, 4 February 2019 10:32 AM<br>To: Tim Ball &lt;tball@marketo.com &lt;mailto:tball@marketo.com&gt;&gt;<br>Subject: FW: UTM code tracking via website forms<br><br>Hi Tim<br><br>Please see below email thread with our web developer.<br><br>In particular, please see the section I\u2019ve highlighted.<br><br>I believe it is something within the UTM code data itself that is breaking things.<br><br>I\u2019m not sure how others have done this successfully?<br><br>The data is flowing through to Marketo from the field, but UTM data specifically breaks it.<br><br>I\u2019ve been testing with this form: https://www.shortcuts.com.au/cloud-reporting/ &lt;https://www.shortcuts.com.au/cloud-reporting/&gt;<br><br>Thanks<br>Fleur<br><br><br>From: Heath Maguire [mailto:heath@wpperk.com &lt;mailto:heath@wpperk.com&gt;]<br>Sent: Monday, 14 January 2019 3:49 PM<br>To: Fleur Murphy &lt;Fleur.Murphy@shortcuts.com.au &lt;mailto:Fleur.Murphy@shortcuts.com.au&gt;&gt;<br>Subject: Re: UTM code tracking via website forms<br><br>Hi Fleur,<br><br>Firstly Happy New Year!<br><br>That could be the case, particularly if the form flows through without the parameter name. It\u2019s kind of dynamic and that may be confusing Marketo.<br><br>I\u2019m assuming you need this information in Marketo, because if not, the easiest thing would be to strip it out. Alternatively, maybe we could just send through the entire referring URL, it\u2019s not pretty, but with a keen eye the data can be seen.<br><br>Have Marketo come back with anything as yet?<br><br>Thanks and speak soon,<br>Heath Maguire<br>Director<br><br>E. heath@wpperk.com  &lt;mailto:heath@wpperk.com&gt;  |  P. 1300 072 134 &lt;tel:1300%20072%20134&gt;  |  M. 0415 162 271 &lt;tel:0415%20162%20271&gt;<br>&lt;https://wpperk.com/&gt;<br><br><br>On 11 Jan 2019, at 12:57 pm, Fleur Murphy &lt;fleur.murphy@shortcuts.com.au &lt;mailto:fleur.murphy@shortcuts.com.au&gt;&gt; wrote:<br><br>Hi Heath<br><br>Finally had a chance to start implementing this. Thanks a million for your video, it\u2019s super helpful!<br><br>I\u2019ve set up and tested the Cloud Reporting form using the email address kenkesey@shortcuts.com.au &lt;mailto:kenkesey@shortcuts.com.au&gt;.<br><br>All the data from the UTM code flowed successfully into the form entry. Yay!!<br><br>&lt;image001.png&gt;<br><br>But unfortunately it\u2019s not flowing through to Marketo now that I\u2019ve added the parameter name to the form.<br><br>&lt;image003.jpg&gt;<br><br>Interestingly, I set this up wrong to start with and pasted the parameter name into the default value field by accident.<br><br>When I did it that way, the info was passed through to Marketo without a hitch (although of course it was the wrong data).<br><br>This makes me think it\u2019s something in the actual UTM data that\u2019s getting passed up that\u2019s breaking things.<br><br>Was wondering if you can see anything from your end to gauge what might be going wrong?<br><br>Will reach out to Marketo about this too.<br><br>Cheers<br>Fleur<br><br>From: Heath Maguire [mailto:heath@wpperk.com &lt;mailto:heath@wpperk.com&gt;]<br>Sent: Wednesday, 17 October 2018 3:47 PM<br>To: Fleur Murphy &lt;Fleur.Murphy@shortcuts.com.au &lt;mailto:Fleur.Murphy@shortcuts.com.au&gt;&gt;<br>Subject: Re: UTM code tracking via website forms<br><br>Hey Fleur,<br><br>Check this out: https://www.useloom.com/share/93db3904b8ed4d7086961dc609cb7d60 &lt;https://www.useloom.com/share/93db3904b8ed4d7086961dc609cb7d60&gt; : )<br><br>I think this will do the trick?<br><br>Thanks,<br>Heath Maguire<br>Director<br><br>E. heath@wpperk.com  &lt;mailto:heath@wpperk.com&gt;  |  P. 1300 072 134 &lt;tel:1300%20072%20134&gt;  |  M. 0415 162 271 &lt;tel:0415%20162%20271&gt;<br>&lt;https://wpperk.com/&gt;<br><br><br>On 17 Oct 2018, at 4:04 pm, Fleur Murphy &lt;Fleur.Murphy@shortcuts.com.au &lt;mailto:Fleur.Murphy@shortcuts.com.au&gt;&gt; wrote:<br><br>Hey no I\u2019m here now!!! Just calling J<br><br>From: Heath Maguire [mailto:heath@wpperk.com &lt;mailto:heath@wpperk.com&gt;]<br>Sent: Wednesday, 17 October 2018 3:04 PM<br>To: Fleur Murphy &lt;Fleur.Murphy@shortcuts.com.au &lt;mailto:Fleur.Murphy@shortcuts.com.au&gt;&gt;<br>Subject: Re: UTM code tracking via website forms<br><br>Hi Fleur,<br><br>I just tried to call you, but figure it\u2019s 4pm Brisbane time? #daylightsavings!<br><br>All good, I\u2019ll still be available at 5pm.<br><br>Thanks and speak soon,<br>Heath Maguire<br>Director<br><br>E. heath@wpperk.com  &lt;mailto:heath@wpperk.com&gt;  |  P. 1300 072 134 &lt;tel:1300%20072%20134&gt;  |  M. 0415 162 271 &lt;tel:0415%20162%20271&gt;<br>&lt;https://wpperk.com/&gt;<br><br><br><br>On 16 Oct 2018, at 11:06 am, Fleur Murphy &lt;fleur.murphy@shortcuts.com.au &lt;mailto:fleur.murphy@shortcuts.com.au&gt;&gt; wrote:<br><br>Hi Heath<br><br>Just spoke with Marketo again about this, I think this will be reasonably easy to set up.<br><br>All we need is to find a way to capture the UTM code in a hidden field on all our forms.<br><br>I can then set this up to synch the information with Marketo.<br><br>Chat tomorrow<br><br>Cheers<br>Fleur<br><br>From: Heath Maguire [mailto:heath@wpperk.com &lt;mailto:heath@wpperk.com&gt;]<br>Sent: Monday, 15 October 2018 5:12 PM<br>To: Fleur Murphy &lt;Fleur.Murphy@shortcuts.com.au &lt;mailto:Fleur.Murphy@shortcuts.com.au&gt;&gt;<br>Subject: Re: UTM code tracking via website forms<br><br>Hi Fleur,<br><br>Yes. No worries at all! These are great for Google Analytics as well.<br><br>Perhaps we can have a phone call about this? I\u2019ll need to get inside your head so far as how you are promoting the forms and what your are wanting to track/report on. Once we setup the forms to process and pass the UTM data, you can get as granular as you like.<br><br>Let me know when is good for a chat.<br><br>Thanks,<br><br>Heath Maguire<br>Director - WP Perk<br><br><br><br><br><br>P. 1300 072 134 &lt;tel:1300%20072%20134&gt;  | M. 0415 162 271 &lt;tel:0415%20162%20271&gt;<br>E. heath@wpperk.com &lt;mailto:heath@wpperk.com&gt;<br>wpperk.com &lt;http://wpperk.com/&gt;<br><br>On 15 Oct 2018, at 5:05 pm, Fleur Murphy &lt;Fleur.Murphy@shortcuts.com.au &lt;mailto:Fleur.Murphy@shortcuts.com.au&gt;&gt; wrote:<br><br>Hi again Heath<br><br>I\u2019m looking at adding some functionality to our website forms to capture the source and campaign via a UTM code.<br><br>I\u2019ve spoken with Marketo and they have suggested that:<br><br>\u00b7       We use Google UTM codes for all traffic to our website<br>\u00b7       The UTM code would contain details such as source (i.e. Advertising) and medium (i.e. Instyle Magazine)<br>\u00b7       The form itself would then need to modify the UTM code in some way (Marketo have suggested the \u201ccampaign\u201d aspect of the UTM code), so we can start to associate a form completion with a particular source and campaign and track this all the way through to sale.<br><br>Just wondering if you\u2019ve ever done something like this before?<br><br>Would love your thoughts and advice on how we would implement this.<br><br>Below is the information Marketo has provided on this.<br><br>Thanks<br>Fleur<br><br>++<br><br>Form capture method<br>By adding hidden fields to the form we can capture the direct utm parameters<br>Eg.<br>https://www.shortcuts.com.au/contact &lt;https://www.shortcuts.com.au/contact&gt;?utm_source=paid_search_sem&utm_medium=google_search&utm_campaign=au_contact_us_form<br>You would need to pass the parameter value to the value of the form. This may require a developer to set this up for you.<br>If your data is pushed to marketo you will just need to make sure that the input field values are pushed to the marketo api field names.<br><br><br>Fleur Murphy<br>Senior Marketing Manager<br>Shortcuts Software<br>p: +61 (0) 7-3834-3216 &lt;tel:+61%207-3834-3216&gt;  |  f: +61 (0) 7-3831-7844 &lt;tel:+61%207-3831-7844&gt;<br><br>What do you think of my work? Feel free to email my manager &lt;mailto:feedback@shortcuts.com.au?subject=Shortcuts%20Feedback&gt;        &lt;image001.jpg&gt;<br><br>&lt;image002.jpg&gt; &lt;https://www.shortcuts.com.au/confessions?utm_source=shortcuts&utm_medium=esignature&utm_campaign=confessions&utm_content=confessions&gt;<br><br>This email and any files transmitted with it are confidential and intended solely for the entity to whom they are addressed. If you are not the intended recipient, you are notified that any use, dissemination, or copying of this message or data is prohibited. If you have received this e-mail in error please notify the sender immediately and delete all message material. Any views expressed in this message are those of the individual sender and may not be the views of Shortcuts Software, unless specifically stated. Shortcuts Software has implemented anti-virus software, and whilst all care is taken, it is the recipient's responsibility to ensure that any attachments are scanned for viruses prior to use<br>&lt;image003.jpg&gt;Please consider the environment before printing my email",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204606606,
+                "first": "Fleur",
+                "last": "Murphy",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "fleur.murphy@shortcuts.com.au"
+            },
+            "createdBy": {
+                "id": 204606606,
+                "type": "customer",
+                "first": "Fleur",
+                "last": "Murphy",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "fleur.murphy@shortcuts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-02-08T06:11:10Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 173740521,
+                        "filename": "shortcuts.png",
+                        "mimeType": "image/png",
+                        "width": 1316,
+                        "height": 820,
+                        "size": 90091,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/773780886/attachments/173740521"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/773780886/attachments/173740521/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/173740521/e3966d6c6832c01e739b08eba41a13f744b4522d/shortcuts.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204606606"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204606606"
+                }
+            }
+        }
+    ]
+}
