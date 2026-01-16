@@ -1,0 +1,170 @@
+{
+    "id": 2678298172,
+    "number": 123302,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Ludahus] Some plugins were automatically updated",
+    "preview": "G'day! Some plugins have automatically updated to their latest versions on your site at https://ludahus.com.au. No further action is needed on your part.   These plugins are now up to date: - Gravity ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 538104097,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "wordpress@ludahus.com.au"
+    },
+    "createdAt": "2024-08-13T13:30:26Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2024-08-13T13:30:27Z",
+    "userUpdatedAt": "2024-08-13T13:30:26Z",
+    "customerWaitingSince": {
+        "time": "2024-08-13T13:30:27Z",
+        "friendly": "Aug 13, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 538104097,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "wordpress@ludahus.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2678298172"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/538104097"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/538104097"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2678298172/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2678298172/123302"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8065911864,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Automatic Updates Notifications** was triggered",
+                "associatedEntities": {
+                    "workflow": 1122306,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-13T13:30:27Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8065911800,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day! Some plugins have automatically updated to their latest versions on your site at https://ludahus.com.au. No further action is needed on your part.<br><br><br>These plugins are now up to date:<br>- Gravity Forms (from version 2.8.15 to 2.8.16) : https://gravityforms.com<br><br><br>If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.<br>https://wordpress.org/support/forums/<br><br>The WordPress Team",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 538104097,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "wordpress@ludahus.com.au"
+            },
+            "createdBy": {
+                "id": 538104097,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "wordpress@ludahus.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-13T13:30:26Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/538104097"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/538104097"
+                }
+            }
+        }
+    ]
+}

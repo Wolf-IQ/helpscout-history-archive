@@ -1,0 +1,225 @@
+{
+    "id": 2676345512,
+    "number": 123007,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Caution: Vulnerability on your site(s)!",
+    "preview": "Hello, This is Aman from the Support team at BlogVault. We've identified critical vulnerabilities on your website(s) that require immediate attention to ensure the security and integrity of your site(",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309821,
+        "type": "user",
+        "first": "Manuel",
+        "last": "Lito Manceli",
+        "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+        "email": "manuel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "createdAt": "2024-08-11T01:18:56Z",
+    "closedBy": 309821,
+    "closedByUser": {
+        "id": 309821,
+        "type": "user",
+        "first": "Manuel",
+        "last": "Lito Manceli",
+        "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+        "email": "manuel@wolfiq.com.au"
+    },
+    "closedAt": "2024-08-12T00:01:33Z",
+    "userUpdatedAt": "2024-08-12T00:01:33Z",
+    "customerWaitingSince": {
+        "time": "2024-08-12T00:01:33Z",
+        "friendly": "Aug 12, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2676345512"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309821"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2676345512/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309821"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2676345512/123007"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8060929159,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Manuel Lito Manceli marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309821,
+                "type": "user",
+                "first": "Manuel",
+                "last": "Lito Manceli",
+                "email": "manuel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-12T00:01:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309821"
+                }
+            }
+        },
+        {
+            "id": 8059795161,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Vulnerability assigned to Manuel** was triggered",
+                "associatedEntities": {
+                    "workflow": 1120591,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309821,
+                "type": "user",
+                "first": "Manuel",
+                "last": "Lito Manceli",
+                "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+                "email": "manuel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-11T01:18:56Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309821"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8059795158,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div id=\"ex-main-content\">\n<div class=\"ex-container\" style=\"max-width:800px;\">\n<p>Hello,</p>\n<p>This is Aman from the Support team at BlogVault.</p>\n<p>We've identified critical vulnerabilities on your website(s) that require immediate attention to ensure the security and integrity of your site(s).</p>\n<span>Please access the BlogVault dashboard to review complete list of:</span>\n<ul>\n<li>Vulnerable <a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/1/DJbK2D-DG4\">Plugins</a></li>\n</ul>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/betterflowplumbing.au/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/2/WZIqeMI_7s\">https://betterflowplumbing.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/3/u27fURHZ0k\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">Premium Addons for Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">4.10.38</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">4.10.39</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">4.10.39</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#FFA500;\">Medium</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">59</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fe90490c0%2Fmanage%2Fplugins%3Fmsearch%3Dpremium-addons-for-elementor%2Fpremium-addons-for-elementor.php/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/4/GgLkXsz1QG\">Update</a> <span style=\"color:#F00;\">(Unsafe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fe90490c0%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/5/Gxw6aXHjMy\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<p>If you have any questions, just hit reply :)</p>\n<p>Thank you,</p>\n<p>Aman Kedia</p>\n<a href=\"https://click.pstmrk.it/3s/blogvault.net/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/6/7OTH_ucUrT\">BlogVault Support</a></div>\n</div>\n<div style=\"text-align:center;\"><br>\n<br>\nTo stop receiving such mails <a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapi%2Fv3%2Funsubscribe%3Fdata%3DeyJ1c2VyX2dpZCI6IlJpd1NMUnNVWUM0Z1F5d2ZycEg0UE55QiIsImFjY291bnRfZ2lkIjoiZHhVcDRQSEpRamhoNjRYMUQ0WWh4VHhLIiwiYmxvZ19naWQiOm51bGwsImZlYXR1cmUiOiJTRUNVUklUWTo6VlVMTkVSQUJJTElUSUVTIiwic2V2ZXJpdHkiOiJXQVJOSU5HIiwiY2hhbm5lbCI6IkVNQUlMIiwidGltZXN0YW1wIjoxNzIzMzM5MTI2fQ%3D%3D%26sig%3Dc5cfca116c3b8910a77df2d231bed9f9cd7eda72c96de264a2198d50589089b5/h3Y/r0G3AQ/AQ/d612cfc1-139e-4bd1-9836-e3baea9593a4/7/-Up8D9L8W1\">Unsubscribe</a></div>\n<img src=\"https://ea.pstmrk.it/open?m=v3_1.JyW1a4UWkjo010rLGKHD6w.iLQGquwx0_s8Yg_kpVu8DL1XmDVMUQQ0UqsF6sqnc6d_631fCl318dxdIwADh1FQ-51hBgsuX7QYzZuwwjwtMm7KwgTpCXfUqHrILHYicMm4zYHE3cAMjWgCPXu1POqD6Fux-srQUg-PXMwCGKhCfmXvaiOTgAJsWnLyCpI1dBL6qXf6BK797RLx9u8yywg0Y0mr_bYYAPggcsRpFgyUVbkSWMN3OcxVQB2vjQ4r8MQ2ZA1d3TUgfQ2i4NDpaPeuH74CITzW3L-7vVMdA7gM3eUeyiyNuaNam18MDo1Jbc1bl_qKaryLMAHVW9zlnY7OOiIW3WzFAoJyCbmZj1pHzxzbYulnsNW2IHW7bRzNtgTiXvUlrR5HBqsJH6Ka4IpntG_kb2BWTG1hhSFrlWILekrXCMIfVTqPNu_zSNcqio6RwMJSnlh4TQH5H8Fna5LPHMsd5BxaQMNh0qm-e5-5CArEVto7c0lD9MV4vJ3oIM-3jVQLvR-ES6ndWzzG11LbXK8NOrfpcZ9NauE7Mq0_ei8F0lMkI29YqaMQIILxQzo\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 267326610,
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "createdBy": {
+                "id": 267326610,
+                "type": "customer",
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-11T01:18:56Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                }
+            }
+        }
+    ]
+}

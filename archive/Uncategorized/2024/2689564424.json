@@ -1,0 +1,168 @@
+{
+    "id": 2689564424,
+    "number": 124592,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[HeartSmart] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 728664359,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "wordpress@beheartsmart.com.au"
+    },
+    "createdAt": "2024-08-26T09:11:18Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2024-08-26T22:12:16Z",
+    "userUpdatedAt": "2024-08-26T22:12:16Z",
+    "customerWaitingSince": {
+        "time": "2024-08-26T22:12:16Z",
+        "friendly": "Aug 27, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 728664359,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "wordpress@beheartsmart.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2689564424"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/728664359"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/728664359"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2689564424/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2689564424/124592"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8103731857,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-26T22:12:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8101025866,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, LearnDash Licensing &amp; Management.<br><br>First, visit your website (https://beheartsmart.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://beheartsmart.com.au/wp-admin/) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://beheartsmart.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=vlI4rKE7vI5ONX1MOma58h&amp;rm_key=4uxgE3AoeXMjB3wMdgnQYx<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.6.1<br>Active theme: Kadence (version 1.2.6)<br>Current plugin: LearnDash Licensing &amp; Management (version 1.3.1.1)<br>PHP version 8.1.29<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 163 of the file /www/heartsmart_140/public/wp-content/plugins/learndash-hub/src/component/class-api.php. Error message: Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, WP_Error given in /www/heartsmart_140/public/wp-content/plugins/learndash-hub/src/component/class-api.php:163<br>Stack trace:<br>#0 /www/heartsmart_140/public/wp-content/plugins/learndash-hub/src/component/class-api.php(163): array_keys(Object(WP_Error))<br>#1 /www/heartsmart_140/public/wp-content/plugins/learndash-hub/src/controller/class-projects-controller.php(176): LearnDash\\Hub\\Component\\API-&gt;get_projects()<br>#2 /www/heartsmart_140/public/wp-includes/class-wp-hook.php(326): LearnDash\\Hub\\Controller\\Projects_Controller-&gt;push_update(Object(stdClass))<br>#3 /www/heartsmart_140/public/wp-includes/plugin.php(205): WP_Hook-&gt;apply_filters(Object(stdClass), Array)<br>#4 /www/heartsmart_140/public/wp-includes/option.php(2544): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')<br>#5 /www/heartsmart_140/public/wp-includes/update.php(906): get_site_transient('update_plugins')<br>#6 /www/heartsmart_140/public/wp-admin/menu.php(33): wp_get_update_data()<br>#7 /www/heartsmart_140/public/wp-admin/admin.php(158): require('/www/heartsmart...')<br>#8 /www/heartsmart_140/public/wp-admin/index.php(10): require_once('/www/heartsmart...')<br>#9 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 728664359,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "wordpress@beheartsmart.com.au"
+            },
+            "createdBy": {
+                "id": 728664359,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "wordpress@beheartsmart.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-26T09:11:18Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/728664359"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/728664359"
+                }
+            }
+        }
+    ]
+}

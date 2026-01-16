@@ -1,0 +1,168 @@
+{
+    "id": 2687519571,
+    "number": 124338,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Women's Housing Company] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 664486864,
+        "type": "customer",
+        "first": "Womens Housing",
+        "last": "Company",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "contact@womenshousingcompany.org"
+    },
+    "createdAt": "2024-08-23T06:55:08Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2024-08-23T06:55:30Z",
+    "userUpdatedAt": "2024-08-23T06:55:30Z",
+    "customerWaitingSince": {
+        "time": "2024-08-23T06:55:30Z",
+        "friendly": "Aug 23, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 664486864,
+        "type": "customer",
+        "first": "Womens Housing",
+        "last": "Company",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "contact@womenshousingcompany.org"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2687519571"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/664486864"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/664486864"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2687519571/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2687519571/124338"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8095017203,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-23T06:55:30Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8095016543,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Gravity Forms NAB Direct Post.<br><br>First, visit your website (https://www.womenshousingcompany.org.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.womenshousingcompany.org.au/wp-admin/admin.php?page=gf_settings&amp;subview=gravityformsnabdirectpost) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.womenshousingcompany.org.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=NpUQM5Z8GDqRhlEYENa9Yc&amp;rm_key=dZuTtOfkrpqHaUr5eZYO5W<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.6.1<br>Active theme: Breakdance Zero Theme (version 1.0.0)<br>Current plugin: Gravity Forms NAB Direct Post (version 2.6.1)<br>PHP version 8.1.27<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 373 of the file /www/womenshousing_797/public/wp-content/plugins/gravityforms-nab-transact/class-gf-nabdirectpost.php. Error message: Uncaught Error: Class \"GF_ClickUp_UpdateChecker\" not found in /www/womenshousing_797/public/wp-content/plugins/gravityforms-nab-transact/class-gf-nabdirectpost.php:373<br>Stack trace:<br>#0 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-addon.php(4764): GFNabDirectPost-&gt;plugin_settings_fields()<br>#1 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-addon.php(375): GFAddOn-&gt;plugin_settings_init()<br>#2 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php(149): GFAddOn-&gt;init_admin()<br>#3 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-payment-addon.php(240): GFFeedAddOn-&gt;init_admin()<br>#4 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-addon.php(324): GFPaymentAddOn-&gt;init_admin()<br>#5 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-feed-addon.php(118): GFAddOn-&gt;init()<br>#6 /www/womenshousing_797/public/wp-content/plugins/gravityforms/includes/addon/class-gf-payment-addon.php(207): GFFeedAddOn-&gt;init()<br>#7 /www/womenshousing_797/public/wp-includes/class-wp-hook.php(324): GFPaymentAddOn-&gt;init('')<br>#8 /www/womenshousing_797/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#9 /www/womenshousing_797/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#10 /www/womenshousing_797/public/wp-settings.php(700): do_action('init')<br>#11 /www/womenshousing_797/public/wp-config.php(113): require_once('/www/womenshous...')<br>#12 /www/womenshousing_797/public/wp-load.php(50): require_once('/www/womenshous...')<br>#13 /www/womenshousing_797/public/wp-admin/admin.php(34): require_once('/www/womenshous...')<br>#14 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 664486864,
+                "first": "Womens Housing",
+                "last": "Company",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "contact@womenshousingcompany.org"
+            },
+            "createdBy": {
+                "id": 664486864,
+                "type": "customer",
+                "first": "Womens Housing",
+                "last": "Company",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "contact@womenshousingcompany.org"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-23T06:55:08Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/664486864"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/664486864"
+                }
+            }
+        }
+    ]
+}

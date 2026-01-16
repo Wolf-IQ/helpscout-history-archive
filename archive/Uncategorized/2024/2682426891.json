@@ -1,0 +1,224 @@
+{
+    "id": 2682426891,
+    "number": 123726,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Caution: Vulnerability on your site(s)!",
+    "preview": "Hello, This is Aman from the Support team at BlogVault. We've identified critical vulnerabilities on your website(s) that require immediate attention to ensure the security and integrity of your site(",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309821,
+        "type": "user",
+        "first": "Manuel",
+        "last": "Lito Manceli",
+        "email": "manuel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "createdAt": "2024-08-17T17:19:28Z",
+    "closedBy": 309821,
+    "closedByUser": {
+        "id": 309821,
+        "type": "user",
+        "first": "Manuel",
+        "last": "Lito Manceli",
+        "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+        "email": "manuel@wolfiq.com.au"
+    },
+    "closedAt": "2024-08-19T02:15:46Z",
+    "userUpdatedAt": "2024-08-19T02:15:46Z",
+    "customerWaitingSince": {
+        "time": "2024-08-19T02:15:46Z",
+        "friendly": "Aug 19, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2682426891"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309821"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2682426891/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309821"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2682426891/123726"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8080533295,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Manuel Lito Manceli marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309821,
+                "type": "user",
+                "first": "Manuel",
+                "last": "Lito Manceli",
+                "email": "manuel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-19T02:15:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309821"
+                }
+            }
+        },
+        {
+            "id": 8078761599,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Vulnerability assigned to Manuel** was triggered",
+                "associatedEntities": {
+                    "workflow": 1120591,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309821,
+                "type": "user",
+                "first": "Manuel",
+                "last": "Lito Manceli",
+                "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+                "email": "manuel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-17T17:19:29Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309821"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8078761589,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div id=\"ex-main-content\">\n<div class=\"ex-container\" style=\"max-width:800px;\">\n<p>Hello,</p>\n<p>This is Aman from the Support team at BlogVault.</p>\n<p>We've identified critical vulnerabilities on your website(s) that require immediate attention to ensure the security and integrity of your site(s).</p>\n<span>We've included a subset of sites with vulnerabilities.</span> <span>Please access the BlogVault dashboard to review complete list of:</span>\n<ul>\n<li>Vulnerable <a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/1/wE6PWvRN6I\">Plugins</a></li>\n<li>Vulnerable <a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/2/IRIgulvGmY\">Wordpress Core</a></li>\n</ul>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/mstrials.org.au/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/3/VUjcj6K41h\">https://mstrials.org.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">Advanced Custom Fields PRO</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">6.2.2</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">6.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">6.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">Low</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#000;\">-</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Feecc2e8b%2Fmanage%2Fplugins%3Fmsearch%3Dadvanced-custom-fields-pro%2Facf.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/5/Tg83WqrafC\">Update</a></td>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetSearch</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">3.2.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">3.5.2.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">3.5.2.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#FFA500;\">Medium</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">46</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Feecc2e8b%2Fmanage%2Fplugins%3Fmsearch%3Djet-search%2Fjet-search.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/6/JUpmK6IAJH\">Update</a> <span style=\"color:#F00;\">(Unsafe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Feecc2e8b%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/7/AfvNu6i6zf\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/mysug.com/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/8/kHNz7P1Rm9\">https://mysug.com</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetTabs For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.2</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">91</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F2f52ed9c%2Fmanage%2Fplugins%3Fmsearch%3Djet-tabs%2Fjet-tabs.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/9/_DMVeZJjrk\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F2f52ed9c%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/10/sJzCPifKQF\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/northshoreradiology.com.au/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/11/36kF41drtI\">https://northshoreradiology.com.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetSearch</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">3.2.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">3.5.2.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">3.5.2.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#FFA500;\">Medium</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">47</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F8306672a%2Fmanage%2Fplugins%3Fmsearch%3Djet-search%2Fjet-search.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/12/RgJLSX1LgG\">Update</a> <span style=\"color:#F00;\">(Unsafe)</span></td>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetTabs For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">92</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F8306672a%2Fmanage%2Fplugins%3Fmsearch%3Djet-tabs%2Fjet-tabs.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/13/5xFulaH3jO\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F8306672a%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/14/BPscoePIKI\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/novaricollective.com.au/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/15/bfkUwsflUG\">https://novaricollective.com.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetPopup</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">1.5.6</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.0.2.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.0.2.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#FFA500;\">Medium</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#000;\">-</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fea39dec6%2Fmanage%2Fplugins%3Fmsearch%3Djet-popup%2Fjet-popup.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/16/bSQCSI1udh\">Update</a></td>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetTabs For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">92</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fea39dec6%2Fmanage%2Fplugins%3Fmsearch%3Djet-tabs%2Fjet-tabs.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/17/YWBuSyvDeR\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetElements For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.18</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">80</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fea39dec6%2Fmanage%2Fplugins%3Fmsearch%3Djet-elements%2Fjet-elements.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/18/u5CiO5KZPL\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fea39dec6%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/19/QvGLXp_1sc\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/goldlineequipment.au/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/20/vp_TxOL12H\">https://goldlineequipment.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">Astra Pro</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">4.1.6</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">4.3.2</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">4.7.2</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">47</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F81a18b50%2Fmanage%2Fplugins%3Fmsearch%3Dastra-addon%2Fastra-addon.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/21/nXLRHnoEzL\">Update</a> <span style=\"color:#F00;\">(Unsafe)</span></td>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetElements For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.14</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">73</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F81a18b50%2Fmanage%2Fplugins%3Fmsearch%3Djet-elements%2Fjet-elements.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/22/Gum0j3f3Ak\">Update</a> <span style=\"color:#F00;\">(Unsafe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F81a18b50%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/23/3i5N8gJgn_\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/omnitanker.com/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/24/Z8iPNzBG0Y\">https://omnitanker.com</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetElements For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.19</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">80</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F4769dab3%2Fmanage%2Fplugins%3Fmsearch%3Djet-elements%2Fjet-elements.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/25/8a2TVNtsJ3\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F4769dab3%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/26/zgiyD-VZxP\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h4>Vulnerable WordPress Core</h4>\n<table style=\"width:100%;border-collapse:collapse;margin-bottom:8px;font-size:12px;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">6.4.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">6.4.5</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">6.6.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#FFA500;\">Medium</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F4769dab3%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/27/jSwSIfOk-y\">Update</a></td>\n</tr>\n</table>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/opticalandhearing.com.au/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/28/OlM0t6d1ga\">https://opticalandhearing.com.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetElements For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.18</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">80</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F1a600694%2Fmanage%2Fplugins%3Fmsearch%3Djet-elements%2Fjet-elements.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/29/bRZIRQ14yW\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F1a600694%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/30/Rao-_MWReo\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/drshiva.com.au/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/31/WMmvAJ3EvQ\">https://drshiva.com.au</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetElements For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.19</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">80</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F8948f814%2Fmanage%2Fplugins%3Fmsearch%3Djet-elements%2Fjet-elements.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/32/EusRG-alOw\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F8948f814%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/33/3DZK2IpTwr\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<h2>Site: <a href=\"https://click.pstmrk.it/3s/spidertarp.com/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/34/uu6SbjJzms\">https://spidertarp.com</a></h2>\n<h4>Vulnerable Plugins</h4>\n<div style=\"margin-bottom:8px;font-size:12px;\">\n<table style=\"width:100%;border-collapse:collapse;text-align:center;\">\n<tr style=\"background-color:#f2f2f2;\">\n<th style=\"padding:4px;border:1px solid #ddd;\">Plugin Name</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Current Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Fixed Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Latest Version</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Severity</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">UpdateLens Score (<a href=\"https://click.pstmrk.it/3s/wpremote.com%2Fintroducing-updatelens%2F/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/4/K10LgiALMX\">?</a>)</th>\n<th style=\"padding:4px;border:1px solid #ddd;\">Action</th>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetElements For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.18</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.6.20.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">80</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Feb715a1a%2Fmanage%2Fplugins%3Fmsearch%3Djet-elements%2Fjet-elements.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/35/c7KL5ToRJR\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n<tr>\n<td style=\"padding:4px;border:1px solid #ddd;\">JetTabs For Elementor</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;\">2.2.3.1</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#F00;\">High</td>\n<td style=\"padding:4px;border:1px solid #ddd;color:#008000;\">92</td>\n<td style=\"padding:4px;border:1px solid #ddd;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Feb715a1a%2Fmanage%2Fplugins%3Fmsearch%3Djet-tabs%2Fjet-tabs.php/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/36/YDQ0kheFIW\">Update</a> <span style=\"color:#008000;\">(Safe)</span></td>\n</tr>\n</table>\n<div style=\"text-align:right;border:1px solid #ddd;border-top:0px;font-weight:bold;\"><a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Feb715a1a%2Fmanage%2Fplugins%3Fmfilter%3Dvulnerable/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/37/ubIlNmAU3y\" style=\"margin-right:7px;font-size:14px;\">Update All</a></div>\n</div>\n<p>To update the vulnerable plugin with low risk, <a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2Fmanage%2Fplugins%3Fmfilter%5B0%5D%3Dupdates%26mfilter%5B1%5D%3Dvulnerable%26mlowrisk%3D2/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/38/NJYUxDYsyR\">click here</a>.</p>\n<p>If you have any questions, just hit reply :)</p>\n<p>Thank you,</p>\n<p>Aman Kedia</p>\n<a href=\"https://click.pstmrk.it/3s/blogvault.net/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/39/leOnLJP3A_\">BlogVault Support</a></div>\n</div>\n<div style=\"text-align:center;\"><br>\n<br>\nTo stop receiving such mails <a href=\"https://click.pstmrk.it/3s/app.blogvault.net%2Fapi%2Fv3%2Funsubscribe%3Fdata%3DeyJ1c2VyX2dpZCI6IlJpd1NMUnNVWUM0Z1F5d2ZycEg0UE55QiIsImFjY291bnRfZ2lkIjoiZHhVcDRQSEpRamhoNjRYMUQ0WWh4VHhLIiwiYmxvZ19naWQiOm51bGwsImZlYXR1cmUiOiJTRUNVUklUWTo6VlVMTkVSQUJJTElUSUVTIiwic2V2ZXJpdHkiOiJXQVJOSU5HIiwiY2hhbm5lbCI6IkVNQUlMIiwidGltZXN0YW1wIjoxNzIzOTE1MTU5fQ%3D%3D%26sig%3De832c9b94fed9a1e0a52a8d772867c90c44eef75dcf00a1a2205596da23b2df6/h3Y/MGe3AQ/AQ/7e381f53-0930-4197-8c9d-ff21ceb1d21d/40/2flZFqap-C\">Unsubscribe</a></div>\n<img src=\"https://ea.pstmrk.it/open?m=v3_1.mN8cKt5HLrHSPTigdKvfpQ.whkXGaorAclFr7BnL71yXLjku_OmIgzNvwVWnVoD_GaWThD2__BqinMEj8DAumUwBxbgkfxq5IFaxCPHu20Fm5kKltCJQoRKC0yze1ZEbLzBofOEIlt5cTImGjCzKKLoA0Ibrg6AfwlDSjzdIoebWzkFmzMq-Pp0XRySicWMsHx6W4W10fOQz2K3MWw8FHY2wUmx6lZc7aTFmW1ucNdSH0vrds7qKRBAmr1pr8_YddDzmy0Ijcn6HbuUXZCTNkklm3Nncukfk0_w-lxHHI9V8igyDu9sHZTRyY6-J6PWBjYwVZb2-U8KXDKCCiTcphAIKNnZO-wPdQ_ynQTI2uBXyISXvTr-CVBjFH07e79dgqCLPBdjjhOwUc-v1Qi4i8PhjHPqVP03D59CP8FlNBHh_wC3aVOI7vAPgJ9Sm-M5ZVdIV1Z2a0s79yASBOB5wb1SzCzKUe1a3z7Iym7lZFXiMOEG0w1CgSvKIv8GOLCYhni9saFfMsTEyxvpzFNmc4q0YDrSQXDt90ki_9_vfv70BUgk1p3OzPG0e2r9hKlL4K8\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 267326610,
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "createdBy": {
+                "id": 267326610,
+                "type": "customer",
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-08-17T17:19:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                }
+            }
+        }
+    ]
+}
