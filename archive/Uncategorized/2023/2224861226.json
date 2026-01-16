@@ -1,0 +1,172 @@
+{
+    "id": 2224861226,
+    "number": 67466,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "DMARC Forensic Report for wolfiq.com.au from IP 168.245.50.52",
+    "preview": "A message claiming to be from you has failed the published DMARC policy for your domain.    Sender Domain: wolfiq.com.au   Sender IP Address: 168.245.50.52   Received date: Wed, 26 Apr 2023 19:26:23 +",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 596947715,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "no-reply@delivery1.nospamcloud.com"
+    },
+    "createdAt": "2023-04-26T10:28:28Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-04-26T21:50:54Z",
+    "userUpdatedAt": "2023-04-26T21:50:54Z",
+    "customerWaitingSince": {
+        "time": "2023-04-26T21:50:54Z",
+        "friendly": "Apr 27, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "team@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 596947715,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "no-reply@delivery1.nospamcloud.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2224861226"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/596947715"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/596947715"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2224861226/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2224861226/67466"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6638562149,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-04-26T21:50:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6636226948,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "A message claiming to be from you has failed the published DMARC policy for your domain.<br><br>  Sender Domain: wolfiq.com.au<br>  Sender IP Address: 168.245.50.52<br>  Received date: Wed, 26 Apr 2023 19:26:23 +0900<br>  SPF Alignment: no<br>  DKIM Alignment: no<br>  DMARC Results: None, Accept<br><br>------ This is a copy of the headers that were received before the error was detected.<br><br>Received: from o21.ck.n.convertkit.com ([168.245.50.52])<br>\tby delivery8.nospamcloud.com with esmtps (TLSv1.3:TLS_AES_256_GCM_SHA384:256)<br>\t(Exim 4.92)<br>\t(envelope-from &lt;bounces+29533417-999b-admin=stlderm.com.au@mail.n.convertkit.com&gt;)<br>\tid 1prcLu-009s03-1t<br>\tfor admin@stlderm.com.au; Wed, 26 Apr 2023 19:26:22 +0900<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=n.convertkit.com;<br>\th=content-type:from:mime-version:subject:list-unsubscribe:to:cc:<br>\tcontent-type:from:subject:to;<br>\ts=s1; bh=GTN2c1tXP16qroNiUdtnGXAAs5uDxJABkqsO9FWTKa4=;<br>\tb=k33UXA0JbU/YzgPFx2NARldaranl17+eLCwT3U2jz9xpwdVfMsZcPIrpKRbRsh9Ya8Os<br>\tsnG9RqNZ1Ak2J/MqNISLXHf8eO3kV54VJ/nMduua/Bj7NFa65A9yEuq/KWjGYzr+rOqg2R<br>\txfw0n7nX+chh+PcHLCF454nH/fMLuX75pfLYOT+MPc0dGbx2tgam7FtFo/uOX6ijCB5d5V<br>\tjSxqu+V3KRD8RbyHq9MWhIdUOjmXWPQwMtuUebh0Lb4pwsPuZMOChor01PXsJjB6DotuWg<br>\tcL74x1OhKbMKQ4x2iiRbIx0VtHHB2FHBGKLi3rZl1pS8zfI5NTsi0JySVnwrapZA==<br>Received: by filterdrecv-7457b4c9b5-557jf with SMTP id filterdrecv-7457b4c9b5-557jf-1-6448FC49-39<br>        2023-04-26 10:26:17.906053502 +0000 UTC m=+75643.193973374<br>Received: from Mjk1MzM0MTc (unknown)<br>\tby geopod-ismtpd-29 (SG) with HTTP<br>\tid ZhTpNmubTlGJdPkCZWamMw<br>\tWed, 26 Apr 2023 10:26:17.650 +0000 (UTC)<br>Content-Type: multipart/alternative; boundary=2e2c778c8dd1df4eddf2d8410e346abdd5fd908e306587f323d05069b036<br>Date: Wed, 26 Apr 2023 10:26:18 +0000 (UTC)<br>From: Heath Maguire &lt;heath@wolfiq.com.au&gt;<br>Mime-Version: 1.0<br>Message-ID: &lt;75u97k0ovdi8hkov9kxfz@convertkit-mail2.com&gt;<br>Subject: Google Analytics 4 has arrived!<br>List-Unsubscribe: <br> &lt;https://unsubscribe.convertkit-mail2.com/75u97k0ovdi8hkov9kxfz&gt;<br>X-Report-Spam: &lt;abuse@convertkit.com&gt;<br>X-Report-Abuse: &lt;abuse@convertkit.com&gt;<br>Precedence: bulk<br>Feedback-ID: 10622061:1146763:broadcast:CK<br>X-SG-EID: <br> =?us-ascii?Q?QCT2jdl4qyT6dFeC0vj5Q1fbp6HGSfB=2F=2Fpv2xA=2FRsfuPzxRaud9GDJnn6C9OcV?=<br> =?us-ascii?Q?ucG0pCBPBFRiDflr9dFzoP=2F6TbE6BbPp0xO8BBs?=<br> =?us-ascii?Q?SN5aw6G77WILYFXgWYcd=2FyacILtxI2jWEdO14L7?=<br> =?us-ascii?Q?VW=2FMQND9UR+xic+gU=2FOnnzYHWNCdQBNlcdMqWo3?=<br> =?us-ascii?Q?xrb+QbkIZpJM2SYKKLRkYcOUlEBbGA4oWlrRnKe?=<br> =?us-ascii?Q?t03U3A7udbxcR8bAkYmuWiMn8fuwBo9Cvu8vKo?=<br>X-SG-ID: <br> =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FJHjDFAea1uZocvZojyqe?=<br> =?us-ascii?Q?ADlp5Blw2zg0yW63CAe8diwerTkmHCZymyTQzc2?=<br> =?us-ascii?Q?BZNFbp7sAH03sHre54Ch7ysfqOOIYunZwnc9=2FN+?=<br> =?us-ascii?Q?9mtN6hCJFzv2+Crl5Sa1PxHrjZb235TSJQUU=2FYu?=<br> =?us-ascii?Q?vWskzhuWHUqZ4gD5sLDN7ArpI=2FTFBJtC1YG06AL?=<br> =?us-ascii?Q?mUG5cqKB6HfePOJyfmVQ6kmzA8zWaDV0IOBMOWG?=<br> =?us-ascii?Q?fl9NjGqHfYYnwQOYKJgI66bHLehSeb97AnP3sKo?=<br> =?us-ascii?Q?wxGRDoUxly9wgGw2nsA3cEUXC73yFY3+0FydD8C?=<br> =?us-ascii?Q?hMDLtYK8eHjSeo1ixJtC0q+lsbig=3D?= <br>To: admin@stlderm.com.au<br>X-Entity-ID: QAFMvt4NWevLOY7w/wjpSw==<br>Received-SPF: pass (delivery8.nospamcloud.com: domain of mail.n.convertkit.com designates 168.245.50.52 as permitted sender) client-ip=168.245.50.52; envelope-from=bounces+29533417-999b-admin=stlderm.com.au@mail.n.convertkit.com; helo=o21.ck.n.convertkit.com;<br>X-SPF-Result: delivery8.nospamcloud.com: domain of mail.n.convertkit.com designates 168.245.50.52 as permitted sender<br>X-DKIM-Status: none /  / mail.n.convertkit.com /  /  / <br>X-DKIM-Status: pass /  / n.convertkit.com / n.convertkit.com /  / s1<br>Authentication-Results: delivery8.nospamcloud.com;<br>\tiprev=pass (o21.ck.n.convertkit.com) smtp.remote-ip=168.245.50.52;<br>\tspf=pass smtp.mailfrom=mail.n.convertkit.com;<br>\tdkim=pass header.d=n.convertkit.com header.s=s1 header.a=rsa-sha256;<br>\tdmarc=none header.from=wolfiq.com.au<br>Authentication-Results:  nospamcloud.com; spf=pass smtp.mailfrom=bounces+29533417-999b-admin=stlderm.com.au@mail.n.convertkit.com; dkim=pass header.i=n.convertkit.com",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 596947715,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "no-reply@delivery1.nospamcloud.com"
+            },
+            "createdBy": {
+                "id": 596947715,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "no-reply@delivery1.nospamcloud.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "team@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-04-26T10:28:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/596947715"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/596947715"
+                }
+            }
+        }
+    ]
+}

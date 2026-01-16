@@ -1,0 +1,172 @@
+{
+    "id": 2224860125,
+    "number": 67447,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "DMARC Forensic Report for wolfiq.com.au from IP 149.72.39.237",
+    "preview": "A message claiming to be from you has failed the published DMARC policy for your domain.    Sender Domain: wolfiq.com.au   Sender IP Address: 149.72.39.237   Received date: Wed, 26 Apr 2023 20:26:25 +",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 616617979,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "no-reply@spe1.newsprout.com.au"
+    },
+    "createdAt": "2023-04-26T10:26:50Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-04-26T21:50:54Z",
+    "userUpdatedAt": "2023-04-26T21:50:54Z",
+    "customerWaitingSince": {
+        "time": "2023-04-26T21:50:54Z",
+        "friendly": "Apr 27, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "team@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 616617979,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "no-reply@spe1.newsprout.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2224860125"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/616617979"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/616617979"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2224860125/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2224860125/67447"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6638562182,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-04-26T21:50:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6636223601,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "A message claiming to be from you has failed the published DMARC policy for your domain.<br><br>  Sender Domain: wolfiq.com.au<br>  Sender IP Address: 149.72.39.237<br>  Received date: Wed, 26 Apr 2023 20:26:25 +1000<br>  SPF Alignment: no<br>  DKIM Alignment: no<br>  DMARC Results: None, Accept<br><br>------ This is a copy of the headers that were received before the error was detected.<br><br>Received: from o38.ck.n.convertkit.com ([149.72.39.237])<br>\tby spe2.newsprout.com.au with esmtps (TLSv1.3:TLS_AES_256_GCM_SHA384:256)<br>\t(Exim 4.92)<br>\t(envelope-from &lt;bounces+29533417-015d-admin=maroubradentalcentre.com.au@mail.n.convertkit.com&gt;)<br>\tid 1prcLu-008ONM-KZ<br>\tfor admin@maroubradentalcentre.com.au; Wed, 26 Apr 2023 20:26:23 +1000<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=n.convertkit.com;<br>\th=content-type:from:mime-version:subject:list-unsubscribe:to:cc:<br>\tcontent-type:from:subject:to;<br>\ts=s1; bh=iEzzM0U+4YgmagyyyVb2ERTGHWwQqqz1sQnE30q5CrQ=;<br>\tb=rvgjYSSFKmr30it8uWEEeERVaSjTLnHneu5v1W/aQMcUyn+9z1e1aZgRenayMzCyS1Q6<br>\twcINTHjqIsiiWNxBZAD7oGn1CWQTsvYaoVNo0f/GIK3SSI7rth2H/i+sWvNbkJ0bHXfAik<br>\tFd8YcLXFr7lkKKlWgs+BkFXEaohJjIk4lfeKet2bqNfsyVBr0+NsZstSkdiqn/upNA8wT5<br>\tarcrbir0lnkLORBsd53dmXkUoNg45KByhxZBzyltAnryp333gjY+rvtCveLSZeQWRleoRp<br>\tMRj60nVDxmNpb8gtW+OEWSJOcXmFkxBnuRioEWhR44Pg6f9w0PoRP7HTshD7/nsA==<br>Received: by filterdrecv-7946957d94-vscv5 with SMTP id filterdrecv-7946957d94-vscv5-1-6448FC49-8<br>        2023-04-26 10:26:17.308689495 +0000 UTC m=+76108.654973893<br>Received: from Mjk1MzM0MTc (unknown)<br>\tby geopod-ismtpd-14 (SG) with HTTP<br>\tid I35g1kPKR4iPT5WDppwqEg<br>\tWed, 26 Apr 2023 10:26:17.051 +0000 (UTC)<br>Content-Type: multipart/alternative; boundary=af9e38cfacd1526cedc212d758e3af08d48ed8e62b0508b847d9ca569561<br>Date: Wed, 26 Apr 2023 10:26:17 +0000 (UTC)<br>From: Heath Maguire &lt;heath@wolfiq.com.au&gt;<br>Mime-Version: 1.0<br>Message-ID: &lt;k0ukm73owxc6hdlgndoil@convertkit-mail2.com&gt;<br>Subject: Google Analytics 4 has arrived!<br>X-Report-Spam: &lt;abuse@convertkit.com&gt;<br>X-Report-Abuse: &lt;abuse@convertkit.com&gt;<br>Precedence: bulk<br>Feedback-ID: 10622061:1146763:broadcast:CK<br>List-Unsubscribe: <br> &lt;https://unsubscribe.convertkit-mail2.com/k0ukm73owxc6hdlgndoil&gt;<br>X-SG-EID: <br> =?us-ascii?Q?QCT2jdl4qyT6dFeC0vj5Q1fbp6HGSfB=2F=2Fpv2xA=2FRsfuPzxRaud9GDJnn6C9OcV?=<br> =?us-ascii?Q?ucG0pCBPBFRiDflr9dFzoP=2FwiX=2FT4ct5mdKw+9b?=<br> =?us-ascii?Q?PuFk94jtuSW1sTLkessrhvNeWTfbDIKlpaFcefZ?=<br> =?us-ascii?Q?FjF=2FzIMpApiJVm=2FiCgwxVqhbB+8N8yYECWU2KDO?=<br> =?us-ascii?Q?Y+cMB5mptn8h=2FaXaIPoQr4TcfQLKEf8lcZyfOe1?=<br> =?us-ascii?Q?Elh4xO211PoPlNZ6z0PE9u=2FZMm2p95b8CzHR8Py?=<br> =?us-ascii?Q?Y=2FZ9k8OSz7iZ7ixBmgvkQ=3D=3D?=<br>X-SG-ID: <br> =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FJHjDFAea1uZocvZojyqe?=<br> =?us-ascii?Q?ADwkHsBc00Dfg1IL09iDLc97RzQ5g0RCibBON3V?=<br> =?us-ascii?Q?sCJa8=2Fm1noPQY64a4PIwNnfhb2PuTR3g9zJe2Aj?=<br> =?us-ascii?Q?=2FNSAAeAdHqJsGqehZPRiuZHK8UGr=2F46WxGW51K9?=<br> =?us-ascii?Q?kCr79usG4X2ZpaKZrmXDdNaUNP9FB8KBq9C6ylA?=<br> =?us-ascii?Q?=2Fe5bgn6ZhP=2FQ+q8lLOaPoAg3g4c7wcIUrw41+IM?=<br> =?us-ascii?Q?VtLbASBwEUXok7SsGRmE2HTeKhS=2Fe2LgVv8RXJL?=<br> =?us-ascii?Q?rWoPITpLB0=2F5wCEi5AttOJvMbm=2F=2F5roJEYmAR=2Fu?=<br> =?us-ascii?Q?yUzrvtQ6kmKR1suEM+6QhvzfLXjo=3D?= <br>To: Maroubra &lt;admin@maroubradentalcentre.com.au&gt;<br>X-Entity-ID: QAFMvt4NWevLOY7w/wjpSw==<br>Received-SPF: pass (spe2.newsprout.com.au: domain of mail.n.convertkit.com designates 149.72.39.237 as permitted sender) client-ip=149.72.39.237; envelope-from=bounces+29533417-015d-admin=maroubradentalcentre.com.au@mail.n.convertkit.com; helo=o38.ck.n.convertkit.com;<br>X-SPF-Result: spe2.newsprout.com.au: domain of mail.n.convertkit.com designates 149.72.39.237 as permitted sender<br>X-DKIM-Status: none /  / mail.n.convertkit.com /  /  / <br>X-DKIM-Status: pass /  / n.convertkit.com / n.convertkit.com /  / s1<br>Authentication-Results: spe2.newsprout.com.au;<br>\tiprev=pass (o38.ck.n.convertkit.com) smtp.remote-ip=149.72.39.237;<br>\tspf=pass smtp.mailfrom=mail.n.convertkit.com;<br>\tdkim=pass header.d=n.convertkit.com header.s=s1 header.a=rsa-sha256;<br>\tdmarc=none header.from=wolfiq.com.au<br>Authentication-Results:  newsprout.com.au; spf=pass smtp.mailfrom=bounces+29533417-015d-admin=maroubradentalcentre.com.au@mail.n.convertkit.com; dkim=pass header.i=n.convertkit.com",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 616617979,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "no-reply@spe1.newsprout.com.au"
+            },
+            "createdBy": {
+                "id": 616617979,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "no-reply@spe1.newsprout.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "team@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-04-26T10:26:50Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/616617979"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/616617979"
+                }
+            }
+        }
+    ]
+}
