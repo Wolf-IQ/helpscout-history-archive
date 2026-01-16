@@ -1,0 +1,534 @@
+{
+    "id": 3072486624,
+    "number": 169147,
+    "threads": 2,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Blogvault Tagging Upgrade",
+    "preview": "Hi Andy,  Just letting you know the Blogvault tagging is all done \ud83d\ude4f  I\u2019ve put together the SOP on how tags should be used here: \ud83d\udc49 SOP Document  And here\u2019s the Google Sheet I\u2019ll be sharing ",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 854750,
+        "type": "user",
+        "first": "Allie",
+        "last": "Borcena",
+        "email": "allie@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 768158298,
+        "type": "customer",
+        "first": "Andy",
+        "last": "Crebar",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "andy@wolfiq.com.au"
+    },
+    "createdAt": "2025-09-12T19:18:18Z",
+    "closedBy": 854750,
+    "closedByUser": {
+        "id": 854750,
+        "type": "user",
+        "first": "Allie",
+        "last": "Borcena",
+        "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+        "email": "allie@wolfiq.com.au"
+    },
+    "closedAt": "2025-09-23T07:19:15Z",
+    "userUpdatedAt": "2025-09-23T07:19:15Z",
+    "customerWaitingSince": {
+        "time": "2025-09-23T07:19:15Z",
+        "friendly": "Sep 23, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 14678458,
+            "color": "#A5B2BD",
+            "tag": "internal",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#25E8DD"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#A8F0EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [
+        "daphne@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 768158298,
+        "type": "customer",
+        "first": "Andy",
+        "last": "Crebar",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "andy@wolfiq.com.au"
+    },
+    "customFields": [
+        {
+            "id": 57880,
+            "name": "Support Tier",
+            "value": "314609",
+            "text": "Tier 1 (Support)"
+        },
+        {
+            "id": 57881,
+            "name": "Ticket Type",
+            "value": "314613",
+            "text": "Internal Update"
+        },
+        {
+            "id": 57887,
+            "name": "Size",
+            "value": "314641",
+            "text": "Large"
+        }
+    ],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3072486624"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/768158298"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/768158298"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/854750"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3072486624/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/854750"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3072486624/169147"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9393605305,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 854750
+                }
+            },
+            "body": "Hi Andy,<br><br>Just letting you know the Blogvault tagging is all done \ud83d\ude4f<br><br>I\u2019ve put together the <strong>SOP</strong> on how tags should be used here:<br>\ud83d\udc49 <a href=\"https://docs.google.com/document/d/1P30uBqEDeOfQmihhQSGJmH_IOIzFrI-fGjMrxMdeb68/edit?usp=sharing\">SOP Document</a><br><br>And here\u2019s the <strong>Google Sheet</strong> I\u2019ll be sharing with Blogvault so they can update the DNS &amp; Fox and Lee tags:<br>\ud83d\udc49 <a href=\"https://docs.google.com/spreadsheets/d/1IaJPql95dFS4rAt-r_dKu6vGPHa5QpmTEWXMBvxqdP4/edit?usp=sharing\">Tag Update Sheet</a><br><br>A couple of small updates:<br><ul><li>I\u2019ve changed <strong>\u201cDo Not Update\u201d</strong> to <strong>\u201cUpdate with Care\u201d</strong>, since plugins can be updated in some cases, and I\u2019ve added notes to help guide this.<br></li><li>For <strong>Performance Scores</strong>, <strong>Lift</strong> shouldn\u2019t be switched on unless it\u2019s a very simple one-page website, as it can cause bugs for clients. This happened with Hosportal, yads cauhi and other websites Joel and I tried \ud83d\ude4f<br><br></li></ul>I\u2019ve also documented the process so we can be really confident in how tags are used going forward. Hopefully this helps keep things simple and clear.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 768158298,
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-09-23T07:19:15Z",
+            "openedAt": "2025-09-23T07:23:38Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/768158298"
+                }
+            }
+        },
+        {
+            "id": 9380089327,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 854750
+                }
+            },
+            "body": "Status update:<br><ul><li>Lift should only be added to brochure websites - Joel mentioned he added it to websites and it causes a lot of problems for them that we had to disable the plugin<br></li><li>Tags are now in google sheet: <a href=\"https://docs.google.com/spreadsheets/d/1IaJPql95dFS4rAt-r_dKu6vGPHa5QpmTEWXMBvxqdP4/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1IaJPql95dFS4rAt-r_dKu6vGPHa5QpmTEWXMBvxqdP4/edit?usp=sharing</a> will now be sending this to blogvault<br></li><li>Creating documentation<br></li></ul>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 768158298,
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-19T01:40:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/768158298"
+                }
+            }
+        },
+        {
+            "id": 9362375365,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 854750
+                }
+            },
+            "body": "status update:<br><ul><li>Cleaned the dalligator<br></li><li>Cleaned Do Not update -&gt; changed the wording to Update with Care<br></li><li>Put it in Bulk for Blogvault to update<br><ul><li><b>DNS, Cloudfare</b><br></li><li><b>DNS, Clients have logins</b><br></li></ul></li></ul><br>My Progress can be tracked here: <a href=\"https://docs.google.com/spreadsheets/d/1IaJPql95dFS4rAt-r_dKu6vGPHa5QpmTEWXMBvxqdP4/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1IaJPql95dFS4rAt-r_dKu6vGPHa5QpmTEWXMBvxqdP4/edit?usp=sharing</a><br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 768158298,
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-15T08:18:20Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/768158298"
+                }
+            }
+        },
+        {
+            "id": 9361605710,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 854750
+                }
+            },
+            "body": "<b>Tag Cleanup &amp; Verification</b><br><ul><li>Delete unused/inaccurate tags (e.g., \u201cAutomatic update smiley face\u201d).<br></li><li>Keep \u201cDo not update\u201d tag but document why it exists.<br></li><li>Check with Joel if DNS client logins are accurate.<br></li><li>Ask Manuel why some tags do not update.<br></li><li>Test \u201cFox and Lee\u201d tag (should show ~70).<br></li><li>Avoid bulk tagging; clean up systematically.<br></li><li>Ensure each remaining tag has a clear purpose.<br></li></ul><b>Site Counts &amp; Accuracy</b><br><ul><li>Confirm \u201c20 sites in 19\u201d is correct.<br></li><li>Validate counts for other references (e.g., 165, 70).<br></li><li>Match tags with correct client/site data.<br></li></ul><b>Documentation</b><br><ul><li>Create a one-page plan for \u201cblog vault tags.\u201d<br></li><li>Define how tags should be used.<br></li><li>Define how tags should not be used.<br></li><li>Keep it simple and easy to reference.<br></li></ul><b>Performance Scores</b><br><ul><li>Add performance scores for tags and plans.<br></li><li>Verify \u201cplus plans\u201d have correct performance tracking.<br></li><li>Investigate why expected lift is not appearing.<br></li></ul>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 768158298,
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-15T03:07:27Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/768158298"
+                }
+            }
+        },
+        {
+            "id": 9360971473,
+            "type": "lineitem",
+            "status": "active",
+            "action": {
+                "type": "default",
+                "text": "Allie Borcena marked as Active",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-14T22:51:45Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                }
+            }
+        },
+        {
+            "id": 9357181638,
+            "type": "lineitem",
+            "status": "pending",
+            "action": {
+                "type": "default",
+                "text": "Allie Borcena marked as Pending",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "mobile",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-13T11:55:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                }
+            }
+        },
+        {
+            "id": 9356176740,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Allie Borcena assigned to Allie Borcena",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "email": "allie@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-13T02:27:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                }
+            }
+        },
+        {
+            "id": 9355063139,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div dir=\"ltr\">\n<div>Goal - a documented plan and confidence in our blogvault tagging</div>\n<div><br></div>\n<div>\n<div class=\"ex-loom-thumb-embed\">\n<p><b>BlogVault Tagging Upgrade</b> - <a href=\"https://www.loom.com/share/a2d75403c2c446fbbc2699ad5d1ea015\">Watch Video</a></p>\n<a class=\"ex-lo-gmail-video-thumb\" href=\"https://www.loom.com/share/a2d75403c2c446fbbc2699ad5d1ea015?utm_medium=gif\"><img style=\"max-width:300px;\" src=\"https://cdn.loom.com/sessions/thumbnails/a2d75403c2c446fbbc2699ad5d1ea015-788f2e8572fd5948-full-play.gif\" alt=\"a2d75403c2c446fbbc2699ad5d1ea015-788f2e8572fd5948-full-play.gif\" /><br></a></div>\n</div>\n<div dir=\"ltr\" class=\"ex-gmail_signature\"></div>\n<img src=\"https://d5lqGr04.na1.hs-salescrm-engage.com/Cto/DQ+23284/d5lqGr04/R5R8b41MKN7KvqHp2fDbcW1Vq3vW20ZrfDW21jG_31X2j78W1GyVGR1-Wkp1W1--3z-3JGdTpW3DNRD920WYGhn24T2rj4W1\" alt=\"\" height=\"1\" width=\"1\" />\n<div id=\"ex-data-hbsasc-v0-1cca4550-5913-40d3-a5cf-828f903e1eb4\"></div>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 768158298,
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 768158298,
+                "type": "customer",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-12T19:18:18Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/768158298"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/768158298"
+                }
+            }
+        }
+    ]
+}

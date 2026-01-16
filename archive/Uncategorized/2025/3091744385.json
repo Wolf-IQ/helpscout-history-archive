@@ -1,0 +1,280 @@
+{
+    "id": 3091744385,
+    "number": 170840,
+    "threads": 2,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Urgent] Website down",
+    "preview": "Hi Nithin,  Thanks for bringing this to our attention.  We\u2019ve had a look, and it seems the DNS records aren\u2019t currently pointing to the correct setup, which is likely the cause of the downtime.  H",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 854750,
+        "type": "user",
+        "first": "Allie",
+        "last": "Borcena",
+        "email": "allie@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 549284431,
+        "type": "customer",
+        "first": "Nithin",
+        "last": "Revanna",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "nithin.revanna@phoenix-dx.com"
+    },
+    "createdAt": "2025-09-28T19:29:57Z",
+    "closedBy": 854750,
+    "closedByUser": {
+        "id": 854750,
+        "type": "user",
+        "first": "Allie",
+        "last": "Borcena",
+        "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+        "email": "allie@wolfiq.com.au"
+    },
+    "closedAt": "2025-09-28T22:54:23Z",
+    "userUpdatedAt": "2025-09-28T22:54:23Z",
+    "customerWaitingSince": {
+        "time": "2025-09-28T22:54:23Z",
+        "friendly": "Sep 29, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 12258835,
+            "color": "#A5B2BD",
+            "tag": "phoenix-dx.com",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#8E8E93"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#E5E9EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 549284431,
+        "type": "customer",
+        "first": "Nithin",
+        "last": "Revanna",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "nithin.revanna@phoenix-dx.com"
+    },
+    "customFields": [
+        {
+            "id": 57880,
+            "name": "Support Tier",
+            "value": "314611",
+            "text": "Tier 3 (DevOps)"
+        },
+        {
+            "id": 57881,
+            "name": "Ticket Type",
+            "value": "314612",
+            "text": "Customer Support"
+        },
+        {
+            "id": 57887,
+            "name": "Size",
+            "value": "314640",
+            "text": "Medium"
+        }
+    ],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3091744385"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/549284431"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/549284431"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/854750"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3091744385/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/854750"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3091744385/170840"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9415843172,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Allie Borcena marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-28T22:54:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                }
+            }
+        },
+        {
+            "id": 9415841703,
+            "type": "message",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 854750
+                }
+            },
+            "body": "Hi Nithin,<br><br>Thanks for bringing this to our attention.<br><br>We\u2019ve had a look, and it seems the DNS records aren\u2019t currently pointing to the correct setup, which is likely the cause of the downtime.<br><br>Here\u2019s what needs to be updated in your DNS settings:<br><ul><li><strong>A Record</strong><br><ul><li><strong>Name/Host:</strong> <code class=\"inline-code\">@</code> <br></li><li><strong>IP Address:</strong> <code class=\"inline-code\">162.159.134.42</code> <br></li></ul></li><li><strong>CNAME Record</strong><br><ul><li><strong>Name/Host:</strong> <code class=\"inline-code\">www</code> <br></li><li><strong>Domain Name:</strong> <code class=\"inline-code\">phoenix-dx.com</code> <br><br></li></ul></li></ul>We don\u2019t have access to your DNS manager, so we\u2019re unable to make these changes ourselves\u2014but if you can either update the records or share temporary access, we\u2019re happy to jump in and assist.<br><br>Also, just to confirm\u2014should <strong>phoenix-dx.ai</strong> be treated as the primary domain going forward? We\u2019ll make sure everything is set up accordingly once we know.<br><br>Let us know how you\u2019d like to proceed\u2014happy to help however we can.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 549284431,
+                "first": "Nithin",
+                "last": "Revanna",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "nithin.revanna@phoenix-dx.com"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-28T22:54:16Z",
+            "openedAt": "2025-09-28T23:43:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/549284431"
+                }
+            }
+        },
+        {
+            "id": 9415610472,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div dir=\"ltr\">\n<div>Hi Team,</div>\n<div><br></div>\n<div>We attempted to forward our homepage, <a href=\"http://phoenix-dx.com\">phoenix-dx.com</a>, to <a href=\"http://phoenix-dx.ai\">phoenix-dx.ai</a> using the permanent forwarding method in GoDaddy. Unfortunately, this did not work, and now our original site, <a href=\"http://phoenix-dx.com\">phoenix-dx.com</a>, is also down after we tried to revert the changes.</div>\n<div><br></div>\n<div>Could you please assist us with this issue?</div>\n<div><br></div>\n<div>Thanks,</div>\n<div>--</div>\n<div class=\"helpscout-signature\">\n<div dir=\"ltr\" class=\"ex-gmail_signature\">\n<div dir=\"ltr\"><b>Nithin Revanna<br></b>\n<div>Cybersecurity Consultant</div>\n<div>+61 468621981</div>\n</div>\n</div>\n</div>\n</div>\n<br>\n<div><a href=\"http://www.phoenix-dx.com/\" style=\"text-align:right;\"><span style=\"white-space:pre-wrap;\">phoenix-dx.com</span></a><br></div>\n<div>\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div><b>P</b>: +61 0282316683</div>\n<div>Australia <b>|</b> New Zealand <b>|</b> Philippines  </div>\n<div><a href=\"https://phoenix-dx.com/\"><img src=\"https://7803079.fs1.hubspotusercontent-na1.net/hubfs/7803079/Email%20Signature/V2_Emails_%23018_Signature-APACDeliveryPartner2025_PDX.png\" alt=\"https://phoenix-dx.com/\" /></a></div>\n<div><span style=\"font-size:x-small;\">OutSystems Partner  </span>\u2022<span style=\"font-size:x-small;\">  AWS Partner  </span>\u2022<span style=\"font-size:x-small;\">  Deloitte Technology Fast 50  </span>\u2022<span style=\"font-size:x-small;\">  Best Place to Work</span><span style=\"font-size:x-small;\"><br></span></div>\n<div><a href=\"https://www.thesmithfamilychallenge.com.au/fundraisers/OSDX\"></a></div>\n</div>\n</div>\n</div>\n</div>\n<br>\n<span style=\"font-family:Arial;font-size:x-small;text-align:justify;\">The information transmitted is intended only for the person or entity to which it is addressed and may contain confidential and/or privileged material. Any review, retransmission, dissemination or other use of, or taking of any action in reliance upon, this information by persons or entities other than the intended recipient is prohibited. If you received this in error, please contact the sender and delete the material from any computer.</span><br>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 549284431,
+                "first": "Nithin",
+                "last": "Revanna",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "nithin.revanna@phoenix-dx.com"
+            },
+            "createdBy": {
+                "id": 549284431,
+                "type": "customer",
+                "first": "Nithin",
+                "last": "Revanna",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "nithin.revanna@phoenix-dx.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-28T19:29:57Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/549284431"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/549284431"
+                }
+            }
+        }
+    ]
+}

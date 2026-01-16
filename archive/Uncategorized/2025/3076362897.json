@@ -1,0 +1,229 @@
+{
+    "id": 3076362897,
+    "number": 169437,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@omnicompositetank.com because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpE",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-09-16T07:00:07Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-16T07:00:07Z",
+    "customerWaitingSince": {
+        "time": "2025-09-16T07:00:07Z",
+        "friendly": "Sep 16, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3076362897"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3076362897/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3076362897/169437"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9366480973,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-16T07:00:07Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9366480938,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@omnicompositetank.com because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF00005A3E.ausprd01.prod.outlook.com 2025-09-16T06:59:56.206Z 08DDF42E665882D1]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Mon, 15 Sep 2025 23:59:52 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnFnngTFF9acgYyd1hi4DvSS95kvwMD-b-niUe-yOXC4tA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@omnicompositetank.com<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; omnicompositetank-com.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::, the server for the domain omnicompositetank.com.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF00005A3E.ausprd01.prod.outlook.com 2025-09-16T06:59:56.206Z 08DDF42E665882D1]<br>Last-Attempt-Date: Mon, 15 Sep 2025 23:59:56 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-16T07:00:07Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 838755498,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3076362897/attachments/838755498"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3076362897/attachments/838755498/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/838755498/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 838755499,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3076362897/attachments/838755499"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3076362897/attachments/838755499/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/838755499/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 838755500,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7117,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3076362897/attachments/838755500"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3076362897/attachments/838755500/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/838755500/6d6386b3ef0410e97c98d9d0fe86ae66228b810b/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

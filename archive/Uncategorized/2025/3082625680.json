@@ -1,0 +1,168 @@
+{
+    "id": 3082625680,
+    "number": 170084,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[Hosportal Australia] Password Reset",
+    "preview": "Someone has requested a password reset for the following account:  Site Name: Hosportal Australia  Username: support  If this was a mistake, ignore this email and nothing will happen.  To reset your p",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 820931902,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "wordpress@hosportal.com"
+    },
+    "createdAt": "2025-09-21T03:21:34Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-21T03:21:35Z",
+    "customerWaitingSince": {
+        "time": "2025-09-21T03:21:34Z",
+        "friendly": "Sep 21, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 820931902,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "wordpress@hosportal.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3082625680"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/820931902"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/820931902"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3082625680/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3082625680/170084"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9385826030,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-21T03:21:35Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9385826019,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Someone has requested a password reset for the following account:<br><br>Site Name: Hosportal Australia<br><br>Username: support<br><br>If this was a mistake, ignore this email and nothing will happen.<br><br>To reset your password, visit the following address:<br><br>https://www.hosportal.com/wp-login.php?login=support&amp;key=dQTxF76t1sXGXRLK5mIv&amp;action=rp&amp;wp_lang=en_AU<br><br>This password reset request originated from the IP address 143.44.192.121.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 820931902,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "wordpress@hosportal.com"
+            },
+            "createdBy": {
+                "id": 820931902,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "wordpress@hosportal.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-21T03:21:34Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/820931902"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/820931902"
+                }
+            }
+        }
+    ]
+}

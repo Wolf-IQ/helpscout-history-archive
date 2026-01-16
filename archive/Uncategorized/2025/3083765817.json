@@ -1,0 +1,209 @@
+{
+    "id": 3083765817,
+    "number": 170259,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@mrandmrsgas.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://support.google.com",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-09-22T10:09:02Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-22T10:09:12Z",
+    "customerWaitingSince": {
+        "time": "2025-09-22T10:09:02Z",
+        "friendly": "Sep 22, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3083765817"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3083765817/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3083765817/170259"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9389076439,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-22T10:09:12Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9389076182,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@mrandmrsgas.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://support.google.com/mail/?p=NoSuchUser<br><br>The response was:<br><br>550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-336e3cf1f1csor1663431fac.2 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Mon, 22 Sep 2025 03:04:16 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnHh0HBkQTk8+YCDOihoiv0YGGXmkevSxVULVtp1TU1xJg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@mrandmrsgas.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try<br> 550-5.1.1 double-checking the recipient's email address for typos or<br> 550-5.1.1 unnecessary spaces. For more information, go to<br> 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-336e3cf1f1csor1663431fac.2 - gsmtp<br>Last-Attempt-Date: Mon, 22 Sep 2025 03:04:16 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-22T10:09:02Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 842525180,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3083765817/attachments/842525180"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3083765817/attachments/842525180/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/842525180/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 842525241,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7098,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3083765817/attachments/842525241"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3083765817/attachments/842525241/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/842525241/0bba14a6a59fdc58dff0079eb26ab928a3f646dd/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

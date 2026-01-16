@@ -1,0 +1,189 @@
+{
+    "id": 3067128062,
+    "number": 168683,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Undeliverable: Quick Note on Your Website Hosting (Before Friday)",
+    "preview": "[https://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?version=b8d100a9-0a8b-8e6a-88e1-ef488fee0470] Your message to simon@ladieslair.com.au couldn't be delivered. simon wasn't found at",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 821476742,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "postmaster@themercatus.com"
+    },
+    "createdAt": "2025-09-09T05:24:18Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-09T05:24:19Z",
+    "customerWaitingSince": {
+        "time": "2025-09-09T05:24:18Z",
+        "friendly": "Sep 9, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 821476742,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "postmaster@themercatus.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3067128062"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/821476742"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/821476742"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3067128062/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3067128062/168683"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9338470901,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-09T05:24:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9338470868,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "[https://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?version=b8d100a9-0a8b-8e6a-88e1-ef488fee0470]<br>Your message to simon@ladieslair.com.au couldn't be delivered.<br>simon wasn't found at ladieslair.com.au.<br>support         Office 365      simon<br>Action Required                 Recipient<br>Unknown To address<br><br>How to Fix It<br>The address may be misspelled or may not exist. Try one or more of the following:<br><br>  *   Send the message again following these steps: In Outlook, open this non-delivery report (NDR) and choose Send Again from the Report ribbon. In Outlook on the web, select this NDR, then select the link \"To send this message again, click here.\" Then delete and retype the entire recipient address. If prompted with an Auto-Complete List suggestion don't select it. After typing the complete address, click Send.<br>  *   Contact the recipient (by phone, for example) to check that the address exists and is correct.<br>  *   The recipient may have set up email forwarding to an incorrect address. Ask them to check that any forwarding they've set up is working correctly.<br>  *   Clear the recipient Auto-Complete List in Outlook or Outlook on the web by following the steps in this article: Fix email delivery issues for error code 5.1.10 in Office <a href=\"https://go.microsoft.com/fwlink/?LinkId=532972\">365</a>, and then send the message again. Retype the entire recipient address before selecting Send.<br><br>If the problem continues, forward this message to your email admin. If you're an email admin, refer to the More Info for Email Admins section below.<br><br>Was this helpful? Send feedback to <a href=\"https://go.microsoft.com/fwlink/?LinkId=525921\">Microsoft</a>.<br>________________________________<br><br>More Info for Email Admins<br>Status code: 550 5.1.10<br><br>This error occurs because the sender sent a message to an email address hosted by Office 365 but the address is incorrect or doesn't exist at the destination domain. The error is reported by the recipient domain's email server, but most often it must be fixed by the person who sent the message. If the steps in the How to Fix It section above don't fix the problem, and you're the email admin for the recipient, try one or more of the following:<br><br>The email address exists and is correct - Confirm that the recipient address exists, is correct, and is accepting messages.<br><br>Synchronize your directories - If you have a hybrid environment and are using directory synchronization make sure the recipient's email address is synced correctly in both Office 365 and in your on-premises directory.<br><br>Errant forwarding rule - Check for forwarding rules that aren't behaving as expected. Forwarding can be set up by an admin via mail flow rules or mailbox forwarding address settings, or by the recipient via the Inbox Rules feature.<br><br>Recipient has a valid license - Make sure the recipient has an Office 365 license assigned to them. The recipient's email admin can use the Office 365 admin center to assign a license (Users &gt; Active Users &gt; select the recipient &gt; Assigned License &gt; Edit).<br><br>Mail flow settings and MX records are not correct - Misconfigured mail flow or MX record settings can cause this error. Check your Office 365 mail flow settings to make sure your domain and any mail flow connectors are set up correctly. Also, work with your domain registrar to make sure the MX records for your domain are configured correctly.<br><br>For more information and additional tips to fix this issue, see Fix email delivery issues for error code 5.1.10 in Office <a href=\"https://go.microsoft.com/fwlink/?LinkId=532972\">365</a>.<br><br>Original Message Details<br>Created Date:   9/9/2025 5:23:55 AM<br>Sender Address: support@wolfiq.com.au<br>Recipient Address:      simon@ladieslair.com.au<br>Subject:        Quick Note on Your Website Hosting (Before Friday)<br><br>Error Details<br>Error:  550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient simon@ladieslair.com.au not found by SMTP address lookup<br>Message rejected by:    SY7PR01MB8446.ausprd01.prod.outlook.com<br><br>Notification Details<br>Sent by:        SY7PR01MB8446.ausprd01.prod.outlook.com<br><br>Message Hops<br>HOP     TIME (UTC)      FROM    TO      WITH    RELAY TIME<br>1       9/9/2025<br>5:23:55 AM      545145119934 named unknown      gmailapi.google.com     HTTPREST        *<br>2       9/9/2025<br>5:23:55 AM      545145119934 named unknown      gmailapi.google.com     HTTPREST        *<br>3       9/9/2025<br>5:23:59 AM              mail-ot1-x335.google.com        SMTP    4 sec<br>4       9/9/2025<br>5:23:59 AM      mail-ot1-x335.google.com        SY3PEPF0000A726.mail.protection.outlook.com     Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)   *<br>5       9/9/2025<br>5:24:01 AM      SY3PEPF0000A726.ausprd01.prod.outlook.com       SY4P282CA0014.outlook.office365.com     Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)   2 sec<br>6       9/9/2025<br>5:24:01 AM      SY4P282CA0014.AUSP282.PROD.OUTLOOK.COM  SY7PR01MB8446.ausprd01.prod.outlook.com Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)    *<br><br>Original Message Headers<br><br>Received: from SY4P282CA0014.AUSP282.PROD.OUTLOOK.COM (2603:10c6:10:a0::24) by<br> SY7PR01MB8446.ausprd01.prod.outlook.com (2603:10c6:10:1f1::12) with Microsoft<br> SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id<br> 15.20.9094.22; Tue, 9 Sep 2025 05:24:01 +0000<br>Received: from SY3PEPF0000A726.ausprd01.prod.outlook.com<br> (2603:10c6:10:a0:cafe::5a) by SY4P282CA0014.outlook.office365.com<br> (2603:10c6:10:a0::24) with Microsoft SMTP Server (version=TLS1_3,<br> cipher=TLS_AES_256_GCM_SHA384) id 15.20.9094.22 via Frontend Transport; Tue,<br> 9 Sep 2025 05:24:01 +0000<br>Authentication-Results: spf=permerror (sender IP is 2607:f8b0:4864:20::335)<br> smtp.mailfrom=wolfiq.com.au; dkim=pass (signature was verified)<br> header.d=wolfiq-com-au.20230601.gappssmtp.com;dmarc=fail action=none<br> header.from=wolfiq.com.au;<br>Received-SPF: PermError (protection.outlook.com: domain of wolfiq.com.au used<br> an invalid SPF mechanism)<br>Received: from mail-ot1-x335.google.com (2607:f8b0:4864:20::335) by<br> SY3PEPF0000A726.mail.protection.outlook.com (2603:10c6:18::116) with<br> Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id<br> 15.20.9115.13 via Frontend Transport; Tue, 9 Sep 2025 05:23:59 +0000<br>Received: by mail-ot1-x335.google.com with SMTP id 46e09a7af769-74c1251df00so1637786a34.0<br>        for &lt;simon@ladieslair.com.au&gt;; Mon, 08 Sep 2025 22:23:59 -0700 (PDT)<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1757395437; x=1758000237; darn=ladieslair.com.au;<br>        h=to:subject:message-id:date:mime-version:from:from:to:cc:subject<br>         :date:message-id:reply-to;<br>        bh=3pupAUUzJwmGlMMyDPnZRbXW/ig/WfPBTTyvaUZcB5U=;<br>        b=10kCvDRN2LR2UdCJeYc/iLkQiX1GhM7Vwuvgo2UzFPFIgg9wGZymGJawposDe9bkWY<br>         xltDLL4Seq7TQFLOdUxLNGx3yHlUqseYKnk0LDrl9T/Cl+fwwAIpSn097hcAG0mXaCeD<br>         Oa60iXAcMVyvxtHA4G2AX3MKygXe4tGNi9wUyr7iFm3hhSyUURfThpA4JHSosR+t/U8g<br>         auzvyE50DPm0sEoTU9ri0zmnD8OKrQu3Niva4yEyPmplOGP+HLRt8sDfVAKajZpcRVEP<br>         cX0/sQShBsk5PmDiOMFGykWveFVKwcIPf0Zw+oEjk//xOMU8Imk0hIMt4vfhDG38/m2T<br>         s5wA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1757395437; x=1758000237;<br>        h=to:subject:message-id:date:mime-version:from:x-gm-message-state<br>         :from:to:cc:subject:date:message-id:reply-to;<br>        bh=3pupAUUzJwmGlMMyDPnZRbXW/ig/WfPBTTyvaUZcB5U=;<br>        b=kZkGFsULR/ngriDxb1379UeYkBv4PDFD1YbWq8DuDl+tlFSh+a/nQ51c60nv9nqM1g<br>         lp/sB13ri/e2u3BwL83QrB3v/9MKJEj52YAUumVAcs3XSotCDRF0QYJMS2oFOZ6ZstNz<br>         2RF7A+acKEPOsgwXdd7udqxBohahMA/MfkP3/DmpFLoR/PNkEIHU9TgzT9yDcE4ORrst<br>         vsMgyI6jQfoKc67sfExWnB7g8H4HpuDk2rcvscbhG55bwNUzlymMsQCrEoKCLmjPKm4l<br>         MwfNVYViC+CEr6rZlPhnE594//lng+Fpem/NnaZkVqc9V3ohfNd9uMT4Hc5+lbDUoETd<br>         mAag==<br>X-Gm-Message-State: AOJu0YxRtHPEmPqz4ETGB8CorL3DOrQw19DVwVV3eoEoKDG5tu2clzvx<br>        Qr1ysB2d/fFsQSjtbHImm4tPe1TbE1TLJ9gkAclT7esan6J1vpEf5eKyDaKleRGpL203QzCdLoc<br>        dU1o2wRaIPsMYAD12lyUgnl5h1+XPa0Zq9P4OvbzGxxmliBKi9zhM<br>X-Gm-Gg: ASbGncuWI8HI6BLipqPoX9kFWBBFjGOa4BORM1ex7Ted2jGMD3GDaTEpk6kJ74aD6qz<br>        Y26ba3irXhbUPRTMgTbJ4xZuFHHbgQEf/SCwJu4EGdW0ci5vw64jIzF8J3MGt4CMG14TfYs9FN8<br>        QGRq46H7urSTUHQrb5Y4sIVRGRr6biZYZGhQ0D+MlFSeTYeALSZuyBDAtcIOyvYURcJihAMr87O<br>        nI3fu8jaEny0oBEeA==<br>X-Google-Smtp-Source: AGHT+IHDERf/UV5b3B5yy5OhQqbvdwGepJc8e4cw7jB2bXtSrA1Gl9i0p1B4BS1/INwn9UQrErovejNxjmXbDV9IiM0=<br>X-Received: by 2002:a05:6808:150b:b0:438:376e:b239 with SMTP id<br> 5614622812f47-43b29c00045mr6242535b6e.45.1757395437503; Mon, 08 Sep 2025<br> 22:23:57 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Mon, 8 Sep 2025 22:23:55 -0700<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Mon, 8 Sep 2025 22:23:55 -0700<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-3067120262-9338449789<br>X-Hs-Uid: OYEA1NqkaQjZWkpM2jrV<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-mailgen-ondemand-67d575b588-5nfs4 [62c1d92cc2]<br>X-Hs-Message-Id: reply-87172-3067120262-9338449789-1757395434-1668626479@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>Date: Mon, 8 Sep 2025 22:23:55 -0700<br>X-Gm-Features: AS18NWBHUfm9t0MaNprD4f688QiltzgvKLzNIpMZLwKtcFsBmuODW17mB-6RzjQ<br>Message-ID: &lt;CAMLnpnE4EZNteK-CJCXAV6xTLc1Gj5fUPGGPHhwQa8Xtp596MA@mail.gmail.com&gt;<br>Subject: Quick Note on Your Website Hosting (Before Friday)<br>To: Simon Taha &lt;simon@ladieslair.com.au&gt;<br>Content-Type: multipart/mixed; boundary=\"000000000000c8716f063e578274\"<br>Return-Path: support@wolfiq.com.au<br>X-EOPAttributedMessage: 0<br>X-EOPTenantAttributedMessage: 2a881d39-eca5-4a83-ac85-7bb51eaa938a:0<br>X-MS-PublicTrafficType: Email<br>X-MS-TrafficTypeDiagnostic: SY3PEPF0000A726:EE_|SY7PR01MB8446:EE_<br>X-MS-Office365-Filtering-Correlation-Id: dd950f3f-6897-482a-33b7-08ddef61155c<br><br><br>Reporting-MTA: dns;SY7PR01MB8446.ausprd01.prod.outlook.com<br>Received-From-MTA: dns;mail-ot1-x335.google.com<br>Arrival-Date: Tue, 9 Sep 2025 05:24:01 +0000<br><br>Final-Recipient: rfc822;simon@ladieslair.com.au<br>Action: failed<br>Status: 5.1.10<br>Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient simon@ladieslair.com.au not found by SMTP address lookup<br>X-Display-Name: Simon Taha",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 821476742,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "postmaster@themercatus.com"
+            },
+            "createdBy": {
+                "id": 821476742,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "postmaster@themercatus.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-09T05:24:18Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 834791464,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 14680,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3067128062/attachments/834791464"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3067128062/attachments/834791464/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/834791464/e2ce901b13e704f361a92c5f8c11d491865f55db/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/821476742"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/821476742"
+                }
+            }
+        }
+    ]
+}

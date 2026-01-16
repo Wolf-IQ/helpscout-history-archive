@@ -1,0 +1,168 @@
+{
+    "id": 3069730972,
+    "number": 168860,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "\ud83d\udea8 Critical Alert: Form testing failed for https://foxandlee.com.au",
+    "preview": "The following form tests have failed:     Site Form Title Form Type Form URL Failed Reason Test Failed At  Validate     https://foxandlee.com.au  Website Questionnaire Form  Gravity Forms  https://fox",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "createdAt": "2025-09-10T19:49:47Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-10T19:49:47Z",
+    "customerWaitingSince": {
+        "time": "2025-09-10T19:49:47Z",
+        "friendly": "Sep 11, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3069730972"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3069730972/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3069730972/168860"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9346530640,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-10T19:49:48Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9346530580,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div id=\"ex-main-content\">\n<div style=\"max-width:1200px;margin:20px auto;background-color:#fff;padding:20px;\">\n<h2 style=\"font-size:16px;color:#666;margin-bottom:15px;\">The following form tests have failed:</h2>\n<div>\n<table style=\"width:100%;border-collapse:collapse;margin-top:20px;font-size:12px;\">\n<thead>\n<tr>\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Site</th>\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Form Title</th>\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Form Type</th>\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Form URL</th>\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Failed Reason</th>\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Test Failed At</th>\n\n<th style=\"padding:8px;border:1px solid #bbb;text-align:left;background-color:#f2f2f2;font-weight:bold;color:#333;white-space:nowrap;\">Validate</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;\">https://foxandlee.com.au</td>\n\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;\">Website Questionnaire Form</td>\n\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;\">Gravity Forms</td>\n\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;max-width:200px;\" title=\"https://foxandlee.com.au/website-form/\">https://foxandlee.com.au/website-form/ </td>\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;color:#F00;\">Fields Missing (HTML Block, 1. Your Details, First, Last, Email, Phone, Your Business, Business Name, Your Job Title, Street Address, Suburb, State, Post Code, Country, Do you have an ABN?, Your ABN, What industry is your business in?, What does your business do or offer customers?, Who is your target audience/customer?, What age range is your audience/customer?, How do/will your customers learn about your services or products?, What do your clients need from your website? (Minimum of 3), What do you need your website to do? (Minimum of 3), Who are your competitors? (Minimum of 3), What differentiates you from your competitors?, Is this a brand new website or a refresh?, What goals does the new website need to achieve?, Do you have a domain name already?, If so, please list here, In what timeframe are you looking at starting?, 2. Website Pages &amp; Menus, Simply select the pages you would like on the website, Please list other pages you would like, Please list your services here, Online Shop, Is your website an online store?, What type of items will you be selling? (Fashion, Jewellery, IT Products, Sporting etc), How would you like to process payments?, Other Payment Type, For Credit Card Payments, do you already have a merchant account set up with your bank?, How many shopping categories would you have?, Content, Do you have written copy for your website?, Do you want us to write copy for your website?, Do you have necessary images ready for your website, Do you want us to source images for your website?, Will you have videos on your website, Functionality, Do you require live Website Chat on your website?, Do you require CMS? (Content Management System) If you want the ability to update basic information and text on the website, then select yes. If you prefer to send the changes through to be done, then select no, Are there any other types of functions you would like on the site?, Will you need to integrate sales with your accounting software?, Which accounting software do you need to integrate with?, 3. Design, For the look and feel of the design, select the option below that best describes what you would like:, List your own description here:, Please list three websites that you feel do a fantastic job in your industry, 4. Budget, What is your budget for this project?, Other Budget for this project, After completion, will you need us to provide ongoing support for your website?, Your Logo, Do you have a logo for the business?, Would you like us to include a logo as a bundle in the quote?, Do you have a style guide or brand guidelines? (Please attach here), )</td>\n\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;\">10-09-2025 19:48 UTC</td>\n\n<td style=\"padding:8px;border:1px solid #bbb;text-align:left;\"><a href=\"https://track.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F5aa1515f%2Fformtesting/h3Y/5vO-AQ/AQ/5eb39b7f-3b6a-43be-8444-d535dc023027/1/ybLuvu6oWF\" style=\"color:#007bff;text-decoration:underline;font-weight:bold;background-color:transparent;font-size:12px;\">Check Now</a> </td>\n</tr>\n</tbody>\n</table>\n</div>\n<p style=\"margin-top:20px;font-size:12px;color:#666;\">If you have any questions or need further assistance, please reply to this email.</p>\n<p style=\"margin-top:20px;font-size:12px;color:#666;\">Thanks,<br>\nTeam BlogVault</p>\n</div>\n<img src=\"https://ea.pstmrk.it/open?m=v3_1.U-M20UulzrHYhc0Xo-J71w.E8wF3mVXgIfzH9ev_HV5ieaYtHUQ4R86VyS1gqAZzTicZxCrWU4hjKlqGvKd-0jx9Z8Fhk2_-2U4OYJqEMmXXn6AvHvb1swlI3PqyquVpISvOA-d1rJ5d9bwFx0xKIN3PfpjaLCDnapOwQwOJ_wOYgKkHNZowkhi_uTHfK-dVUCpY-zKDULlRvYPJIg5OABRybWbpC4jx_SwfhFW2bLnY0UBgZSrC0OSmbyfdUq53nS4sz8JnAuXnKuJerpxvrnbGWe-7vk7r4amYSZFT-JyvmlID9yo-u9B0UJw8trWQxfwvzTHODD1KwRdM3804K8Xq1nH_uVB2PFGBdJ0r68qcZgzHQNT4_rzGECMn-1eqE_6nYP2tfQMssFg1Rf497l9K92bcTrFiHEIM8mps5Zgb2fVUvU8bBCGmhzePo5fZYAYzHmF12G9-uH2ScVTf3xNI1kqPq3r2WDswriZdvIBPtL6Il7Z7bSWj1_81bIGCNTBE9X3u4k06HTduSyPiAbaCpkI7mRPeOIbk4vKoUDUqZtL3KQMOa5s5hkaKm5DxGPaYCPoXJ0Q19SR8SR9bU4s5PIT02VhHjckhBCqh8ssNQ\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" /></div>\n<div style=\"text-align:center;\"><br>\n<br>\nTo stop receiving such mails <a href=\"https://track.pstmrk.it/3s/app.blogvault.net%2Fapi%2Fv3%2Funsubscribe%3Fdata%3DeyJ1c2VyX2dpZCI6IlJpd1NMUnNVWUM0Z1F5d2ZycEg0UE55QiIsImFjY291bnRfZ2lkIjoiZHhVcDRQSEpRamhoNjRYMUQ0WWh4VHhLIiwiYmxvZ19naWQiOm51bGwsImZlYXR1cmUiOiJURVNUSU5HIiwic2V2ZXJpdHkiOiJDUklUSUNBTCIsImNoYW5uZWwiOiJFTUFJTCIsInRpbWVzdGFtcCI6MTc1NzUzMzc4Mn0%3D%26sig%3D84960e80d65a77c7d21f09761580ed0b0502a1f57a1e87ff055a5bf5448ea825/h3Y/5vO-AQ/AQ/5eb39b7f-3b6a-43be-8444-d535dc023027/2/I3DCXJbWqw\">Unsubscribe</a></div>\n<img src=\"https://ea.pstmrk.it/open?m=v3_1.U-M20UulzrHYhc0Xo-J71w.E8wF3mVXgIfzH9ev_HV5ieaYtHUQ4R86VyS1gqAZzTicZxCrWU4hjKlqGvKd-0jx9Z8Fhk2_-2U4OYJqEMmXXn6AvHvb1swlI3PqyquVpISvOA-d1rJ5d9bwFx0xKIN3PfpjaLCDnapOwQwOJ_wOYgKkHNZowkhi_uTHfK-dVUCpY-zKDULlRvYPJIg5OABRybWbpC4jx_SwfhFW2bLnY0UBgZSrC0OSmbyfdUq53nS4sz8JnAuXnKuJerpxvrnbGWe-7vk7r4amYSZFT-JyvmlID9yo-u9B0UJw8trWQxfwvzTHODD1KwRdM3804K8Xq1nH_uVB2PFGBdJ0r68qcZgzHQNT4_rzGECMn-1eqE_6nYP2tfQMssFg1Rf497l9K92bcTrFiHEIM8mps5Zgb2fVUvU8bBCGmhzePo5fZYAYzHmF12G9-uH2ScVTf3xNI1kqPq3r2WDswriZdvIBPtL6Il7Z7bSWj1_81bIGCNTBE9X3u4k06HTduSyPiAbaCpkI7mRPeOIbk4vKoUDUqZtL3KQMOa5s5hkaKm5DxGPaYCPoXJ0Q19SR8SR9bU4s5PIT02VhHjckhBCqh8ssNQ\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 267326610,
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "createdBy": {
+                "id": 267326610,
+                "type": "customer",
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-10T19:49:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                }
+            }
+        }
+    ]
+}

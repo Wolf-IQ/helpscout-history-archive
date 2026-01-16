@@ -1,0 +1,189 @@
+{
+    "id": 3094647570,
+    "number": 171270,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Undeliverable: Re: 171269 (we're on it)",
+    "preview": "[https://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?version=b8d100a9-0a8b-8e6a-88e1-ef488fee0470] Your message to wordpress@sydneyhearingclinic.com.au couldn't be delivered. wordpres",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 802878979,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "postmaster@sydneyhearingclinic.com.au"
+    },
+    "createdAt": "2025-09-30T22:50:21Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-30T22:50:23Z",
+    "customerWaitingSince": {
+        "time": "2025-09-30T22:50:21Z",
+        "friendly": "Oct 1, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 802878979,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "postmaster@sydneyhearingclinic.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3094647570"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/802878979"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/802878979"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3094647570/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3094647570/171270"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9425018005,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-30T22:50:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9425017935,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "[https://products.office.com/en-us/CMSImages/Office365Logo_Orange.png?version=b8d100a9-0a8b-8e6a-88e1-ef488fee0470]\nYour message to wordpress@sydneyhearingclinic.com.au couldn't be delivered.\nwordpress wasn't found at sydneyhearingclinic.com.au.\nsupport         Office 365      wordpress\nAction Required                 Recipient\nUnknown To address\n\nHow to Fix It\nThe address may be misspelled or may not exist. Try one or more of the following:\n\n  *   Send the message again following these steps: In Outlook, open this non-delivery report (NDR) and choose Send Again from the Report ribbon. In Outlook on the web, select this NDR, then select the link \"To send this message again, click here.\" Then delete and retype the entire recipient address. If prompted with an Auto-Complete List suggestion don't select it. After typing the complete address, click Send.\n  *   Contact the recipient (by phone, for example) to check that the address exists and is correct.\n  *   The recipient may have set up email forwarding to an incorrect address. Ask them to check that any forwarding they've set up is working correctly.\n  *   Clear the recipient Auto-Complete List in Outlook or Outlook on the web by following the steps in this article: Fix email delivery issues for error code 5.1.10 in Office <a href=\"https://go.microsoft.com/fwlink/?LinkId=532972\">365</a>, and then send the message again. Retype the entire recipient address before selecting Send.\n\nIf the problem continues, forward this message to your email admin. If you're an email admin, refer to the More Info for Email Admins section below.\n\nWas this helpful? Send feedback to <a href=\"https://go.microsoft.com/fwlink/?LinkId=525921\">Microsoft</a>.\n________________________________\n\nMore Info for Email Admins\nStatus code: 550 5.1.10\n\nThis error occurs because the sender sent a message to an email address hosted by Office 365 but the address is incorrect or doesn't exist at the destination domain. The error is reported by the recipient domain's email server, but most often it must be fixed by the person who sent the message. If the steps in the How to Fix It section above don't fix the problem, and you're the email admin for the recipient, try one or more of the following:\n\nThe email address exists and is correct - Confirm that the recipient address exists, is correct, and is accepting messages.\n\nSynchronize your directories - If you have a hybrid environment and are using directory synchronization make sure the recipient's email address is synced correctly in both Office 365 and in your on-premises directory.\n\nErrant forwarding rule - Check for forwarding rules that aren't behaving as expected. Forwarding can be set up by an admin via mail flow rules or mailbox forwarding address settings, or by the recipient via the Inbox Rules feature.\n\nRecipient has a valid license - Make sure the recipient has an Office 365 license assigned to them. The recipient's email admin can use the Office 365 admin center to assign a license (Users &gt; Active Users &gt; select the recipient &gt; Assigned License &gt; Edit).\n\nMail flow settings and MX records are not correct - Misconfigured mail flow or MX record settings can cause this error. Check your Office 365 mail flow settings to make sure your domain and any mail flow connectors are set up correctly. Also, work with your domain registrar to make sure the MX records for your domain are configured correctly.\n\nFor more information and additional tips to fix this issue, see Fix email delivery issues for error code 5.1.10 in Office <a href=\"https://go.microsoft.com/fwlink/?LinkId=532972\">365</a>.\n\nOriginal Message Details\nCreated Date:   9/30/2025 10:50:00 PM\nSender Address: support@wolfiq.com.au\nRecipient Address:      wordpress@sydneyhearingclinic.com.au\nSubject:        Re: 171269 (we're on it)\n\nError Details\nError:  550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient wordpress@sydneyhearingclinic.com.au not found by SMTP address lookup\nMessage rejected by:    SY9P282MB5871.AUSP282.PROD.OUTLOOK.COM\n\nNotification Details\nSent by:        SY9P282MB5871.AUSP282.PROD.OUTLOOK.COM\n\nMessage Hops\nHOP     TIME (UTC)      FROM    TO      WITH    RELAY TIME\n1       9/30/2025\n10:50:00 PM     545145119934 named unknown      gmailapi.google.com     HTTPREST        *\n2       9/30/2025\n10:50:00 PM     545145119934 named unknown      gmailapi.google.com     HTTPREST        *\n3       9/30/2025\n10:50:03 PM             mail-oo1-xc2f.google.com        SMTP    3 sec\n4       9/30/2025\n10:50:03 PM     mail-oo1-xc2f.google.com        SY1PEPF000066C3.mail.protection.outlook.com     Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)   *\n5       9/30/2025\n10:50:04 PM     SY1PEPF000066C3.ausprd01.prod.outlook.com       SY5P282CA0129.outlook.office365.com     Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384)   1 sec\n6       9/30/2025\n10:50:05 PM     SY5P282CA0129.AUSP282.PROD.OUTLOOK.COM  SY9P282MB5871.AUSP282.PROD.OUTLOOK.COM  Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384)    1 sec\n\nOriginal Message Headers\n\nReceived: from SY5P282CA0129.AUSP282.PROD.OUTLOOK.COM (2603:10c6:10:209::11)\n by SY9P282MB5871.AUSP282.PROD.OUTLOOK.COM (2603:10c6:10:2d5::12) with\n Microsoft SMTP Server (version=TLS1_2,\n cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9160.18; Tue, 30 Sep\n 2025 22:50:05 +0000\nReceived: from SY1PEPF000066C3.ausprd01.prod.outlook.com\n (2603:10c6:10:209:cafe::54) by SY5P282CA0129.outlook.office365.com\n (2603:10c6:10:209::11) with Microsoft SMTP Server (version=TLS1_3,\n cipher=TLS_AES_256_GCM_SHA384) id 15.20.9182.14 via Frontend Transport; Tue,\n 30 Sep 2025 22:50:04 +0000\nAuthentication-Results: spf=permerror (sender IP is 2607:f8b0:4864:20::c2f)\n smtp.mailfrom=wolfiq.com.au; dkim=pass (signature was verified)\n header.d=wolfiq-com-au.20230601.gappssmtp.com;dmarc=fail action=none\n header.from=wolfiq.com.au;\nReceived-SPF: PermError (protection.outlook.com: domain of wolfiq.com.au used\n an invalid SPF mechanism)\nReceived: from mail-oo1-xc2f.google.com (2607:f8b0:4864:20::c2f) by\n SY1PEPF000066C3.mail.protection.outlook.com (2603:10c6:18::135) with\n Microsoft SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id\n 15.20.9160.9 via Frontend Transport; Tue, 30 Sep 2025 22:50:03 +0000\nReceived: by mail-oo1-xc2f.google.com with SMTP id 006d021491bc7-642c7071f61so1134562eaf.1\n        for &lt;wordpress@sydneyhearingclinic.com.au&gt;; Tue, 30 Sep 2025 15:50:03 -0700 (PDT)\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1759272601; x=1759877401; darn=sydneyhearingclinic.com.au;\n        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version\n         :from:from:to:cc:subject:date:message-id:reply-to;\n        bh=0C7RtmYmIla0QEWJ3EVK16J6qoMlEHDIGVparyqZ9t4=;\n        b=mkZnSajMZ1A2cNILAVqzGdQkCdHrJ6ww4g4dNokijkgktlUMZAqn4tZj6ueTqzc9iO\n         XtIhUa9Fjfr7b+2K5g40dVuzgJcU3UIUf9tAQO1TIRmbFT4pAUIPuUEdW2Wf/jT+F7xf\n         RnTgJ/avTWdAZ4i40Bw8o5KOI9gkuMH0Z/4499EFr+jgO2bj/hR/C/XPww5m5dJcKQfH\n         23X0nF5QeXWOVHRPVZtErRTEdpaf3vGXPbYS28nhAZ0FkNo3T6inr9QVfxyWX1m4SJuK\n         HKPy+vXilmuV+ytx3IQrjeVUPT1kay2sngjGzanuWNa+UPJGj9C/ZDDbbZZhsyhlKyrh\n         IcvA==\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\n        d=1e100.net; s=20230601; t=1759272601; x=1759877401;\n        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version\n         :from:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;\n        bh=0C7RtmYmIla0QEWJ3EVK16J6qoMlEHDIGVparyqZ9t4=;\n        b=Xx4eyDEAGenl9W9Q/p4GwOhpX+tvBU5K0OtlYjZ94509Iv6MGswyHYcHSE+qB9ODB5\n         iYj+M/D2G+8slGdb01RphmAHqnzjTkuuvbs7PpLKMaqzRNJEmpOjXJc3Cbea9OMKWuvc\n         CsjXBwI7uC69O4leViNdY7EtuZhQFTmNmRja3pDJ5WYuFggMjMWfa3yDbP6y6hYzuwoV\n         tG9m9rjD3PQuU/g8ycwvopzvJL2VQADfYp55/6I5GaonIARMDRv3PsVa0Mpwl/hEm8CE\n         Jm0/CUkkm+9irHT0i6jU3EVTG4VWxGdQVoupoKmKGs53OTci0bIimLtSjsQyQcbE3u5f\n         TXcg==\nX-Gm-Message-State: AOJu0YwqiTgGFwBkCVuJDyqBpHD4U3a9VSS5I/Q3b8tND9EJ0Dx/mqaz\n        IJRyhacDHQeHFquzJwkMdYdKffCR3odl8vcvBnACEk5wkmF0OUO8kHLTQWFhEVEmK2UhskMp9Zy\n        K0AmnXsylLtPHlh6JAJQV9n9XM7QD5ORvJl/JeupcKSUpCerJDLE2\nX-Gm-Gg: ASbGncvv4/RwTMyqIS/m16z49xYjGUW6KAx8jQc+vWqXyBKIUrSZq4okK3oNsS5D09b\n        pboLf0F0OYVDsQ7ACd9o3vb5JsSByipYmF0rJAtxXascmRmHFttlO7Q6HzL4fNxYFmQRUbtiam6\n        55mn1hmBPQ85VKwdHD+pCdiNbbNZeBaLMB6McvEZCj+Tcb8s2sHnUAV15/HPeKGzyfouUMMOahH\n        TQGBOR8WoHB/itORme/khN/qan4pww=\nX-Google-Smtp-Source: AGHT+IEs6mniR9o8ZC6WzGOkVONIlDE0tFPxJp35qo8wVuqLR2V5WbfvggStfcMMAGhuj80jak3q8FbdTGtEXtpWqU4=\nX-Received: by 2002:a05:6808:ec5:b0:43f:77d6:aec0 with SMTP id\n 5614622812f47-43fa43253abmr723541b6e.39.1759272600855; Tue, 30 Sep 2025\n 15:50:00 -0700 (PDT)\nReceived: from 545145119934 named unknown by gmailapi.google.com with\n HTTPREST; Tue, 30 Sep 2025 17:50:00 -0500\nReceived: from 545145119934 named unknown by gmailapi.google.com with\n HTTPREST; Tue, 30 Sep 2025 17:50:00 -0500\nFrom: Wolf IQ Support &lt;support@wolfiq.com.au&gt;\nMIME-Version: 1.0\nX-Report-Abuse: Please forward a copy of this message, including all headers,\n to abuse@helpscout.net\nX-Msg-Context: HS-2-158894-3094647309-9425017159\nX-Hs-State: 3\nX-Hs-Origin: hs-app-consumer-toolshigh-ondemand-5559986fd6-7stl7 [aaa43b68a3]\nX-Hs-Message-Id: reply-87172-3094647309-9425017159-1759272600-365448841@helpscout.net\nX-Hs-Cid: 87172\nIn-Reply-To: <ul><li>\nAuto-Submitted: auto-replied\nDate: Tue, 30 Sep 2025 17:50:00 -0500\nX-Gm-Features: AS18NWDeRZ9D3Ex32stS-kJzB4BcE1hSoEE94xM4-QC1zN67QKMPPbWNsqrMoVI\nMessage-ID: &lt;CAMLnpnEv4Z1CPa0we+q4zAc2UzMKCh3nwdT60ncPA8_CP_qCtg@mail.gmail.com&gt;\nSubject: Re: 171269 (we're on it)\nTo: Wordpress &lt;wordpress@sydneyhearingclinic.com.au&gt;\nContent-Type: multipart/alternative; boundary=\"0000000000006ffaea06400c920a\"\nReturn-Path: support@wolfiq.com.au\nX-EOPAttributedMessage: 0\nX-EOPTenantAttributedMessage: e1e2f7b5-7b71-4f85-8fca-de061bd1195e:0\nX-MS-PublicTrafficType: Email\nX-MS-TrafficTypeDiagnostic: SY1PEPF000066C3:EE_|SY9P282MB5871:EE_\nX-MS-Office365-Filtering-Correlation-Id: 5bfc0b00-d626-4e23-e014-08de0073b251\n\n\nReporting-MTA: dns;SY9P282MB5871.AUSP282.PROD.OUTLOOK.COM\nReceived-From-MTA: dns;mail-oo1-xc2f.google.com\nArrival-Date: Tue, 30 Sep 2025 22:50:05 +0000\n\nFinal-Recipient: rfc822;wordpress@sydneyhearingclinic.com.au\nAction: failed\nStatus: 5.1.10\nDiagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient wordpress@sydneyhearingclinic.com.au not found by SMTP address lookup\nX-Display-Name: Wordpress</li></ul>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 802878979,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "postmaster@sydneyhearingclinic.com.au"
+            },
+            "createdBy": {
+                "id": 802878979,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "postmaster@sydneyhearingclinic.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-30T22:50:21Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 848785217,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 8873,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3094647570/attachments/848785217"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3094647570/attachments/848785217/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/848785217/7cb933ed7c1c2ec4f47f6d09cad4302c226378d2/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/802878979"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/802878979"
+                }
+            }
+        }
+    ]
+}

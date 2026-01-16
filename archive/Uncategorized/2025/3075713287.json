@@ -1,0 +1,279 @@
+{
+    "id": 3075713287,
+    "number": 169347,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "BlogVault daily connection failed for https://seautoimports.com.au",
+    "preview": "Hello,    We were unable to connect to the Blogvault plugin on site - https://seautoimports.com.au.    Reason for Connection Failure: The website is currently being redirected to https://seautoimports",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "createdAt": "2025-09-15T16:45:51Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-21T10:55:53Z",
+    "customerWaitingSince": {
+        "time": "2025-09-15T16:45:51Z",
+        "friendly": "Sep 16, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 14587780,
+            "color": "#E52F28",
+            "tag": "urgent",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#FC5D7D"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#FFAFB1"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3075713287"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3075713287/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3075713287/169347"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9588774041,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Andy Crebar assigned to Anyone",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-21T10:55:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                }
+            }
+        },
+        {
+            "id": 9364482159,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Urgent Tickets assigned to Joel** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243775,
+                    "mailbox": 344468
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-15T16:45:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9364482034,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-15T16:45:52Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9364481954,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div id=\"ex-main-content\">Hello,<br>\n<br>\nWe were unable to connect to the Blogvault plugin on site - https://seautoimports.com.au.<br>\n<br>\n<strong>Reason for Connection Failure:</strong> The website is currently being redirected to https://seautoimports.com.au/cgi-sys/suspendedpage.cgi?77a470=46074.<br>\n<br>\n<strong>Immediate Steps To Take:</strong>\n<ol>\n<li><strong>Verify Plugin Status:</strong> Check if the plugin is active and up-to-date on your WordPress dashboard.</li>\n<li>To resolve the issue, please refer to this <a href=\"https://track.pstmrk.it/3s/blogvault.freshdesk.com%2Fa%2Fsolutions%2Farticles%2F25000030368/h3Y/Sg-AAQ/AQ/fa9b2a69-3e50-4c23-b666-b1bc548a44df/1/Q7caPFhOdE\">article</a>.</li>\n<li><strong>Retry Connection:</strong> Once you've addressed the issue, you can re-initiate a sync from your dashboard.</li>\n</ol>\n<strong>Need Assistance?</strong>\n<ul>\n<li>Dive into our <a href=\"https://track.pstmrk.it/3s/blogvault.freshdesk.com%2Fsupport%2Fsolutions%2Fcategories%2F25000018916%2Ffolders%2F25000033971/h3Y/Sg-AAQ/AQ/fa9b2a69-3e50-4c23-b666-b1bc548a44df/2/vNLBXfiNhy\">Connection Troubleshooting Guide</a> for step-by-step solutions.</li>\n<li>If you still have concerns, please drop us an email at support@blogvault.net.</li>\n</ul>\n<strong>Connection Details:</strong>\n<ul>\n<li><strong>Time of Failed Connection:</strong> September 15, 2025 01:53 PM +00:00 UTC</li>\n<li><strong>Last Successful Connection:</strong> September 14, 2025 12:00 AM +00:00</li>\n<li><strong>Next Scheduled Connection Attempt:</strong> September 16, 2025 01:51 PM +00:00 UTC</li>\n</ul>\n<br>\n<hr style=\"max-width:1100px;margin:0;\" />\n<br>\nThanks,<br>\nTeam BlogVault<br>\nhttps://blogvault.net</div>\n<div style=\"text-align:center;\"><br>\n<br>\nTo stop receiving such mails <a href=\"https://track.pstmrk.it/3s/app.blogvault.net%2Fapi%2Fv3%2Funsubscribe%3Fdata%3DeyJ1c2VyX2dpZCI6IlJpd1NMUnNVWUM0Z1F5d2ZycEg0UE55QiIsImFjY291bnRfZ2lkIjoiZHhVcDRQSEpRamhoNjRYMUQ0WWh4VHhLIiwiYmxvZ19naWQiOm51bGwsImZlYXR1cmUiOiJCQUNLVVBTIiwic2V2ZXJpdHkiOiJXQVJOSU5HIiwiY2hhbm5lbCI6IkVNQUlMIiwidGltZXN0YW1wIjoxNzU3OTU0NDkyfQ%3D%3D%26sig%3D70de09e6c17722df53b46bdc6c6b815b694bec86026f0d03a1268b55faea70e1/h3Y/Sg-AAQ/AQ/fa9b2a69-3e50-4c23-b666-b1bc548a44df/3/F0mylGLCJG\">Unsubscribe</a></div>\n<img src=\"https://ea.pstmrk.it/open?m=v3_1.EwIM0m36clT134ErAD6u1Q.wWXKzn4EPTDpllDfhEetc6F1xQ-d7-9AYDjrhlyHnQPx8rae0xZqmbZwEj7QWcYGtniae51HTYkIn_4BHWwJRlU-aJEbfiQejZOfJXQpKx-wGWxigpOKO3HiIGh_aA2YjXNpRTr2vD_U_RK7DqrSCZoBvh7J8lyX8wcYyoiUs-3q1P7yCqjsPNCY8fAWpqzmc0l7YUNMVIPUUpsjO3IJ0ClmJ3QYzGT4r8zq-Yt6fXQgUCxmCQgZsYMvZNDJVI0WcxP8beuXssL-X--Xjeq-9cqiKoe6UWdXEH5TuQ1WkVVh8ZJy2TiRza8LnyLPM12QL1ky4vA6Owi9XjJdVtGM0aZ9XyfiJe49NiGdgmymDvDUetwWLw3XGUH4_ZGrstbHdzsxFt7WQhMd6bvj8ZYttVOQBWxidPIWonKxzf-smoW6AFUIahFs4NZLNCELLF53T92cRJTBOnquEg9fZlaygFGI8Vj7D9Hpuo3wRDo_3FVBfQ4oTyPkzqtgAHAQYciQvfYKYECeVvlh7gjxW7F-So6N5WX_VoJ87rju-qvSi1g\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 267326610,
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "createdBy": {
+                "id": 267326610,
+                "type": "customer",
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-15T16:45:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                }
+            }
+        }
+    ]
+}

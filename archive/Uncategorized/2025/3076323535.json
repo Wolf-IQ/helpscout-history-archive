@@ -1,0 +1,133 @@
+{
+    "id": 3076323535,
+    "number": 169426,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[Acoufelt] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 498524684,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@acoufelt.com.au"
+    },
+    "createdAt": "2025-09-16T05:52:20Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-16T05:52:20Z",
+    "customerWaitingSince": {
+        "time": "2025-09-16T05:52:20Z",
+        "friendly": "Sep 16, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 498524684,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@acoufelt.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3076323535"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/498524684"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/498524684"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3076323535/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3076323535/169426"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9366366514,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WooCommerce.<br><br>First, visit your website (https://acoufelt.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://acoufelt.com.au/wp-admin/admin-ajax.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://acoufelt.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=2v3WIbVGceQNnGCIJzOui5&amp;rm_key=pkZQ3wrIq2TUMNxpkYjkTr<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.2<br>Active theme: Acoufelt (version 1.0.1)<br>Current plugin: WooCommerce (version 10.1.2)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 111 of the file /www/acoufeltau_185/public/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php. Error message: Uncaught Error: Call to a member function get_continents() on null in /www/acoufeltau_185/public/wp-content/plugins/woocommerce/includes/class-wc-shipping-zone.php:111<br>Stack trace:<br>#0 /www/acoufeltau_185/public/wp-content/plugins/woocommerce/includes/class-wc-shipping-zones.php(35): WC_Shipping_Zone-&gt;get_formatted_location()<br>#1 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/base-widget.php(76): WC_Shipping_Zones::get_zones()<br>#2 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/checkout.php(275): ElementorPro\\Modules\\Woocommerce\\Widgets\\Base_Widget-&gt;is_wc_feature_active('shipping')<br>#3 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): ElementorPro\\Modules\\Woocommerce\\Widgets\\Checkout-&gt;register_controls()<br>#4 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\\Controls_Stack-&gt;init_controls()<br>#5 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\\Widget_Base-&gt;init_controls()<br>#6 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\\Controls_Stack-&gt;get_stack()<br>#7 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/base/controls-stack.php(315): Elementor\\Widget_Base-&gt;get_stack()<br>#8 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(332): Elementor\\Controls_Stack-&gt;get_controls()<br>#9 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(296): Elementor\\Core\\Files\\CSS\\Post-&gt;render_element_global_styles(Object(ElementorPro\\Modules\\Woocommerce\\Widgets\\Checkout))<br>#10 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(226): Elementor\\Core\\Files\\CSS\\Post-&gt;render_styles(Object(ElementorPro\\Modules\\Woocommerce\\Widgets\\Checkout))<br>#11 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(318): Elementor\\Core\\Files\\CSS\\Post-&gt;add_controls_stack_style_rules(Object(Elementor\\Element_Column), Array, Array, Array, Array)<br>#12 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(297): Elementor\\Core\\Files\\CSS\\Post-&gt;render_element_styles(Object(Elementor\\Element_Column))<br>#13 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(226): Elementor\\Core\\Files\\CSS\\Post-&gt;render_styles(Object(Elementor\\Element_Column))<br>#14 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/base.php(848): Elementor\\Core\\Files\\CSS\\Post-&gt;add_controls_stack_style_rules(Object(Elementor\\Element_Section), Array, Array, Array, Array, Array)<br>#15 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/base.php(561): Elementor\\Core\\Files\\CSS\\Base-&gt;add_repeater_control_style_rules(Object(Elementor\\Element_Section), Array, Array, Array, Array)<br>#16 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(222): Elementor\\Core\\Files\\CSS\\Base-&gt;add_controls_stack_style_rules(Object(Elementor\\Element_Section), Array, Array, Array, Array, Array)<br>#17 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(318): Elementor\\Core\\Files\\CSS\\Post-&gt;add_controls_stack_style_rules(Object(Elementor\\Element_Section), Array, Array, Array, Array)<br>#18 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(297): Elementor\\Core\\Files\\CSS\\Post-&gt;render_element_styles(Object(Elementor\\Element_Section))<br>#19 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/post.php(178): Elementor\\Core\\Files\\CSS\\Post-&gt;render_styles(Object(Elementor\\Element_Section))<br>#20 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/base.php(687): Elementor\\Core\\Files\\CSS\\Post-&gt;render_css()<br>#21 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/base.php(180): Elementor\\Core\\Files\\CSS\\Base-&gt;parse_content()<br>#22 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/css/base.php(133): Elementor\\Core\\Files\\Base-&gt;update_file()<br>#23 /www/acoufeltau_185/public/wp-content/plugins/jet-popup/includes/elementor/manager.php(110): Elementor\\Core\\Files\\CSS\\Base-&gt;update()<br>#24 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): Jet_Popup\\Elementor-&gt;elementor_clear_cache('')<br>#25 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#26 /www/acoufeltau_185/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#27 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/files/manager.php(130): do_action('elementor/core/...')<br>#28 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(82): Elementor\\Core\\Files\\Manager-&gt;clear_cache()<br>#29 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(163): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;clear_cache()<br>#30 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(234): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;start_run()<br>#31 /www/acoufeltau_185/public/wp-content/plugins/elementor/core/base/module.php(86): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;__construct()<br>#32 /www/acoufeltau_185/public/wp-content/plugins/elementor-pro/plugin.php(354): Elementor\\Core\\Base\\Module::instance()<br>#33 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): ElementorPro\\Plugin-&gt;on_elementor_init('')<br>#34 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#35 /www/acoufeltau_185/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#36 /www/acoufeltau_185/public/wp-content/plugins/elementor/includes/plugin.php(638): do_action('elementor/init')<br>#37 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(324): Elementor\\Plugin-&gt;init('')<br>#38 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#39 /www/acoufeltau_185/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#40 /www/acoufeltau_185/public/wp-settings.php(727): do_action('init')<br>#41 /www/acoufeltau_185/public/wp-config.php(90): require_once('/www/acoufeltau...')<br>#42 /www/acoufeltau_185/public/wp-load.php(50): require_once('/www/acoufeltau...')<br>#43 /www/acoufeltau_185/public/wp-admin/admin-ajax.php(22): require_once('/www/acoufeltau...')<br>#44 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 498524684,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@acoufelt.com.au"
+            },
+            "createdBy": {
+                "id": 498524684,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@acoufelt.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-16T05:52:20Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/498524684"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/498524684"
+                }
+            }
+        }
+    ]
+}

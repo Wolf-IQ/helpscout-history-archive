@@ -1,0 +1,168 @@
+{
+    "id": 3060718767,
+    "number": 168001,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Welcome to MailerSend SMTP!",
+    "preview": "This email has been sent by MailerSend SMTP relay server.",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 820428024,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@mayohardware.com.au"
+    },
+    "createdAt": "2025-09-04T02:36:39Z",
+    "closedBy": 854750,
+    "closedByUser": {
+        "id": 854750,
+        "type": "user",
+        "first": "Allie",
+        "last": "Borcena",
+        "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+        "email": "allie@wolfiq.com.au"
+    },
+    "closedAt": "2025-09-04T02:41:16Z",
+    "userUpdatedAt": "2025-09-04T02:41:16Z",
+    "customerWaitingSince": {
+        "time": "2025-09-04T02:41:16Z",
+        "friendly": "Sep 4, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 820428024,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@mayohardware.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3060718767"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/820428024"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/820428024"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/854750"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3060718767/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3060718767/168001"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9319255369,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Allie Borcena marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-04T02:41:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                }
+            }
+        },
+        {
+            "id": 9319247865,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "This email has been sent by MailerSend SMTP relay server.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 820428024,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@mayohardware.com.au"
+            },
+            "createdBy": {
+                "id": 820428024,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@mayohardware.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-04T02:36:39Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/820428024"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/820428024"
+                }
+            }
+        }
+    ]
+}

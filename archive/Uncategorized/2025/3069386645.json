@@ -1,0 +1,279 @@
+{
+    "id": 3069386645,
+    "number": 168847,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "BlogVault daily connection failed for https://bedrockfs.com.au",
+    "preview": "Hello,    We were unable to connect to the Blogvault plugin on site - https://bedrockfs.com.au.    Reason for Connection Failure: The website is currently password protected.    Immediate Steps To Tak",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "createdAt": "2025-09-10T15:54:51Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-21T10:55:53Z",
+    "customerWaitingSince": {
+        "time": "2025-09-10T15:54:51Z",
+        "friendly": "Sep 11, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 14587780,
+            "color": "#E52F28",
+            "tag": "urgent",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#FC5D7D"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#FFAFB1"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 267326610,
+        "type": "customer",
+        "first": "support@blogvault.net",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "support@blogvault.net"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3069386645"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/267326610"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3069386645/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3069386645/168847"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9588774043,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Andy Crebar assigned to Anyone",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-21T10:55:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                }
+            }
+        },
+        {
+            "id": 9345450207,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Urgent Tickets assigned to Joel** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243775,
+                    "mailbox": 344468
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-10T15:54:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9345450046,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-10T15:54:52Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9345449878,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div id=\"ex-main-content\">Hello,<br>\n<br>\nWe were unable to connect to the Blogvault plugin on site - https://bedrockfs.com.au.<br>\n<br>\n<strong>Reason for Connection Failure:</strong> The website is currently password protected.<br>\n<br>\n<strong>Immediate Steps To Take:</strong>\n<ol>\n<li><strong>Verify Plugin Status:</strong> Check if the plugin is active and up-to-date on your WordPress dashboard.</li>\n<li>To resolve the issue, please refer to this <a href=\"https://track.pstmrk.it/3s/blogvault.freshdesk.com%2Fa%2Fsolutions%2Farticles%2F25000030367/h3Y/9-K-AQ/AQ/cbd48713-f2fc-43bb-9a83-fae010f592f7/1/qYHk78GTd2\">article</a>.</li>\n<li><strong>Retry Connection:</strong> Once you've addressed the issue, you can re-initiate a sync from your dashboard.</li>\n</ol>\n<strong>Need Assistance?</strong>\n<ul>\n<li>Dive into our <a href=\"https://track.pstmrk.it/3s/blogvault.freshdesk.com%2Fsupport%2Fsolutions%2Fcategories%2F25000018916%2Ffolders%2F25000033971/h3Y/9-K-AQ/AQ/cbd48713-f2fc-43bb-9a83-fae010f592f7/2/4lsLZWrx_v\">Connection Troubleshooting Guide</a> for step-by-step solutions.</li>\n<li>If you still have concerns, please drop us an email at support@blogvault.net.</li>\n</ul>\n<strong>Connection Details:</strong>\n<ul>\n<li><strong>Time of Failed Connection:</strong> September 10, 2025 02:36 AM +00:00 UTC</li>\n<li><strong>Last Successful Connection:</strong> September 09, 2025 12:00 AM +00:00</li>\n<li><strong>Next Scheduled Connection Attempt:</strong> September 11, 2025 02:36 AM +00:00 UTC</li>\n</ul>\n<br>\n<hr style=\"max-width:1100px;margin:0;\" />\n<strong>Other Disconnected Sites:</strong><br>\n<br>\n<table width=\"800\" style=\"font-family:Arial, Helvetica, sans-serif;font-size:14px;border:1px solid #AAA;border-collapse:collapse;\">\n<thead>\n<tr style=\"font-weight:bold;\">\n<th style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:8px;\"><strong>Sites</strong></th>\n<th style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:8px;\"><strong>Last Successful Connection At</strong></th>\n<th style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:8px;\"><strong>Issue Faced</strong></th>\n<th style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:8px;\"><strong>Next Connection Retry At</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:6px;\">https://www.ladieslair.com.au</td>\n<td style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:6px;\">September 08, 2025 12:00 AM +00:00 UTC</td>\n<td style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:6px;\"><a href=\"https://track.pstmrk.it/3s/blogvault.freshdesk.com%2Fa%2Fsolutions%2Farticles%2F25000030367/h3Y/9-K-AQ/AQ/cbd48713-f2fc-43bb-9a83-fae010f592f7/1/qYHk78GTd2\">HTTP Auth Required</a></td>\n<td style=\"border:1px solid #AAA;border-collapse:collapse;text-align:center;padding:6px;\">September 11, 2025 11:09 AM +00:00 UTC</td>\n</tr>\n</tbody>\n</table>\n<br>\n[Note: Please address the connection issues for these <a href=\"https://track.pstmrk.it/3s/app.blogvault.net%2Fapp%2Fsites%2F%3Ffilter%3D100/h3Y/9-K-AQ/AQ/cbd48713-f2fc-43bb-9a83-fae010f592f7/3/CrydOmXHCw\">sites</a> as well.]<br>\n<hr style=\"max-width:1100px;margin:0;\" />\n<br>\nThanks,<br>\nTeam BlogVault<br>\nhttps://blogvault.net</div>\n<div style=\"text-align:center;\"><br>\n<br>\nTo stop receiving such mails <a href=\"https://track.pstmrk.it/3s/app.blogvault.net%2Fapi%2Fv3%2Funsubscribe%3Fdata%3DeyJ1c2VyX2dpZCI6IlJpd1NMUnNVWUM0Z1F5d2ZycEg0UE55QiIsImFjY291bnRfZ2lkIjoiZHhVcDRQSEpRamhoNjRYMUQ0WWh4VHhLIiwiYmxvZ19naWQiOm51bGwsImZlYXR1cmUiOiJCQUNLVVBTIiwic2V2ZXJpdHkiOiJXQVJOSU5HIiwiY2hhbm5lbCI6IkVNQUlMIiwidGltZXN0YW1wIjoxNzU3NTE5NDM4fQ%3D%3D%26sig%3Dbefb13f04840f560aaa1caebe984227372c63f4729ba53fdb3c5a80a110aa315/h3Y/9-K-AQ/AQ/cbd48713-f2fc-43bb-9a83-fae010f592f7/4/yAo06NxZ8i\">Unsubscribe</a></div>\n<img src=\"https://ea.pstmrk.it/open?m=v3_1.MeiVFQc-6s7K9euUUnkrgA.YKD7cuoUlbzBHrpSa4hdxM0ZiM87owkfrjqyQu4t36y4g9IDEVqntFX39DOGyPPuo93fieMdn9QjKK1dEdeLKxlv9rqS_kCcVXZ2may3XfFKzoQ7z_1tEpfc0G0-bBwq3IVzDxnqbVWCExeXx4H-4s1OaAHuaD7sp24073dedOWR1hss88Us3TT1y37_-EJljUXhOEnYlVkWyt_Ch_jiVJCmY4EUWH_ItNg6Xiz-0pVnXh_uIbJgwYJndNQ69cV4hPYtCC1vy_rE6K5fhPEXTbVX4_QdT2qxHa7vhZlziKGyEsLdFclFstKgEsvj30Z3PraF5iJjSO5NuSUc5xmWWY9_BwKf0vxJWBwwRbuGLd8OGHasaKEYHjhD-Krd-elM7uhrwKZuSiRz3mfMlf4zDs7DuQ1AG61UBSeJeqtYqp14WsVF-AR_lSukqk010sKs2vkyoxY-7gM4dGBrmVK5f1yfybGdWr06Kb0BPL60QuoPRvuMmAwgdN4bvZtAlg313yr4u7W4fmRzlYFqTj6fdm9iZKy00vAEEQrVe017E1xo2RHQ0vcX0nSxJFgjymXs\" width=\"1\" height=\"1\" border=\"0\" alt=\"\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 267326610,
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "createdBy": {
+                "id": 267326610,
+                "type": "customer",
+                "first": "support@blogvault.net",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "support@blogvault.net"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-10T15:54:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/267326610"
+                }
+            }
+        }
+    ]
+}

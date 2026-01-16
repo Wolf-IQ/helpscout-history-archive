@@ -1,0 +1,209 @@
+{
+    "id": 3084051713,
+    "number": 170277,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@waxworks.wolfiq.cloud. See the technical details below.  Learn more here: https://support.google.com/mail/answer/7",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-09-22T14:42:16Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-09-22T14:42:30Z",
+    "customerWaitingSince": {
+        "time": "2025-09-22T14:42:16Z",
+        "friendly": "Sep 23, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3084051713"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3084051713/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3084051713/170277"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9390083091,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-22T14:42:30Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9390082160,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@waxworks.wolfiq.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[waxworks.wolfiq.cloud 2606:4700:7::a29f:872a: timed out]<br>[waxworks.wolfiq.cloud 2606:4700:7::a29f:862a: timed out]<br>[waxworks.wolfiq.cloud 162.159.134.42: timed out]<br>[waxworks.wolfiq.cloud 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 19 Sep 2025 02:08:27 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGVSnMAPC+SURv+2hUW9njyRqY3_UGr-7RtjJUyVdS=Eg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@waxworks.wolfiq.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [waxworks.wolfiq.cloud 2606:4700:7::a29f:872a: timed out]<br> [waxworks.wolfiq.cloud 2606:4700:7::a29f:862a: timed out]<br> [waxworks.wolfiq.cloud 162.159.134.42: timed out]<br> [waxworks.wolfiq.cloud 162.159.135.42: timed out]<br>Last-Attempt-Date: Mon, 22 Sep 2025 07:41:42 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-09-22T14:42:16Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 842729692,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3084051713/attachments/842729692"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3084051713/attachments/842729692/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/842729692/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 842729831,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7030,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3084051713/attachments/842729831"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3084051713/attachments/842729831/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/842729831/29cb529fc7ed8923ce125fbbe5c236b89e1d80c0/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
