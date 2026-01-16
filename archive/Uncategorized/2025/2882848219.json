@@ -1,0 +1,211 @@
+{
+    "id": 2882848219,
+    "number": 148518,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@neurologicalalliance.org.au because the address couldn't be found, or is unable to receive mail.    The response from the remote ser",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-03-21T02:04:38Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-03-21T02:04:39Z",
+    "userUpdatedAt": "2025-03-21T02:04:38Z",
+    "customerWaitingSince": {
+        "time": "2025-03-21T02:04:39Z",
+        "friendly": "Mar 21, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2882848219"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2882848219/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2882848219/148518"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8747981812,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-03-21T02:04:39Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8747981806,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@neurologicalalliance.org.au because the address couldn't be found, or is unable to receive mail.<br><br><br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. [SY2PEPF00004FF2.ausprd01.prod.outlook.com 2025-03-21T02:04:29.861Z 08DD6633A29613D9]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 20 Mar 2025 19:04:26 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnE_jZP1xshFSkFEnZFYD1QLT8jAOhOydwchPNoXBn7GSA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@neurologicalalliance.org.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; neurologicalalliance-org-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::2, the server for the domain neurologicalalliance.org.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. [SY2PEPF00004FF2.ausprd01.prod.outlook.com 2025-03-21T02:04:29.861Z 08DD6633A29613D9]<br>Last-Attempt-Date: Thu, 20 Mar 2025 19:04:29 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-03-21T02:04:38Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 773616323,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882848219/attachments/773616323"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882848219/attachments/773616323/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/773616323/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 773616324,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 5165,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882848219/attachments/773616324"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882848219/attachments/773616324/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/773616324/fa4dedb697c4fba81f80009005c4863ad7f6ef5b/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "id": 2873921306,
+    "number": 147904,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@ludahus.com.au because the address couldn't be found, or is unable to receive mail.    The response from the remote server was: 550 ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-03-12T01:20:49Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-03-12T01:20:50Z",
+    "userUpdatedAt": "2025-03-12T01:20:49Z",
+    "customerWaitingSince": {
+        "time": "2025-03-12T01:20:50Z",
+        "friendly": "Mar 12, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2873921306"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2873921306/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2873921306/147904"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8717045482,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-03-12T01:20:50Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8717045471,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@ludahus.com.au because the address couldn't be found, or is unable to receive mail.<br><br><br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. [SY3PEPF0000A725.ausprd01.prod.outlook.com 2025-03-12T01:20:41.165Z 08DD5F4E252EEF21]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 11 Mar 2025 18:20:27 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGgXg=0rCTpCSY7v+J78Zt9DfuRwi0hsK9frYryA_y_2g@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@ludahus.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; ludahus-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::1, the server for the domain ludahus.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. [SY3PEPF0000A725.ausprd01.prod.outlook.com 2025-03-12T01:20:41.165Z 08DD5F4E252EEF21]<br>Last-Attempt-Date: Tue, 11 Mar 2025 18:20:41 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-03-12T01:20:49Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 770417149,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2873921306/attachments/770417149"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2873921306/attachments/770417149/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/770417149/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 770417150,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 5071,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2873921306/attachments/770417150"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2873921306/attachments/770417150/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/770417150/f49ece7a62574fb87e9b0fa2ca49cf07ffb2a89b/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

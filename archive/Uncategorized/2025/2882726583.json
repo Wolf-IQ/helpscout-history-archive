@@ -1,0 +1,211 @@
+{
+    "id": 2882726583,
+    "number": 148492,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@bendigobrokers.com.au because the address couldn't be found, or is unable to receive mail.    The response from the remote server wa",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-03-20T22:25:45Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-03-20T22:25:46Z",
+    "userUpdatedAt": "2025-03-20T22:25:45Z",
+    "customerWaitingSince": {
+        "time": "2025-03-20T22:25:46Z",
+        "friendly": "Mar 21, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2882726583"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2882726583/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2882726583/148492"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8747607855,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-03-20T22:25:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8747607818,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@bendigobrokers.com.au because the address couldn't be found, or is unable to receive mail.<br><br><br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. [ML1PEPF0001130A.ausprd01.prod.outlook.com 2025-03-20T22:25:36.442Z 08DD641CA9696B55]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 20 Mar 2025 15:25:33 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnFDF8LexDDX6Jc=ovCLzTxmNqLGb800RWH3rPgpj64SKA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@bendigobrokers.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; bendigobrokers-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc33::1, the server for the domain bendigobrokers.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. [ML1PEPF0001130A.ausprd01.prod.outlook.com 2025-03-20T22:25:36.442Z 08DD641CA9696B55]<br>Last-Attempt-Date: Thu, 20 Mar 2025 15:25:36 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-03-20T22:25:45Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 773583309,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882726583/attachments/773583309"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882726583/attachments/773583309/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/773583309/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 773583311,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 5122,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882726583/attachments/773583311"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2882726583/attachments/773583311/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/773583311/d609defd784642dbe9588cff78f64805b0d30d26/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
