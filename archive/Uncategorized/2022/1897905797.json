@@ -1,0 +1,191 @@
+{
+    "id": 1897905797,
+    "number": 23443,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Undeliverable: Re: [METS] Password Changed",
+    "preview": "Delivery has failed to these recipients or groups:  Wordpress (wordpress@mets.edu.au) The email address you entered couldn't be found. Please check the recipient's email address and try to resend the ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 530297998,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "postmaster@dsa.org.au"
+    },
+    "createdAt": "2022-05-26T00:40:56Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-05-26T00:52:04Z",
+    "userUpdatedAt": "2022-05-26T00:52:04Z",
+    "customerWaitingSince": {
+        "time": "2022-05-26T00:52:04Z",
+        "friendly": "May 26, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 530297998,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "postmaster@dsa.org.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1897905797"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/530297998"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/530297998"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1897905797/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1897905797/23443"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5612253210,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-05-26T00:52:04Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 5612230618,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Delivery has failed to these recipients or groups:<br><br>Wordpress (wordpress@mets.edu.au)&lt;mailto:wordpress@mets.edu.au&gt;<br>The email address you entered couldn't be found. Please check the recipient's email address and try to resend the message. If the problem continues, please contact your email admin.<br><br><br><br><br><br><br><br><br>Diagnostic information for administrators:<br><br>Generating server: dsa-exch16.DSA.local<br><br>wordpress@mets.edu.au<br>Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup'<br><br>Original message headers:<br><br>Received: from dsa-exch16.DSA.local (172.28.180.33) by dsa-exch16.DSA.local<br> (172.28.180.33) with Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2176.2; Thu, 26 May<br> 2022 10:40:46 +1000<br>Received: from AUS01-SY4-obe.outbound.protection.outlook.com (104.47.71.172)<br> by dsa-exch16.DSA.local (172.28.180.33) with Microsoft SMTP Server<br> (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2176.2<br> via Frontend Transport; Thu, 26 May 2022 10:40:46 +1000<br>Received: from SY6PR01CA0010.ausprd01.prod.outlook.com (2603:10c6:10:e8::15)<br> by SYBP282MB0395.AUSP282.PROD.OUTLOOK.COM (2603:10c6:10:63::15) with<br> Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5273.14; Thu, 26 May<br> 2022 00:40:37 +0000<br>Received: from SY4AUS01FT006.eop-AUS01.prod.protection.outlook.com<br> (2603:10c6:10:e8:cafe::c8) by SY6PR01CA0010.outlook.office365.com<br> (2603:10c6:10:e8::15) with Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13 via Frontend<br> Transport; Thu, 26 May 2022 00:40:37 +0000<br>Authentication-Results: spf=none (sender IP is 209.85.210.170)<br> smtp.mailfrom=wpperk.com; dkim=pass (signature was verified)<br> header.d=wpperk-com.20210112.gappssmtp.com;dmarc=fail action=none<br> header.from=wpperk.com;compauth=pass reason=106<br>Received-SPF: None (protection.outlook.com: wpperk.com does not designate<br> permitted sender hosts)<br>Received: from mail-pf1-f170.google.com (209.85.210.170) by<br> SY4AUS01FT006.mail.protection.outlook.com (10.114.156.122) with Microsoft<br> SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id<br> 15.20.5293.13 via Frontend Transport; Thu, 26 May 2022 00:40:36 +0000<br>Received: by mail-pf1-f170.google.com with SMTP id 202so440448pfu.0<br>        for &lt;wordpress@mets.edu.au&gt;; Wed, 25 May 2022 17:40:36 -0700 (PDT)<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wpperk-com.20210112.gappssmtp.com; s=20210112;<br>        h=from:mime-version:in-reply-to:auto-submitted:date:message-id<br>         :subject:to;<br>        bh=z+C9lP+CpwqibZk6UlB8DYMpBp/Uw2gol61/fcOfUyk=;<br>        b=bRuIT/EgADZPIFPx00IqklxNNZs4XrM0YOxwHaJK8rQYK07nkA23ojRxefEMcl5zbU<br>         FAfa03X/t/Jzu7YgnfS9m2BmaGZ4UVUZPw6KHHzhNWSC5gnRH/JfUadxcgrqoFlDIa1d<br>         jD78iMEEI65POoRvT2PG1VZvovHQVI8p8Z7PYQ+OHFF3k6kqAQ+3RewyItJmxZah1LA9<br>         c7uCdPNGskR6xnes3tQ6vTWUJh9C2m3EPRLj7vmDzPUrpkR9UiOJZiNOyk2LF5oPCakp<br>         681onf4M0JtT1bxItuHpqw3GgnhSawDuiFf09KIOfuysdYoWrcSr1lwAAOi+kG2/UVfQ<br>         Z1RA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20210112;<br>        h=x-gm-message-state:from:mime-version:in-reply-to:auto-submitted<br>         :date:message-id:subject:to;<br>        bh=z+C9lP+CpwqibZk6UlB8DYMpBp/Uw2gol61/fcOfUyk=;<br>        b=FGK8KHsNrU9pfAT3nkADlXmjijz/dUxFP9dBQU2TBjwPI0imJIVALdVekRL9WqKGmB<br>         Nq5+1o3kWkgxeLPD4TniWPSwSux1Ea6brRToLxt7ztUlhkmZYbqWRMKm6WMf2zHBTAnp<br>         wJnTqTaHAeeXSQ/jDwKbvt6mkSyhPBXarP1yz3U7pyWm2/clfXf46eXaBjm6aBVe2uaN<br>         t7QuClTO2N0Y70Rn97uKBG0CTwrrgx+nKjjp4OAb+HozO2XjJBseg+AM/dgvuh2LuiAk<br>         icDJbfUmZ6upycBcpOBOqxag3plIzpPmu16oZLrBAoPeFHYTGniR1yfnMYgsgLXc87RB<br>         Ei9g==<br>X-Gm-Message-State: AOAM532dLK2CbQbKFJ5NMIpQ/Mbhg4sMgeRMjJObB5H2Gn7n4p24rSAM<br>        y3YK6Nd/HN1PBZzo+2skck/uxzEXRJTXYueCgfrFs7bGvmo=<br>X-Google-Smtp-Source: ABdhPJwfUGBqm5/auh0+39+J4t2Mclo0Q9Jbr6krrerfmNnxd/x5cuJbOTs4pERutxQe7PEgsyghv8r4bDzF3Vb1M/I=<br>X-Received: by 2002:a63:5610:0:b0:3f2:7e19:1697 with SMTP id<br> k16-20020a635610000000b003f27e191697mr30197099pgb.74.1653525634589; Wed, 25<br> May 2022 17:40:34 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 26 May 2022 00:40:33 +0000<br>From: &lt;support@wpperk.com&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-1897905495-5612229750<br>X-Hs-Origin: pconsumer-01a85372434e55e2c [2bb3d3da9f]<br>X-Hs-Message-Id: reply-87172-1897905495-5612229750-1653525633-1358800028@helpscout.net<br>In-Reply-To: &lt;fY1WAuHMcU7ACQxhrnJZXvmL5f3MALtlQYoec7E@mets.edu.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 26 May 2022 00:40:33 +0000<br>Message-ID: &lt;CAK7D+dZO4hhrf+rVMDnTpzbdA9S7okEFqzQNfCM61qtKpBt8cg@mail.gmail.com&gt;<br>Subject: Re: [METS] Password Changed<br>To: Wordpress &lt;wordpress@mets.edu.au&gt;<br>Content-Type: multipart/alternative; boundary=\"00000000000013ba3505dfdf70a8\"<br>Return-Path: support@wpperk.com<br>X-EOPAttributedMessage: 0<br>X-EOPTenantAttributedMessage: 6045f719-c4ba-4186-8eb5-e7b9a051455d:0<br>X-MS-PublicTrafficType: Email<br>X-MS-Office365-Filtering-Correlation-Id: d351e98b-bef5-43d1-f469-08da3eb05a08<br>X-MS-TrafficTypeDiagnostic: SYBP282MB0395:EE_<br>X-MS-Exchange-AtpMessageProperties: SA|SL<br>X-Microsoft-Antispam: BCL:0;<br>X-Microsoft-Antispam-Message-Info: =?utf-8?B?aTVtbnVmbGJoWkkyZ1hNaDI2Skl0SmZ0TFIxZEpVUENvb1RZTE9XOFJvano0?=<br> =?utf-8?B?WjdTVzhyQlVzMDFUMFAyNVpKeEFlNHBPMSs5SlZacXhyNUNvSTRJbE9WWlJZ?=<br> =?utf-8?B?QzRwRWkwdkU2QnFjUWRqVFJ0bUNZWlJJelVyZTNnQ3RWMllKTmJ0Q1Z0U0lC?=<br> =?utf-8?B?UXlONExjTUthOEtuWEtUN2dPTUE5QzJkRG5VSUl4bGFNQnRWOFFUeHpRYXoz?=<br> =?utf-8?B?QkxYWUhHbk5TMlZzTEM5SXM2WUg1YWxmcVFjUjhLN2x6OHRhTStGdkJjSXZE?=<br> =?utf-8?B?eFJrR2kvYWp1VUpBV2RFQnpLTHVyNzZvSjJkbVdtT2UyUHhLWTB5NHN3amZm?=<br> =?utf-8?B?T3Z6dEMyN1Y5c1FPeXJDSXBvZjJHditnSTB6aDVHbHdXZlZiYTNGWEg4dXZ0?=<br> =?utf-8?B?SHJ1N2g2cTYzWHBmNmFZR09mY3FmU2pETTlnSWlXRkU4UnlDRWx3bzlFc1VG?=<br> =?utf-8?B?cElFTUlyd2ZLUTR2cWJGc2xsbC9MOHByejV5OWpkcEc3MmpmMnZxYkYrQWE3?=<br> =?utf-8?B?OFhiNFhUWHY4MWRMbDF3NzExSGtJMXI4N1ZjMzZMMjMxTTNBTWVUbEViVDlG?=<br> =?utf-8?B?STBDU1ZqWkZwaG04c0ZtZng1dE11TUZ6dmNiVmVGOEsyTzI0Y0pZa1JVSTBz?=<br> =?utf-8?B?emdUUG8xdTljSGpLUXBEcXdXK1BJTWwwTmtJTjZMQVRUeU5WWWczVUswR3Vy?=<br> =?utf-8?B?NnZ5NzFmYXpwc3RGYWdEUVVHMkE2QkNXRDVkb3ZydURnS0RVS1ZVQUdxWm9M?=<br> =?utf-8?B?dHpzRzVuZUV5dXZaZG5VU0xmWFpRWmpqTUxnQk4vVUMyNEhjRnB1ZVNsOWVL?=<br> =?utf-8?B?aVY3NEpXR1BUcWwyOVFZWk50RDJ1cGJ1OEV3eWQ1U0pWRHNmVHFtUWR2cXdU?=<br> =?utf-8?B?M0hTUmx6Z25wcldSanNXSWNVdWNJNkFST1JuZjNOWEQwajVVYTJ3Wk9JL1Jp?=<br> =?utf-8?B?T2hTbVIxczdRVUI4UzFsaGpKaE4xRVFFTzhITnpNdTNSMGt2VEl2bW05NEVI?=<br> =?utf-8?B?b1JmdUdOdS91TWhsempwVGdtTXpob2pOdTJFVnlCcTVlNkZVZjU1MG1kN2dL?=<br> =?utf-8?B?NzBGZ0svR3ROT0J3WTJUNGhIK3k5VWFIMXV0Z2d2aE9BMkRZM09TNWJyNzBS?=<br> =?utf-8?B?ajlqUEpVL2NEZWVGcWxqclZsbXNBK3UvZkRYVHVIeVZIYUI2THhZOEVrQnNF?=<br> =?utf-8?B?RExVQ1cvWnUvYmtyT0duVW95RFIvZXdsUTk2amZlWTN4RFgrT3VzRnlLSEw5?=<br> =?utf-8?B?UDhPdWZ0Q0RiMEdwWXRSZFhJWmNxSkVkOXRVQVJsd1dmQ3B5MzlsSWVVMVBx?=<br> =?utf-8?B?RkZnMThwWCtubEd2MGdodmwzQlo0ZElVaXJoTkhRRzlraVpOQmVXeEdhZ29Q?=<br> =?utf-8?B?WW9CT1dwSjU0RE81UU14d2x3Qy9CdlpFeElzd2tkY21ONkxnR3gzTjdnUHFx?=<br> =?utf-8?B?WG9jemIva0syeldLa0JKNmNERU1MR1VrSEtZN3JRVXdhekFRQzExSUpDS2Ev?=<br> =?utf-8?B?aFNJNk1Lck1GV29KTWRzZVV2YmNqZWxZODNWUlRzdkZJSFhGMDJOVlpMNHcw?=<br> =?utf-8?B?dmUxRUdVWU9HUkNaZUxtcXNlVzVzRzZ5ZjB5eERLOVlYKzY0Vm8vT3pFQnNy?=<br> =?utf-8?B?UWdMUW1xUVFiVVNDa1ptbHBab2hTQi9vZmdSRHVqRS9udnFHajNFL0VoS29i?=<br> =?utf-8?B?eDFjZGs2SXM5SG9RaUhkd1RVUXhLUld1VHlISkpmNytEekR5TkwxbDhOMS8r?=<br> =?utf-8?B?akdENjVYcnViSktyZEFLMTVuMEtidVA5ZzlDQm9jdUxIaW9kamt3bXpPeWov?=<br> =?utf-8?B?MnVSSkZQNS85dkUyWkFOOUpzakZBdDEwTU9Cc1BadEpyNmx5VTlGbVZNS3BO?=<br> =?utf-8?B?S3NybkJVUU1wektIQUFMS3pkWVZIQUxKTVhDV1VEM1VZZnRQaThvSzJ4Y0dV?=<br> =?utf-8?B?Y1dYUFJubTM1dlpVWE9Kay9LcG5sRk5hNVNWNlloeWs1VGNPTXh3UnVWVjQ2?=<br> =?utf-8?B?QTRvTzAxZ1BnWWMvRm51dzVxN3c0R0xFQnpIRGM3WndCelgxeS9JdjlmbmI0?=<br> =?utf-8?B?QzhYU2kvU0JzU1BJN1Z3L0NGTXdBQ2hLWmY2T3pQWGYvV3VCeVRaQmdXSmFF?=<br> =?utf-8?B?WWQxa3BRcXdmWXJrRURSWnRaeDlKUHVRQnpQTmdmdEtQN0oyNDZLZXhjRlpR?=<br> =?utf-8?B?YjZLZmxHVXE1VDJpM0JTdW4vMGEvTkhQUFVMeFVqbjRhcGFsbWhDaFd0Qlpt?=<br> =?utf-8?B?WXZpWVRvRkE5bU5Pdk5ZVEdmTWxDTnE4ZksweCt0TkFSM0g0N0p5ZnBtdWtr?=<br> =?utf-8?B?OVNCNHhlbExTQnRNSEdDRnV5NEo4TXB2aGF4ZGs0cUxsV0Y3cGc4ZnFWVU1l?=<br> =?utf-8?B?UTJnSmd0aitxVi8rdzAwT1UwbWFEQ0Q5cXZDWnptS2kyRWNDSlZGeE43cU5V?=<br> =?utf-8?B?eGc3b01TenA5bm5ESno1cCtDcVVGdnN0NTZ3bURnKzRYaW9KRm5PbUhtWkdH?=<br> =?utf-8?B?bEtoZE5FcU0ydStKZDNGSm5Ld0o3b3NMK0tWU1o1elB4UTQ4Y1BKbVo0YW9R?=<br> =?utf-8?B?dmZpMmlJazdGam95TStQZ1VZR3NNd2wxZ1J4OVhkWVFJYy9Oamhsdm9HNlYy?=<br> =?utf-8?B?cHUyREo5QT09?=<br>X-Forefront-Antispam-Report: CIP:209.85.210.170;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail-pf1-f170.google.com;PTR:mail-pf1-f170.google.com;CAT:NONE;SFS:(13230001)(4636009)(166002)(336012)(6916009)(86362001)(33964004)(55446002)(1096003)(83380400001)(356005)(8676002)(26005)(9686003)(7636003)(7596003)(5660300002)(43950500002)(44020500001);DIR:INB;<br>X-MS-Exchange-Safelinks-Url-KeyVer: 1<br>X-MS-Exchange-Safelinks-Url-KeyVer: 1<br>X-MS-Exchange-ATPSafeLinks-Stat: 0<br>X-MS-Exchange-ATPSafeLinks-BitVector: 0:0x0|0x0|0x0|0x0;<br>X-MS-Exchange-CrossTenant-OriginalArrivalTime: 26 May 2022 00:40:36.8611<br> (UTC)<br>X-MS-Exchange-CrossTenant-Network-Message-Id: d351e98b-bef5-43d1-f469-08da3eb05a08<br>X-MS-Exchange-CrossTenant-Id: 6045f719-c4ba-4186-8eb5-e7b9a051455d<br>X-MS-Exchange-CrossTenant-AuthSource: SY4AUS01FT006.eop-AUS01.prod.protection.outlook.com<br>X-MS-Exchange-CrossTenant-AuthAs: Anonymous<br>X-MS-Exchange-CrossTenant-FromEntityHeader: Internet<br>X-MS-Exchange-Transport-CrossTenantHeadersStamped: SYBP282MB0395<br>X-OrganizationHeadersPreserved: SYBP282MB0395.AUSP282.PROD.OUTLOOK.COM<br>X-CrossPremisesHeadersPromoted: dsa-exch16.DSA.local<br>X-CrossPremisesHeadersFiltered: dsa-exch16.DSA.local<br>X-OriginatorOrg: dsaconnect.onmicrosoft.com<br><br><br>Reporting-MTA: dns;dsa-exch16.DSA.local<br>Received-From-MTA: dns;AUS01-SY4-obe.outbound.protection.outlook.com<br>Arrival-Date: Thu, 26 May 2022 00:40:46 +0000<br><br>Final-Recipient: rfc822;wordpress@mets.edu.au<br>Action: failed<br>Status: 5.1.10<br>Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup<br>X-Display-Name: Wordpress",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 530297998,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "postmaster@dsa.org.au"
+            },
+            "createdBy": {
+                "id": 530297998,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "postmaster@dsa.org.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-05-26T00:40:56Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 466803543,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 13335,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1897905797/attachments/466803543"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1897905797/attachments/466803543/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/466803543/3c7f654e282bd40b304398f524a5203dceaaf982/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/530297998"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/530297998"
+                }
+            }
+        }
+    ]
+}

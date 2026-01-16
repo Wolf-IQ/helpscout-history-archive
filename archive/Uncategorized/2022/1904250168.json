@@ -1,0 +1,189 @@
+{
+    "id": 1904250168,
+    "number": 23793,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Undeliverable: Re: [Metro Rehab Hospital] Email Changed",
+    "preview": "Delivery has failed to these recipients or groups:  Wordpress (wordpress@metrorehab.com.au) The email address you entered couldn't be found. Please check the recipient's email address and try to resen",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 358004751,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "postmaster@royalrehab.local"
+    },
+    "createdAt": "2022-05-31T05:14:38Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-05-31T05:57:23Z",
+    "userUpdatedAt": "2022-05-31T05:57:23Z",
+    "customerWaitingSince": {
+        "time": "2022-05-31T05:57:23Z",
+        "friendly": "May 31, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 358004751,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "postmaster@royalrehab.local"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1904250168"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/358004751"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/358004751"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1904250168/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1904250168/23793"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5632079114,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-05-31T05:57:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 5631970011,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Delivery has failed to these recipients or groups:<br><br>Wordpress (wordpress@metrorehab.com.au)&lt;mailto:wordpress@metrorehab.com.au&gt;<br>The email address you entered couldn't be found. Please check the recipient's email address and try to resend the message. If the problem continues, please contact your helpdesk.<br><br><br><br><br><br><br><br><br>Diagnostic information for administrators:<br><br>Generating server: dc1exg08v.RoyalRehab.local<br><br>wordpress@metrorehab.com.au<br>Remote Server returned '550 5.1.1 RESOLVER.ADR.RecipNotFound; not found'<br><br>Original message headers:<br><br>Received: from dc1exg05v.RoyalRehab.local (10.26.31.236) by<br> dc1exg08v.RoyalRehab.local (10.26.31.239) with Microsoft SMTP Server (TLS) id<br> 15.0.1497.18; Tue, 31 May 2022 15:14:10 +1000<br>Received: from AUS01-ME3-obe.outbound.protection.outlook.com (104.47.71.234)<br> by dc1exg05v.RoyalRehab.local (10.26.31.236) with Microsoft SMTP Server (TLS)<br> id 15.0.1497.23 via Frontend Transport; Tue, 31 May 2022 15:14:10 +1000<br>ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=pass;<br> b=T/wQWVd9IUmLrkCKwAi9PAIGSLAjMebzpqQFqyGo6PIB8Y5zQS2GNfh68lliVdE+TnGuPX+3KG0Iv5Zw6ws9N1Z4IdJc/C1K2z02IHCeN8NeJew5/QKy0gS+I0rzpj5WmWYwucbe/T49VLUpyO+IOWGGaTUaekjzJ0hWW7zrn4kq3cHUvKuu4FI0GPtzMMEqaqWf+4y0IRQ32cRKAMN4EE6lZdSaE+/p94kM4tzX9tpsRu/6IiLE1hfViibGEhjNgUeKVkXxz2G5P7u/dvoAmEFaULn0UNcdr7auUx1CUVB3wrCyJQG8Yxbi7HdtkRKWXRedogzvHStJukEp3pL0Wg==<br>ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;<br> s=arcselector9901;<br> h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;<br> bh=ZNT9GxaOWuOcOTEMkKe7+I39l2j0H4OVjjGK2TmIUhE=;<br> b=Th2DZsafQRyOrYniMQcF/tOrx2Z2ioO9e3uqa762negFqvzUGeReWHtC0w1sxNFs8CDUB9h1HiQT+tcM9ywLVpN2GIbvL+NTy6wGQjg6L0J38tdI9c4+BbGiy5SnScKkFfZPMW0pkbcVI+R+8YKR7E8ataBppxYmHatQvxvTNSJu4xyDTC5b7rcVEfLBWFvhAI29xxhcS2spRvvKIiAIIKINlVIJZmkaiQ88GSd/LspJJUdvfAvoeou4kT1HeFpEIXcxC8sOozSVfC6woiXVEwpJauh5uFpfgwYw4GfRRmzypy/H5mdFrfD3TG1Eolfw8hwJbnNRnp/RCW9K4SXc8w==<br>ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=permerror (sender ip<br> is 103.13.69.22) smtp.rcpttodomain=metrorehab.com.au<br> smtp.mailfrom=wolfiq.com.au; dmarc=fail (p=none sp=none pct=100) action=none<br> header.from=wolfiq.com.au; dkim=fail (body hash did not verify)<br> header.d=wolfiq-com-au.20210112.gappssmtp.com; arc=pass (0 oda=0 ltdi=0 93)<br>Received: from MEAPR01CA0090.ausprd01.prod.outlook.com (2603:10c6:220:35::30)<br> by SYBPR01MB8027.ausprd01.prod.outlook.com (2603:10c6:10:1a2::5) with<br> Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Tue, 31 May<br> 2022 05:14:09 +0000<br>Received: from ME3AUS01FT007.eop-AUS01.prod.protection.outlook.com<br> (2603:10c6:220:35:cafe::52) by MEAPR01CA0090.outlook.office365.com<br> (2603:10c6:220:35::30) with Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13 via Frontend<br> Transport; Tue, 31 May 2022 05:14:09 +0000<br>Authentication-Results: spf=permerror (sender IP is 103.13.69.22)<br> smtp.mailfrom=wolfiq.com.au; dkim=fail (body hash did not verify)<br> header.d=wolfiq-com-au.20210112.gappssmtp.com;dmarc=fail action=none<br> header.from=wolfiq.com.au;compauth=none reason=405<br>Received-SPF: PermError (protection.outlook.com: domain of wolfiq.com.au used<br> an invalid SPF mechanism)<br>Received: from au-smtp-1.mimecast.com (103.13.69.22) by<br> ME3AUS01FT007.mail.protection.outlook.com (10.114.155.153) with Microsoft<br> SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id<br> 15.20.5293.13 via Frontend Transport; Tue, 31 May 2022 05:14:08 +0000<br>ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=dkim.mimecast.com; s=201903; t=1653974048;<br>        h=from:from:reply-to:subject:subject:date:date:message-id:message-id:<br>         to:to:cc:mime-version:mime-version:content-type:content-type:<br>         in-reply-to:in-reply-to:dkim-signature;<br>        bh=ZNT9GxaOWuOcOTEMkKe7+I39l2j0H4OVjjGK2TmIUhE=;<br>        b=oWxU8Lu05epNWLrvfuXZwANUXaUNE6ORdy6V3nKrElq9xd5ATz2PLKZkz9CM7MYWWXui0b<br>        3fPcWfPGvw+GKM/pTkIoSbWN3U5ah9CdBwuwGrFK5yQClhaCqP41rCd6p8YA/H3g1bZ1yF<br>        lCjXybnlM0LqQlZ4pqRDE4gzo0yiIPtmwLzcpoAWdlLEuwe9HvzjxlkagZC9C3ONgFZERL<br>        PMlvAJp/8x88vXWiORgrYuFg3wnSsx0Y9uVXhVrWJ0aGq4QKXYTqqjM99uGOZZmHAID5fe<br>        X7BK/r5TR+2VxVsxb/gwUTUDRuqqbnRpponZ0zfzqqp6+wsBaiRCtG57grReCA==<br>ARC-Seal: i=1; s=201903; d=dkim.mimecast.com; t=1653974048; a=rsa-sha256;<br>        cv=none;<br>        b=K4vVNRLY6zUzQLs4GBjJ332jb9c2M51YVOjB2jDN9dwYrA9PFbfRdLLrpsIVcJ2CgSsacX<br>        o4Tje/ryfPM6LKvm0c5d6DL258djsG0X9TDNfScZn53gwvXEOVMIOZzfXxcTXHI0YaJuTG<br>        pC1gznhCBx1O6e+mhG9Ig48VSg07E/2+jp+j9oN/fYfu5x/sqVj7URpWfXkYtvDVnmVpb4<br>        SmnJNLWN728NLuaX+L3xp0hx/6yt6Erea/h4Fs1aDKvOL2QQdsluMsHXOF3jcTXIeOmC71<br>        Z+YjqkfiwGCLOar+83kj7epIOg+rRrzcgaOLhGiD4qU9Sg8/7f36Mw0Lh1JpRQ==<br>ARC-Authentication-Results: i=1;<br>        relay.mimecast.com;<br>        dkim=pass header.d=wolfiq-com-au.20210112.gappssmtp.com header.s=20210112 header.b=\"1Pb8oMo/\";<br>        dmarc=pass (policy=none) header.from=wolfiq.com.au;<br>        spf=pass (relay.mimecast.com: domain of support@wolfiq.com.au designates 209.85.167.45 as permitted sender) smtp.mailfrom=support@wolfiq.com.au<br>Received: from mail-lf1-f45.google.com (mail-lf1-f45.google.com<br> [209.85.167.45]) by relay.mimecast.com with ESMTP with STARTTLS<br> (version=TLSv1.2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id<br> au-mta-61-3xQavhLJPCe-7C73LGuLQA-1; Tue, 31 May 2022 15:14:04 +1000<br>X-MC-Unique: 3xQavhLJPCe-7C73LGuLQA-1<br>Received: by mail-lf1-f45.google.com with SMTP id br17so19685273lfb.2<br>        for &lt;wordpress@metrorehab.com.au&gt;; Mon, 30 May 2022 22:14:03 -0700 (PDT)<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20210112.gappssmtp.com; s=20210112;<br>        h=from:mime-version:in-reply-to:auto-submitted:date:message-id<br>         :subject:to;<br>        bh=0pnPcJJtni7tq84kIWwxq4ssCHa4lWf860Paa5Xki8I=;<br>        b=1Pb8oMo/It2wpwy+OELpCiL76YSkjKNvRoEZ7TGnQFhf1tq3Y3zd6JJsIXmdT1RYkB<br>         u3Yfs5p/HUA41JiHGFINloOlqxq/URi0Zxme5UdgYBbXbyL5u7nH5uIE1jE1qfZpPdQV<br>         CPed+436sdJzWM7xZOvGFjtW1SqW5J8n0Z6MDS6N43DXQePKrlopq3KaVS+/gheN97XR<br>         2qM3iV08lUhtwTzx2Lv3DRGlkRX+jj3HXaUfZTK92x1q4SRcPk6ippimI1LBzRwJJKyz<br>         ZZ28InClNZTrCJ9WeecgIsR3ZPE8WUJyt92dJRlZMIZ0Is97m0BXr9MTKrLYvnlKkjWk<br>         EfbA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20210112;<br>        h=x-gm-message-state:from:mime-version:in-reply-to:auto-submitted<br>         :date:message-id:subject:to;<br>        bh=0pnPcJJtni7tq84kIWwxq4ssCHa4lWf860Paa5Xki8I=;<br>        b=VE4BCJnn0321lenIdaji+rQtRrdcmUQE71IBuThkJERYb02IPXNAl/3GYe0ciY53zv<br>         /nq8bB7Q0+4+VBE0hNJAY4JEsNevSqbF/7mORxthgGGwsexyAdSx2uiRLyjLRqHfJA5V<br>         R3rGYpA6HIlXM1MUKyU97b8h1jBp6g+OLk52GE3Ey4thZ4Jn/WSEd1x7wNE+2Tcs+OaV<br>         +/oqhxc+omK8uvjrghdodjLXGenyfg33a1qX1xZjqK4aXZuFR9oW+gRRexfQjF2H4G+x<br>         Adwz8mIXHu5rUBwv5vW+rsCmD124RiUA1C1t3HAFJSWhjFxc/6nMQ0vRtBnf/xWM5jJc<br>         LD5w==<br>X-Gm-Message-State: AOAM530Ri3/Y4f1QYpy2fBpmBGY1/nlv3sGiQV46C6+m4aGohMwscZIU<br>        IrkQYamkzFJF7Ovlww85/Qqta0UzpWi9uY4CJVga5kvKNEIvIg==<br>X-Google-Smtp-Source: ABdhPJwV1SG7s3QPdm+HIAmU+PCkWC/w9CQRILWkAJJfpUGFLTIcjwYhspMQEGs0gNr7efic+F7SzyQJAcxyeCK1Tag=<br>X-Received: by 2002:a05:6512:3994:b0:478:80e8:6063 with SMTP id<br> j20-20020a056512399400b0047880e86063mr26695860lfu.341.1653974040333; Mon, 30<br> May 2022 22:14:00 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Mon, 30 May 2022 22:13:59 -0700<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-1904249611-5631968536<br>X-Hs-Origin: pconsumer-0e9695b835165a8e0 [33c894f23b]<br>X-Hs-Message-Id: reply-87172-1904249611-5631968536-1653974039-1443934251@helpscout.net<br>In-Reply-To: &lt;GJ1CUbgJS4jUzqY9vh7YINT4LbszwtQ1sKOTAjeAVo@metrorehab.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Mon, 30 May 2022 22:13:59 -0700<br>Message-ID: &lt;CAMLnpnGtnzykmeKzoe7qNvsM90-eZfcf0kWQdX93joDvdfn1VQ@mail.gmail.com&gt;<br>Subject: Re: [Metro Rehab Hospital] Email Changed<br>To: Wordpress &lt;wordpress@metrorehab.com.au&gt;<br>Authentication-Results-Original: relay.mimecast.com;    dkim=pass<br> header.d=wolfiq-com-au.20210112.gappssmtp.com header.s=20210112<br> header.b=\"1Pb8oMo/\";   dmarc=pass (policy=none) header.from=wolfiq.com.au;<br>        spf=pass (relay.mimecast.com: domain of support@wolfiq.com.au designates<br> 209.85.167.45 as permitted sender) smtp.mailfrom=support@wolfiq.com.au<br>X-Mimecast-Spam-Score: 0<br>X-Mimecast-Impersonation-Protect: Policy=Impersonation Protection Definition;Similar Internal Domain=false;Similar Monitored External Domain=false;Custom External Domain=false;Mimecast External Domain=false;Newly Observed Domain=false;Internal User Name=false;Custom Display Name List=false;Reply-to Address Mismatch=false;Targeted Threat Dictionary=false;Mimecast Threat Dictionary=false;Custom Threat Dictionary=false<br>Content-Type: multipart/alternative; boundary=\"00000000000024636d05e047d7f3\"<br>Return-Path: support@wolfiq.com.au<br>X-EOPAttributedMessage: 0<br>X-EOPTenantAttributedMessage: c441713b-5b21-4efb-a882-dbe3f16bb754:0<br>X-MS-PublicTrafficType: Email<br>X-MS-Office365-Filtering-Correlation-Id: 5f8dde53-3a7c-4085-497f-08da42c46435<br>X-MS-TrafficTypeDiagnostic: SYBPR01MB8027:EE_<br>X-Microsoft-Antispam: BCL:0;<br>X-Microsoft-Antispam-Message-Info: =?utf-8?B?OHFmMmpGdFFKSHFtaFJidUpCR0EwMm9qUUhIQUZ0RnBSSHlrZzNSVUQ1VUc1?=<br> =?utf-8?B?dEt5Qk9XdjYwbStLL0ZzMVlZVUlld05lS3puOE1LL3B4Q0N4MnZVZmxIeXB0?=<br> =?utf-8?B?ckNPUVhWOU0xZnRabzM4VDJOcldsUWpVSlVZY0VIYUdCRmZzQmZNSUdiRU5B?=<br> =?utf-8?B?eTJUN1ZqREF3UFBqL0JtVXB6MUlwVXNRWkxRMUEwaUVWOUVhdnZmVkxvajhH?=<br> =?utf-8?B?R2RtbDJRMCtwY3JjTE5Idmw2Tk9SazRHSG1lNmZxZ1ZMK0t3OFI0SWszNDlj?=<br> =?utf-8?B?WUZsSFFwWXpybUZXdFlwOG9SWTZpSnZQK0dYWk81cER1elZqdHBDZTYrbHpu?=<br> =?utf-8?B?VEZ5TS9jL0I5Y203cU8zcGVNYkc4eVVSaTJ6UkFjbkhCSXR3YXhoU2ZVbURR?=<br> =?utf-8?B?V2xuWFdDM2dReklFWnRndkpjNXlMNGZqU1ljQVdZMGJIL3RSa0VnamhMc1BV?=<br> =?utf-8?B?WW83WmVZSjd5ekNPazgwRkVnaXdDTzNPays3WWc1TEtOZ0lReTNUdjBydFMw?=<br> =?utf-8?B?OHlIYTlCY1I0TW9GeEpvRzZiUktuc3NwOFZ6NVU0SnRzSFJ2MS9ScEpYK0VL?=<br> =?utf-8?B?eVg4Q1B6VjBhd0RmMlMwNWtURTFqN3dseEJxNVl4QllkR3F1ci9WbHRPRjhp?=<br> =?utf-8?B?TE1LbWpHb3k0RmRqdlBlNlRhQkJhQjg5ejBGaTVhZXJjcDRwMXNPcHNVK3c0?=<br> =?utf-8?B?anlpR21wWjUyaHl4a1VWU2xqcWdGWlA2VVRURW1QWW11VmJDZUlDVmFkSEV5?=<br> =?utf-8?B?M1dEUE0yTjlnVWt4RkZZL2svWm9mZWVGbXJLUXNkQkh6UEZIQmliYVdhVjBT?=<br> =?utf-8?B?LytHS01ZVzhVQzdaNDdxVTBWN3V3TUpIT2J5QTF0b2RiR0xNRWdFdDdFa2FD?=<br> =?utf-8?B?MktwT296Q3ByRGR3QlVuNnVWamhqU3ZVc3lUa0llUWRSZTd5WlRaNTlYTWpt?=<br> =?utf-8?B?UHFXRGZYNGV0aXVxUEhnOFozb1dlVUNUcG1zZHlDdC9IL2lZSjhlT3QvTk9j?=<br> =?utf-8?B?OVdoWEc2bVEyZGdubzNnNU5iOEFXcFcwMzA3bDlKaHptdHZzRjNNc3k4WTl0?=<br> =?utf-8?B?OHBPeDByYkowS0d0emdQZ21hUVRIelpPU0lOSDRrYmVHWjVhb3hrSFJSL3Z3?=<br> =?utf-8?B?ZENEUXFhZWxFd3JxQlI5US9qVTdDZWptTWlZclNFQWozeTQ2aE03UXBPSXVt?=<br> =?utf-8?B?Q3c0UjEwWSs4TE1jTmRTcERJSGt2cVhxUnFPUDY2SVFOOUlnVDMzWmRGRGhj?=<br> =?utf-8?B?cHdPc0pDNTNESlVGWmxQbmZvTCtoemxvMk1Fa04wUks3SjFMU24ybm1ndHZ4?=<br> =?utf-8?B?REFsdmxqQ2NXWVZvTWhYTzlnSFROQVZPbXNhN1BocUg2THdTZlZEMUJxS1Y5?=<br> =?utf-8?B?L2lvUk9BSDlKcVdNMllzUUVHSkJjemk5Y2lPTzBZQ0liWWtnVTFmQlZWd0gz?=<br> =?utf-8?B?aFF1ZTB2N3EyeUU4b25RSUdxTWpUdWw2a2VwcUR2bUIvRjF5V1A2amd1SDJh?=<br> =?utf-8?B?OGU3bmxKUXRtckRUOStsbkRjYnR1NnNvN3VRUUNFZC9zKzVyUDB4ZElMQ3cv?=<br> =?utf-8?B?c3BJRjY2Y2cwT1pnb0VXSnFFanh6UGRsRGE2cFVidURnb1hVZ2VtZjEzbWd4?=<br> =?utf-8?B?dTBQZGw1WHNOUzRHOENyMjh2ekxlK0tHR0lDVjMxRlMrajFnenp0ZHVic2Mv?=<br> =?utf-8?B?MUlEc0k2TnJHOEdPY1VyOFJFR2w3UFMvSk43d3Npd1QzM20wam9XdmpWeWky?=<br> =?utf-8?B?NmxUTHRVTHFlYTJoVmxFT2lyTVFGOFZJSllVbC9tV3BJTWRRVjVGL2dvWDhl?=<br> =?utf-8?B?bUhQWTU1d01sQ0RMRHZnZStrV3BEVFMvWFdTdTA4RW43c1BURjZ5NnovZWdB?=<br> =?utf-8?B?RFh4V3FVd002d0tBSXp6aWpnK3RxU1VRNlN1T1VKclo5UVBwQm1MS2FxNEVO?=<br> =?utf-8?B?ZmpKa0FHZTNnYi82eDVlb2pCZTUyOVpyNm1uTjdBdkxHL3JGNjNkZmQ3UEU5?=<br> =?utf-8?B?b3BoWDBhNjlENTNkUXNoUGh4clovZEJCaU4wczJVa2tVZFBSSllBV0QxZlU0?=<br> =?utf-8?B?a202VGIvK3JWSXhPMTVBYzhjYTNUU05yNXZsMmhXTS9UNTBWcFJQdkt1RHVV?=<br> =?utf-8?B?aEtvS0RJZFhBUUNoS2Q4YUZQQVg1aE5XNGhYdEE5M1NwNCtyMmhDbnZMWFM1?=<br> =?utf-8?B?Uy9mYXhZdDNyUXd5Y1FDeEdIanBUVWNxY2hPSk4rakpvSkxacEJraGNBMkVn?=<br> =?utf-8?B?RGVBd1pCeGVONGtrdUpHL1krL1BRTk0zRElkZDN6U1FjbFFIR3MwUUF6WFJr?=<br> =?utf-8?B?aEsxdzFrREZIa2pQeTFiMXBBOEhJTWVuYkJWNW90UXRVUDJ4RXVYUDhWRDdz?=<br> =?utf-8?B?RlZxNzBEcUl1NTA0TUFCOGRRd1d5Q2x2UTBmNjcrT2lreFJKSzU1dUhmR1BG?=<br> =?utf-8?B?SDFXaHIxNndPWG9VUTN5WUE2N2xWTFVxS3M1TWxWNzBSR2l3UGd5SVZpOXBa?=<br> =?utf-8?B?NDdXb01GcnJ6Z0tmSGZDUUprRGJVb1ZJQm13T01HWTY4WnZ3aWRzc1FQWXZ3?=<br> =?utf-8?Q?qyChBaipk=3D?=<br>X-Forefront-Antispam-Report: CIP:103.13.69.22;CTRY:AU;LANG:en;SCL:-1;SRV:;IPV:CAL;SFV:SKN;H:au-smtp-1.mimecast.com;PTR:au-pop.mimecast.com;CAT:NONE;SFS:;DIR:INB;<br>X-MS-Exchange-CrossTenant-OriginalArrivalTime: 31 May 2022 05:14:08.8271<br> (UTC)<br>X-MS-Exchange-CrossTenant-Network-Message-Id: 5f8dde53-3a7c-4085-497f-08da42c46435<br>X-MS-Exchange-CrossTenant-Id: c441713b-5b21-4efb-a882-dbe3f16bb754<br>X-MS-Exchange-CrossTenant-AuthSource: ME3AUS01FT007.eop-AUS01.prod.protection.outlook.com<br>X-MS-Exchange-CrossTenant-AuthAs: Anonymous<br>X-MS-Exchange-CrossTenant-FromEntityHeader: Internet<br>X-MS-Exchange-Transport-CrossTenantHeadersStamped: SYBPR01MB8027<br>X-OrganizationHeadersPreserved: SYBPR01MB8027.ausprd01.prod.outlook.com<br>X-CrossPremisesHeadersFiltered: dc1exg05v.RoyalRehab.local<br><br>THIS MESSAGE AND ITS ATTACHMENTS ARE CONFIDENTIAL<br><br>Its use or disclosure by any person other than the addressee is unauthorised. If you have received this e-mail in error, please notify us by return e-mail and delete the document. The sender cannot guarantee that this e-mail or any attachment to it is free of computer viruses or other conditions which may damage or interfere with data, hardware or software with which it might be used. Royal Rehab strongly recommends that the recipient uses anti-virus software to screen all e-mails received externally. Royal Rehab does not accept any liability for any loss or damage that may occur as a result of the transmission of this e-mail to the recipient.<br><br>Reporting-MTA: dns;dc1exg08v.RoyalRehab.local<br>Received-From-MTA: dns;AUS01-ME3-obe.outbound.protection.outlook.com<br>Arrival-Date: Tue, 31 May 2022 05:14:10 +0000<br><br>Final-Recipient: rfc822;wordpress@metrorehab.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found<br>X-Display-Name: Wordpress",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 358004751,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "postmaster@royalrehab.local"
+            },
+            "createdBy": {
+                "id": 358004751,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "postmaster@royalrehab.local"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-05-31T05:14:38Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 468021501,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 14352,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1904250168/attachments/468021501"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1904250168/attachments/468021501/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/468021501/67e3fdb771062b2df22ca93265c2fa6a937e44f3/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/358004751"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/358004751"
+                }
+            }
+        }
+    ]
+}

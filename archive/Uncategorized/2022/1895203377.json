@@ -1,0 +1,211 @@
+{
+    "id": 1895203377,
+    "number": 23319,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@staging-bigbarberdulux.temp312.kinsta.cloud. Gmail will retry for 44 more hours. You'll be notified if the",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2022-05-24T04:15:04Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2022-05-24T04:38:33Z",
+    "userUpdatedAt": "2022-05-24T04:38:33Z",
+    "customerWaitingSince": {
+        "time": "2022-05-24T04:38:33Z",
+        "friendly": "May 24, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1895203377"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1895203377/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1895203377/23319"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5603249348,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-05-24T04:38:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 5603204354,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@staging-bigbarberdulux.temp312.kinsta.cloud. Gmail will retry for 44 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 <br>[staging-bigbarberdulux.temp312.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[staging-bigbarberdulux.temp312.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[staging-bigbarberdulux.temp312.kinsta.cloud 162.159.135.42: timed out]<br>[staging-bigbarberdulux.temp312.kinsta.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sun, 22 May 2022 18:06:48 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAK7D+dYbwcN4zaZQ9CJer28Lvi2CqjAG43RCgCiiv2D=FEWc1A@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@staging-bigbarberdulux.temp312.kinsta.cloud<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 <br> [staging-bigbarberdulux.temp312.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [staging-bigbarberdulux.temp312.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [staging-bigbarberdulux.temp312.kinsta.cloud 162.159.135.42: timed out]<br> [staging-bigbarberdulux.temp312.kinsta.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Mon, 23 May 2022 21:15:01 -0700 (PDT)<br>Will-Retry-Until: Wed, 25 May 2022 18:06:48 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-05-24T04:15:03Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 466035695,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1895203377/attachments/466035695"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1895203377/attachments/466035695/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/466035695/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 466035698,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 4091,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1895203377/attachments/466035698"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1895203377/attachments/466035698/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/466035698/bcba53e7f9600a83466239c02ce8f8ad229260c3/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
