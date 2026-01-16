@@ -1,0 +1,205 @@
+{
+    "id": 1058117653,
+    "number": 5637,
+    "threads": 2,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Request for information about donation forms on the MSRA website.",
+    "preview": "Hi Jason,\u00a0Yes we can pass data from one form submission to another via a PURL. If you map out the ideal scenario of how the data should be collected and flow, then we can reverse engineer it and see ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 272976539,
+        "type": "customer",
+        "first": "Jason",
+        "last": "Cahill",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "jcahill@msra.org.au"
+    },
+    "createdAt": "2020-01-17T00:59:50Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2020-01-17T02:14:28Z",
+    "userUpdatedAt": "2020-01-17T02:14:28Z",
+    "customerWaitingSince": {
+        "time": "2020-01-17T02:14:28Z",
+        "friendly": "Jan 17, '20"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "paugustus@msra.org.au",
+        "emorton@msra.org.au",
+        "ngrant@msra.org.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 272976539,
+        "type": "customer",
+        "first": "Jason",
+        "last": "Cahill",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "jcahill@msra.org.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1058117653"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/272976539"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/272976539"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1058117653/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1058117653/5637"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2993211667,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309027
+                }
+            },
+            "body": "Hi Jason,\u00a0<br /><br />Yes we can pass data from one form submission to another via a PURL. If you map out the ideal scenario of how the data should be collected and flow, then we can reverse engineer it and see if the system can deliver on your needs. If there is a gap, we will work with you to determine the best way to get to your end result.\u00a0",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 272976539,
+                "first": "Jason",
+                "last": "Cahill",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "jcahill@msra.org.au"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "paugustus@msra.org.au",
+                "emorton@msra.org.au",
+                "ngrant@msra.org.au"
+            ],
+            "bcc": [],
+            "createdAt": "2020-01-17T02:14:28Z",
+            "openedAt": "2020-01-17T02:15:22Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/272976539"
+                }
+            }
+        },
+        {
+            "id": 2993113748,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div>\nHi Heath,<br><br>\nI have a question about the capabilities about the donation form available on the MS Research Australia Website - <a href=\"https://www.msra.org.au/donate\">https://www.msra.org.au/donate</a><br><br><ol style=\"margin-top:0cm;\" start=\"1\" type=\"1\"><li style=\"margin-left:0cm;\">Is there a capability to parse Personalised URLs (PURLs) to pre-fill form data. For example have a personalised URL contain an email address , that when you get to the form, the email address is already filled out on the form?</li>\n<li style=\"margin-left:0cm;\">If the above is possible, are we able to create hidden fields that can contain data (such as donor IDs) that can be added to the form using a PURL that can be submitted with the form data when the supporter makes a donation?</li>\n</ol><br>\nWe are looking to test the generic donation form capabilities in an upcoming campaign for fundraising where we are encouraging those to make a donation after they fill out a bequest survey, we would look to want to parse a personalised URL that contains a small amount of information so we are able to track that they are in that campaign, and what donor ID they have.<br><br>\nAlternately, would it be possible to create a duplicate of the donation form, with a specialised URL just for the campaign so we can at least know the donation comes from that campaign? We would need to be able to see from the donation report that this donation did come from the specific campaign as opposed to the generic donation form in this instance. <br><br>\nThank you and I look forward to your response to this. <br><br>\nCheers,<br><br>\nJason<br><br><span></span><p></p><br><span lang=\"en-us\" xml:lang=\"en-us\">Kind regards</span><br><span lang=\"en-us\" xml:lang=\"en-us\"></span><p></p><br><table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse;\"><tbody><tr><td width=\"102\" valign=\"top\" style=\"width:76.8pt;padding:0cm 5.4pt 0cm 5.4pt;\">\n<p style=\"line-height:105%;\"><a href=\"https://msra.org.au/\"><span style=\"color:#000;text-decoration:none;\"><img border=\"0\" width=\"172\" height=\"94\" style=\"width:1.7916in;height:.9791in;\" id=\"Picture_x0020_1\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/b0f480e24878f8bfd2b6ac7e5a99a4741dd18c6a/51b7aa5235dc3dfe49fcd78e4fdd8b7541c52699/image001.png\" alt=\"cid:image004.png@01D5424D.17B65D00\" /></span></a><span style=\"color:#000;\"></span></p>\n</td>\n<td width=\"443\" valign=\"top\" style=\"width:332.6pt;padding:0cm 5.4pt 0cm 5.4pt;\">\n<p style=\"font-weight:bold;line-height:105%;text-decoration:underline;\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">Jason Cahill</span></p>\n<p style=\"line-height:105%;\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">Database Manager</span></p>\n<p style=\"line-height:105%;\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\"></span></p><p></p>\n<p style=\"line-height:105%;\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">MS Research Australia</span></p>\n<p style=\"line-height:105%;\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">02 8413 7929</span> <span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#F00;\">\u2022</span> <span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">1300 356 467</span></p>\n<p style=\"line-height:105%;\"><a href=\"mailto:jcahill@msra.org.au\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#0563C1;\">jcahill@msra.org.au</span></a><span style=\"font-size:10pt;line-height:105%;color:#F00;\">\u2022</span> <a href=\"http://www.msra.org.au/\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#0563C1;\">www.msra.org.au</span></a><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\"></span></p>\n<p style=\"line-height:105%;\"><span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">Level 19 Northpoint</span> <span style=\"font-size:10pt;line-height:105%;color:#F00;\">\u2022</span> <span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">100 Miller Street</span> <span style=\"font-size:10pt;line-height:105%;color:#F00;\">\u2022</span> <span style=\"font-size:10pt;line-height:105%;font-family:Arial, sans-serif;color:#000;\">North Sydney NSW 2060</span></p>\n</td>\n</tr></tbody></table><span lang=\"en-us\" xml:lang=\"en-us\"></span><p></p><br><a href=\"https://inspiredadventures.com.au/events/kissgoodbyetoms-tuscany-trek-2020/\"><span style=\"color:#0563C1;text-decoration:none;\"><img border=\"0\" width=\"550\" height=\"260\" style=\"width:5.7291in;height:2.7083in;\" id=\"Picture_x0020_8\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/15ee5f061fc80dc8cbf470221f1b649638c109c5/b03e6b0be4a116f49aa6a74a473322fbe602c7c8/image002.jpg\" alt=\"Kiss-Goodbye-to-MS-Great-Wall-China-email-signature-tall\" /></span></a><br><br></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 272976539,
+                "first": "Jason",
+                "last": "Cahill",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "jcahill@msra.org.au"
+            },
+            "createdBy": {
+                "id": 272976539,
+                "type": "customer",
+                "first": "Jason",
+                "last": "Cahill",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "jcahill@msra.org.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "paugustus@msra.org.au",
+                "emorton@msra.org.au",
+                "ngrant@msra.org.au"
+            ],
+            "bcc": [],
+            "createdAt": "2020-01-17T00:59:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/272976539"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/272976539"
+                }
+            }
+        }
+    ]
+}
