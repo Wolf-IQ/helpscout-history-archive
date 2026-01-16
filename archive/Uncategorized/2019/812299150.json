@@ -1,0 +1,280 @@
+{
+    "id": 812299150,
+    "number": 2722,
+    "threads": 3,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: Back End",
+    "preview": "That works. Thanks.",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 204600499,
+        "type": "customer",
+        "first": "Amy",
+        "last": "Smith",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "amy@huntleyandco.com.au"
+    },
+    "createdAt": "2019-03-27T05:51:09Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2019-03-27T05:59:54Z",
+    "userUpdatedAt": "2019-03-27T05:59:54Z",
+    "customerWaitingSince": {
+        "time": "2019-03-27T05:59:54Z",
+        "friendly": "Mar 27, '19"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 204600499,
+        "type": "customer",
+        "first": "Amy",
+        "last": "Smith",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "amy@huntleyandco.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/812299150"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600499"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600499"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/812299150/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/812299150/2722"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2262680325,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-03-27T05:59:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 2262679763,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "That works. Thanks.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204600499,
+                "first": "Amy",
+                "last": "Smith",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "amy@huntleyandco.com.au"
+            },
+            "createdBy": {
+                "id": 204600499,
+                "type": "customer",
+                "first": "Amy",
+                "last": "Smith",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "amy@huntleyandco.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-03-27T05:59:18Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600499"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600499"
+                }
+            }
+        },
+        {
+            "id": 2262672778,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Amy,<br /><br />Try using this link instead. <a href=\"http://www.huntleyandco.com.au/wp-admin\"></a><a href=\"http://www.huntleyandco.com.au/wp-login.php\"></a><a href=\"https://huntleyandco.com.au/wp-login.php\">https://huntleyandco.com.au/wp-login.php</a><br />",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 204600499,
+                "first": "Amy",
+                "last": "Smith",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "amy@huntleyandco.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-03-27T05:52:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600499"
+                }
+            }
+        },
+        {
+            "id": 2262672462,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div>\n<span style=\"font-size:11pt;\">Hello, </span><br><span style=\"font-size:11pt;\"></span><p></p><br><span style=\"font-size:11pt;\">It appears we can't get into the back end of the website at the moment. The <a href=\"http://www.huntleyandco.com.au/wp-admin\">www.huntleyandco.com.au/wp-admin</a> </span><br><span style=\"font-size:11pt;\"></span><p></p><br><span style=\"font-size:11pt;\">Amy</span><br><span style=\"font-size:11pt;\"></span><p></p><br></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204600499,
+                "first": "Amy",
+                "last": "Smith",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "amy@huntleyandco.com.au"
+            },
+            "createdBy": {
+                "id": 204600499,
+                "type": "customer",
+                "first": "Amy",
+                "last": "Smith",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "amy@huntleyandco.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-03-27T05:51:09Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600499"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600499"
+                }
+            }
+        }
+    ]
+}
