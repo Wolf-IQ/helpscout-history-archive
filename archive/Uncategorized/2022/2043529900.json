@@ -1,0 +1,170 @@
+{
+    "id": 2043529900,
+    "number": 47453,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Momentum by Phonak] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 425949862,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "wordpress@momentumbyphonak.com.au"
+    },
+    "createdAt": "2022-10-20T09:21:53Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-10-20T22:18:19Z",
+    "userUpdatedAt": "2022-10-20T22:18:19Z",
+    "customerWaitingSince": {
+        "time": "2022-10-20T22:18:19Z",
+        "friendly": "Oct 21, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 425949862,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "wordpress@momentumbyphonak.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2043529900"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/425949862"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/425949862"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2043529900/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2043529900/47453"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6076552912,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-10-20T22:18:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6074017576,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, JetEngine.<br><br>First, visit your website (https://momentumbyphonak.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://momentumbyphonak.com.au/wp-admin/post.php?post=1621&amp;action=edit&amp;message=1&amp;elementor_updater=continue&amp;_wpnonce=95e2d1bfa3) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://momentumbyphonak.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=iCe8JXSFsIgPslgZfHY39R&amp;rm_key=witLmFGNDga5W62gKlqa6z<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.0.3<br>Active theme: Hello Elementor Child Theme (version 1.0.0)<br>Current plugin: JetEngine (version 2.7.8)<br>PHP version 8.0.21<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 168 of the file /www/phonakmomentum_878/public/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php. Error message: Uncaught Error: Class \"Jet_Engine_Dynamic_Tags_Module\" not found in /www/phonakmomentum_878/public/wp-content/plugins/jet-engine/includes/modules/dynamic-visibility/inc/settings.php:168<br>Stack trace:<br>#0 /www/phonakmomentum_878/public/wp-includes/class-wp-hook.php(307): Jet_Engine\\Modules\\Dynamic_Visibility\\Settings-&gt;add_visibility_settings(Object(Elementor\\Element_Section), Array)<br>#1 /www/phonakmomentum_878/public/wp-includes/class-wp-hook.php(331): WP_Hook-&gt;apply_filters('', Array)<br>#2 /www/phonakmomentum_878/public/wp-includes/plugin.php(476): WP_Hook-&gt;do_action(Array)<br>#3 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1622): do_action('elementor/eleme...', Object(Elementor\\Element_Section), Array)<br>#4 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/elements/section.php(1256): Elementor\\Controls_Stack-&gt;end_controls_section()<br>#5 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2310): Elementor\\Element_Section-&gt;register_controls()<br>#6 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\\Controls_Stack-&gt;init_controls()<br>#7 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\\Controls_Stack-&gt;get_stack()<br>#8 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2397): Elementor\\Controls_Stack-&gt;get_controls()<br>#9 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\\Controls_Stack-&gt;sanitize_settings(Array)<br>#10 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/base/element-base.php(529): Elementor\\Controls_Stack-&gt;get_data()<br>#11 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/document.php(957): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#12 /www/phonakmomentum_878/public/wp-content/plugins/elementor/modules/usage/module.php(569): Elementor\\Core\\Base\\Document-&gt;get_elements_raw_data(Array)<br>#13 /www/phonakmomentum_878/public/wp-content/plugins/elementor/modules/usage/module.php(182): Elementor\\Modules\\Usage\\Module-&gt;save_document_usage(Object(Elementor\\Core\\DocumentTypes\\Post))<br>#14 /www/phonakmomentum_878/public/wp-content/plugins/elementor/modules/usage/module.php(295): Elementor\\Modules\\Usage\\Module-&gt;after_document_save(Object(Elementor\\Core\\DocumentTypes\\Post))<br>#15 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(654): Elementor\\Modules\\Usage\\Module-&gt;recalc_usage(100, 0)<br>#16 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(31): Elementor\\Core\\Upgrade\\Upgrades::recalc_usage_data(Object(Elementor\\Core\\Upgrade\\Updater))<br>#17 [internal function]: Elementor\\Core\\Upgrade\\Upgrades::_on_each_version(Object(Elementor\\Core\\Upgrade\\Updater))<br>#18 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/background-task.php(274): call_user_func(Array, Object(Elementor\\Core\\Upgrade\\Updater))<br>#19 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/background-task.php(178): Elementor\\Core\\Base\\Background_Task-&gt;task(Array)<br>#20 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/background-task.php(133): Elementor\\Core\\Base\\Background_Task-&gt;handle()<br>#21 /www/phonakmomentum_878/public/wp-includes/class-wp-hook.php(307): Elementor\\Core\\Base\\Background_Task-&gt;handle_cron_healthcheck('')<br>#22 /www/phonakmomentum_878/public/wp-includes/class-wp-hook.php(331): WP_Hook-&gt;apply_filters('', Array)<br>#23 /www/phonakmomentum_878/public/wp-includes/plugin.php(476): WP_Hook-&gt;do_action(Array)<br>#24 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/background-task.php(93): do_action('elementor_1_ele...')<br>#25 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/background-task-manager.php(68): Elementor\\Core\\Base\\Background_Task-&gt;continue_run()<br>#26 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/background-task-manager.php(83): Elementor\\Core\\Base\\Background_Task_Manager-&gt;continue_run()<br>#27 /www/phonakmomentum_878/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(234): Elementor\\Core\\Base\\Background_Task_Manager-&gt;__construct()<br>#28 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/plugin.php(741): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;__construct()<br>#29 /www/phonakmomentum_878/public/wp-content/plugins/elementor/includes/plugin.php(641): Elementor\\Plugin-&gt;init_components()<br>#30 /www/phonakmomentum_878/public/wp-includes/class-wp-hook.php(307): Elementor\\Plugin-&gt;init('')<br>#31 /www/phonakmomentum_878/public/wp-includes/class-wp-hook.php(331): WP_Hook-&gt;apply_filters(NULL, Array)<br>#32 /www/phonakmomentum_878/public/wp-includes/plugin.php(476): WP_Hook-&gt;do_action(Array)<br>#33 /www/phonakmomentum_878/public/wp-settings.php(598): do_action('init')<br>#34 /www/phonakmomentum_878/public/wp-config.php(78): require_once('/www/phonakmome...')<br>#35 /www/phonakmomentum_878/public/wp-load.php(50): require_once('/www/phonakmome...')<br>#36 /www/phonakmomentum_878/public/wp-admin/admin.php(34): require_once('/www/phonakmome...')<br>#37 /www/phonakmomentum_878/public/wp-admin/post.php(12): require_once('/www/phonakmome...')<br>#38 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 425949862,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "wordpress@momentumbyphonak.com.au"
+            },
+            "createdBy": {
+                "id": 425949862,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "wordpress@momentumbyphonak.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-10-20T09:21:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/425949862"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/425949862"
+                }
+            }
+        }
+    ]
+}

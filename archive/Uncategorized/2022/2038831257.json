@@ -1,0 +1,209 @@
+{
+    "id": 2038831257,
+    "number": 46611,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message blocked **  Your message to dmarcreport@microsoft.com has been blocked. See technical details below for more information.    The response from the remote server was: 550 5.4.1 Recipient add",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2022-10-15T08:46:21Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2022-10-16T20:57:49Z",
+    "userUpdatedAt": "2022-10-16T20:57:49Z",
+    "customerWaitingSince": {
+        "time": "2022-10-16T20:57:49Z",
+        "friendly": "Oct 17, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2038831257"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2038831257/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2038831257/46611"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6061763176,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-10-16T20:57:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 6059466042,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message blocked **<br><br>Your message to dmarcreport@microsoft.com has been blocked. See technical details below for more information.<br><br><br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. [CB1PEPF00002061.namprd00.prod.outlook.com]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sat, 15 Oct 2022 01:46:10 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnHo7xjBGr7+J8PTrb9sPaC5-+NX1gK76Ve_RKu_6C=i2Q@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; dmarcreport@microsoft.com<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; microsoft-com.mail.protection.outlook.com. (40.93.207.0, the<br> server for the domain microsoft.com.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. [CB1PEPF00002061.namprd00.prod.outlook.com]<br>Last-Attempt-Date: Sat, 15 Oct 2022 01:46:12 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-10-15T08:46:20Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 509377439,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 4663,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2038831257/attachments/509377439"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2038831257/attachments/509377439/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/509377439/b0a404b033e2e7533dc31f6629d9d89ecc5fd0e7/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 509377440,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 4237,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2038831257/attachments/509377440"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2038831257/attachments/509377440/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/509377440/6f4a0d5dc50e314b77523934b94381ec8c12a991/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

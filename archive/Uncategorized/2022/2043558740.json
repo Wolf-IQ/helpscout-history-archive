@@ -1,0 +1,168 @@
+{
+    "id": 2043558740,
+    "number": 47459,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Stella Insurance] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 553849949,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "wordpress@stellainsurance.wolfiq.cloud"
+    },
+    "createdAt": "2022-10-20T10:08:41Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-10-20T22:18:19Z",
+    "userUpdatedAt": "2022-10-20T22:18:19Z",
+    "customerWaitingSince": {
+        "time": "2022-10-20T22:18:19Z",
+        "friendly": "Oct 21, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 553849949,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+        "email": "wordpress@stellainsurance.wolfiq.cloud"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2043558740"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/553849949"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/553849949"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2043558740/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2043558740/47459"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6076552911,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-10-20T22:18:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6074106828,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with your theme, Hello Elementor Child.<br><br>First, visit your website (https://stellainsurance.wolfiq.cloud/) and check for any visible issues. Next, visit the page where the error was caught (https://stellainsurance.wolfiq.cloud/wp-admin/admin-ajax.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://stellainsurance.wolfiq.cloud/wp-login.php?action=enter_recovery_mode&amp;rm_token=PL2TYgRZFEYA5nS7cgOGGC&amp;rm_key=41ZiVgMXq7VUAnDqCzzYC1<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.0.3<br>Active theme: Hello Elementor Child (version 1.0.1)<br>Current plugin:  (version )<br>PHP version 8.0.23<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 27 of the file /www/stellainsurance2022_974/public/wp-content/themes/hello-theme-child-master/functions.php. Error message: Uncaught Error: Failed opening required '/www/stellainsurance2022_974/public/wp-content/themes/hello-elementor/widgets/api-settings.php' (include_path='.:/usr/share/php') in /www/stellainsurance2022_974/public/wp-content/themes/hello-theme-child-master/functions.php:27<br>Stack trace:<br>#0 /www/stellainsurance2022_974/public/wp-settings.php(566): include()<br>#1 /www/stellainsurance2022_974/public/wp-config.php(100): require_once('/www/stellainsu...')<br>#2 /www/stellainsurance2022_974/public/wp-load.php(50): require_once('/www/stellainsu...')<br>#3 /www/stellainsurance2022_974/public/wp-admin/admin-ajax.php(22): require_once('/www/stellainsu...')<br>#4 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 553849949,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "wordpress@stellainsurance.wolfiq.cloud"
+            },
+            "createdBy": {
+                "id": 553849949,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/02.png",
+                "email": "wordpress@stellainsurance.wolfiq.cloud"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-10-20T10:08:41Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/553849949"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/553849949"
+                }
+            }
+        }
+    ]
+}
