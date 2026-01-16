@@ -1,0 +1,168 @@
+{
+    "id": 2442508347,
+    "number": 96841,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Criminal Law Group] Your Site is Experiencing a Technical Issue",
+    "preview": "Howdy!  WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caught an error wit",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 663582743,
+        "type": "customer",
+        "first": "Criminal Law",
+        "last": "Group",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "info@criminallawgroup.com.au"
+    },
+    "createdAt": "2023-12-04T22:00:36Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-12-04T22:30:08Z",
+    "userUpdatedAt": "2023-12-04T22:30:08Z",
+    "customerWaitingSince": {
+        "time": "2023-12-04T22:30:08Z",
+        "friendly": "Dec 5, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 663582743,
+        "type": "customer",
+        "first": "Criminal Law",
+        "last": "Group",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "info@criminallawgroup.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2442508347"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/663582743"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/663582743"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2442508347/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2442508347/96841"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7321070120,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-12-04T22:30:08Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7320966072,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Howdy!<br><br>WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Slider Revolution.<br><br>First, visit your website (https://www.criminallawgroup.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.criminallawgroup.com.au/wp-admin/post.php?post=10&amp;action=edit) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.criminallawgroup.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=hCscT9KvFDfKDMC5SAAMpM&amp;rm_key=hmnFiVJ992IYag886yEf8r<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.4.1<br>Active theme: Salient (version 13.0.6)<br>Current plugin: Slider Revolution (version 6.1.5)<br>PHP version 8.0.30<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 374 of the file /www/criminallawgroup_727/public/wp-content/plugins/revslider/includes/functions.class.php. Error message: Uncaught ValueError: strrpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack) in /www/criminallawgroup_727/public/wp-content/plugins/revslider/includes/functions.class.php:374<br>Stack trace:<br>#0 /www/criminallawgroup_727/public/wp-content/plugins/revslider/includes/functions.class.php(374): strrpos('', '.', -1)<br>#1 /www/criminallawgroup_727/public/wp-content/plugins/revslider/includes/slide.class.php(2271): RevSliderFunctions-&gt;check_valid_image(false)<br>#2 /www/criminallawgroup_727/public/wp-content/plugins/revslider/includes/slider.class.php(2262): RevSliderSlide-&gt;get_overview_image_attributes('gallery')<br>#3 /www/criminallawgroup_727/public/wp-content/plugins/revslider/admin/includes/functions-admin.class.php(191): RevSliderSlider-&gt;get_overview_data()<br>#4 /www/criminallawgroup_727/public/wp-content/plugins/revslider/admin/includes/functions-admin.class.php(126): RevSliderFunctionsAdmin-&gt;get_slider_overview()<br>#5 /www/criminallawgroup_727/public/wp-content/plugins/revslider/admin/includes/shortcode_generator/shortcode_generator.class.php(189): RevSliderFunctionsAdmin-&gt;get_short_library()<br>#6 /www/criminallawgroup_727/public/wp-content/plugins/revslider/admin/includes/shortcode_generator/shortcode_generator.class.php(22): RevSliderShortcodeWizard::add_scripts()<br>#7 /www/criminallawgroup_727/public/wp-includes/class-wp-hook.php(324): RevSliderShortcodeWizard::enqueue_scripts('post.php')<br>#8 /www/criminallawgroup_727/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#9 /www/criminallawgroup_727/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#10 /www/criminallawgroup_727/public/wp-admin/admin-header.php(118): do_action('admin_enqueue_s...', 'post.php')<br>#11 /www/criminallawgroup_727/public/wp-admin/edit-form-advanced.php(425): require_once('/www/criminalla...')<br>#12 /www/criminallawgroup_727/public/wp-admin/post.php(206): require('/www/criminalla...')<br>#13 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 663582743,
+                "first": "Criminal Law",
+                "last": "Group",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "info@criminallawgroup.com.au"
+            },
+            "createdBy": {
+                "id": 663582743,
+                "type": "customer",
+                "first": "Criminal Law",
+                "last": "Group",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "info@criminallawgroup.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-12-04T22:00:36Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/663582743"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/663582743"
+                }
+            }
+        }
+    ]
+}
