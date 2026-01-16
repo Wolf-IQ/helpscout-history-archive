@@ -1,0 +1,168 @@
+{
+    "id": 2842963981,
+    "number": 144714,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Women's Housing Company] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 664486864,
+        "type": "customer",
+        "first": "Womens Housing",
+        "last": "Company",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "contact@womenshousingcompany.org"
+    },
+    "createdAt": "2025-02-07T23:11:16Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2025-02-09T01:04:43Z",
+    "userUpdatedAt": "2025-02-09T01:04:43Z",
+    "customerWaitingSince": {
+        "time": "2025-02-09T01:04:43Z",
+        "friendly": "Feb 9, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 664486864,
+        "type": "customer",
+        "first": "Womens Housing",
+        "last": "Company",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "contact@womenshousingcompany.org"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2842963981"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/664486864"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/664486864"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2842963981/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2842963981/144714"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8619403491,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-09T01:04:43Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 8617532315,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Woo Subscriptions.<br><br>First, visit your website (https://www.womenshousingcompany.org.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.womenshousingcompany.org.au/wp-admin/profile.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.womenshousingcompany.org.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=2zFtv4ipNr1Y430Ydf9C4M&amp;rm_key=BgaRza480BL2fbjBTp6EQm<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.7.1<br>Active theme: Breakdance Zero Theme (version 1.0.0)<br>Current plugin: Woo Subscriptions (version 5.5.0)<br>PHP version 8.2.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 146 of the file /www/womenshousing_797/public/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-addresses.php. Error message: Uncaught Error: Call to undefined function wc_notice_count() in /www/womenshousing_797/public/wp-content/plugins/woocommerce-subscriptions/vendor/woocommerce/subscriptions-core/includes/class-wc-subscriptions-addresses.php:146<br>Stack trace:<br>#0 /www/womenshousing_797/public/wp-includes/class-wp-hook.php(324): WC_Subscriptions_Addresses::maybe_update_subscription_addresses(1, 'billing')<br>#1 /www/womenshousing_797/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#2 /www/womenshousing_797/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#3 /www/womenshousing_797/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-profile.php(243): do_action('woocommerce_cus...', 1, 'billing')<br>#4 /www/womenshousing_797/public/wp-includes/class-wp-hook.php(324): WC_Admin_Profile-&gt;save_customer_meta_fields(1)<br>#5 /www/womenshousing_797/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#6 /www/womenshousing_797/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#7 /www/womenshousing_797/public/wp-admin/user-edit.php(149): do_action('personal_option...', 1)<br>#8 /www/womenshousing_797/public/wp-admin/profile.php(18): require_once('/www/womenshous...')<br>#9 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 664486864,
+                "first": "Womens Housing",
+                "last": "Company",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "contact@womenshousingcompany.org"
+            },
+            "createdBy": {
+                "id": 664486864,
+                "type": "customer",
+                "first": "Womens Housing",
+                "last": "Company",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "contact@womenshousingcompany.org"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-07T23:11:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/664486864"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/664486864"
+                }
+            }
+        }
+    ]
+}

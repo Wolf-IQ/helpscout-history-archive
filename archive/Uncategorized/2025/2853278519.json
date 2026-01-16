@@ -1,0 +1,495 @@
+{
+    "id": 2853278519,
+    "number": 145979,
+    "threads": 5,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: Urgent issue - online form submission",
+    "preview": "Hi Sushil,  We are looking deeper into this.  We can confirm that the email is working correctly, so we made adjustments to the \"from email\" and \"email subject\" which would help the email to not go to",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 529412637,
+        "type": "customer",
+        "first": "Sushil",
+        "last": "Pant",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "sushilpant@gmail.com"
+    },
+    "createdAt": "2025-02-18T22:59:30Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2025-02-19T00:59:42Z",
+    "userUpdatedAt": "2025-02-19T00:59:42Z",
+    "customerWaitingSince": {
+        "time": "2025-02-19T00:59:42Z",
+        "friendly": "Feb 19, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 12156809,
+            "color": "#A5B2BD",
+            "tag": "sydneyshoulderunit.com.au",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#8E8E93"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#E5E9EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 529412637,
+        "type": "customer",
+        "first": "Sushil",
+        "last": "Pant",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "sushilpant@gmail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2853278519"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/529412637"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/529412637"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2853278519/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2853278519/145979"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8650931307,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-19T00:59:42Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 8650836435,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Sushil,<br><br>We are looking deeper into this.<br><br>We can confirm that the email is working correctly, so we made adjustments to the \"from email\" and \"email subject\" which would help the email to not go to spam.<br><br>All forms is set to send an email to \"admin@drpant.com.au\" and with a from email \"admin@drpant.com.au\" (This can cause an issue and may think that this is a spam).<br><br>We set the form email to \"noreply@sydneyshoulderunit.com.au\" (this will help avoid it from being set as spam - we have applied from email noreply@sydneyshoulderunit.com.au to all the forms). Also if it helps we could add another recipient email. <br><br>We have updated the confirmation email for Patient Registration as well. Please see the attached and let me know if you need changes.<br><br>I have also done a full sweep of all the forms of the site and updated the notification details and subject:<br><br>CPD Registration form subject is <b>CPD Registration - {Email}</b><br>Enquiry contact us page form subject is <b>Contact Us - {Email}</b><br>Patient Registration form subject is <b>Patient Registration form - {Email}</b><br>Request Quote form subject is <b>Request Quote - {Email}</b><br>Request quote for shoulder surgery form subject is <b>Request quote for shoulder surgery - {Email}</b><br>Should score form subject is <b>Shoulder score - {Given Name}</b><br><br>Also you can also visit this link for all the entries. <br><a href=\"https://sydneyshoulderunit.com.au/wp-admin/admin.php?page=gf_entries&amp;id=10\">https://sydneyshoulderunit.com.au/wp-admin/admin.php?page=gf_entries&amp;id=10</a> <br><br>We have notified Heath to call you.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 529412637,
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-19T00:59:31Z",
+            "openedAt": "2025-12-10T11:32:10Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 764168653,
+                        "filename": "Patient Registration confirmation text.png",
+                        "mimeType": "image/png",
+                        "width": 1848,
+                        "height": 208,
+                        "size": 45702,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2853278519/attachments/764168653"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2853278519/attachments/764168653/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/764168653/da4bea2b3b2c3800a9ef2d53644a34c4cece91df/Patient%20Registration%20confirmation%20text.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                }
+            }
+        },
+        {
+            "id": 8650808518,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Also - I just ran a test and it says this:<br>\nThis is wrong<br>\nThis is a patient registration form not a appointment request<br>\nCan you please have someone call me urgently<br>\n0416 204 770<br>\nThanks<br>\nSP<br>\n<br>\nFor your convenience, you can complete your Patient Registration Form online below.<br>\n<br>\nThe form is sent via standard email security protocols. Alternatively, you may <a href=\"https://sydneyshoulderunit.com.au/wp-content/uploads/2021/11/Sydney-Shoulder-Unit-Patient-Registration-Form.pdf\">download a PDF Registration Form</a> to email to our practice.<br>\n<br>\nThank you for your appointment request.<br>\n<br>\nThe Sydney Shoulder Unit team will be in touch with you within one business day to confirm your appointment.<br>\n<br>\n<div class=\"helpscout-signature\">__<br>\n<br>\n<strong>Dr Sushil PANT</strong><br>\nOrthopaedic Shoulder Surgeon | Sydney Shoulder Unit<br>\n<br>\nSuite 211, 203-233 New South Head Road, Edgecliff NSW 2027<br>\nP: 02 9215 6100 | F: 02 9215 6190 | M: 0416 204 770<br>\n<br>\n<a href=\"https://sydneyshoulderunit.com.au\"><img width=\"96\" height=\"53\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4yNuuSpuBUlsEWy9BI_FO3KjvOhj2xjLPZRi88nrL6aLxnSIUfWPDH0rQKhuBcfnc1xG8YtOsk\" alt=\"AIorK4yNuuSpuBUlsEWy9BI_FO3KjvOhj2xjLPZRi88nrL6aLxnSIUfWPDH0rQKhuBcfnc1xG8YtOsk\"/></a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 529412637,
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "createdBy": {
+                "id": 529412637,
+                "type": "customer",
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-19T00:01:52Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                }
+            }
+        },
+        {
+            "id": 8650799239,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Thanks<br>\nI can see the form - that's not the issue<br>\nPatients are filling in the form and it's not being submitted to us - it's actually really really annoying<br>\nThanks<br>\nSP<br>\n<br>\n<div class=\"helpscout-signature\">__<br>\n<br>\n<strong>Dr Sushil PANT</strong><br>\nOrthopaedic Shoulder Surgeon | Sydney Shoulder Unit<br>\n<br>\nSuite 211, 203-233 New South Head Road, Edgecliff NSW 2027<br>\nP: 02 9215 6100 | F: 02 9215 6190 | M: 0416 204 770<br>\n<br>\n<a href=\"https://sydneyshoulderunit.com.au\"><img width=\"96\" height=\"53\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4yNuuSpuBUlsEWy9BI_FO3KjvOhj2xjLPZRi88nrL6aLxnSIUfWPDH0rQKhuBcfnc1xG8YtOsk\" alt=\"AIorK4yNuuSpuBUlsEWy9BI_FO3KjvOhj2xjLPZRi88nrL6aLxnSIUfWPDH0rQKhuBcfnc1xG8YtOsk\"/></a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 529412637,
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "createdBy": {
+                "id": 529412637,
+                "type": "customer",
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "chris@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-02-18T23:59:02Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                }
+            }
+        },
+        {
+            "id": 8650659583,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-18T23:04:40Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 8650644987,
+            "type": "message",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Sushil,<br><br>We are looking into this, we can see the form correctly. Can you send us a screenshot or screen record of how it looks on your end?<br><br><p><img src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/0dca7d443c426e5bbb26df34482251acee2c9b32/924ee26caf592e8a164a7a333e456c67e73769df/Screenshot-2025-02-19-at-7-00-14-AM.png\" style=\"max-width: 100%; \"></p>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 529412637,
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "chris@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-02-18T23:01:49Z",
+            "openedAt": "2025-02-18T23:02:10Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                }
+            }
+        },
+        {
+            "id": 8650642364,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div dir=\"ltr\">\n<div>Hi Team</div>\n<div><br></div>\n<div>Our online patient registration form is going missing etc</div>\n<div><b>Can we please have a look and fix?</b></div>\n<div><br></div>\n<div><b><a href=\"https://sydneyshoulderunit.com.au/patient-information/patient-registration/\">https://sydneyshoulderunit.com.au/patient-information/patient-registration/</a></b></div>\n<div><br></div>\n<div><br></div>\n<div>Thanks</div>\n<div><br></div>\n<div>SP </div>\n<div>\n<div class=\"helpscout-signature\">\n<div dir=\"ltr\" class=\"ex-gmail_signature\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div dir=\"ltr\">\n<div style=\"font-size:12.8px;\">__</div>\n<div><br></div>\n<div><b>Dr Sushil PANT</b></div>\n<div>Orthopaedic Shoulder Surgeon | Sydney Shoulder Unit</div>\n<div>\n<div><br></div>\n</div>\n<div>Suite 211, 203-233 New South Head Road, Edgecliff NSW 2027</div>\n<div>P: 02 9215 6100 | F: 02 9215 6190 | M: 0416 204 770 <br></div>\n<div><br></div>\n<div><a href=\"https://sydneyshoulderunit.com.au\"><img width=\"96\" height=\"53\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4yNuuSpuBUlsEWy9BI_FO3KjvOhj2xjLPZRi88nrL6aLxnSIUfWPDH0rQKhuBcfnc1xG8YtOsk\" alt=\"AIorK4yNuuSpuBUlsEWy9BI_FO3KjvOhj2xjLPZRi88nrL6aLxnSIUfWPDH0rQKhuBcfnc1xG8YtOsk\" /></a><br></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 529412637,
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "createdBy": {
+                "id": 529412637,
+                "type": "customer",
+                "first": "Sushil",
+                "last": "Pant",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "sushilpant@gmail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "chris@wolfiq.com.au",
+                "support@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-18T22:59:30Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/529412637"
+                }
+            }
+        }
+    ]
+}

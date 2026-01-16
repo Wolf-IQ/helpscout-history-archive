@@ -1,0 +1,170 @@
+{
+    "id": 2842012354,
+    "number": 144586,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[kodilo] New User Registration",
+    "preview": "New user registration on your site kodilo:  Username: sfairweather  Email: sfairweather@aldertapware.com.au",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 651971917,
+        "type": "customer",
+        "first": "Kodilo",
+        "last": "Sales",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "sales@kodilo.com.au"
+    },
+    "createdAt": "2025-02-07T01:28:37Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-02-07T01:28:38Z",
+    "userUpdatedAt": "2025-02-07T01:28:37Z",
+    "customerWaitingSince": {
+        "time": "2025-02-07T01:28:38Z",
+        "friendly": "Feb 7, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 651971917,
+        "type": "customer",
+        "first": "Kodilo",
+        "last": "Sales",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "sales@kodilo.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2842012354"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/651971917"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/651971917"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2842012354/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2842012354/144586"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8614162611,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **New User Registration** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119867,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-07T01:28:38Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8614162600,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "New user registration on your site kodilo:<br><br>Username: sfairweather<br><br>Email: sfairweather@aldertapware.com.au",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 651971917,
+                "first": "Kodilo",
+                "last": "Sales",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "sales@kodilo.com.au"
+            },
+            "createdBy": {
+                "id": 651971917,
+                "type": "customer",
+                "first": "Kodilo",
+                "last": "Sales",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "sales@kodilo.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-02-07T01:28:37Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/651971917"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/651971917"
+                }
+            }
+        }
+    ]
+}
