@@ -1,0 +1,391 @@
+{
+    "id": 2483469160,
+    "number": 101922,
+    "threads": 2,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: [Important] Your invoice is due for payment",
+    "preview": "All good, thanks Jamie!",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 276161244,
+        "type": "customer",
+        "first": "Jamie",
+        "last": "Shek",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "jamie@creativegenerals.com.au"
+    },
+    "createdAt": "2024-01-17T22:33:35Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2024-01-18T23:17:24Z",
+    "userUpdatedAt": "2024-01-18T23:17:24Z",
+    "customerWaitingSince": {
+        "time": "2024-01-18T23:17:24Z",
+        "friendly": "Jan 19, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "accounts@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 276161244,
+        "type": "customer",
+        "first": "Jamie",
+        "last": "Shek",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "jamie@creativegenerals.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2483469160"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/276161244"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/276161244"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2483469160/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2483469160/101922"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7452102411,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309027
+                }
+            },
+            "body": "All good, thanks Jamie!<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 276161244,
+                "first": "Jamie",
+                "last": "Shek",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "jamie@creativegenerals.com.au"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "accounts@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2024-01-18T23:17:24Z",
+            "openedAt": "2024-01-19T00:02:30Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/276161244"
+                }
+            }
+        },
+        {
+            "id": 7448344685,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Assign email to Accounts team [RR]** was triggered",
+                "associatedEntities": {
+                    "workflow": 900651,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-01-17T22:39:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 7448344680,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<span class=\"mention-highlight\">@chris</span> please check this, thanks!<br />",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 276161244,
+                "first": "Jamie",
+                "last": "Shek",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "jamie@creativegenerals.com.au"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+                "email": "rica@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 639045,
+                "type": "user",
+                "first": "Chris",
+                "last": "Paradowski",
+                "photoUrl": "https://secure.gravatar.com/avatar/bff6e25933ef7020d33ed6d441be23ca",
+                "email": "chris@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-01-17T22:39:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/639045"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/276161244"
+                }
+            }
+        },
+        {
+            "id": 7448343911,
+            "type": "lineitem",
+            "action": {
+                "type": "moved",
+                "text": "Rica Rosario Valencia moved this conversation from the Unknown Mailbox inbox",
+                "associatedEntities": {
+                    "mailbox": 276786
+                }
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-01-17T22:39:14Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7448343209,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia assigned to Heath Maguire",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-01-17T22:38:56Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7448330107,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div>\n<div>Hi Heath,<br>\n<br>\nI paid this one a couple of days ago. Let me know if got lost.</div>\n</div>\n<div><br>\n<div style=\"font-family:Helvetica;font-size:12px;\">\n<div class=\"ex-ApplePlainTextBody\">\n<div class=\"ex-ApplePlainTextBody\">\n<div class=\"ex-\">\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\"><br></div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\">Kind Regards,</div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\"><b class=\"ex-\">Jamie Shek</b></div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\">Director, Creative Generals</div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;min-height:14px;\"><br class=\"ex-\" /></div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\"><span class=\"ex-\" style=\"color:rgb(238,41,100);\"><b class=\"ex-\">// mobile</b></span> 0405 440 537</div>\n<div class=\"ex-\" style=\"margin:0px;line-height:normal;\"><span class=\"ex-\" style=\"color:rgb(238,41,100);\"><b class=\"ex-\">// email</b></span> <a href=\"mailto:jamie@creativegenerals.com.au\">jamie@creativegenerals.com.au</a></div>\n<div class=\"ex-\" style=\"margin:0px;line-height:normal;\"><span class=\"ex-\" style=\"color:rgb(238,41,100);\"><b class=\"ex-\">// web</b></span> <a href=\"http://creativegenerals.com.au/\" class=\"ex-\">creativegenerals.com.au</a></div>\n<div class=\"ex-\" style=\"margin:0px;line-height:normal;\">\n<div class=\"ex-\" style=\"margin:0px;line-height:normal;\"><span class=\"ex-\" style=\"color:rgb(238,41,100);\"><b class=\"ex-\">// facebook </b></span><a href=\"https://www.facebook.com/creativegenerals\" class=\"ex-\">creativegenerals</a></div>\n<div class=\"ex-\" style=\"margin:0px;line-height:normal;\"><span class=\"ex-\" style=\"color:rgb(238,41,100);\"><b class=\"ex-\">// instagram </b></span><a href=\"https://www.instagram.com/creativegenerals/\" class=\"ex-\">creativegenerals</a></div>\n<div class=\"ex-\" style=\"margin:0px;line-height:normal;\"><span class=\"ex-\" style=\"color:rgb(238,41,100);\"><b class=\"ex-\"><span class=\"ex-\" style=\"font-weight:normal;\"><b class=\"ex-\">// linkedIn</b></span><span class=\"ex-\" style=\"color:rgb(0,0,0);font-weight:normal;\"> </span></b></span><a href=\"http://linkedin.com/company/creative-generals\" class=\"ex-\">creative-generals</a></div>\n</div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\"><br></div>\n<div class=\"ex-\" style=\"color:rgb(0,0,0);margin:0px;line-height:normal;\"><a href=\"https://creativegenerals.com.au/\" style=\"font-family:Times;\"><img alt=\"Creative Generals\" src=\"https://creativegenerals.com.au/misc/email-sigs/NOV20/images/CG_DALLI_Email_Sig_Image_JAMIE_NOV20.jpg\" width=\"500\" height=\"69\" border=\"0\" style=\"border:0px;\" /></a></div>\n</div>\n</div>\n</div>\n</div>\n<div style=\"color:rgb(0,0,0);font-family:Helvetica;font-size:12px;\">\n<div><br></div>\n<div>The material contained in this email may be confidential, and may also be the subject of copyright and/or privileged information. If you are not the intended recipient, please delete it. Internet communications are not secure and accordingly Creative Generals does not accept any legal liability for the contents or damage caused by this message.</div>\n<div><br></div>\n</div>\n</div>\n<div>On 18 Jan 2024 at 4:01\u202fAM +1100, Wolf IQ Accounts Team &lt;accounts@wolfiq.com.au&gt;, wrote:<br>\n<blockquote style=\"border-left-color:#808080;border-left-width:thin;border-left-style:solid;margin:5px 5px;padding-left:10px;\">\n<table class=\"ex-body\" style=\"margin:0;background:#fff;border-collapse:collapse;border-spacing:0;color:#202022;font-family:arial, sans-serif;font-size:14px;font-weight:400;height:100%;line-height:1.4;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td class=\"ex-center\" align=\"center\" valign=\"top\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:14px;font-weight:400;line-height:1.4;padding:0;text-align:left;vertical-align:top;\">\n<center style=\"min-width:562px;width:100%;\">\n<table class=\"ex-spacer ex-float-center\" style=\"margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;padding:0;text-align:center;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td height=\"60\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:60px;font-weight:400;line-height:60px;padding:0;text-align:left;vertical-align:top;\"> </td>\n</tr>\n</tbody>\n</table>\n<table align=\"center\" class=\"ex-container ex-em-container ex-float-center\" style=\"margin:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;color:#202022;float:none;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5;padding:0;text-align:center;vertical-align:top;width:562px;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;vertical-align:top;\">\n<table class=\"ex-wrapper\" align=\"center\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td class=\"ex-wrapper-inner\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;vertical-align:top;\">\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:center;\"><img src=\"https://cb-prod-ap-se2-invoice-logos.s3.ap-southeast-2.amazonaws.com/wolfiqportal/logo_1649202117_1nLxKBaT2B20uUOK.png\" width=\"219\" style=\"clear:both;max-width:100%;text-decoration:none;\" alt=\"logo_1649202117_1nLxKBaT2B20uUOK.png\" /></p>\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:left;\"></p>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</table>\n<table class=\"ex-spacer\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td height=\"12\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:12px;font-weight:400;line-height:12px;padding:0;text-align:left;vertical-align:top;\"> </td>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-wrapper\" align=\"center\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td class=\"ex-wrapper-inner\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;vertical-align:top;\">\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">\n<h1 style=\"margin:0;margin-bottom:12px;color:inherit;font-family:arial, sans-serif;font-size:24px;font-weight:700;line-height:1.2;padding:0 0 30px;text-align:left;\">Your payment is due</h1>\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:left;\">Hey Jamie Shek,</p>\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:left;\">Your account is at risk of cancellation. Please complete your payment as soon as possible for continued service.</p>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:left;\"><span>Invoiced amount</span><br>\n<b>$1,656.50</b></p>\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:left;\"><span>Due since</span><br>\n<b>02-Jan-2024</b></p>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">\n<p style=\"margin:0;margin-bottom:12px;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:left;\">If you have questions about this payment, your subscription, or would just like to chat, contact us at any time. We'd love to hear from you.</p>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">Regards, \n<div><br></div>\n<div><b>Wolf IQ Accounts Team</b></div>\n<div>Phone: 1300 072 134</div>\n<div>Email: accounts@wolfiq.com.au</div>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</table>\n<table class=\"ex-spacer\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td height=\"30\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:30px;font-weight:400;line-height:30px;padding:0;text-align:left;vertical-align:top;\"> </td>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-wrapper\" align=\"center\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td class=\"ex-wrapper-inner\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;vertical-align:top;\">\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">\n<div class=\"ex-em-portal\" style=\"font-size:12px;line-height:1.5;\">View payments, update them or manage your account on your customer portal.\n<div><a href=\"https://clients.wolfiq.com.au/portal/login?email=jamie@creativegenerals.com.au#cb-portal-signup\" style=\"margin:0;color:#3367d6;font-family:arial, sans-serif;font-weight:400;line-height:1.4;padding:0;text-align:left;text-decoration:none;\">Log into your account now \u2192</a></div>\n</div>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-row\" style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th class=\"ex-small-12 ex-large-12 ex-columns ex-first ex-last\" style=\"margin:0 auto;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;padding-bottom:15px;padding-left:21px;padding-right:21px;text-align:left;width:541px;\">\n<table style=\"border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%;\">\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<th style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;\">\n<div class=\"ex-em-footer\" style=\"background:#f5f5f5;color:#7f7f7f;font-size:12px;line-height:1.5;padding:24px 30px;text-align:center;\">\n<p style=\"margin:0;margin-bottom:12px;color:#7f7f7f;font-family:arial, sans-serif;font-size:12px;font-weight:400;line-height:1.5;padding:0 0 15px;text-align:center;\"><b>PS:</b> We hope you're enjoying your experience with us! As always, feel free to reach out to us. We'd love to hear from you.</p>\n</div>\n</th>\n<th class=\"ex-expander\" style=\"margin:0;color:#202022;font-family:arial, sans-serif;font-size:16px;font-weight:400;line-height:1.5;padding:0;text-align:left;width:0;\"></th>\n</tr>\n</table>\n</th>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table class=\"ex-spacer ex-float-center\" style=\"margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;padding:0;text-align:center;vertical-align:top;width:100%;\">\n<tbody>\n<tr style=\"padding:0;text-align:left;vertical-align:top;\">\n<td height=\"45\" style=\"margin:0;border-collapse:collapse;color:#202022;font-family:arial, sans-serif;font-size:45px;font-weight:400;line-height:45px;padding:0;text-align:left;vertical-align:top;\"> </td>\n</tr>\n</tbody>\n</table>\n</center>\n</td>\n</tr>\n</table>\n\n<div style=\"white-space:nowrap;font:15px courier;line-height:0;\">                                                           </div>\n</blockquote>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 276161244,
+                "first": "Jamie",
+                "last": "Shek",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "jamie@creativegenerals.com.au"
+            },
+            "createdBy": {
+                "id": 276161244,
+                "type": "customer",
+                "first": "Jamie",
+                "last": "Shek",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "jamie@creativegenerals.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "accounts@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-01-17T22:33:35Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/276161244"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/276161244"
+                }
+            }
+        }
+    ]
+}
