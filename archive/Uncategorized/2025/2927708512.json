@@ -1,0 +1,296 @@
+{
+    "id": 2927708512,
+    "number": 152757,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "This ticket has been waiting for over 24 hours.",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-05-03T12:47:08Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-05-04T21:55:36Z",
+    "userUpdatedAt": "2025-05-04T21:55:36Z",
+    "customerWaitingSince": {
+        "time": "2025-05-04T21:55:36Z",
+        "friendly": "May 5, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2927708512"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2927708512/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2927708512/152757"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8896429954,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-04T21:55:36Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8895771825,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-04T12:54:22Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8895771824,
+            "type": "note",
+            "state": "published",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "body": "This ticket has been waiting for over 24 hours.",
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "photoUrl": "https://secure.helpscout.net//images/users/workflow-2.png",
+                "email": "rica@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-04T12:54:22Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "savedReply": {
+                    "href": "https://api.helpscout.net/v2/mailboxes/158894/saved-replies/0"
+                }
+            }
+        },
+        {
+            "id": 8894338211,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@stg-supportwolfiq-stg.kinsta.cloud. Gmail will retry for 46 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[stg-supportwolfiq-stg.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[stg-supportwolfiq-stg.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[stg-supportwolfiq-stg.kinsta.cloud 162.159.135.42: timed out]<br>[stg-supportwolfiq-stg.kinsta.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 02 May 2025 04:16:08 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGyg80VycMi-XoeXDUW389q_v-xjEtNZA-6be2W0sP1=w@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stg-supportwolfiq-stg.kinsta.cloud<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [stg-supportwolfiq-stg.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [stg-supportwolfiq-stg.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [stg-supportwolfiq-stg.kinsta.cloud 162.159.135.42: timed out]<br> [stg-supportwolfiq-stg.kinsta.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Sat, 03 May 2025 05:46:59 -0700 (PDT)<br>Will-Retry-Until: Mon, 05 May 2025 04:16:08 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-03T12:47:08Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 786987695,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2927708512/attachments/786987695"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2927708512/attachments/786987695/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/786987695/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 786987696,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6999,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2927708512/attachments/786987696"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2927708512/attachments/786987696/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/786987696/26f841d9645e543e730c26c26a9eeb3f088b48af/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

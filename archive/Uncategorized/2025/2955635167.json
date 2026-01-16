@@ -1,0 +1,1608 @@
+{
+    "id": 2955635167,
+    "number": 154981,
+    "threads": 22,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: URGENT notice emails not working",
+    "preview": "(Time: 15mins)",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 782996745,
+        "type": "customer",
+        "first": "Luca",
+        "last": "Leonardi",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "info@nardiplumbing.com.au"
+    },
+    "createdAt": "2025-05-31T00:32:33Z",
+    "closedBy": 838182,
+    "closedByUser": {
+        "id": 838182,
+        "type": "user",
+        "first": "Andy",
+        "last": "Crebar",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838182.354563.png",
+        "email": "andy@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-05T04:25:15Z",
+    "userUpdatedAt": "2025-06-05T04:25:15Z",
+    "customerWaitingSince": {
+        "time": "2025-06-05T04:25:15Z",
+        "friendly": "Jun 5, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "lm.leonardi@hotmail.com",
+        "andy@wolfiq.com.au",
+        "cindy@wolfiq.com.au",
+        "daphne@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 782996745,
+        "type": "customer",
+        "first": "Luca",
+        "last": "Leonardi",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "info@nardiplumbing.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2955635167"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/782996745"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/782996745"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/838182"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2955635167/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2955635167/154981"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9007224794,
+            "type": "note",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 838182
+                }
+            },
+            "body": "(Time: 15mins)<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838182.354563.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-05T04:25:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992576850,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Luca,<br><br>Totally understand your concern \u2014 especially with how critical email is for your team.<br><br>You\u2019re right that the last issue was related to MX records. It\u2019s possible the DNS records were reset at some point, so I\u2019ve re-added the MX records today to ensure everything is properly configured.<br><br>We\u2019ll continue monitoring things closely and keep you updated with any findings. If anything unusual happens again, feel free to shoot through an email.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "lm.leonardi@hotmail.com",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:36:32Z",
+            "openedAt": "2025-05-31T02:36:58Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992563609,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey team<br>\n<br>\nThe issue last time was some MX records or something not linked properly on the backend of the website ?<br>\n<br>\nUnsure of this one to be honest - we need this dived in to when the team has a chance as we rely on the emails to work properly, unsure on how the delay has occurred from the last 2 days<br>\n<br>\nEmails are sitting on a 10 min delay at the moment which should be ok but we are worried something has caused this to happen<br>\n<br>\n<div class=\"helpscout-signature\">Warm Regards,<br>\n<br>\n<strong>Luca Leonardi</strong><br>\n<strong><img width=\"420\" height=\"139\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" alt=\"AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\"/></strong><br>\nWarning - This email has been confidentially sent to the addressed recipient. Should you have received this email in error, please alert the sender and delete from your system. No part of this email, files or attachments can be reproduced, copied, forwarded or manipulated without written consent from Nardi Services Pty Ltd.<br>\nDisclaimer - All information contained herein is gathered from sources we believe reliable. We have no reason to doubt its accuracy, however we cannot guarantee it. All interested parties should make and rely upon their own enquiries.</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 782996745,
+                "type": "customer",
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "lm.leonardi@hotmail.com",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:23:12Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992555756,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Luka,<br><br>We haven\u2019t made any changes on our end, so it\u2019s unclear why the emails haven\u2019t come through yet.<br><br>It could be a temporary delay like last time, but keep an eye on it. In the meantime, it might be worth reaching out to any clients who may have emailed you, just in case.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "lm.leonardi@hotmail.com",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:17:13Z",
+            "openedAt": "2025-05-31T02:18:13Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992550671,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi Joel,<br>\nCan you confirm when the emails from the last 24 hours will be received?<br>\nThis error occurred previously when your team was updating the website &amp; all emails that we hadn't received eventually came through but I haven't received any as yet<br>\n<br>\nThanks<br>\n<br>\n<div class=\"helpscout-signature\">Warm Regards,<br>\nDonna Leonardi<br>\n<br>\n<br>\n<strong><img width=\"420\" height=\"139\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" alt=\"AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\"/></strong><br>\nWarning - This email has been confidentially sent to the addressed recipient. Should you have received this email in error, please alert the sender and delete from your system. No part of this email, files or attachments can be reproduced, copied, forwarded or manipulated without written consent from Nardi Services Pty Ltd.<br>\nDisclaimer - All information contained herein is gathered from sources we believe reliable. We have no reason to doubt its accuracy, however we cannot guarantee it. All interested parties should make and rely upon their own enquiries.</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 782996745,
+                "type": "customer",
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "lm.leonardi@hotmail.com",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:13:07Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992547980,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey team, I've just done another test from our Personal email to the Business email and it's still not on the receiving<br>\n<br>\n<div class=\"helpscout-signature\">Get <a href=\"https://aka.ms/o0ukef\">Outlook for iOS</a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:11:32Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992544588,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Donna, <br><br>It seems to working fine now, but if it occurs again, we can take a deeper look.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 796153415,
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:09:52Z",
+            "openedAt": "2025-05-31T02:10:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                }
+            }
+        },
+        {
+            "id": 8992543090,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "hey Joel,<br>\n<br>\nDid you need access to the Google admin console as well?<br>\n<br>\n<div class=\"helpscout-signature\">Get <a href=\"https://aka.ms/o0ukef\">Outlook for iOS</a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:07:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992538091,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<img class=\"ex-c1\" src=\"https://d33v4339jhl8k0.cloudfront.net/inline/87172/5e6b5910e88f74d5c2668576e253e65875ec25d5/1da9cc450f5c7410b811d718445a6cb63e3c54cf/IMG_6459.png\" alt=\"ii_19724140a6c4a07d6931\"/><br>\n<br>\n<div class=\"helpscout-signature\">Warm Regards,<br>\n<br>\n<br>\n<strong><img width=\"420\" height=\"139\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" alt=\"AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\"/></strong><br>\nWarning - This email has been confidentially sent to the addressed recipient. Should you have received this email in error, please alert the sender and delete from your system. No part of this email, files or attachments can be reproduced, copied, forwarded or manipulated without written consent from Nardi Services Pty Ltd.<br>\nDisclaimer - All information contained herein is gathered from sources we believe reliable. We have no reason to doubt its accuracy, however we cannot guarantee it. All interested parties should make and rely upon their own enquiries.</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 782996745,
+                "type": "customer",
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-31T02:03:31Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992530670,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Donna,<br><br>Thanks for that, can you please reply back to test as if its working. <br><br>I'll try and submit a test from the site<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 796153415,
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:59:26Z",
+            "openedAt": "2025-05-31T02:02:29Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                }
+            }
+        },
+        {
+            "id": 8992529523,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi team also attached is a screenshot of the test email from Joel.<br>\n<br>\nReceived at 11:55 am today<br>\n<br>\n<div class=\"helpscout-signature\">Get <a href=\"https://aka.ms/o0ukef\">Outlook for iOS</a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wolfiq.com.au",
+                "info@nardiplumbing.com.au"
+            ],
+            "cc": [
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:57:20Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 795835479,
+                        "filename": "processed-562979D6-F52C-49F1-97F0-602C8F766B78.jpeg",
+                        "mimeType": "image/jpeg",
+                        "width": 1188,
+                        "height": 2573,
+                        "size": 433548,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2955635167/attachments/795835479"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2955635167/attachments/795835479/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/795835479/d59956a462f4785981f8b0423c59f2ac80d7beab/processed-562979D6-F52C-49F1-97F0-602C8F766B78.jpeg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992527921,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey Joel,<br>\n<br>\nThere seems to be quite a delay in receiving the emails.<br>\n<br>\nIt still has not been received from Nardi plumbing and the test email was part of this thread not inquiry form.<br>\n<br>\n<div class=\"helpscout-signature\">Get <a href=\"https://aka.ms/o0ukef\">Outlook for iOS</a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wolfiq.com.au",
+                "info@nardiplumbing.com.au"
+            ],
+            "cc": [
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:55:50Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992525810,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Luca, <br><br>Can you confirm what was the test email?<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "lm.leonardi@hotmail.com",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:53:26Z",
+            "openedAt": "2025-05-31T01:53:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992525093,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Test email received at 11:52 am<br>\n<br>\n<div class=\"helpscout-signature\">Warm Regards,<br>\n<br>\n<br>\n<strong><img width=\"420\" height=\"139\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" alt=\"AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\"/></strong><br>\nWarning - This email has been confidentially sent to the addressed recipient. Should you have received this email in error, please alert the sender and delete from your system. No part of this email, files or attachments can be reproduced, copied, forwarded or manipulated without written consent from Nardi Services Pty Ltd.<br>\nDisclaimer - All information contained herein is gathered from sources we believe reliable. We have no reason to doubt its accuracy, however we cannot guarantee it. All interested parties should make and rely upon their own enquiries.</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 782996745,
+                "type": "customer",
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "lm.leonardi@hotmail.com",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:52:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992516772,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey Joel,<br>No unfortunately we haven't received anything including website contact form emails<br><br>I've attached a screenshot of our inbox",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:46:05Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 795834037,
+                        "filename": "IMG_6458.jpeg",
+                        "mimeType": "image/jpeg",
+                        "width": 1320,
+                        "height": 2868,
+                        "size": 963086,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2955635167/attachments/795834037"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2955635167/attachments/795834037/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/795834037/22f7e695fdbf66a59ad4eee32ce6736019eddabf/IMG_6458.jpeg"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992512446,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Donna,<br><br>Were you able to received the email we've sent to you just now? I've sent a test as well using the website contact form.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 796153415,
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:43:12Z",
+            "openedAt": "2025-05-31T01:43:43Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                }
+            }
+        },
+        {
+            "id": 8992504753,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hey team<br>\n<br>\nHave attempted to try a test and also have nothing coming through to us<br>\n<br>\nOne email has come through as 11:33am today but was supposed to have been received last night 10pm<br>\n<br>\n<div class=\"helpscout-signature\">Get <a href=\"https://aka.ms/o0ukef\">Outlook for iOS</a></div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:36:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992494103,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Donna,<br><br>Thanks for additional information. I've sent a test email using <a href=\"mailto:joel@wolfiq.com.au\">joel@wolfiq.com.au</a> to <a href=\"mailto:info@nardiplumbing.com.au\">info@nardiplumbing.com.au</a><br>Can you try now?<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 796153415,
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "info@nardiplumbing.com.au",
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:31:59Z",
+            "openedAt": "2025-05-31T01:32:29Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                }
+            }
+        },
+        {
+            "id": 8992488020,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi team,<br>We use gmail and I have logged in via the browser and the app and still no new emails have come through.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "createdBy": {
+                "id": 796153415,
+                "type": "customer",
+                "first": "Donna",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "lm.leonardi@hotmail.com"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wolfiq.com.au",
+                "info@nardiplumbing.com.au"
+            ],
+            "cc": [
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:24:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796153415"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992466617,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Luca,<br><br>We're currently looking into the issue. To assist us in troubleshooting effectively, could you please confirm which email client you're using (e.g. Outlook, Apple Mail, Gmail via browser, etc.)? Additionally, is this issue affecting all mailboxes under your domain or only specific users?<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au",
+                "lm.leonardi@hotmail.com"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T01:09:14Z",
+            "openedAt": "2025-05-31T01:09:41Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992453512,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi team<br>\n<br>\nPlease see below email<br>\n<br>\nAlso, alternate contact for the time being can be used<br>\n<br>\nLm.leonardi@hotmail.com<br>\n<br>\n<div class=\"helpscout-signature\">Warm Regards,<br>\n<br>\n<br>\n<strong><img width=\"420\" height=\"139\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" alt=\"AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\"/></strong><br>\nWarning - This email has been confidentially sent to the addressed recipient. Should you have received this email in error, please alert the sender and delete from your system. No part of this email, files or attachments can be reproduced, copied, forwarded or manipulated without written consent from Nardi Services Pty Ltd.<br>\nDisclaimer - All information contained herein is gathered from sources we believe reliable. We have no reason to doubt its accuracy, however we cannot guarantee it. All interested parties should make and rely upon their own enquiries.</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 782996745,
+                "type": "customer",
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [
+                "andy@wolfiq.com.au",
+                "cindy@wolfiq.com.au",
+                "daphne@wolfiq.com.au",
+                "lm.leonardi@hotmail.com"
+            ],
+            "bcc": [],
+            "createdAt": "2025-05-31T00:56:55Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992440792,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig assigned to Joel Maligalig",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-31T00:42:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 8992436933,
+            "type": "message",
+            "status": "pending",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "Hi Luca,<br><br>We're currently looking into the issue. To assist us in troubleshooting effectively, could you please confirm which email client you're using (e.g. Outlook, Apple Mail, Gmail via browser, etc.)? Additionally, is this issue affecting all mailboxes under your domain or only specific users?<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-31T00:42:38Z",
+            "openedAt": "2025-05-31T02:37:18Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        },
+        {
+            "id": 8992430097,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div>Hi team,Hi team,</div>\n<div><br></div>\n<div>It's just come to our attention that since Thursday, 29 May 2025 our emails have not been receiving but we are able to send </div>\n<div><br></div>\n<div>We've just completed the test this morning and found that we can send emails out but have not been able to receive anything</div>\n<div><br></div>\n<div>Is this something that the team can please urgently investigate </div>\n<div><br></div>\n<div>As we are waiting on important documents to come through over the weekend, we don't want to miss them</div>\n<div><br clear=\"all\" />\n<div>\n<div class=\"helpscout-signature\">\n<div dir=\"ltr\" class=\"ex-gmail_signature\">\n<div dir=\"ltr\">\n<div>Warm Regards,</div>\n<div>Luca Leonardi</div>\n<div><b style=\"color:rgb(0,0,0);\"><img width=\"420\" height=\"139\" src=\"https://ci3.googleusercontent.com/mail-sig/AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" alt=\"AIorK4xCdmbKl5U6473S5ac2Zmurv87wPADKMLru8nEbrbVAvQEK54oRyA5uxmxwXWuO9_N1XA4tGwh9Nc3q\" /></b></div>\n<div><span style=\"color:rgb(137,136,136);font-family:Arial, sans-serif;font-size:11px;\">Warning - This email has been confidentially sent to the addressed recipient. Should you have received this email in error, please alert the sender and delete from your system. No part of this email, files or attachments can be reproduced, copied, forwarded or manipulated without written consent from Nardi Services Pty Ltd</span><span style=\"color:rgb(137,136,136);font-family:Arial, sans-serif;font-size:11px;\">.</span></div>\n<span style=\"font-size:11px;font-family:Arial, sans-serif;color:rgb(137,136,136);\">Disclaimer - All information contained herein is gathered from sources we believe reliable. We have no reason to doubt its accuracy, however we cannot guarantee it. All interested parties should make and rely upon their own enquiries.</span></div>\n</div>\n</div>\n</div>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 782996745,
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "createdBy": {
+                "id": 782996745,
+                "type": "customer",
+                "first": "Luca",
+                "last": "Leonardi",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "info@nardiplumbing.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-31T00:32:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/782996745"
+                }
+            }
+        }
+    ]
+}

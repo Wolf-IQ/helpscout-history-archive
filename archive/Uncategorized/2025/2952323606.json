@@ -1,0 +1,168 @@
+{
+    "id": 2952323606,
+    "number": 154690,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Aviso Marine and Logistics] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 752667664,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "wordpress@avisoml.com.au"
+    },
+    "createdAt": "2025-05-28T04:40:02Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-05-28T21:30:43Z",
+    "userUpdatedAt": "2025-05-28T21:30:43Z",
+    "customerWaitingSince": {
+        "time": "2025-05-28T21:30:43Z",
+        "friendly": "May 29, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 752667664,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "wordpress@avisoml.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2952323606"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/752667664"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/752667664"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2952323606/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2952323606/154690"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8984891195,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-28T21:30:43Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8981909871,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, JetSearch.<br><br>First, visit your website (https://avisoml.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://avisoml.com.au/wp-admin/?elementor_updater=continue&amp;_wpnonce=28724f9a75) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://avisoml.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=zUzZzwO6Xlyvfe96D1s6qv&amp;rm_key=C6rUFpO8dwaZRYSXsJhK5d<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8<br>Active theme: Aviso (version 1.0.1)<br>Current plugin: JetSearch (version 3.5.4)<br>PHP version 8.1.30<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 5281 of the file /www/avisomarine_629/public/wp-content/plugins/jet-search/includes/elementor-views/widgets/ajax-search.php. Error message: Uncaught Error: Class \"Elementor\\Core\\Schemes\\Typography\" not found in /www/avisomarine_629/public/wp-content/plugins/jet-search/includes/elementor-views/widgets/ajax-search.php:5281<br>Stack trace:<br>#0 /www/avisomarine_629/public/wp-content/plugins/jet-search/includes/elementor-views/widgets/ajax-search.php(3384): Elementor\\Jet_Search_Ajax_Search_Widget-&gt;add_meta_style_controls('title_related', 'Before/After Ti...', 'jet-search-titl...')<br>#1 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): Elementor\\Jet_Search_Ajax_Search_Widget-&gt;register_controls()<br>#2 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\\Controls_Stack-&gt;init_controls()<br>#3 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\\Widget_Base-&gt;init_controls()<br>#4 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\\Controls_Stack-&gt;get_stack()<br>#5 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/controls-stack.php(315): Elementor\\Widget_Base-&gt;get_stack()<br>#6 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2524): Elementor\\Controls_Stack-&gt;get_controls()<br>#7 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1161): Elementor\\Controls_Stack-&gt;sanitize_settings(Array)<br>#8 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/element-base.php(620): Elementor\\Controls_Stack-&gt;get_data()<br>#9 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/widget-base.php(748): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#10 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/element-base.php(625): Elementor\\Widget_Base-&gt;get_raw_data(false)<br>#11 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/base/element-base.php(625): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#12 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/document.php(1092): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#13 /www/avisomarine_629/public/wp-content/plugins/elementor/modules/usage/module.php(571): Elementor\\Core\\Base\\Document-&gt;get_elements_raw_data(Array)<br>#14 /www/avisomarine_629/public/wp-content/plugins/elementor/modules/usage/module.php(184): Elementor\\Modules\\Usage\\Module-&gt;save_document_usage(Object(Elementor\\Modules\\Library\\Documents\\Section))<br>#15 /www/avisomarine_629/public/wp-content/plugins/elementor/modules/usage/module.php(297): Elementor\\Modules\\Usage\\Module-&gt;after_document_save(Object(Elementor\\Modules\\Library\\Documents\\Section))<br>#16 /www/avisomarine_629/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(636): Elementor\\Modules\\Usage\\Module-&gt;recalc_usage(100, 0)<br>#17 /www/avisomarine_629/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(31): Elementor\\Core\\Upgrade\\Upgrades::recalc_usage_data(Object(Elementor\\Core\\Upgrade\\Updater))<br>#18 [internal function]: Elementor\\Core\\Upgrade\\Upgrades::_on_each_version(Object(Elementor\\Core\\Upgrade\\Updater))<br>#19 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/background-task.php(278): call_user_func(Array, Object(Elementor\\Core\\Upgrade\\Updater))<br>#20 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/background-task.php(181): Elementor\\Core\\Base\\Background_Task-&gt;task(Array)<br>#21 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/background-task.php(136): Elementor\\Core\\Base\\Background_Task-&gt;handle()<br>#22 /www/avisomarine_629/public/wp-includes/class-wp-hook.php(324): Elementor\\Core\\Base\\Background_Task-&gt;handle_cron_healthcheck('')<br>#23 /www/avisomarine_629/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#24 /www/avisomarine_629/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#25 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/background-task.php(96): do_action('elementor_1_ele...')<br>#26 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/background-task-manager.php(71): Elementor\\Core\\Base\\Background_Task-&gt;continue_run()<br>#27 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/background-task-manager.php(86): Elementor\\Core\\Base\\Background_Task_Manager-&gt;continue_run()<br>#28 /www/avisomarine_629/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(240): Elementor\\Core\\Base\\Background_Task_Manager-&gt;__construct()<br>#29 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/plugin.php(759): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;__construct()<br>#30 /www/avisomarine_629/public/wp-content/plugins/elementor/includes/plugin.php(660): Elementor\\Plugin-&gt;init_components()<br>#31 /www/avisomarine_629/public/wp-includes/class-wp-hook.php(324): Elementor\\Plugin-&gt;init('')<br>#32 /www/avisomarine_629/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#33 /www/avisomarine_629/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#34 /www/avisomarine_629/public/wp-settings.php(727): do_action('init')<br>#35 /www/avisomarine_629/public/wp-config.php(104): require_once('/www/avisomarin...')<br>#36 /www/avisomarine_629/public/wp-load.php(50): require_once('/www/avisomarin...')<br>#37 /www/avisomarine_629/public/wp-admin/admin.php(35): require_once('/www/avisomarin...')<br>#38 /www/avisomarine_629/public/wp-admin/index.php(10): require_once('/www/avisomarin...')<br>#39 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 752667664,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "wordpress@avisoml.com.au"
+            },
+            "createdBy": {
+                "id": 752667664,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "wordpress@avisoml.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-28T04:40:02Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/752667664"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/752667664"
+                }
+            }
+        }
+    ]
+}

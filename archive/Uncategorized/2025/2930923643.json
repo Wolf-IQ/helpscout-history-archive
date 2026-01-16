@@ -1,0 +1,209 @@
+{
+    "id": 2930923643,
+    "number": 153003,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to lantertech@huntleyandco.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpEr",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-05-06T21:48:12Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-05-06T21:51:51Z",
+    "userUpdatedAt": "2025-05-06T21:51:51Z",
+    "customerWaitingSince": {
+        "time": "2025-05-06T21:51:51Z",
+        "friendly": "May 7, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2930923643"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2930923643/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2930923643/153003"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8904049597,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-06T21:51:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8904040120,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to lantertech@huntleyandco.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C3.ausprd01.prod.outlook.com 2025-05-06T21:48:09.544Z 08DD8C6428B7275F]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 06 May 2025 14:48:06 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnG0HfVk7eCY_6c3Yu3XWtGvcUNLwRoV18bWMJZjz+agRA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; lantertech@huntleyandco.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; huntleyandco-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::3, the server for the domain huntleyandco.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C3.ausprd01.prod.outlook.com 2025-05-06T21:48:09.544Z 08DD8C6428B7275F]<br>Last-Attempt-Date: Tue, 06 May 2025 14:48:09 -0700 (PDT)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1746568086; x=1747172886; darn=huntleyandco.com.au;<br>        h=cc:to:subject:message-id:date:in-reply-to:mime-version:from:from:to<br>         :cc:subject:date:message-id:reply-to;<br>        bh=w+FfX+hTrG1wLd9pwEtz8EbMB4Bjx3DYj3I6Fu5ngfc=;<br>        b=cqJomxP1zS1GE7PeFeqvjgwDWxyguf9Xh6d8TOjadSG1zwdPZ9wuv1t+69+GCELNT+<br>         sJeaDil57ltyZlnAOTb8Wr75thSyM/ILU7zNaZe1Z+NmWO9rvk81MurfjXDOoF/33oLe<br>         9CYCDtOknp5Bl3YceWlDTFOncfl8x5FC54EzcejsUFnCPdDz40f3Gf7S5N1Yg+TFzCyU<br>         jigrvgWmOivCv+2wP5T3Yks9QBI+xR86G11EKXHMMWW6sj2RvYWb2vb10tyNqhDXdtVn<br>         4vJu51NJZHNewTnwAasV2KUuoW3GCA/89zZ/hPzO97xNWV+nFqGcMVtn762EYLjaq7Lc<br>         zNKg==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1746568086; x=1747172886;<br>        h=cc:to:subject:message-id:date:in-reply-to:mime-version:from<br>         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;<br>        bh=w+FfX+hTrG1wLd9pwEtz8EbMB4Bjx3DYj3I6Fu5ngfc=;<br>        b=Qj98Ik0CDwedQHnjkhrkF+9rqpOiralDiW87+ONAZgaOS9OSWCtHmsqeIOiCcDeS5v<br>         KiTb2BgV6L4cpg1geRqECHZMcXihUCJfIdFGb8LMmubBqQNO9Op+hcncpDjQWrKrIS6r<br>         C+yvb8jR3dObejYbR4js44UZUEblBZ4vw1iXXoFuAZWqPPtsMYQDplrSM1OpiBkxjhbx<br>         AZEIls3ddTz6yED/sijgSVe/6/nE+OKZIuW3gtGCnAkPGwGg6ElSITYnMlF4ICFj9vmj<br>         jvP1pnLpX08yCqRcrdyLWgE4Mdo7WUlOGVPe/QkZjjKXSyD497jJYzaWqNVow4u7fIxY<br>         zymg==<br>X-Forwarded-Encrypted: i=1; AJvYcCUkW02atiPlIzZjNn5Cejnf1JsLce5upkUP4UOEq8Y3OhpZ0/qfqQmB9dv6tlUgqS4aIOEBunS1RBls@huntleyandco.com.au<br>X-Gm-Message-State: AOJu0YzZ7jVvxhBbVFRk0s2MIasOm+IjVmE1RqAHnV7+8iz+0Y4xloG6<br>\tmBjOtmy/MAsiX32pZKz7cmZx9ispQTyZEclWwQn8DFwvVse2TbTk4ZhwCOPzNcFxNIh3XF46wad<br>\tmLtb5f1YUtBXMyACzC5aJ90mBwJyY3WDcQl515Q==<br>X-Gm-Gg: ASbGncuqzkuqwQWhsn4SRkVjvHldkPrLsQFTXF8k/U0t6rEE1Wnfe0KlrJwlolSiCY5<br>\tzdtp23QHKOE12YECD2v3RuyqnLcfBBZ/WzyNlCTUt+SsZdk15S4rCFdLMuYRbkzxvsrvVARizcl<br>\tH4xYql+MU332PnyPkxPlw=<br>X-Google-Smtp-Source: AGHT+IEFJqGUkUs6YJi1cfrHFaJdKgRdbo/5EZccmeEafSQxS21uqaDMoIGvRTBuw9W0AucMrqmD4t9fZcFmB2YKTWE=<br>X-Received: by 2002:a05:6871:796:b0:2d5:246d:4b67 with SMTP id<br> 586e51a60fabf-2db5c080009mr423709fac.24.1746568086461; Tue, 06 May 2025<br> 14:48:06 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 6 May 2025 16:48:05 -0500<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 6 May 2025 16:48:05 -0500<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-2929922390-8904029251<br>X-Hs-Uid: 2R0WeajkWWNJxkMyxGvB<br>X-Hs-State: 3<br>X-Hs-Origin: pconsumer-076eec1cba891510a [34bf237687]<br>X-Hs-Message-Id: reply-87172-2929922390-8904029251-1746568085-1946504384@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;ME3PR01MB57034C714680A554DCA642AAFD892@ME3PR01MB5703.ausprd01.prod.outlook.com&gt;<br>Date: Tue, 6 May 2025 16:48:05 -0500<br>X-Gm-Features: ATxdqUH3Yr3eWBBep7x8T2zS1YyJDOrz6Xn8gRRJm1t_JlpnvHgtbrTHO27Pzko<br>Message-ID: &lt;CAMLnpnG0HfVk7eCY_6c3Yu3XWtGvcUNLwRoV18bWMJZjz+agRA@mail.gmail.com&gt;<br>Subject: Re: Lanter Ticket #437548 : Re: Order emails with PDF's not coming<br> through to Hello inbox<br>To: \"Huntley + Co\" &lt;hello@huntleyandco.com.au&gt;<br>Cc: support@lanter.com.au, huntley@wolfiq.com.au, <br>\tlantertech@huntleyandco.com.au<br>Content-Type: multipart/alternative; boundary=\"0000000000005eb6a106347e926f\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-06T21:48:12Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 787857326,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2930923643/attachments/787857326"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2930923643/attachments/787857326/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/787857326/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 787857327,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2930923643/attachments/787857327"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2930923643/attachments/787857327/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/787857327/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

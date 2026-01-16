@@ -1,0 +1,168 @@
+{
+    "id": 2949671652,
+    "number": 154472,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Dentures To You] Your Site is Experiencing a Technical Issue",
+    "preview": "Howdy!  WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caught an error wit",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 650056212,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "info@denturestoyou.com.au"
+    },
+    "createdAt": "2025-05-25T00:19:17Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-05-25T20:37:47Z",
+    "userUpdatedAt": "2025-05-25T20:37:47Z",
+    "customerWaitingSince": {
+        "time": "2025-05-25T20:37:47Z",
+        "friendly": "May 26, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 650056212,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "info@denturestoyou.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2949671652"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/650056212"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/650056212"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2949671652/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2949671652/154472"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8970427286,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-25T20:37:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8969006884,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Howdy!<br><br>WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Fusion Builder.<br><br>First, visit your website (https://www.denturestoyou.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.denturestoyou.com.au/wp-admin/post.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.denturestoyou.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=kSBVGDtvaeQypaCYr7Wn8p&amp;rm_key=Juckd9C1M2wQStoGA2DtUV<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8<br>Active theme: Avada (version 5.9)<br>Current plugin: Fusion Builder (version 1.9)<br>PHP version 8.1.30<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 240 of the file /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/inc/helpers.php. Error message: Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, WP_Term given in /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/inc/helpers.php:240<br>Stack trace:<br>#0 /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/shortcodes/fusion-post-slider.php(589): fusion_builder_shortcodes_categories('category')<br>#1 /www/denturestoyoucomau_794/public/wp-includes/class-wp-hook.php(324): fusion_element_post_slider('')<br>#2 /www/denturestoyoucomau_794/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#3 /www/denturestoyoucomau_794/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#4 /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/fusion-builder.php(228): do_action('fusion_builder_...')<br>#5 /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/fusion-builder.php(203): FusionBuilder-&gt;init()<br>#6 /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/fusion-builder.php(182): FusionBuilder-&gt;__construct()<br>#7 /www/denturestoyoucomau_794/public/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()<br>#8 /www/denturestoyoucomau_794/public/wp-includes/class-wp-hook.php(324): fusion_builder_activate('')<br>#9 /www/denturestoyoucomau_794/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#10 /www/denturestoyoucomau_794/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#11 /www/denturestoyoucomau_794/public/wp-settings.php(705): do_action('after_setup_the...')<br>#12 /www/denturestoyoucomau_794/public/wp-config.php(112): require_once('/www/denturesto...')<br>#13 /www/denturestoyoucomau_794/public/wp-load.php(50): require_once('/www/denturesto...')<br>#14 /www/denturestoyoucomau_794/public/wp-admin/admin.php(35): require_once('/www/denturesto...')<br>#15 /www/denturestoyoucomau_794/public/wp-admin/post.php(12): require_once('/www/denturesto...')<br>#16 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 650056212,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "info@denturestoyou.com.au"
+            },
+            "createdBy": {
+                "id": 650056212,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "info@denturestoyou.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-25T00:19:17Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/650056212"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/650056212"
+                }
+            }
+        }
+    ]
+}

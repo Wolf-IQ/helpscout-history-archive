@@ -1,0 +1,298 @@
+{
+    "id": 2955741390,
+    "number": 154997,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "preview": "This ticket has been waiting for over 24 hours.",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 796167851,
+        "type": "customer",
+        "first": "Christine",
+        "last": "Richmond",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "baileychristine302@gmail.com"
+    },
+    "createdAt": "2025-05-31T05:19:42Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2025-06-01T20:54:11Z",
+    "userUpdatedAt": "2025-06-01T20:54:11Z",
+    "customerWaitingSince": {
+        "time": "2025-06-01T20:54:11Z",
+        "friendly": "Jun 2, '25"
+    },
+    "source": {
+        "type": "beacon-v2",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 796167851,
+        "type": "customer",
+        "first": "Christine",
+        "last": "Richmond",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "baileychristine302@gmail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2955741390"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/796167851"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/796167851"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2955741390/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2955741390/154997"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8995153866,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-01T20:54:11Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 8994206316,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-01T05:32:17Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8994206314,
+            "type": "note",
+            "state": "published",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "body": "This ticket has been waiting for over 24 hours.",
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "customer": {
+                "id": 796167851,
+                "first": "Christine",
+                "last": "Richmond",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "baileychristine302@gmail.com"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "photoUrl": "https://secure.helpscout.net//images/users/workflow-2.png",
+                "email": "rica@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-06-01T05:32:17Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796167851"
+                },
+                "savedReply": {
+                    "href": "https://api.helpscout.net/v2/mailboxes/158894/saved-replies/0"
+                }
+            }
+        },
+        {
+            "id": 8992760006,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "I don\u2019t understand <br>Question no<br>3",
+            "source": {
+                "type": "beacon-v2",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 796167851,
+                "first": "Christine",
+                "last": "Richmond",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "baileychristine302@gmail.com"
+            },
+            "createdBy": {
+                "id": 796167851,
+                "type": "customer",
+                "first": "Christine",
+                "last": "Richmond",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "baileychristine302@gmail.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-31T05:19:42Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/796167851"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796167851"
+                }
+            }
+        },
+        {
+            "id": 8992760005,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<strong style=\"padding:0 0 5px 5px;\">Technical Information</strong>\n<table cellpadding=\"5\" cellspacing=\"2\">\n    <tbody>\n        <tr>\n            <td valign=\"top\" width=\"140\">IP Address</td>\n            <td valign=\"top\">1.146.56.219</td>\n        </tr>\n        <tr>\n            <td valign=\"top\" width=\"140\">Location</td>\n            <td valign=\"top\">Brisbane, Queensland, Australia</td>\n        </tr>\n        <tr>\n            <td valign=\"top\" width=\"140\">Operating System</td>\n            <td valign=\"top\">iPod, iPhone &amp; iPad Unknown</td>\n        </tr>\n        <tr>\n            <td valign=\"top\" width=\"140\">Browser/Version</td>\n            <td valign=\"top\">Safari 18.5</td>\n        </tr>\n        <tr>\n            <td valign=\"top\" width=\"140\">Device</td>\n            <td valign=\"top\">Mobile Phone</td>\n        </tr>\n        <tr>\n            <td valign=\"top\" width=\"140\">Authentication Mode</td>\n            <td valign=\"top\">Basic</td>\n        </tr>\n    </tbody>\n</table>\n<br>\n\n    <strong style=\"padding:0 0 5px 5px;\">Site Information</strong>\n    <table cellpadding=\"5\" cellspacing=\"2\">\n        <tbody>\n            <tr>\n                <td valign=\"top\" width=\"140\">Beacon ID</td>\n                <td valign=\"top\">Wolf IQ Support</td>\n            </tr>\n                <tr>\n                    <td valign=\"top\" width=\"140\">Current Page</td>\n                    <td valign=\"top\">Wolf IQ | Free Website Audit / https://www.wolfiq.com.au/welcome/free-website-audit?gad_source=5&amp;gclid=EAIaIQobChMIwPqDn-TMjQMVR4KsAh1jIgf5EAEYASAAEgJy1fD_BwE</td>\n                </tr>\n        </tbody>\n    </table>\n    <br>\n\n\n        <div class=\"c-BeaconHistoryTimeline\">\n            <div class=\"c-BeaconHistoryTimelineHeading\">\n                Beacon History\n            </div>\n            <div class=\"c-BeaconHistoryTimelineList\">\n                <div class=\"c-BeaconHistoryTimelineListItem\" data-timestamp=\"2025-05-31T05:17:09.359Z\">\n                    Viewed Wolf IQ | Free Website Audit / https://www.wolfiq.com.au/welcome/free-website-audit?gad_source=5&amp;gclid=EAIaIQobChMIwPqDn-TMjQMVR4KsAh1jIgf5EAEYASAAEgJy1fD_BwE\n                </div>\n                <div class=\"c-BeaconHistoryTimelineListItem\" data-timestamp=\"2025-05-31T05:17:09.360Z\">\n                    Beacon opened on Wolf IQ | Free Website Audit / https://www.wolfiq.com.au/welcome/free-website-audit?gad_source=5&amp;gclid=EAIaIQobChMIwPqDn-TMjQMVR4KsAh1jIgf5EAEYASAAEgJy1fD_BwE\n                </div>\n            </div>\n        </div>",
+            "source": {
+                "type": "beacon-v2",
+                "via": "user"
+            },
+            "customer": {
+                "id": 796167851,
+                "first": "Christine",
+                "last": "Richmond",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "baileychristine302@gmail.com"
+            },
+            "createdBy": {
+                "id": 838182,
+                "type": "user",
+                "first": "Andy",
+                "last": "Crebar",
+                "photoUrl": "https://secure.helpscout.net//images/users/beacon.png",
+                "email": "andy@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-31T05:19:42Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838182"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/796167851"
+                }
+            }
+        }
+    ]
+}

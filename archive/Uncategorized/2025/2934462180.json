@@ -1,0 +1,316 @@
+{
+    "id": 2934462180,
+    "number": 153287,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "This ticket has been waiting for over 24 hours.",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-05-09T23:02:40Z",
+    "closedBy": 838183,
+    "closedByUser": {
+        "id": 838183,
+        "type": "user",
+        "first": "Daphne",
+        "last": "Bautista",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/838183.340581.png",
+        "email": "daphne@wolfiq.com.au"
+    },
+    "closedAt": "2025-05-11T22:58:08Z",
+    "userUpdatedAt": "2025-05-11T22:58:08Z",
+    "customerWaitingSince": {
+        "time": "2025-05-11T22:58:08Z",
+        "friendly": "May 12, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2934462180"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/838183"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2934462180/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2934462180/153287"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8917925749,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Daphne Bautista marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 838183,
+                "type": "user",
+                "first": "Daphne",
+                "last": "Bautista",
+                "email": "daphne@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-11T22:58:08Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/838183"
+                }
+            }
+        },
+        {
+            "id": 8916658836,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-10T23:05:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8916658835,
+            "type": "note",
+            "state": "published",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "body": "This ticket has been waiting for over 24 hours.",
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "photoUrl": "https://secure.helpscout.net//images/users/workflow-2.png",
+                "email": "rica@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-10T23:05:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "savedReply": {
+                    "href": "https://api.helpscout.net/v2/mailboxes/158894/saved-replies/0"
+                }
+            }
+        },
+        {
+            "id": 8915167752,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@optivia.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C4.ausprd01.prod.outlook.com 2025-05-09T23:02:31.065Z 08DD8EC1E8EE777B]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 09 May 2025 16:02:27 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnFCS7nUXEPo=PzJAv1DHBhHg=rkk3mGCKkhjDNANjREKQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@optivia.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; optivia-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::3, the server for the domain optivia.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C4.ausprd01.prod.outlook.com 2025-05-09T23:02:31.065Z 08DD8EC1E8EE777B]<br>Last-Attempt-Date: Fri, 09 May 2025 16:02:31 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-09T23:02:40Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 789035376,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2934462180/attachments/789035376"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2934462180/attachments/789035376/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/789035376/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 789035378,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2934462180/attachments/789035378"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2934462180/attachments/789035378/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/789035378/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 789035379,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6987,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2934462180/attachments/789035379"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2934462180/attachments/789035379/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/789035379/6f9d79a7bde5e47c12bb546f79f7c61a50e24366/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
