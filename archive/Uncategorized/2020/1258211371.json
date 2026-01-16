@@ -1,0 +1,168 @@
+{
+    "id": 1258211371,
+    "number": 8815,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: I need technical support",
+    "preview": "Most of the site requests were through wp-admin/admin-ajax.php for the past 24 hours.   And here are the tops IPs making the these requests.  grep /wp-admin/admin-ajax.php access.log | awk {'print $02",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 361023787,
+        "type": "customer",
+        "first": "Adrian From",
+        "last": "Kinsta",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "adrian.lorica@kinsta.intercom-mail.com"
+    },
+    "createdAt": "2020-08-19T02:08:46Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2020-08-19T02:09:40Z",
+    "userUpdatedAt": "2020-08-19T02:09:40Z",
+    "customerWaitingSince": {
+        "time": "2020-08-19T02:09:40Z",
+        "friendly": "Aug 19, '20"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 361023787,
+        "type": "customer",
+        "first": "Adrian From",
+        "last": "Kinsta",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "adrian.lorica@kinsta.intercom-mail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1258211371"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/361023787"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/361023787"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1258211371/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1258211371/8815"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 3605251404,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-08-19T02:09:40Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 3605250311,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div style=\"font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px;line-height:0px;\"><img border=\"0\" width=\"1\" height=\"1\" src=\"https://kinsta.intercom-mail.com/q/-McqmAfGDBE0CwefLuR1wQ~~/AAAAAQA~/RgRhHw6iPVcIaW50ZXJjb21CCgAdook8Xx0sE4NSEnN1cHBvcnRAd3BwZXJrLmNvbVgEAAAAdQ~~\" alt=\"RgRhHw6iPVcIaW50ZXJjb21CCgAdook8Xx0sE4NSEnN1cHBvcnRAd3BwZXJrLmNvbVgEAAAAdQ~~\" /></div>\n<table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" align=\"center\" class=\"ex-main\" style=\"background-color:transparent;border-collapse:separate;border-spacing:0;font-family:Helvetica, Arial, sans-serif;letter-spacing:0;table-layout:fixed;width:100%;\"><tr><td class=\"ex-content-td\" style=\"color:#222;font-family:Helvetica, Arial, sans-serif;line-height:20px;padding:0;\">\n<div style=\"margin-top:0;padding-top:0;\">\n<p style=\"margin:0 0 15px;\">Most of the site requests were through wp-admin/admin-ajax.php for the past 24 hours. </p>\n<div class=\"ex-intercom-container\" style=\"margin-bottom:16px;\"><img src=\"https://kinsta.intercom-mail.com/i/o/237610506/22f9a7743538007a6a25fca6/image.png\" alt=\"\" style=\"margin:15px 0;\" /></div>\n<p style=\"margin:0 0 15px;\">And here are the tops IPs making the these requests. </p>\n<p style=\"font-style:italic;margin:0 0 15px;\">grep /wp-admin/admin-ajax.php access.log | awk {'print $02'} | sort |  uniq -c | sort -nr | head -n20<br>\n     36 46.114.5.170<br>\n     25 203.173.29.213<br>\n     24 14.200.114.173<br>\n     22 114.73.208.254<br>\n     21 120.155.57.171<br>\n     19 58.171.185.104<br>\n     19 114.74.232.41<br>\n     18 1.132.107.139<br>\n     17 180.181.163.74<br>\n     17 120.154.92.130<br>\n     14 165.225.114.95<br>\n     14 1.152.107.40<br>\n     14 114.74.29.73<br>\n     13 124.191.36.26<br>\n     13 101.112.74.120<br>\n     12 60.242.202.66<br>\n     12 165.225.114.120<br>\n     11 203.158.52.115<br>\n     11 120.152.174.175<br>\n     11 119.18.1.97<br></p>\n</div>\n</td>\n</tr><tr><td class=\"ex-content-td\" style=\"color:#222;font-family:Helvetica, Arial, sans-serif;line-height:20px;padding:0;\"><a class=\"ex-reply-in-messenger-button\" href=\"https://kinsta.intercom-mail.com/ntfy/5Zqg55XElmTF4ZYtvVbwpGFnfVZaBKVY\" style=\"background-color:#286efa;border:none;color:#FFF;font-size:12px;margin:5px 0 14px;padding:6px 25px;text-decoration:none;\">Reply in our Messenger</a>\n<p class=\"ex-reply-in-messenger-message\" style=\"color:#8c8c8c;font-size:12px;margin:0;\">You may need to sign in to Kinsta again.</p>\n<p class=\"ex-reply-in-messenger-message\" style=\"color:#8c8c8c;font-size:12px;margin:0;\">You can also reply directly to this email.</p>\n</td>\n</tr><tr><td style=\"font-family:Helvetica, Arial, sans-serif;padding:0;\">\n<div class=\"ex-admin_profile\">\n<table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" style=\"background-color:transparent;border:none;border-collapse:separate;border-spacing:0;margin:0;table-layout:fixed;\"><tr><td></td>\n</tr><tr><td class=\"ex-align_middle\" valign=\"middle\" width=\"50\" align=\"left\" style=\"border:none;font-family:Helvetica, Arial, sans-serif;padding:0;vertical-align:middle;\"><img class=\"ex-avatar\" width=\"32\" height=\"32\" alt=\"Adrian\" src=\"https://kinsta.intercom-mail.com/avatars/3896953/square_128/adrian_pic-1585067148.jpg?1585067148\" style=\"height:40px;text-decoration:none;width:40px;\" /></td>\n<td class=\"ex-align_middle\" valign=\"middle\" align=\"left\" style=\"border:none;font-family:Helvetica, Arial, sans-serif;padding:0;vertical-align:middle;\"><strong class=\"ex-name\" style=\"color:#000;\">Adrian</strong> <span class=\"ex-dark_text\" style=\"color:#222;\">from Kinsta</span></td>\n</tr></table></div>\n</td>\n</tr><tr><td></td>\n</tr><tr><td class=\"ex-content-td\" style=\"color:#222;font-family:Helvetica, Arial, sans-serif;line-height:20px;padding:0;\">\n<div class=\"ex-history ex-history_reply\" style=\"color:#500050;margin-top:0;padding-top:0;\">On Wed, Aug 19, 2020 at 12:00 PM, \"Adrian Lorica\" &lt;adrian.lorica@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">I am still checking this for you, please give me few more minutes to further investigate. </p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:52 AM, \"Adrian Lorica\" &lt;adrian.lorica@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Yeah, I am digging more...though I don't see any recent alert on the host server the site is running. </p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:51 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">And are there any clues as to what caused the spike?</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:50 AM, \"Adrian Lorica\" &lt;adrian.lorica@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">I see the PHP Worker usage was maxing out on the site about 3 hours ago. See here: </p>\n<div class=\"ex-intercom-container\" style=\"margin-bottom:16px;\"><img src=\"https://kinsta.intercom-mail.com/i/o/237608243/6158c22cf6af814a55da3811/image.png\" alt=\"\" style=\"margin:15px 0;\" /></div>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:47 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Ok great, thanks, do you know what caused it?</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:47 AM, \"Adrian Lorica\" &lt;adrian.lorica@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">I've restarted the PHP engine, the site looks to be working now. </p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:43 AM, \"Adrian Lorica\" &lt;adrian.lorica@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Hi There, Adrian here from the Support team.<br>\nI'm taking a look now. Please give me few minutes to check on this for you. </p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:43 AM, \"Kinsta\" &lt;operator@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Thank you! <img src=\"https://kinsta.intercom-mail.com/images/emojis/v2/72x72/1f44d.png\" width=\"16\" height=\"16\" alt=\"+1\" class=\"ex-ic_emoji_img\" style=\"margin:0;padding:0;\" /></p>\n<p style=\"margin:0 0 15px;\">Please standby while we connect you with a Support Engineer.</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:43 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Hi Guys, all of the pages for the site osierbelle.com.au are showing a 502 message?</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:42 AM, \"Kinsta\" &lt;operator@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Please describe in detail the issue you're experiencing so that we can help!<br><br><i>Be sure to include the site name or domain name so we can provide faster support.</i></p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:42 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Other</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:42 AM, \"Kinsta\" &lt;operator@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Sure thing! Our support team is here 24/7 to assist you as needed.</p>\n</div>\n<div>\n<p style=\"margin:0 0 15px;\">Please select a topic from the list below:</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Aug 19, 2020 at 11:42 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div style=\"margin-bottom:0;\">\n<p style=\"margin:0 0 15px;\">I need technical support</p>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</td>\n</tr></table><img src=\"https://kinsta.intercom-mail.com/via/o?h=7cd51ac2ac55f2c20becbe07890f3abdc4fda193-q0io6kmm_12478700109652_6193520423\" width=\"1\" height=\"1\" alt=\"intercom\" /><img border=\"0\" width=\"1\" height=\"1\" alt=\"\" src=\"https://kinsta.intercom-mail.com/q/aiWPLZES7OJ8nGvPEAUaWQ~~/AAAAAQA~/RgRhHw6iPlcIaW50ZXJjb21CCgAdook8Xx0sE4NSEnN1cHBvcnRAd3BwZXJrLmNvbVgEAAAAdQ~~\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 361023787,
+                "first": "Adrian From",
+                "last": "Kinsta",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "adrian.lorica@kinsta.intercom-mail.com"
+            },
+            "createdBy": {
+                "id": 361023787,
+                "type": "customer",
+                "first": "Adrian From",
+                "last": "Kinsta",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "adrian.lorica@kinsta.intercom-mail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-08-19T02:08:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/361023787"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/361023787"
+                }
+            }
+        }
+    ]
+}
