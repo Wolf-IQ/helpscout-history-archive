@@ -1,0 +1,209 @@
+{
+    "id": 3151904209,
+    "number": 179240,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@stellawoman.co.uk because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpError",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-11-26T21:05:27Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-26T21:05:29Z",
+    "customerWaitingSince": {
+        "time": "2025-11-26T21:05:27Z",
+        "friendly": "Nov 27, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3151904209"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3151904209/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3151904209/179240"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9605306942,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-26T21:05:29Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9605306849,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@stellawoman.co.uk because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [CW2PEPF000056BE.GBRP265.PROD.OUTLOOK.COM 2025-11-26T21:03:52.775Z 08DE29E234F64F2B]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 26 Nov 2025 13:03:50 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnGRnw_+-MSLbFx6gxjrOdo7y_V1pYasS9k2oWzdhGqbYA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stellawoman.co.uk<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; stellawoman-co-uk.mail.protection.outlook.com.<br> (2a01:111:f403:ca1a::1, the server for the domain stellawoman.co.uk.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [CW2PEPF000056BE.GBRP265.PROD.OUTLOOK.COM 2025-11-26T21:03:52.775Z 08DE29E234F64F2B]<br>Last-Attempt-Date: Wed, 26 Nov 2025 13:03:52 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764191031; x=1764795831; darn=stellawoman.co.uk;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=Zobf55/rNz6isalP5UqQfb1Bu/fopZGJVtX24lmgbzU=;<br>        b=gpKHFp1uPIXjiIQmmc7cDPg0PD3bpq/foAooTSQ+tCzfwDHbaWZk7NUsRRVG1BIeLR<br>         LO2pUltyU2vTa1hOaAHlPqp9z80kfI/dBihDn4TEeMRAXdWxZ+JZ3CLjJCSvV+dsDmMi<br>         euZGHXddA8jmNYy599xb7FxnF1gcpdYwWy1zZfVw1f7yPjtaA8sxPRxw1OERzqjRL8aJ<br>         chdxr5aJiu2vnDuezu6DTCb0DRnLSZdpmfKtZZ1VJ9P6lVf/cYSBEpBCvHs8xAfNQ8X8<br>         cmnq2McsHXXFAbd3TNSUsfbTX42NNHZzHATtZaYBkilBD0noPgmwCFKRbMiKeaDhp8L4<br>         DB/g==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764191031; x=1764795831;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=Zobf55/rNz6isalP5UqQfb1Bu/fopZGJVtX24lmgbzU=;<br>        b=lNUkFcLTsX+/60+zzqP0bA8YPArvPviNBLx0Unsd0gBn+Y3JZS/OE1OP7l6B4ggfLP<br>         IekQbtgyO2LA8QFgUc8xHoqmA9VgQKJXjOIBmR6R04uBS6Xe34oRMsBb1Sh6hETT4OIo<br>         UC40kGL8PRFfgOXhgmp2e8cX9OnZYKXpM5lxeQZwaJu0CDwlBRO7rqyvD/gt+nvpeSxd<br>         IgDiDl/9lT7Vq0xCZRWfxHQl15UKx4Et99vkPwyym2+6l0+6k1HgEEPX9uMax1fBqULM<br>         y+TMderiB6Fwvi1iswE81nP7fcfOkfbHCv39pfY6+8dsht7Kss0ZsbHXEbm41bJLJ2sX<br>         uWxw==<br>X-Gm-Message-State: AOJu0Yyfz0TfzUo+SK78nNXtSuFhXy0Dpb3wyp85PMYE2XGEMel4HNLH<br>\tGZolQJZe5szsXqN2A2ny2y6JHYrGfvUY+xo09yjoEE8lSvf1a6ZBBO4u82PZkZk8YlFye0buTJh<br>\tVRsfcF0K2x1S+n0cUSG+EteHQMS1hJtXi2BgZgfyIdX31ioY4Hf6m<br>X-Gm-Gg: ASbGncsQaYjy0Zbb2DDQk7aywgH4us5zG2WixEmLXq00FhAEx6IPkWitJIVBRC561Xa<br>\tNUTI+DM9nKF06bwgWrNcJlKkDoXuE/vheNT8CLZxneW7a4oaQ/exPYkJA2kh+K1m4YMiWMnF8ds<br>\tTTwX863YxDlClzAqeXchUNgiNMyikaLdsGgJyFIyYRLmmPERVN/U7tcx5t7UPpRxB2OBSo2PgEX<br>\tW8Iblo0qaSodp8oWKqU/xzBaOJruNtB1pLajf/64GKOTRqK74BMYVfvotmYkbqYmn33wJY=<br>X-Google-Smtp-Source: AGHT+IE/bBmF+eqEjotGpwNiG5vRVnf4Lx95aB7mj8x0pRdWds21jGYDxKPc9UVnd+79HudZFtCM+KHN6I/ar/2Nka0=<br>X-Received: by 2002:a05:6808:3ac:b0:453:10f0:a345 with SMTP id<br> 5614622812f47-45310f0a455mr196175b6e.30.1764191030734; Wed, 26 Nov 2025<br> 13:03:50 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 26 Nov 2025 15:03:50 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 26 Nov 2025 15:03:50 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3151902659-9605302268<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-b7b7b79b6-4l4kr [b0096f4ba4]<br>X-Hs-Message-Id: reply-87172-3151902659-9605302268-1764191030-762523500@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;lH0j5LJeAbUgV5BTOdQCGcvYLJqCh48GVjVr0vUlJbA@stellawoman.co.uk&gt;<br>Auto-Submitted: auto-replied<br>Date: Wed, 26 Nov 2025 15:03:50 -0600<br>X-Gm-Features: AWmQ_bnX8ZH8xfyFjko9SAGEWuFIQhJ-aBCkXs_caDefuGpJa1lQcq4N036w5Ds<br>Message-ID: &lt;CAMLnpnGRnw_+-MSLbFx6gxjrOdo7y_V1pYasS9k2oWzdhGqbYA@mail.gmail.com&gt;<br>Subject: Re: 179238 (we're on it)<br>To: Wordpress &lt;wordpress@stellawoman.co.uk&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000b3fec9064485bb1b\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-26T21:05:27Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 868614861,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3151904209/attachments/868614861"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3151904209/attachments/868614861/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/868614861/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 868614862,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3151904209/attachments/868614862"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3151904209/attachments/868614862/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/868614862/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

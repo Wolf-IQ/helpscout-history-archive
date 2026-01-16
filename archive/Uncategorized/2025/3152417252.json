@@ -1,0 +1,189 @@
+{
+    "id": 3152417252,
+    "number": 179359,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@stg-sydneyhearingclinic-stg.kinsta.cloud. Gmail will retry for 44 more hours. You'll be notified if the de",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-11-27T10:31:44Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-27T10:31:47Z",
+    "customerWaitingSince": {
+        "time": "2025-11-27T10:31:44Z",
+        "friendly": "Nov 27, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3152417252"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3152417252/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3152417252/179359"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9606825718,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-27T10:31:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9606825595,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@stg-sydneyhearingclinic-stg.kinsta.cloud. Gmail will retry for 44 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[stg-sydneyhearingclinic-stg.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[stg-sydneyhearingclinic-stg.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[stg-sydneyhearingclinic-stg.kinsta.cloud 162.159.135.42: timed out]<br>[stg-sydneyhearingclinic-stg.kinsta.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 25 Nov 2025 23:06:27 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnF0vndLwbOPDA+6V69Xpj8BCr2j-+EySBvqUY9TOhizGg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stg-sydneyhearingclinic-stg.kinsta.cloud<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [stg-sydneyhearingclinic-stg.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [stg-sydneyhearingclinic-stg.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [stg-sydneyhearingclinic-stg.kinsta.cloud 162.159.135.42: timed out]<br> [stg-sydneyhearingclinic-stg.kinsta.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Thu, 27 Nov 2025 02:31:25 -0800 (PST)<br>Will-Retry-Until: Fri, 28 Nov 2025 23:06:27 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764239245; x=1764844045; darn=stg-sydneyhearingclinic-stg.kinsta.cloud;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=pNeKhyipr+RQI/wNEWkFxFbDZmfHbz+1aEQDpuzbPt8=;<br>        b=M6EOljLznAuojFJx2dwFB6pDem3Xded6BYXQWjgtldbFQDc9ejfrp2jGigZR+MR9ga<br>         40mM3ATy1uft6Weabg10AGolrKi1UCMtqXndQIGB1p70+veFsw9fB9I/TmC8KgbUoH4T<br>         QgEwpugWmMAn9sR2T1RJCZVcVb9Mb0WZcQnfgn9yyEl6WnRZ9hVh/8VgKn2sASG9HVI0<br>         INRFOyLMdm86HGtTwH7oy1TIcNVm0RCIbUdqj93vYVfJDC1lKJk0xt949NY5BcieUjtv<br>         bqdPP17ijEIEd8pOuhf8l9o352xb8AYJogzWfgb7cCkqBosJLbl62bkbZS1mf18H5/S2<br>         2d4A==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764239245; x=1764844045;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=pNeKhyipr+RQI/wNEWkFxFbDZmfHbz+1aEQDpuzbPt8=;<br>        b=lOJ7WZiWxLfxtdJHQ6hWAhN6JdkhM+e94Y8OG1HvmqwAbnpzbJwgJcN/WYnPBi05si<br>         yUlWm5ztHBw0PuNpiaLZh87uY8dKSMQxopPewQssStYuk1PT9fbsJ2CG6FhI/48PPq4u<br>         4A+Qtqw6NsFWt8/YlUq6W161u0X6d/7Eenxj4EYngea6uc9wjyBSMydHM8/l/agyQ3g1<br>         Rbx4+yErj9M4v5jQa7rkAjnPhGFGWfl/QgScxtTOHv3mrC8kSEotGvavrbGKXYZJZSCG<br>         z0lmKxE3OfGRsA8hd4BI4R0yza9htSuYPUAYRukj0vAvdYZOojaQzi3jMK/FsYvgSpQ1<br>         v4ug==<br>X-Gm-Message-State: AOJu0YzO7NiTn27KSXIT9ytwr2FmxiOYZdbPy2uIoERYGnjeI0qkFFcQ<br>\tg4lzfReOMQxrWvQlgwBWQVv8NoiNtvP2kuxoiWAyd4eCbTMhE3YAUckSS45VCg74AwAq3R2iEKC<br>\tffnF9PnkyOM7Rb2Wj9VCfd7raUuVD4hOUyAkRzIsWw67lX4jPfg+V<br>X-Gm-Gg: ASbGncvAGR30aZb3f0PzxuFrppA7EJkD5dEeQjdvWs30BFzpyUzswDpZRZnG11fYiQL<br>\tFEh6/RBJyFoivVBr8gX05NTk2hySXoNcV5iQ9f/hCknyYt16xnS7TGg0+Vois/0Z+UcymABbyLQ<br>\txr+qVUqFB5NHcyXh44PVS5HpXoukzEm/Um3rt/cKuh/iX6n1Uyc0YGNGmXF3jaQV1yqKqUtS0rT<br>\tcgjodCMe9q4FnlKbx+r8OXzGeB6preUnvmS17pYR4NFP7QEhhV4B+ljwleRDQxZMq8gISNT<br>X-Google-Smtp-Source: AGHT+IGLA/j/PhtHFIC+VhVqrB0LlinmykkFlbHdatXHTs5aq3hR1OvlYNUVr2shA88VX9rEV4MvxArTu3Q69EM14V4=<br>X-Received: by 2002:a05:6820:f004:b0:654:faee:1065 with SMTP id<br> 006d021491bc7-657bdcc0443mr1707826eaf.5.1764140787948; Tue, 25 Nov 2025<br> 23:06:27 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 26 Nov 2025 02:06:27 -0500<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 26 Nov 2025 02:06:27 -0500<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3151119219-9602832475<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-b7b7b79b6-r8s2k [b0096f4ba4]<br>X-Hs-Message-Id: reply-87172-3151119219-9602832475-1764140787-1912241023@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;QM6YZshzyJRE4nCeTTjAkOjkbK2D0m8gI0Q5VySkQ@stg-sydneyhearingclinic-stg.kinsta.cloud&gt;<br>Auto-Submitted: auto-replied<br>Date: Wed, 26 Nov 2025 02:06:27 -0500<br>X-Gm-Features: AWmQ_bkDHDynprYSdH1hSWFdlwbNERumNsIjaLlsOnHIkA8KNIw9f7J0ZkOjwqk<br>Message-ID: &lt;CAMLnpnF0vndLwbOPDA+6V69Xpj8BCr2j-+EySBvqUY9TOhizGg@mail.gmail.com&gt;<br>Subject: Re: 179133 (we're on it)<br>To: Wordpress &lt;wordpress@stg-sydneyhearingclinic-stg.kinsta.cloud&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000ffed2f06447a08ae\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-27T10:31:44Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 868833882,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3152417252/attachments/868833882"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3152417252/attachments/868833882/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/868833882/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

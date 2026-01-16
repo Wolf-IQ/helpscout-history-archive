@@ -1,0 +1,189 @@
+{
+    "id": 3153213685,
+    "number": 179468,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to karen@privatuscp.com because the domain privatuscp.com couldn't be found. Check for typos or unnecessary spaces and try again.  Learn more her",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-11-28T06:24:54Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-28T06:24:55Z",
+    "customerWaitingSince": {
+        "time": "2025-11-28T06:24:54Z",
+        "friendly": "Nov 28, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3153213685"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3153213685/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3153213685/179468"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9609009129,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-28T06:24:55Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9609009108,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to karen@privatuscp.com because the domain privatuscp.com couldn't be found. Check for typos or unnecessary spaces and try again.<br><br>Learn more here: https://support.google.com/mail/?p=BadRcptDomain<br><br>The response was:<br><br>DNS Error: DNS type 'mx' lookup of privatuscp.com responded with code NXDOMAIN<br>Domain name not found: privatuscp.com For more information, go to https://support.google.com/mail/?p=BadRcptDomain<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 27 Nov 2025 22:24:45 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnEjHzu5UMO=_Gs_Kin5MGQvENR-3R8EJuA8Qk=PwNOx4w@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; karen@privatuscp.com<br>Action: failed<br>Status: 5.1.2<br>Diagnostic-Code: smtp; DNS Error: DNS type 'mx' lookup of privatuscp.com responded with code NXDOMAIN<br> Domain name not found: privatuscp.com For more information, go to https://support.google.com/mail/?p=BadRcptDomain<br>Last-Attempt-Date: Thu, 27 Nov 2025 22:24:46 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764311085; x=1764915885; darn=privatuscp.com;<br>        h=cc:to:subject:message-id:date:in-reply-to:mime-version:from:from:to<br>         :cc:subject:date:message-id:reply-to;<br>        bh=qtZKsyIC3ExUjDdw3fqWAB+L8nAQbQ3C5oiOYMhumA0=;<br>        b=mImO8SFXgoYcb6JbRiJfFjRbl+dzB/0nIpuji3fbI6Tgsm2gf/+1TjWmHc2VM4NSyQ<br>         lGVgUUjbybyaur5UnvmKOO81Bv00UaEBpxyuwa1WXShQpdRZAy06lXVvRmv8Bqhxu+5K<br>         MC1qUhK7UKYjUK1UWnG0IHe0NPm81ws29tycZ5EWn5wzEE0uvo0YpwEn/Wc5zRp5CZFr<br>         pZrB2ofdtDgoMc0NB3Xeo6VO18lQHTU2WdgEmjfEW7waRFbLvjmrLJfxtEFXQvJl602l<br>         6Ru/E7jakgPSnuhDIBMfu7oBhubqESabns2to45LuyGoOPpBtxuej1NmfZE30uNj3Lzy<br>         TEMQ==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764311085; x=1764915885;<br>        h=cc:to:subject:message-id:date:in-reply-to:mime-version:from:x-gm-gg<br>         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;<br>        bh=qtZKsyIC3ExUjDdw3fqWAB+L8nAQbQ3C5oiOYMhumA0=;<br>        b=u0+vba89ZBoGsKuWtUi+KpUpWMf6Ycax+fbDBj7lzuOqJrwq9A2tnuwpXN4/e3Zvg8<br>         11XGLqor/Wxy0nE05XneBzkJaqK3c1MseaiEEsYEPXqr+WZOII/LFpfDGcfoEZ9gF1Ex<br>         JvzfZuUY8MrvTF0hv/JbWlMOST8Ovu4bv1SH7Q4hcCpfi4P5EvxgM0yheU0riUnVyKuf<br>         Ww2kbkQUiBXLUSUY9/vDM8cjT5nDJvqPjlfGDDxyZAxMRk5M2u+F/StatbCUhk97bEZR<br>         zJtvocpBudifG1fx855KcjFs7aK8efbBxFS03BJWDIfLKGISd4ev+ZbwfPvs0DqbLf+s<br>         b/Dg==<br>X-Gm-Message-State: AOJu0Yx84yX23Kv0CwIhn09oLuWYl8Q0xrvBnMo+8dlHsQ0hphd3hytG<br>\tJY2d8Voj9gkcnXgCyu8eJTy6UQ1AD3mT79+TwLpoqRfrWP2hn/jT/7N7Mg00WFiFc6vFGHm4gph<br>\t4ZvjV9A8aAtG6ONETWUtDDLBS2qZT2kEv5+wU2m1NdL+eIe3xKbEu<br>X-Gm-Gg: ASbGncus0kHbcfxnEM9uOiYI0DDxcgTHR60SVbRvRJYnK+PYvkntfKOXJu3iOmMK9/W<br>\tlXOyRFmmaBo7/1HggBQmJtGwaoe+TCwQtcL19rgoEVVeWUMuCPCzLoN6IG3O0yR+A+36bRyWQiK<br>\tIrJQf/mkfHvoZNfgZ3I6N0qlo75YCgFxrqdiW3t/nC1qg7ZwogkrKe2juxwTSSUKpuhbkHRnXD0<br>\tF/RlOjCdNu3+SnkZm+J0VZZWMDOw+eXT+2ZeI2ZrO16bypRj9JRzsigluS+XWoCCTN2HB0=<br>X-Google-Smtp-Source: AGHT+IESA9uWfqbMlxKl8XC8M/BB1Pq6Db9uPEOEHfBc0MDGH7Nje/JEzOlZ8Ni9eFrgreFuA48B4aeeaPYRUjYmWQA=<br>X-Received: by 2002:a05:6830:6884:b0:74c:2f06:5868 with SMTP id<br> 46e09a7af769-7c7c442398dmr5352603a34.30.1764311085560; Thu, 27 Nov 2025<br> 22:24:45 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 28 Nov 2025 00:24:45 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 28 Nov 2025 00:24:44 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-3113014573-9609008020<br>X-Hs-Uid: OYEA1NqkaQjZWkpM2jrV<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-mailgen-spot-6797497bc9-x8fb9 [b0096f4ba4]<br>X-Hs-Message-Id: reply-87172-3113014573-9609008020-1764311084-1286519044@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;0102019ac91fda73-a0d1fae3-c26e-4ef4-9181-df9034b61197-000000@eu-west-1.amazonses.com&gt;<br>Date: Fri, 28 Nov 2025 00:24:44 -0600<br>X-Gm-Features: AWmQ_bkx8gBmVULFrRq9xf46-tY1SFdIsRZiBWP7n0N_tUUXWamjxnPkm4Fvt48<br>Message-ID: &lt;CAMLnpnEjHzu5UMO=_Gs_Kin5MGQvENR-3R8EJuA8Qk=PwNOx4w@mail.gmail.com&gt;<br>Subject: Re: Fwd: 30 days left until service expiration<br>To: servicedesk@cogenesis.com.au<br>Cc: karen@privatuscp.com<br>Content-Type: multipart/alternative; boundary=\"0000000000008743e30644a1afc8\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-28T06:24:54Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 869151590,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3153213685/attachments/869151590"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3153213685/attachments/869151590/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/869151590/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "id": 3152107489,
+    "number": 179286,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@smartreviews.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://support.google.co",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-11-27T01:34:29Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-27T01:34:30Z",
+    "customerWaitingSince": {
+        "time": "2025-11-27T01:34:29Z",
+        "friendly": "Nov 27, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3152107489"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3152107489/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3152107489/179286"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9605891859,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-27T01:34:30Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9605891833,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@smartreviews.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://support.google.com/mail/?p=NoSuchUser<br><br>The response was:<br><br>550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-3ec9dc3fd22sor5386302fac.13 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 26 Nov 2025 17:34:20 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnHgRceDB=4X7yqnwWO8xed8tJuNskH4N75T3y-VRfpwUg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@smartreviews.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try<br> 550-5.1.1 double-checking the recipient's email address for typos or<br> 550-5.1.1 unnecessary spaces. For more information, go to<br> 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-3ec9dc3fd22sor5386302fac.13 - gsmtp<br>Last-Attempt-Date: Wed, 26 Nov 2025 17:34:20 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764207260; x=1764812060; darn=smartreviews.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=oSWnYeOE4uUSg5EeOfMNUG1KtlcSO13WrY2uBBDfR4g=;<br>        b=S+cYjGWwZ61lnfRJxg8xxia5gis5oS68DurNNKrwpKdTIHWUo/tpsFCeI5eTzu1+ai<br>         /z44eU8vubCRjGdKWsu7ahaZR6TIBtOsDwRHWpEca+TIQaTZmL2QWriacEbkXJpxs4sO<br>         3QYRWyJ/P01DF6HBjMbSqxjC5JgcGVVh5f9awZPQJ4l6i0D5D/PuY3JWcVmcne6jDks5<br>         D5OhApbYikgTJjAtDWOqIc0vs/bJYfS2CJ4GCYDnN3fvPx9VWDZVuWLjNOStmIumSe9M<br>         WHqIwtP1HnjjXFJ5BWOD8ftAPHLeww5e6XEdPRXib/eecjcNz+V7t4XY7tDtK9lZClCh<br>         yolg==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764207260; x=1764812060;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=oSWnYeOE4uUSg5EeOfMNUG1KtlcSO13WrY2uBBDfR4g=;<br>        b=XzQQ8ZhJdMlN8gr7v3Clvp7QXToNpjWE9CqaVQbVyqEyZeftjllNjANkNCsr39kwIX<br>         qoH3qEt+6gKUfiT7mB6Ngxw1m3e8HBLVmyOCpLMlE4OQhLoMYwwY6GtNyPqxoZ8/m8tW<br>         1XGfw2lWAQGsTsQ6qAwHxr0duMhf/K5EIVNDFsEQ+1G3q9CAQhwjUG2WUpyMInYAPPbM<br>         /K8bRsRtuZDnYSUP0PYipxVhhr2ZSaISSb1i8M432A2Ss0srBq4kA+ciCQLCVovMg2+q<br>         Lq3Lh/V4m9JrA9Vuxh6suttZ4rhaqSjQnavGkf8JufKeP6rV3RbeWoCoF6F8IiR1dgrV<br>         KN5g==<br>X-Gm-Message-State: AOJu0Ywzfo3YBFCvk9x7EngbsjxtFg2ez4qQYTtNZsinmQIu9hn0cp5z<br>\t0z53y4dmSNOxRQPzJ0yfxg2K9KhIrYQWzAKCDBlBUs5/E8kD8ccXO6XjDrKZ2M2ZOXv9Ik5bnJ6<br>\ttBM/8/xBdBboKQxsToR8g6593Hv99Gh3FPoStypHcvz5PuyuLmmNCnNU=<br>X-Gm-Gg: ASbGncsb6+lWI89n7V7UT78PICWrKzjpi/vW7+WBVc2o00DB46hrUuSY1GnOCCRWr75<br>\t3Ca7EM0G2u5kg50rRbqztIDL13awQHIXYOBMT13isr/O6ArwnMdHnkGWrB+UR02nT8sN6NqkwhH<br>\t62iyCq4fgnu/tZ5ATf3Sc5FB09IaDnrnacvm7ndz/6AM+HMOvQq22gEXm0VC83O/doj6g/n+TFi<br>\tJ2xepLYndH2Eowb2XFClMO8QIEDS1an7mXoEQq2P7mnbZbT8sHzPsvavxM1y5suGStii4U=<br>X-Google-Smtp-Source: AGHT+IEgHMNnECQPwtF1qkGayt16M5oqElXbJGaRizW/6VeLpzv83m8X7UT1Tnf1vnb5iWPkAdIxT/238tmU+ofumVE=<br>X-Received: by 2002:a05:6820:f004:b0:654:faee:1065 with SMTP id<br> 006d021491bc7-657bdcc0443mr2713209eaf.5.1764207260116; Wed, 26 Nov 2025<br> 17:34:20 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 26 Nov 2025 19:34:19 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 26 Nov 2025 19:34:19 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3152107355-9605891479<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-b7b7b79b6-bt8fb [b0096f4ba4]<br>X-Hs-Message-Id: reply-87172-3152107355-9605891479-1764207259-435943600@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;RNUmlwSu31C0iuCGDyERJSw699NvOLiFGTrYkURDYl4@smartreviews.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Wed, 26 Nov 2025 19:34:19 -0600<br>X-Gm-Features: AWmQ_blu7kzAlWZnz6XZFxoBkrW6CL7ejpTf70XbD8G2V1t0L0iR1-1WuSKnxWo<br>Message-ID: &lt;CAMLnpnHgRceDB=4X7yqnwWO8xed8tJuNskH4N75T3y-VRfpwUg@mail.gmail.com&gt;<br>Subject: Re: 179285 (we're on it)<br>To: Wordpress &lt;wordpress@smartreviews.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"0000000000000cb6c50644898355\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-27T01:34:29Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 868695835,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3152107489/attachments/868695835"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3152107489/attachments/868695835/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/868695835/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

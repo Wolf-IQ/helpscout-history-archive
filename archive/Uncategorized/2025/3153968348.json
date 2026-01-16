@@ -1,0 +1,189 @@
+{
+    "id": 3153968348,
+    "number": 179530,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@australiantransplantgames.com. See the technical details below.  Learn more here: https://support.google.com/mail/",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-11-28T22:10:50Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-11-28T22:10:53Z",
+    "customerWaitingSince": {
+        "time": "2025-11-28T22:10:50Z",
+        "friendly": "Nov 29, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3153968348"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3153968348/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3153968348/179530"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9611247783,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-28T22:10:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9611247680,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@australiantransplantgames.com. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[australiantransplantgames.com 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 25 Nov 2025 10:49:35 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnE=2sb4xM_oPs8hCHjOdxhy+f=Nu2X9akPGQcJh2g7eRA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@australiantransplantgames.com<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [australiantransplantgames.com 162.159.134.42: timed out]<br>Last-Attempt-Date: Fri, 28 Nov 2025 14:07:56 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764367616; x=1764972416; darn=australiantransplantgames.com;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=BBYpRZ7WEiYpuKeeWBGs8Q1vTASbxx2d8WBG76GA9Fk=;<br>        b=icBEeAVzlQzmEIB43IgxIw6XheoXsD4jpb2q6PFe3JA+bAABdK426b0sUpPgijrYU2<br>         mnAcfldb0Lns/r4E53ZfPyC21t5UaanWB02WgfUMyrpYOy8DbCIX/Sy9EReWi4X/EmNT<br>         XB8c1lotfAi7iftA5FOLs2EK2r5gaSCN8nU0qoh4GBD7N/D1nlU1rf2zP5TAQblKRdVB<br>         +rh3IH2isqBrG/hL9RyGGB3YD09hMdXlelTORVYCr1lZ910pia8gk9x0VWFfJorKWZ7E<br>         DcWejYxftFLSE52at53R6rneRWMzONXGaB46CL++RTrOXD6F67Slb+G1QjvppDi9klK1<br>         eVOQ==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764367616; x=1764972416;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=BBYpRZ7WEiYpuKeeWBGs8Q1vTASbxx2d8WBG76GA9Fk=;<br>        b=tXxe3pWRnyeXJDRhbtVF8VxtfncH1Gjg6OFnYibwe+0VwfvFP6JbJ4xK7hByJCome9<br>         NzyS21CMCrX+7rOLwHeS62DJk3uE57nZyOwLY82e8tCx2VDn1UOP3t2t7EsybpfGttkg<br>         w7lkjG/R0KHrLghkxF3ICRxlnDxrGf01UVxozcLWxbulJKOsfT+6Y3rzq5YPP6wIa/zj<br>         FLdyPwoFUg+3sUKdS/h2tXTuO5cGmhj+fpMHDgI5VE4C4j1lJ1CRgTu5bJoy/5DMJG+R<br>         TYckkpfL+pd+eqKwHuMkx5jU5dWj0iOv4RzYhQuMGVcO7MGjWwOXADlFwVotqTPPAI1p<br>         NfJg==<br>X-Gm-Message-State: AOJu0Yyx0wleBQZ6dZ/j429J36uA8n+QRAlbzJD6sMIzWJregprR79Nz<br>\tZ6n1ufoRm8arn2UqdDFjxlmGtXxN64vuhPNo4idHpb1WFbBCRVaetdxeZh5oGoMKer/WjqYxM69<br>\tdn2vRci2MH/9GS0cr2er3CsVZ6U1j1JLZqZekQt7rJ2zZG5byuHZg<br>X-Gm-Gg: ASbGncs1drMDMDaDg7QKK7W76vLxOxaETKdOFUZfDZxhX2a5gZaLDD9CBrZ1fNqDgIB<br>\tXEen3z4TR6NORCGhvLKeK+1vZmszyH8vjSMavM8CSDhgziDqkJHLUoIuYNmkSSnxPl1SpAsQBD7<br>\t+dNT6C09qEGVQQ3mgvGs7jnr0i4EAfJFX36spWCenJfA3tC6p2GQr3zdKwK0cZ7WYO58safV7Wg<br>\tIz2eSxfJ9kxEbGvyQbOCfYzskg+N+0Lp4w8/beOhrnemdqranPgowB0VMGRWkQb3UY7+Lo=<br>X-Google-Smtp-Source: AGHT+IHMv9SZw3rofVasTnG4tgLasLIJKWMozkcC4Yt4na/1kZyapMGtdvRovb0FRSDwYwWK7ySMTbKj41bxhN7KTY4=<br>X-Received: by 2002:a05:6830:6e10:b0:748:317:dd81 with SMTP id<br> 46e09a7af769-7c799093f29mr5872553a34.29.1764096575767; Tue, 25 Nov 2025<br> 10:49:35 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 25 Nov 2025 19:49:34 +0100<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 25 Nov 2025 19:49:34 +0100<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3150579254-9601180555<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-7d66b69458-s8f8n [3d2ee60442]<br>X-Hs-Message-Id: reply-87172-3150579254-9601180555-1764096574-1810563299@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;tW5HAkdNLRBNBYAICvGTvT3rjmYyiX7flaUAdSWhek@australiantransplantgames.com&gt;<br>Auto-Submitted: auto-replied<br>Date: Tue, 25 Nov 2025 19:49:34 +0100<br>X-Gm-Features: AWmQ_blZXOc5rbRtqpE0kFhK1rwDto8MiviSMZywqnIt4WBCJ5Qekxym873E1-Y<br>Message-ID: &lt;CAMLnpnE=2sb4xM_oPs8hCHjOdxhy+f=Nu2X9akPGQcJh2g7eRA@mail.gmail.com&gt;<br>Subject: Re: 179023 (we're on it)<br>To: WordPress &lt;wordpress@australiantransplantgames.com&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000bf970d06446fbd2f\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-11-28T22:10:50Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 869402814,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3153968348/attachments/869402814"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3153968348/attachments/869402814/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/869402814/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
