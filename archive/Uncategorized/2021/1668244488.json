@@ -1,0 +1,189 @@
+{
+    "id": 1668244488,
+    "number": 17690,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Undeliverable: Re: [Scenic Blue Design] Some plugins were automatically updated",
+    "preview": "Delivery has failed to these recipients or groups:  Wordpress (wordpress@scenicbluedesign.com.au) The email address you entered couldn't be found. Please check the recipient's email address and try to",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 333197558,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "postmaster@jcrexchange3.local"
+    },
+    "createdAt": "2021-10-20T00:40:10Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2021-10-20T00:40:20Z",
+    "userUpdatedAt": "2021-10-20T00:40:20Z",
+    "customerWaitingSince": {
+        "time": "2021-10-20T00:40:20Z",
+        "friendly": "Oct 20, '21"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 333197558,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "postmaster@jcrexchange3.local"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1668244488"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/333197558"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/333197558"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1668244488/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1668244488/17690"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 4874217838,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2021-10-20T00:40:20Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 4874217404,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Delivery has failed to these recipients or groups:<br><br>Wordpress (wordpress@scenicbluedesign.com.au)&lt;mailto:wordpress@scenicbluedesign.com.au&gt;<br>The email address you entered couldn't be found. Please check the recipient's email address and try to resend the message. If the problem continues, please contact your email admin.<br><br><br><br><br><br><br><br><br>Diagnostic information for administrators:<br><br>Generating server: SYDHEEX03.jcrexchange3.local<br><br>wordpress@scenicbluedesign.com.au<br>Remote Server returned '550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup'<br><br>Original message headers:<br><br>Received: from SYDHEEX03.jcrexchange3.local (192.168.137.12) by SYDHEEX03<br> (192.168.137.12) with Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2176.14; Wed, 20 Oct<br> 2021 11:40:00 +1100<br>Received: from mail-pl1-f173.google.com (209.85.214.173) by sydex3.jcr.com.au<br> (192.168.137.12) with Microsoft SMTP Server (version=TLS1_2,<br> cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2176.14 via Frontend<br> Transport; Wed, 20 Oct 2021 11:39:56 +1100<br>Received: by mail-pl1-f173.google.com with SMTP id w17so3059903plg.9<br>        for &lt;wordpress@scenicbluedesign.com.au&gt;; Tue, 19 Oct 2021 17:39:56 -0700 (PDT)<br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wpperk-com.20210112.gappssmtp.com; s=20210112;<br>        h=from:mime-version:in-reply-to:auto-submitted:date:message-id<br>         :subject:to;<br>        bh=Oy/Vx5uBfdEL4GxdcwTwLZjzmILeoJOjEveBn+nVA5M=;<br>        b=F4oa7dlp7c3fzeMPQt/QScE3wlCHSbi3RC05xFeMaNbR0TuL+Zp5DlrKs+3DSDtPPR<br>         TT7fkEv+o3XFJnHPlDsxCuaDqMGwijkPQhrbxle5bYDd5Klp4f+3vppcdyXWBXPsxI3Q<br>         zC3OBcmzZmAkBkl+EY19z83nqEuz450hf4gg5QqEyP4pjmxdvghUuHwigDib0DL8PdqG<br>         CUoAZD+JNHpz7gXcbs8BS1q1/QJtaa4Ub5Fvq49rXoJQIlJhvjnD8siuVIs013sLStC1<br>         Ic7vOyzdAiSFma/YyH60nPvRt2nI5haPKtaxjhYcvBuzp72PbCjZIOKj5jxuw0/TfRJ4<br>         D8eg==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20210112;<br>        h=x-gm-message-state:from:mime-version:in-reply-to:auto-submitted<br>         :date:message-id:subject:to;<br>        bh=Oy/Vx5uBfdEL4GxdcwTwLZjzmILeoJOjEveBn+nVA5M=;<br>        b=mTtHuDFwZfolE56GdMbag1vYA4nxIOA2wU7wu6C4eLLG1iv4TW6vL3YU+W+4QalQ0S<br>         BuG8mnlfkWnkgmv1YN1/OEIT9mFzVh0vYxHEm4fE5AWdrLaeIVMpgUKt+x0DbCvgD/LM<br>         g8y8nLd/8OfjCuAJyZzJvZfYFpsvOUvDdQKtHrLnKI9YMeRuea/ecddaORsTcnGDu6OD<br>         T5Wk4GWdZI9eN3GKyW/PQaFGw8WQ386CGQrqFDBFUIZ2CKseS2msq2jLh0axy5BdhqU8<br>         97ed81XiQvt2EKovxs6WEVkVwz6tAXGfakfwDxnkl9hT8z75Ln5bUv8yBwd4wr/k0I2E<br>         ZykQ==<br>X-Gm-Message-State: AOAM532H5bZM/1jgHZfBCiPbfuovTJLkZClx7RBou7wIMFshX7F5MIsj<br>        5U5vlhu4CoYp+AYxnWkWXFEy/db90g0idkxwnBa5txH0RcY=<br>X-Google-Smtp-Source: ABdhPJyxasOwoIDwbOtj4BCxBO4ZUrzkmrEPcgNTJ5VN9aZa0LMHpKwZsDYuppUVfvQcCGtf88w33V5tcxX0jUgcuuI=<br>X-Received: by 2002:a17:90b:4a92:: with SMTP id lp18mr3494363pjb.47.1634690394071;<br> Tue, 19 Oct 2021 17:39:54 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 19 Oct 2021 20:39:53 -0400<br>From: WP Perk Support &lt;support@wpperk.com&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-1668244265-4874216831<br>X-Hs-Origin: pconsumer-0e3d0e9cdeed8e388 [72052a80b6]<br>X-Hs-Message-Id: reply-87172-1668244265-4874216831-1634690393-1543668963@helpscout.net<br>In-Reply-To: &lt;rltfOKjU18ckJqm3k34O0PmcLP2Nwy5rDDzFb3bk@www.scenicbluedesign.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Tue, 19 Oct 2021 20:39:53 -0400<br>Message-ID: &lt;CAK7D+daRAjbVun4-UUcPpG+=B2uWxOD5WXHL0LerpXnY8JD1sg@mail.gmail.com&gt;<br>Subject: Re: [Scenic Blue Design] Some plugins were automatically updated<br>To: Wordpress &lt;wordpress@scenicbluedesign.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"00000000000041b65605cebe0412\"<br>Return-Path: support@wpperk.com<br><br><br>Reporting-MTA: dns;SYDHEEX03.jcrexchange3.local<br>Received-From-MTA: dns;mail-pl1-f173.google.com<br>Arrival-Date: Wed, 20 Oct 2021 00:40:00 +0000<br><br>Final-Recipient: rfc822;wordpress@scenicbluedesign.com.au<br>Action: failed<br>Status: 5.1.10<br>Diagnostic-Code: smtp;550 5.1.10 RESOLVER.ADR.RecipientNotFound; Recipient not found by SMTP address lookup<br>X-Display-Name: Wordpress",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 333197558,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "postmaster@jcrexchange3.local"
+            },
+            "createdBy": {
+                "id": 333197558,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "postmaster@jcrexchange3.local"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2021-10-20T00:40:10Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 403418497,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 4685,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1668244488/attachments/403418497"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1668244488/attachments/403418497/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/403418497/1bbb8f9a68b6bf251a8461926e3bb3b8a00425e8/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/333197558"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/333197558"
+                }
+            }
+        }
+    ]
+}
