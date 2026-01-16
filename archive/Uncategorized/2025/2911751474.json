@@ -1,0 +1,211 @@
+{
+    "id": 2911751474,
+    "number": 150983,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@knoxpsychology.com.au. Gmail will retry for 47 more hours. You'll be notified if the delivery fails perman",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-04-17T16:45:18Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-04-17T16:45:19Z",
+    "userUpdatedAt": "2025-04-17T16:45:18Z",
+    "customerWaitingSince": {
+        "time": "2025-04-17T16:45:19Z",
+        "friendly": "Apr 18, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2911751474"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2911751474/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2911751474/150983"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8838866800,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-17T16:45:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8838866731,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@knoxpsychology.com.au. Gmail will retry for 47 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[mx3.partnerconsole.net. 54.206.62.196: timed out]<br>[mx3.partnerconsole.net. 13.238.203.112: timed out]<br>[mx2.partnerconsole.net. 13.238.203.112: timed out]<br>[mx2.partnerconsole.net. 54.206.62.196: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 16 Apr 2025 08:49:30 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGODiV2azNfsbs9b3dz_qYZj3+pTe2o4MCJq0C9pxHGuQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@knoxpsychology.com.au<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [mx3.partnerconsole.net. 54.206.62.196: timed out]<br> [mx3.partnerconsole.net. 13.238.203.112: timed out]<br> [mx2.partnerconsole.net. 13.238.203.112: timed out]<br> [mx2.partnerconsole.net. 54.206.62.196: timed out]<br>Last-Attempt-Date: Thu, 17 Apr 2025 09:45:10 -0700 (PDT)<br>Will-Retry-Until: Sat, 19 Apr 2025 08:49:30 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-17T16:45:18Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 782248631,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911751474/attachments/782248631"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911751474/attachments/782248631/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/782248631/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 782248633,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7032,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911751474/attachments/782248633"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911751474/attachments/782248633/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/782248633/602e901169465ba3f39ed3163899eda4fa71c0ba/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

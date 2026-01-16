@@ -1,0 +1,336 @@
+{
+    "id": 2914861830,
+    "number": 151235,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Vulnerability with the Contact Form 7  plugin",
+    "preview": "This ticket has been waiting for over 24 hours.",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 309821,
+        "type": "user",
+        "first": "Manuel",
+        "last": "Lito Manceli",
+        "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+        "email": "manuel@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 242057803,
+        "type": "customer",
+        "first": "support@kinsta.com",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "support@kinsta.com"
+    },
+    "createdAt": "2025-04-21T16:02:02Z",
+    "closedBy": 309821,
+    "closedByUser": {
+        "id": 309821,
+        "type": "user",
+        "first": "Manuel",
+        "last": "Lito Manceli",
+        "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+        "email": "manuel@wolfiq.com.au"
+    },
+    "closedAt": "2025-04-22T23:27:49Z",
+    "userUpdatedAt": "2025-04-22T23:27:49Z",
+    "customerWaitingSince": {
+        "time": "2025-04-22T23:27:49Z",
+        "friendly": "Apr 23, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 14421258,
+            "color": "#A5B2BD",
+            "tag": "tier 2",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#F49B2A"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#FFBE6B"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 242057803,
+        "type": "customer",
+        "first": "support@kinsta.com",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "support@kinsta.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2914861830"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/242057803"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/242057803"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309821"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2914861830/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/309821"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2914861830/151235"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8854164937,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Manuel Lito Manceli marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309821,
+                "type": "user",
+                "first": "Manuel",
+                "last": "Lito Manceli",
+                "email": "manuel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-22T23:27:49Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309821"
+                }
+            }
+        },
+        {
+            "id": 8852684919,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-22T16:07:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8852684910,
+            "type": "note",
+            "state": "published",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Tickets > 24 hours** was triggered",
+                "associatedEntities": {
+                    "workflow": 1232630,
+                    "mailbox": 158894
+                }
+            },
+            "body": "This ticket has been waiting for over 24 hours.",
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "customer": {
+                "id": 242057803,
+                "first": "support@kinsta.com",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "support@kinsta.com"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "photoUrl": "https://secure.helpscout.net//images/users/workflow-2.png",
+                "email": "rica@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-22T16:07:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/242057803"
+                },
+                "savedReply": {
+                    "href": "https://api.helpscout.net/v2/mailboxes/158894/saved-replies/0"
+                }
+            }
+        },
+        {
+            "id": 8848294676,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Vulnerability assigned to Manuel** was triggered",
+                "associatedEntities": {
+                    "workflow": 1120591,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309821,
+                "type": "user",
+                "first": "Manuel",
+                "last": "Lito Manceli",
+                "photoUrl": "https://secure.gravatar.com/avatar/3e867543d76405fdd0c0dea4a8bfd07c",
+                "email": "manuel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-21T16:02:03Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309821"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8848294613,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<br>\n<table border=\"0\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F5EDE9\">\n<tbody>\n<tr>\n<td align=\"center\" valign=\"top\" bgcolor=\"#F5EDE9\" style=\"background-color:#F5EDE9;\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"ex-container\">\n<tbody>\n<tr>\n<td class=\"ex-header\"></td>\n</tr>\n<tr>\n<td class=\"ex-logo\"><img src=\"https://cdn.kinsta.com/email-template/kinsta-logo-162x64.png\" title=\"kinsta logo\" width=\"100\" height=\"40\" alt=\"kinsta-logo-162x64.png\" /></td>\n</tr>\n<tr>\n<td class=\"ex-container-padding\" bgcolor=\"#FFF\" style=\"background-color:#FFF;padding-left:40px;padding-right:40px;padding-top:40px;\">\n<div class=\"ex-content\">\n<h1 style=\"margin-top:0px;\">Hello Wolf IQ,</h1>\nWe are writing to you today to notify you about a <a href=\"https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWukL6eYjGRlUZGKIx7PMBk85x7UkcVDXLGJBsNa93s4IEsaE-2BSR83aIn4KgyQ-2FRJjjabQJ0TsiH8JxEp7jQdQiTw-3DIqOr_wmc-2BViHeaSAOdjPZKiSJ-2FR3mscvrCxi0C-2BGA89zT-2Bm4r-2BTYXVIpfmfcWpTFMs6DxIXi0ajbJlkIff3w-2FCqjWQwhC1F-2FuE8acEQTDVTPGFosMccP0pc3zUdIKGY-2F4dCPfABak4ahLD9UuMc6kWv0UxJm4cb6GjCt8sAA56qzopZcKVTQsLbewwz6icMj7tKxjygza6yi1M2Sg1y65g97k8C-2FQ-2BFqMwG7xgvY2s2SB3an7AqSbhGkyIf7QN30h39R4\">security vulnerability</a> discovered in the <strong>Contact Form 7</strong> plugin. We detected the plugin on one or more of your websites:<br>\n<br>\n\u2022 absolutecoolrooms<br>\n\u2022 absolutecoolroomsau<br>\n\u2022 ambushcampers<br>\n\u2022 australiansteel<br>\n\u2022 avisogroup<br>\n\u2022 bbqbuddyuk<br>\n\u2022 belmorecakes<br>\n\u2022 bespokechildcare<br>\n\u2022 betterflowplumbing<br>\n\u2022 bluehousedental<br>\n\u2022 bretcontreras<br>\n\u2022 cablepro<br>\n\u2022 capitaltcs<br>\n\u2022 cbddental<br>\n\u2022 commercialroaddentalsurgery<br>\n\u2022 criminallawgroup<br>\n\u2022 dentalclinicsydney<br>\n\u2022 dentexdental<br>\n\u2022 dentistkipparing<br>\n\u2022 denturestoyoucomau<br>\n\u2022 designtiles<br>\n\u2022 earlwoodauto<br>\n\u2022 freshbkr<br>\n\u2022 freshdeckssydneycom<br>\n\u2022 frostywheels<br>\n\u2022 fullthrottleempireaustralia<br>\n\u2022 geckoinsectkillersbackup<br>\n\u2022 greenhousehydroponics<br>\n\u2022 hammerhire<br>\n\u2022 italiandining<br>\n\u2022 justchillin<br>\n\u2022 kgrrefrigeration<br>\n\u2022 kooringaldental<br>\n\u2022 ladieslair<br>\n\u2022 machiavelli<br>\n\u2022 marable<br>\n\u2022 masseyfamilychiropractic<br>\n\u2022 masterstratainspections<br>\n\u2022 mosandco<br>\n\u2022 nationaldentalspecialists<br>\n\u2022 nepeandentalsedation<br>\n\u2022 ocdbuilding<br>\n\u2022 olympiamarble<br>\n\u2022 osierbellenew<br>\n\u2022 outsourcedhrperformhr<br>\n\u2022 outsystems<br>\n\u2022 performhr<br>\n\u2022 phoenixdx<br>\n\u2022 pointdot<br>\n\u2022 propertyinsuranceplus<br>\n\u2022 redsky<br>\n\u2022 safesite<br>\n\u2022 sp100comau<br>\n\u2022 spbuy<br>\n\u2022 sydneymemorialcremations<br>\n\u2022 theaaf<br>\n\u2022 v180shift<br>\n\u2022 veneyeswolfiqcloud<br>\n\u2022 vsos2023<br>\n\u2022 wagecover<br>\n<br>\n<strong>You can ignore this message if you have already updated Contact Form 7 to the latest version or have it set to update automatically.</strong><br>\n<br>\n<span style=\"color:#A1181D;\">The plugin has a vulnerability that makes it possible for <strong>unauthenticated visitors</strong> to reuse a single Stripe payment for multiple transactions.</span><br>\n<br>\nThis vulnerability affects versions before 6.0.6. We recommend updating this plugin immediately to the latest version. To update, log in to <a href=\"https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWuqfnKhH4mQmF-2FbsgKxDIHqo-3DR5aF_wmc-2BViHeaSAOdjPZKiSJ-2FR3mscvrCxi0C-2BGA89zT-2Bm4r-2BTYXVIpfmfcWpTFMs6DxD0zVCr1-2BFu-2BZgisaJImvA-2B3Hg2S1s1DjYwTm7LEvnqGXx8RRWu05n1x61RGaEB7DYkhkwco5zQr1ashHtcSty4cYOR001WoRtEog5mQHkYiSlJtdAz5CcQZWos8mSJlXJFyPZUykhxOxrKhAZn1Con-2FKfxGf6PiiSCQfJfKUzH75SqBQZkev4Cu3V4wQBZur\">MyKinsta</a> and go to WordPress sites &gt; <em>site name</em> &gt; Plugins and themes &gt; Installed plugins &gt; Contact Form 7, and click the \"Update\" button.<br>\n<br>\nTo check all sites in your account for plugin updates, go to \"WordPress sites\" and click the \"Plugins\" tab. That will list all the plugins installed across all of your sites. A number greater than zero in the \"Updates\" column means an update is available. (There's also a \"Themes\" tab allowing you to update all themes installed on your sites.)<br>\n<br>\nIf you're interested in automatic plugin and theme updates with visual regression testing, consider the <a href=\"https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWuowMewsD0yG1GbJf9SzgPBq992qho52qQ0fhXJGSTe-2FrdiVke-2B-2B9y36CrlFrkVTTBzJSYBaU2zMagshlsO2heoKpM28H6xMPPfA0lQqwWU-2FmEGA4-2FuZO-2Bo0B1-2BDBn9-2FtSmeOGRcfSZgLRtwhNr9vGOc-3Dawdm_wmc-2BViHeaSAOdjPZKiSJ-2FR3mscvrCxi0C-2BGA89zT-2Bm4r-2BTYXVIpfmfcWpTFMs6DxIlydoelWAdw9DWAXIt7ONgpdIYTjxMijurxiBnnf4AtFPPTHVYJXydySNtV3jyLGR2ywwqOKlh1qJ7NPRwgJ3X2yCv6-2B6vtoOV-2F-2FkZkt7ullRB-2BD8Os5utXcAdY1XLTtWBBqfeQhtBWZjMppxBN-2BbqRRG2P2SxV9R65P0vW49PN3KXT42SIiMYUvvew3lHaH\">Kinsta Automatic Updates</a> add-on. To activate Kinsta Automatic Updates, go to MyKinsta &gt; WordPress sites &gt; <i>site name</i> &gt; Plugins and themes and click the \"Auto-update settings\" button. Then select \"Kinsta Automatic Updates.\"<br>\n<br>\nWe detected this vulnerability on April 21st, 2025, at 12:57 PM UTC, but due to the time difference between scanning for vulnerabilities and sending notifications, you may have already updated the plugin.<br>\n<br>\nIf you have any questions, don't hesitate to contact our support team.<br>\n<br>\nThank you for being a Kinsta client!<br>\n<br>\n<br>\n<sub>ID: <code style=\"background:#eee;\">contact-form-7</code></sub><br>\n<br>\n<br></div>\n</td>\n</tr>\n<tr>\n<td align=\"center\" valign=\"top\" bgcolor=\"#F5EDE9\" style=\"background-color:#F5EDE9;padding-top:30px;\">\n<table width=\"600\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" class=\"ex-container\" bgcolor=\"#F5EDE9\">\n<tbody>\n<tr>\n<td style=\"vertical-align:middle;\" height=\"40\" width=\"40\"><img src=\"https://cdn.kinsta.com/email-template/kinsta-team-avatar-120x120.png\" title=\"kinsta logo\" width=\"40\" alt=\"kinsta-team-avatar-120x120.png\" /></td>\n<td style=\"vertical-align:middle;\" height=\"40\"><span style=\"padding:0 0 0 8px;color:#1C1819;font-weight:bold;\">The Kinsta Team</span></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td class=\"ex-footer\" style=\"text-align:center;padding-top:40px;background-color:#F5EDE9;font-family:Helvetica, Verdana, sans-serif;color:#6E7076;font-size:10px;\">You are receiving this email because you have an account at Kinsta.<br>\n\u00a9 2025 Kinsta Inc. All rights reserved. 8605 Santa Monica Blvd #92581, West Hollywood, CA 90069<br>\n<br>\n<a style=\"font-size:10px;\" href=\"https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWusnsAVLyNjhppnXXDhFSw4YsMV4GTFRRiFfU7HOVzRBkLu6U_wmc-2BViHeaSAOdjPZKiSJ-2FR3mscvrCxi0C-2BGA89zT-2Bm4r-2BTYXVIpfmfcWpTFMs6DxLVHZWbGLl5z-2FxefPxNpRTYsx64S7HCYRFXFXqaAKLpEO5sERnfFCLfNLiPO578pyI0-2Bf6jPLSGhQ64GGi4W1FyccPuhsp2gajXVfGw-2BV0HbcObXXcE5-2BB7RYL1NtcAOnQhJWcPV1m3xCCtKxhKuvRmeq7YrH7k6UKVxKg87tnJvNE2hBEJRgdbLyPtCTasXL\">Terms of Service</a> | <a style=\"font-size:10px;\" href=\"https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWusnsAVLyNjhppnXXDhFSw4YGyasr-2FmgLQeXVnxGReYL9FNWMKwnybExY3wbvg0Zwsg-3D-3D7g81_wmc-2BViHeaSAOdjPZKiSJ-2FR3mscvrCxi0C-2BGA89zT-2Bm4r-2BTYXVIpfmfcWpTFMs6DxU0ZHHEITjEZU3BZgRrnLL6v4SHMtpfupzp8mRPEh58C3mI04ybdzZ0txXUjw6RzKzZS2IL4WTf7PLwldIkJIwy-2BlGc0FV9i-2BtUeVG7Xs8SUxHN-2F9F5QGHEUadzx9Jkw-2FUHx5oGbpPw8sYlhbES3iB3ic2voNLBDJNs0whpnYQK0N-2BPcxOVs5Vg26xnghY50j\">Privacy Policy</a><br></td>\n</tr>\n</tbody>\n</table>\n<img src=\"https://u9019290.ct.sendgrid.net/wf/open?upn=u001.0aIP81AzdOWreoEpnn5mgpo8734SSO1j8pRw0uqaQTUnWd1uDYuxy7cTMVdxsavHo42za-2F5VIG01WpoLJqK7qMcP1AFzykZHoOo1bPuF-2F-2B9dN2Au3DbIVP3Ip9Mua4BtGUd4-2FYtaLAl164Hw6-2FdIE2m0F3fpUFcWnL3IABPGEX3iZMDJNIwhnyleEIZcG87mG9Id99qoVmEXi82HrG6KOsyTEA-2BR4v21gAmdP0NaWIu43a-2BGY7pSNd0uxm1TJEnj0FyGpDn3BUwS-2FdCdDAXLsA-3D-3D\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px;width:1px;border-width:0;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;\" /></td>\n</tr>\n</tbody>\n</table>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 242057803,
+                "first": "support@kinsta.com",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "support@kinsta.com"
+            },
+            "createdBy": {
+                "id": 242057803,
+                "type": "customer",
+                "first": "support@kinsta.com",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "support@kinsta.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-21T16:02:02Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/242057803"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/242057803"
+                }
+            }
+        }
+    ]
+}

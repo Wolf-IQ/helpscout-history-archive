@@ -1,0 +1,211 @@
+{
+    "id": 2911095741,
+    "number": 150943,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@rookpartners.wolfiq.cloud. See the technical details below.  Learn more here: https://support.google.com/mail/answ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-04-17T04:39:54Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-04-17T04:39:54Z",
+    "userUpdatedAt": "2025-04-17T04:39:54Z",
+    "customerWaitingSince": {
+        "time": "2025-04-17T04:39:54Z",
+        "friendly": "Apr 17, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2911095741"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2911095741/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2911095741/150943"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8836298145,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-17T04:39:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8836298136,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@rookpartners.wolfiq.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[rookpartners.wolfiq.cloud 2606:4700:7::a29f:872a: timed out]<br>[rookpartners.wolfiq.cloud 2606:4700:7::a29f:862a: timed out]<br>[rookpartners.wolfiq.cloud 162.159.135.42: timed out]<br>[rookpartners.wolfiq.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sun, 13 Apr 2025 17:43:35 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnHXRt5+ZwBXi6gc84viPypy0d22TGzpgtdHwt978_-02Q@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@rookpartners.wolfiq.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [rookpartners.wolfiq.cloud 2606:4700:7::a29f:872a: timed out]<br> [rookpartners.wolfiq.cloud 2606:4700:7::a29f:862a: timed out]<br> [rookpartners.wolfiq.cloud 162.159.135.42: timed out]<br> [rookpartners.wolfiq.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Wed, 16 Apr 2025 21:39:44 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-17T04:39:54Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 782041619,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911095741/attachments/782041619"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911095741/attachments/782041619/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/782041619/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 782041620,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6960,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911095741/attachments/782041620"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2911095741/attachments/782041620/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/782041620/4e71037253d6dce890f8472d2637b28f2fbbf644/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

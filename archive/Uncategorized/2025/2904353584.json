@@ -1,0 +1,231 @@
+{
+    "id": 2904353584,
+    "number": 150351,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@balancemybooks.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpE",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-04-10T16:34:43Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-04-10T16:34:44Z",
+    "userUpdatedAt": "2025-04-10T16:34:43Z",
+    "customerWaitingSince": {
+        "time": "2025-04-10T16:34:44Z",
+        "friendly": "Apr 11, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2904353584"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2904353584/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2904353584/150351"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8814633586,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-10T16:34:44Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8814633522,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@balancemybooks.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF00005A3C.ausprd01.prod.outlook.com 2025-04-10T16:34:33.700Z 08DD77528A8C8752]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 10 Apr 2025 09:34:30 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnF3i=n9ZHoTAb9sW11TVzB27DqSd0Eudmg+jx3xPu+u+A@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@balancemybooks.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; balancemybooks-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::, the server for the domain balancemybooks.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF00005A3C.ausprd01.prod.outlook.com 2025-04-10T16:34:33.700Z 08DD77528A8C8752]<br>Last-Attempt-Date: Thu, 10 Apr 2025 09:34:33 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-10T16:34:43Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 780004892,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2904353584/attachments/780004892"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2904353584/attachments/780004892/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/780004892/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 780004894,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2904353584/attachments/780004894"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2904353584/attachments/780004894/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/780004894/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 780004895,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7030,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2904353584/attachments/780004895"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2904353584/attachments/780004895/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/780004895/29cb529fc7ed8923ce125fbbe5c236b89e1d80c0/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

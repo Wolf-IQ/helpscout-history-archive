@@ -1,0 +1,211 @@
+{
+    "id": 2912213336,
+    "number": 151022,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@stg-australiantransplantgames-staging.kinsta.cloud. Gmail will retry for 21 more hours. You'll be notified",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-04-18T02:57:46Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-04-18T02:57:47Z",
+    "userUpdatedAt": "2025-04-18T02:57:46Z",
+    "customerWaitingSince": {
+        "time": "2025-04-18T02:57:47Z",
+        "friendly": "Apr 18, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2912213336"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2912213336/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2912213336/151022"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8840338552,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-18T02:57:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8840338542,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@stg-australiantransplantgames-staging.kinsta.cloud. Gmail will retry for 21 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[stg-australiantransplantgames-staging.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[stg-australiantransplantgames-staging.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[stg-australiantransplantgames-staging.kinsta.cloud 162.159.135.42: timed out]<br>[stg-australiantransplantgames-staging.kinsta.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 15 Apr 2025 16:59:03 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnHR1Zu01F4iD7snP-nTrZPav2hTE464YsF2rwx0Z15zaw@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stg-australiantransplantgames-staging.kinsta.cloud<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [stg-australiantransplantgames-staging.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [stg-australiantransplantgames-staging.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [stg-australiantransplantgames-staging.kinsta.cloud 162.159.135.42: timed out]<br> [stg-australiantransplantgames-staging.kinsta.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Thu, 17 Apr 2025 19:57:36 -0700 (PDT)<br>Will-Retry-Until: Fri, 18 Apr 2025 16:59:03 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-18T02:57:46Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 782388374,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2912213336/attachments/782388374"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2912213336/attachments/782388374/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/782388374/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 782388375,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 7080,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2912213336/attachments/782388375"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2912213336/attachments/782388375/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/782388375/cb4d6f1882043650ca3450b40a9968e37582983e/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

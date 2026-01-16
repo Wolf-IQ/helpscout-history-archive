@@ -1,0 +1,211 @@
+{
+    "id": 2903673755,
+    "number": 150241,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to team@fluentsmtp.com because the address couldn't be found, or is unable to receive mail.    The response from the remote server was: 550 5.7.1",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-04-10T03:04:19Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2025-04-10T03:04:19Z",
+    "userUpdatedAt": "2025-04-10T03:04:19Z",
+    "customerWaitingSince": {
+        "time": "2025-04-10T03:04:19Z",
+        "friendly": "Apr 10, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2903673755"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2903673755/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2903673755/150241"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8812510816,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-10T03:04:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8812510805,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to team@fluentsmtp.com because the address couldn't be found, or is unable to receive mail.<br><br><br><br>The response from the remote server was:<br>550 5.7.1 No such user! 1744254249-74Vg462ExqM0-gnmNbMPh<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 09 Apr 2025 20:04:06 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnHJAtx6JLgahv1Pwd=M9+QaYsR_+haZm1R7WaUGvc-B6w@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; team@fluentsmtp.com<br>Action: failed<br>Status: 5.7.1<br>Remote-MTA: dns; mx.yandex.net. (2a02:6b8::311, the server for the domain fluentsmtp.com.)<br>Diagnostic-Code: smtp; 550 5.7.1 No such user! 1744254249-74Vg462ExqM0-gnmNbMPh<br>Last-Attempt-Date: Wed, 09 Apr 2025 20:04:10 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-04-10T03:04:19Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 779786825,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2903673755/attachments/779786825"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2903673755/attachments/779786825/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/779786825/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 779786826,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6972,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2903673755/attachments/779786826"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2903673755/attachments/779786826/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/779786826/3d998c7a3e549e2614c98aca31253270e28c66bf/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
