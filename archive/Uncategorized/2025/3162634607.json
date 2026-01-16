@@ -1,0 +1,189 @@
+{
+    "id": 3162634607,
+    "number": 181121,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@cozze.com.au. Gmail will retry for 20 more hours. You'll be notified if the delivery fails permanently.  L",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-07T16:44:14Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-07T16:44:16Z",
+    "customerWaitingSince": {
+        "time": "2025-12-07T16:44:14Z",
+        "friendly": "Dec 8, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3162634607"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3162634607/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3162634607/181121"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9637409461,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-07T16:44:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9637409390,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@cozze.com.au. Gmail will retry for 20 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[cozze.com.au 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 05 Dec 2025 05:10:17 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnEc=gmo194yoUzrkfENYifCYcmzw1DAAbgg0pLXgmUyMA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@cozze.com.au<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [cozze.com.au 162.159.135.42: timed out]<br>Last-Attempt-Date: Sun, 07 Dec 2025 08:44:04 -0800 (PST)<br>Will-Retry-Until: Mon, 08 Dec 2025 05:10:17 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765125784; x=1765730584; darn=cozze.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=C734S8SdUZOX7llSinXox12X1rG1JyZfLdbASpu3RMk=;<br>        b=o8dVSmATIbWBe5ni4Gtm2HqO1HyqIcIqYlf5eY/CR1vWRjXyZll6fbQVaUFuqtmc4e<br>         kVwg9ATYDrVuTAAVfCEtEngqBaeQpyrQVKOE9uJ0JWHeKIx1ivgmtGP6DydCpfkmQmsv<br>         3nOZKuBQPWDj+oT8JcCh3EnwGEzWXV3gvwGUy5Upbhf4ql0U1BvukWEpyJPJMXXLR0rL<br>         SECF1X+kjviTD6AspnCi1EodoiWw75RFrdPsd8PI2z1za+tICKEw5S33n19G3+73Mig2<br>         3G1v0nbKN2IQFwOlaNXPreZPWQ0w6dW83U39m0udJ+Un5OSKa/8aQQQRTnYxD4Src+hn<br>         g7ew==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765125784; x=1765730584;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=C734S8SdUZOX7llSinXox12X1rG1JyZfLdbASpu3RMk=;<br>        b=AIr0227P4+aoWq5D6gV2dvFZofMG7jsIvKjjQxg5ibq8lfkau9pNUG08CUnoPXUDwL<br>         S6JVdBCWF4PLy64qeT4STwWz7PpFpIlMbYPujguEDs2JWnS5qF693C8YN6e8LCpKq4n9<br>         /XG5hbrL5fzeAX4KcUczRl5veYV+Q7460G2syBl2bzJUO0ukmOen4OQQBh2ecqnJd9sg<br>         V5HPgmGRkvX2fD5gotu0igcjsisHIb4NYY9ut9+IXeM6frW6KBxQk10GR10cIcmstkEY<br>         0ZqiBJTl9FCXsrKh/knlMqHyPxnQq2B3U8wiCFoUO9Txo6CiSEfoRm8r/5w6MpMi+pfJ<br>         OSrA==<br>X-Gm-Message-State: AOJu0YxiARd7DdGxFcJmAljR9CjRtSd/a7gatLAftnQnrGO/wUS+n/MV<br>\tWPvsHgHmbKiSOAor6vQUD6qRf8FXsPAwsSQQzpljh2a8wqbnNnyWEY3n1GcP9h9HhIhYcalF0/I<br>\tm43Hdcq5cL+nKxzNCvxS4dSC0ql0TAbJ8yDhZAnrf3IXE7F8qHyu2<br>X-Gm-Gg: ASbGncuwBBBWYaHGMk/Xc9vao5AG9yYgBCtQ73a+JCBme9N5Vjsqm6Xqi1e5sfeU++Y<br>\too0QgmNdhsaK3vbyAT9nIPsb4Fw+f9udVZ6mUWqxReqzTn4XUc0UKuLvPSuY1Y0TD8l2i41LMFG<br>\tWEc3IBjdpU6t2RiVigTee9ql/c4R276LizTENuhXdgs0KlHTM9q8BjUOli11FwSGuyIk2uBEaIr<br>\tLuTy3AcegW/Y2MMyw6U1X7jGh1qsbh00ZPw4IU62Vjz4FBhslJ86mEHyQkfi1cmnIagN8I=<br>X-Google-Smtp-Source: AGHT+IHsX0Aawyb9e9nVOci6QzIhoowSDxZQFkXM/wMFuYm0RENvBpN3wqXturrDlXpeFHu8thpbDtIsVSGvboU6pdA=<br>X-Received: by 2002:a05:6830:2e07:b0:7c7:266:392d with SMTP id<br> 46e09a7af769-7c94da49a92mr6752861a34.13.1764940217159; Fri, 05 Dec 2025<br> 05:10:17 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 05:10:15 -0800<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 05:10:15 -0800<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3160957156-9632600241<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-98f879cf5-4qgpj [919864e7a4]<br>X-Hs-Message-Id: reply-87172-3160957156-9632600241-1764940214-1075731496@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;5YjxPp3pE7keL0Anoq09sdW3a3PBHS3HzqGxZItKjw@cozze.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Fri, 5 Dec 2025 05:10:15 -0800<br>X-Gm-Features: AQt7F2rdmDKzxVQqBNtNP-zWvGj17rh4K0lYdN12zDyHaO9ufc0aUb-mxrVylno<br>Message-ID: &lt;CAMLnpnEc=gmo194yoUzrkfENYifCYcmzw1DAAbgg0pLXgmUyMA@mail.gmail.com&gt;<br>Subject: Re: 180876 (we're on it)<br>To: Wordpress &lt;wordpress@cozze.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000b19f410645342a5a\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-07T16:44:14Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 871978671,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3162634607/attachments/871978671"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3162634607/attachments/871978671/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871978671/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

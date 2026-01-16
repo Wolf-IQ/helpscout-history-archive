@@ -1,0 +1,209 @@
+{
+    "id": 3160854227,
+    "number": 180856,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@avisobroking.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpErr",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-05T10:54:41Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-05T10:54:42Z",
+    "customerWaitingSince": {
+        "time": "2025-12-05T10:54:41Z",
+        "friendly": "Dec 5, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3160854227"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3160854227/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3160854227/180856"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9632295447,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T10:54:42Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9632295428,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@avisobroking.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [ML1PEPF00011307.ausprd01.prod.outlook.com 2025-12-05T10:54:33.228Z 08DE2E809257FB1D]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 05 Dec 2025 02:54:29 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnE5O2b5EkE640vfgFpA85redH+dZayZqQRMsLMFwc5svw@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@avisobroking.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; avisobroking-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc33::1, the server for the domain avisobroking.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [ML1PEPF00011307.ausprd01.prod.outlook.com 2025-12-05T10:54:33.228Z 08DE2E809257FB1D]<br>Last-Attempt-Date: Fri, 05 Dec 2025 02:54:33 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764932070; x=1765536870; darn=avisobroking.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=1JUsihlxU2sRWZlcCp8mW8cyF7c5Vk0SvuMcXYs68PY=;<br>        b=Ai8HoDcTKNTOflqwKJesYZbEX9eBrbC20ga6ITAHJojrsunaStELisP+ikJ2x2VLyh<br>         Sr4jzuAWVN9jCx2Ci/2bHwWYGK3kdS53fu9bhzmDf+o6D6LfcrZj9+MHkOQHLPC4XRvY<br>         sr29DjTLAxE6N0/pt2mHKj1ds8NuC4uxPVEjvcZnNqtPLimR8LGX1hq4AZnqyBCEpJLN<br>         PVu0mrK/a6nEXTun32lF0tRf9BsuuEEKpdCBFq9i81tCyfEnsUjd23GTxBWUF/25LPuH<br>         5f3CelLTsiP/F6M6P8U3HRrg99nhNSO207ns8QeExa2CgHJPC+WQu9LLmU+8x1mVvM/3<br>         S8Gw==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764932070; x=1765536870;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=1JUsihlxU2sRWZlcCp8mW8cyF7c5Vk0SvuMcXYs68PY=;<br>        b=Cwa3kO+JYoEjhwQ1bLsyPS0fScb3QdHAaigphwI1W2zRWdhOn+jOQONuUQhfqUuB/E<br>         LROHtZQBaFP1RTpNFPc7NfdkxzyNnnnBW4xnuVBUBko29MJf6fxIsFG/kq0YGj2qZ2RM<br>         b7DZY1n0S6rrPlHxGvzaYL6/mn9GzF6LsyhA8kppvTw+YiO8Nauf2b3KzLzlq/Z/Ln56<br>         d+AcPZVTW1ny1sGfHCa0LokIpbfCdTggDITavKjVKbqtZqiWDIBoKXcIba9TbTLTId/S<br>         2Iyp53n+1rKkBiw425EaOYOMYAwbMvqs+DQnU4RMOlkkx2nd8QDRKIXT29Fb4cFUrUmj<br>         C3tA==<br>X-Gm-Message-State: AOJu0Yw6Q9HXgqeBQilNo8DPKkh0/y+yXXPSiRhcoIC+avrTp3tKA9MD<br>\thV6AX5fw7O7wvdJoL3ytTOYKIyKYlyszqMDpkpCk2p4RGQhepGRwkcmn9MyWGNYvyMc5QYyH12K<br>\tKwNPVKr856aeOaghk/1Ia9EXQGRrsU1t+z6tIwKpndNJ3zF4B8Qyx<br>X-Gm-Gg: ASbGnctE1f5rrwKk7Xdew9htvFg3FR4O+gJtOYmUdKk7H1mRF+OkbJmzlAYs9aywcdT<br>\tsWpOdQ+gP+p1tF0qvaPbltkziw200tXhQtA5m/M2Z6mGUEwV47JSASnxzelKADfLpvXBcrGrE9e<br>\t9CkFPAyXdsxUYbG54V5OwYY3Hwho/kioY0azb1ayMAwJSzWsDl19Sh4wB5wFLuKUIi99ANFJ2UI<br>\tn/I2tsks04jsY3va+bgm95V5KoiS29IkYrX/4rxWwmsldUghOH/h3QFjtTSA2b+dsBnb7ECNHv3<br>\tqAstZR0=<br>X-Google-Smtp-Source: AGHT+IFq/wUtzKei8J571J1jFJOAqECr7Hjz8v/qu8r75VU8j7b52rcutxw2oSF3UsVpgBXqf6jQuUigBqi2Ke3v1gc=<br>X-Received: by 2002:a05:6830:2e07:b0:7c7:b4e:edb4 with SMTP id<br> 46e09a7af769-7c958b24867mr5067952a34.8.1764932069953; Fri, 05 Dec 2025<br> 02:54:29 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 04:54:29 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 04:54:29 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3160854118-9632295059<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-98f879cf5-v72ml [919864e7a4]<br>X-Hs-Message-Id: reply-87172-3160854118-9632295059-1764932069-1229666778@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;AnNeRh6DY4PE9vwiu2xhiFmLQh66ipwUJzD9rPBvl0@avisobroking.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Fri, 5 Dec 2025 04:54:29 -0600<br>X-Gm-Features: AQt7F2pdplEoJTgdtP23npWuoLosWI6c-Dau_5ahdyNoSMOD4GyT3GI_sHDDzDQ<br>Message-ID: &lt;CAMLnpnE5O2b5EkE640vfgFpA85redH+dZayZqQRMsLMFwc5svw@mail.gmail.com&gt;<br>Subject: Re: 180855 (we're on it)<br>To: Wordpress &lt;wordpress@avisobroking.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"00000000000015211a0645324559\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T10:54:41Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 871505593,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160854227/attachments/871505593"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160854227/attachments/871505593/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871505593/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 871505595,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160854227/attachments/871505595"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160854227/attachments/871505595/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871505595/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

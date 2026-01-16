@@ -1,0 +1,209 @@
+{
+    "id": 3184732379,
+    "number": 183882,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to noreply@lavazzabusinesssolutions.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-31T03:22:22Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-31T03:22:23Z",
+    "customerWaitingSince": {
+        "time": "2025-12-31T03:22:22Z",
+        "friendly": "Dec 31, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3184732379"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3184732379/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3184732379/183882"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9705420198,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-31T03:22:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9705420183,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to noreply@lavazzabusinesssolutions.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [AM4PEPF00027A66.eurprd04.prod.outlook.com 2025-12-31T03:22:13.899Z 08DE45BBD167FE8E]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 30 Dec 2025 19:22:11 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnH-LkfKBrxMfXN6QPGPLJJdVoLo_Eba76MuNPFbPTtjtA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; noreply@lavazzabusinesssolutions.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; lavazzabusinesssolutions-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:ca09::4, the server for the domain lavazzabusinesssolutions.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [AM4PEPF00027A66.eurprd04.prod.outlook.com 2025-12-31T03:22:13.899Z 08DE45BBD167FE8E]<br>Last-Attempt-Date: Tue, 30 Dec 2025 19:22:13 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1767151332; x=1767756132; darn=lavazzabusinesssolutions.com.au;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:from:to:cc<br>         :subject:date:message-id:reply-to;<br>        bh=YFQVt+Ru+yGGLP5hyVslX3EouZ/zwrZbJyO3t0CNpx0=;<br>        b=Hy69+eLO4ZtSCr7542xsHwe1Mkd4/2UG1VnOPPtY1sAWW108coswYAzvWAeeNCL+oZ<br>         TwPUXRXBaTZuVghYWrRGIZdo2JLEWpGYhJsXsBzKU1RH1MyBd+y6dzM41vTn9V4kln38<br>         //RLmb1/eRkJmv6XVgBf1+eyeF4kvPGLlp9UG5vQWrqKHoJIuLo5s+ptpqzKezjptHcy<br>         Aj9gtz6WMP+TKDOTq3OYheZLJll/DPGMwXebdMzdQRHiXT2sQsI+QRw99IWAkab3l6gN<br>         4PfGNADD8rtk+QY4g/eDdelm/XYImbE/RW545MH7Vzx2XZsncQesL2feVbIZ7zeVlffx<br>         rJbA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1767151332; x=1767756132;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:x-gm-gg<br>         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;<br>        bh=YFQVt+Ru+yGGLP5hyVslX3EouZ/zwrZbJyO3t0CNpx0=;<br>        b=RJ1R+JS/m/L+QTRoisU2FkdZNTZ10H4ef+7dVjQdJMrs5VVlxoOpVLrS3ZNyFOrU01<br>         zp4m6VVrnMtKtv9cJibPnh5w0iTiy5i+Rcgfsf7L+tH6eTAE43WETwoFt6Z95YejGFCu<br>         r9+AyR1RmgpFOmY8P8/pNbyy9sUtHa8XQBRi/+VmXt0uTMwoVhwBqKJRE9gHLpNnpzH/<br>         vhLPm1YrnGHPQar6dCcV1U+vV20GuLHHJqIkD2j5QPxW2HyPCgO4ZA/CfcODibeMIflw<br>         PR0GHbgv6MMfq/4ismFSHoyU3A4TQoZcefheBgTeV2rgQf0psd+BJea9ULh6MujvXKGo<br>         SQeg==<br>X-Gm-Message-State: AOJu0YwUNY8KwcAlp+GW7vrGVf2eZmw7p/bmR6bWvQ5jBcC1T3bQCeXD<br>\tiJr+5dHna6bPKqUzYDlNqGl5h48G0socZkSM2VI4jFBLSQDFWwm4r5HXuoZAtJ307+Z/pDtCVJf<br>\tMXl/dTAPuXBHyLRno45IP+KGrqiH9sAHVNqerp21Ud655Q16ShHjJ<br>X-Gm-Gg: AY/fxX7DwoEfWUOIq/OpazCj8AAAq3vJ6RC586q1Y+GrsnXMyTP6FRuRDJ08V5RksAC<br>\td4KcVP1MLbNeL1vyATU9uT+ulOV0juie8tM/OlYePKcGD7CzW7An5uOKN6XqYz8Q0K9PGn59uuo<br>\tt0VIsa50IxOQRAv8bXOuSnh9ikeloxbZ8Iy79pBrueFe4cyJQGiSS8Mp9FwNd/z+WoMdRK9gYWj<br>\tEAHDL4fzXHWF2qcWuaLlZgWT2hKutWN3LB9pg1w8J/WIhItgT1IprE34zi5LO8jzNH+jBo=<br>X-Google-Smtp-Source: AGHT+IFG3xOcINGxpr/NBo5kz7HjtJO1ji0ONqKI8uL2mFvxKkcYNsqAmhFxMYZYJUCh5pFy692qfDWXk2uEjo4FyRQ=<br>X-Received: by 2002:a05:6808:1806:b0:450:c417:3a95 with SMTP id<br> 5614622812f47-457b20b0732mr14492334b6e.25.1767151331986; Tue, 30 Dec 2025<br> 19:22:11 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 30 Dec 2025 21:22:11 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 30 Dec 2025 21:22:11 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-3184731980-9705419386<br>X-Hs-Uid: vV3zYOBmGZ1XjP9j48Dq<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-mailgen-ondemand-7864fd5b9-lfwc5 [e8a37580a6]<br>X-Hs-Message-Id: reply-87172-3184731980-9705419386-1767151331-1119927506@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;fYhXlRiM2s7XE5LMr8DeGlOr7xnDdnt0MDZEJ1g@www.lavazzabusinesssolutions.com.au&gt;<br>Date: Tue, 30 Dec 2025 21:22:11 -0600<br>X-Gm-Features: AQt7F2o8T7MySPRei7dgnNenZW8G2P0nwpF-O2geH9cwwxOAV8BtOS9prOcbYSg<br>Message-ID: &lt;CAMLnpnH-LkfKBrxMfXN6QPGPLJJdVoLo_Eba76MuNPFbPTtjtA@mail.gmail.com&gt;<br>Subject: Re: New submission from Contact Us<br>To: noreply@lavazzabusinesssolutions.com.au<br>Content-Type: multipart/alternative; boundary=\"000000000000685faf064736fba3\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-31T03:22:22Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 878007544,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3184732379/attachments/878007544"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3184732379/attachments/878007544/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/878007544/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 878007545,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3184732379/attachments/878007545"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3184732379/attachments/878007545/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/878007545/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

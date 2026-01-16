@@ -1,0 +1,133 @@
+{
+    "id": 3166681674,
+    "number": 181626,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[The Event Space] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 728098236,
+        "type": "customer",
+        "first": "The Event",
+        "last": "Space",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "info@theeventspace.com.au"
+    },
+    "createdAt": "2025-12-10T22:58:16Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-10T22:58:16Z",
+    "customerWaitingSince": {
+        "time": "2025-12-10T22:58:16Z",
+        "friendly": "Dec 11, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 728098236,
+        "type": "customer",
+        "first": "The Event",
+        "last": "Space",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "info@theeventspace.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3166681674"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/728098236"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/728098236"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3166681674/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3166681674/181626"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9650971084,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Elementor.<br><br>First, visit your website (https://theeventspace.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://theeventspace.com.au/wp-admin/admin-ajax.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://theeventspace.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=eXajfWVDrAgHRmXXZJLEY4&amp;rm_key=KFoEkZ8J3PnooYNOwTxidZ<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.9<br>Active theme: The Event Space (version 1.0.1)<br>Current plugin: Elementor (version 3.21.3)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 20 of the file /www/theeventspace_811/public/wp-content/plugins/elementor/includes/controls/repeater.php. Error message: Uncaught Error: Interface \"Elementor\\Has_Validation\" not found in /www/theeventspace_811/public/wp-content/plugins/elementor/includes/controls/repeater.php:20<br>Stack trace:<br>#0 /www/theeventspace_811/public/wp-content/plugins/elementor/includes/autoloader.php(298): require()<br>#1 /www/theeventspace_811/public/wp-content/plugins/elementor/includes/autoloader.php(334): Elementor\\Autoloader::load_class('Control_Repeate...')<br>#2 /www/theeventspace_811/public/wp-content/plugins/jet-popup/includes/modules/jet-elementor-extension/inc/controls/repeater.php(7): Elementor\\Autoloader::autoload('Elementor\\\\Contr...')<br>#3 /www/theeventspace_811/public/wp-content/plugins/jet-popup/includes/modules/jet-elementor-extension/jet-elementor-extension.php(90): require('/www/theeventsp...')<br>#4 /www/theeventspace_811/public/wp-content/plugins/jet-popup/includes/modules/jet-elementor-extension/jet-elementor-extension.php(71): Jet_Elementor_Extension\\Module-&gt;load_files()<br>#5 /www/theeventspace_811/public/wp-content/plugins/jet-popup/includes/modules/jet-elementor-extension/jet-elementor-extension.php(138): Jet_Elementor_Extension\\Module-&gt;__construct(Array)<br>#6 /www/theeventspace_811/public/wp-content/plugins/jet-elements/includes/class-jet-elements-integration.php(68): Jet_Elementor_Extension\\Module::get_instance(Array)<br>#7 /www/theeventspace_811/public/wp-content/plugins/jet-elements/jet-elements.php(147): Jet_Elements_Integration-&gt;init()<br>#8 /www/theeventspace_811/public/wp-includes/class-wp-hook.php(341): Jet_Elements-&gt;init('')<br>#9 /www/theeventspace_811/public/wp-includes/class-wp-hook.php(365): WP_Hook-&gt;apply_filters(NULL, Array)<br>#10 /www/theeventspace_811/public/wp-includes/plugin.php(522): WP_Hook-&gt;do_action(Array)<br>#11 /www/theeventspace_811/public/wp-settings.php(742): do_action('init')<br>#12 /www/theeventspace_811/public/wp-config.php(114): require_once('/www/theeventsp...')<br>#13 /www/theeventspace_811/public/wp-load.php(50): require_once('/www/theeventsp...')<br>#14 /www/theeventspace_811/public/wp-admin/admin-ajax.php(22): require_once('/www/theeventsp...')<br>#15 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 728098236,
+                "first": "The Event",
+                "last": "Space",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "info@theeventspace.com.au"
+            },
+            "createdBy": {
+                "id": 728098236,
+                "type": "customer",
+                "first": "The Event",
+                "last": "Space",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "info@theeventspace.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-10T22:58:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/728098236"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/728098236"
+                }
+            }
+        }
+    ]
+}

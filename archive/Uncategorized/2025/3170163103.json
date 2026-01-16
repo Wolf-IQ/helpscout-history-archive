@@ -1,0 +1,189 @@
+{
+    "id": 3170163103,
+    "number": 182143,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@coresteel.foxandlee.cloud. See the technical details below.  Learn more here: https://support.google.com/mail/answ",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-14T16:50:19Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-14T16:50:22Z",
+    "customerWaitingSince": {
+        "time": "2025-12-14T16:50:19Z",
+        "friendly": "Dec 15, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3170163103"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3170163103/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3170163103/182143"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9661350181,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-14T16:50:22Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9661350079,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@coresteel.foxandlee.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[coresteel.foxandlee.cloud 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 11 Dec 2025 06:42:27 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnHg-TJE0_kimxGrzcoyZy0RY1qpGahD=sBX=4Wz-eJ-WQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@coresteel.foxandlee.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [coresteel.foxandlee.cloud 162.159.135.42: timed out]<br>Last-Attempt-Date: Sun, 14 Dec 2025 08:50:09 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765730949; x=1766335749; darn=coresteel.foxandlee.cloud;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=Ng2Rn0VgsEwbZ9KKFGoSqGagpTtBWUfats6Z2OWYxEY=;<br>        b=nVY4McZsr9Fs0i4xOktzlb3Hszm7gVFmqItsE4GGqVb7EyRQ9sXj0UWfUQKsqFYvVo<br>         MDzLCQ4uSUZpGJ5PYxaGnSHasxoimRmcDvEel6Aj0eo5+UtVxXubW2AayS0OHy3hJe12<br>         8vzjXZcu+46Rj4sghz0oozLMDD+MZ3w7daiuFyKIMJVv6alauCAIiG7XQoShOdH401k4<br>         HgE7YNUeqn/NHiU1I8EBBSAIH40YCZ/yblb6/E2/UZo2eatmoAlaXq2UcmkJ5/Wl2mgf<br>         D+c/tHbhTg0XF2vLvY7IPB5YRbAiCTIMDU8ESSg390c8q55dHygHAnffTLhZHhuD0l03<br>         YvUw==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765730949; x=1766335749;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=Ng2Rn0VgsEwbZ9KKFGoSqGagpTtBWUfats6Z2OWYxEY=;<br>        b=k7ZctLNmlfCaOd23xbHxeY3IjXe17v996DMIzm7aPPGtzGtZ8J7cWhgnoxAzkoDz0A<br>         PRvSxpomYA3/brVrqJWZK/T9gE6yZFU1yGVI8++3v+CENcZC/Lh4A1ohD73UhPJlp4fz<br>         vHOIiIwTYPzj/qvhVqfFwsU6CwqfzDF1mQwEziqn/AOUt8WyAO0OjY2IpDoukBez2+5e<br>         n7GTAjMNdD+8lk7PB6BfVt8XS5a0Jdyf6JY8L9UJYxG0Y6HS0HZSG5oHrme96eGBdVIT<br>         R3yTyEqObUTt71Jhs1J58WF7WiUNwDo/uX1qkqByJsEl/rbXsU3tvd4Yl89OjVD0JJAs<br>         pAfw==<br>X-Gm-Message-State: AOJu0YyYrjC8ybo9Ef9Tv989ItXaSKeuLsUXK446oXAfRZugObWUQMxV<br>\tppqIT6/shYtL/RgbwBWE9JiUBlZqMNuPwvJJqLRLkhz5lYLcntxhMuOb8OyGrKdO89jzqasSKb2<br>\tCYhTiFFMHl4qF9XEKOZXPRW4mpVLrh3rfqLGsnxxos5EciWTdHqIV<br>X-Gm-Gg: AY/fxX6aruqgicmkJrtaUGTGmoKivXYvam7+dpaYURwNRTWrTkca1NWi5VjkWO99h9m<br>\tdtEyNAg2Awu2IZExNBevPHr+uxjyhSp8n7VcA4yLZOqql+/zztqzE4zEj+35fafnCmjiKioqEG4<br>\tjffwLOsmOikslX60gu73iq+iu/19GA9/sd/iDpemWSrl8n/TM1J/KgUtTSexxBfN5zo9z5eYvDp<br>\tsOmOFo0HI1Rbj8n40YdxS7lJaSVYShUIDD7wELiilZVnrjfDFviwYU3AAlwgKN2fbcXAlc=<br>X-Google-Smtp-Source: AGHT+IHNdZJj9AJvJG3M7pvKW0u48x1FNSW48CHiW9AOq9hCrrCneRZTPylvsfELImCW+P0iS2ponwrivSszVYo/xV8=<br>X-Received: by 2002:a05:6830:4511:b0:7c7:563d:fc19 with SMTP id<br> 46e09a7af769-7cadcb9d3e6mr1050496a34.5.1765464147900; Thu, 11 Dec 2025<br> 06:42:27 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 06:42:27 -0800<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 06:42:27 -0800<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3167350571-9653104267<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-57c97fb8f5-hkv66 [433b456b4a]<br>X-Hs-Message-Id: reply-87172-3167350571-9653104267-1765464147-1007178154@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;aKASQQvk39WyyfBGxdUH8LvlOp57fplcRfjYMc@coresteel.foxandlee.cloud&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 11 Dec 2025 06:42:27 -0800<br>X-Gm-Features: AQt7F2rAJpHMziXi08baRvIJte2BZLGrzJBmnz8EynM9-TL3BHu1gKcDKE178Kw<br>Message-ID: &lt;CAMLnpnHg-TJE0_kimxGrzcoyZy0RY1qpGahD=sBX=4Wz-eJ-WQ@mail.gmail.com&gt;<br>Subject: Re: 181792 (we're on it)<br>To: Wordpress &lt;wordpress@coresteel.foxandlee.cloud&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000664ab90645ae277e\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-14T16:50:19Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 874131229,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3170163103/attachments/874131229"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3170163103/attachments/874131229/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/874131229/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "id": 3167241297,
+    "number": 181772,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@huntershillphysiotherapy.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://suppo",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-11T13:00:39Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-11T13:00:40Z",
+    "customerWaitingSince": {
+        "time": "2025-12-11T13:00:39Z",
+        "friendly": "Dec 12, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3167241297"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3167241297/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3167241297/181772"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9652725257,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-11T13:00:40Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9652725196,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@huntershillphysiotherapy.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://support.google.com/mail/?p=NoSuchUser<br><br>The response was:<br><br>550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 5614622812f47-45597597b1fsor607093b6e.14 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 11 Dec 2025 05:00:27 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnHjEaqO62M0XTyqHQZRv0uyRZ4pFCODD3R4B=Wr5QPXBQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@huntershillphysiotherapy.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try<br> 550-5.1.1 double-checking the recipient's email address for typos or<br> 550-5.1.1 unnecessary spaces. For more information, go to<br> 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 5614622812f47-45597597b1fsor607093b6e.14 - gsmtp<br>Last-Attempt-Date: Thu, 11 Dec 2025 05:00:28 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765458028; x=1766062828; darn=huntershillphysiotherapy.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=s+HrquDaNXZEJtSYuYsOiEUiUcG3jdxDuTAzFsG/3zI=;<br>        b=XyGUWzRDUYhDXV2nnGy0x+MPMh1m9yONuDY9X/Mlm+L3vn2uceVtwZTauyh9+xP5lk<br>         qYHlV2Ni+HmkQq9aT/ymKS4VobpN5O6XXv/QFUnMxb/c/7Uuzhux/me5KvAGToEZYbfV<br>         aaz7Sg5g5zLtmRHsM/BWr2IaxwJOklbGRDFjrDR2EkL3pVt79lceAzOuLDdEGqi+x73x<br>         f7mbQFvFYh3La+Bm2lZYD9u3zg+yX5/K0ZcADt9NOkopUkyS6wxaflIeQXQ9zas+bYZv<br>         mKatzRbe3oTgV7n5sPZLkaowNQaLGOoZv9Lhuatw/H6mLhJQJc+lLgqfMhiDW4KX0dZ/<br>         uspg==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765458028; x=1766062828;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=s+HrquDaNXZEJtSYuYsOiEUiUcG3jdxDuTAzFsG/3zI=;<br>        b=ULjJ+9vWPmDOhvUTp9D/1q74zDf9GvyFD/VyGxGn+Y0jxTvOD+7LC4vwXcQPGHFobU<br>         ICvNxY1OFIXQJ88BKXMm4/8aCsPpY5RZGRC3AXEcmeLwsQROs+U0ndxEMcSztRJqtnn8<br>         /PXB7lgF7oEm7PYcR/fIIz9zQoQmuNpr7Xje84Nk8XwoG1XottogbBBaKxlGBh+RxlYh<br>         W6zqLqOUfzcJUZr52knz+J67Up13RNsbkoMJ8pVhT1sFsR8ZNfTlKhMhiSkt/heoHIix<br>         ySa3u1+G5NoaaAhxDI0RRc5wW1RcTjqB85jX9utemEKbM38pHoDxZljQ4SUBJMJxsrc1<br>         YViA==<br>X-Gm-Message-State: AOJu0YycOvBInNatZeckyFF/r5FijBqrqDGZP+kTfbBrhqTY/MYRmvKY<br>\tQgo0CX9yNNizn+AW0OBAe+LZlTs9cvGZMIQagkEJQtitrQxASk5vjw2bPDz/6W/zOh/QsZg/5bn<br>\tOF9Q1e9jDYsZ6wt4V94zgg1DSxOsc8sy+sXHeUO+kMQA5qvwOWQos<br>X-Gm-Gg: AY/fxX7ufJ/CCeBdGGYUYnOarpKFHvGfe3oJUJ8gjLvzLLqXV75OEfLfyfDNKlmZb7m<br>\teyIsUeNukuVusyWGxHVZBi7fYPYhN0evSwxoLKR9fP4/daCewx9R7Kv64Z36aLFDCiXqVGHHlgm<br>\t3VM+dpbxU9AzS6UhmIrclavBzaiafgmeSVF5XAdi+CttBmRk6c+6nNkc+soZ63GKKwcY84gFaFI<br>\ticZJ/rWqsAXPJraO/O2h5ZLcGfPIgBcFRYDSJFRkgZY9H5s2pukUsKOnN5N5yhnPNQL1svzai+C<br>\tbjPpDQ==<br>X-Google-Smtp-Source: AGHT+IETzIqwwlt7DZ1yUk3llw3iFGpkV1v7knAZvsG8y0KHD73UPGCFMNLnG+Q/ahJenzlxrBdj7dzmxRT2/16xkb4=<br>X-Received: by 2002:a05:6808:6784:b0:44d:b27f:a791 with SMTP id<br> 5614622812f47-4558636600dmr2428226b6e.3.1765458027259; Thu, 11 Dec 2025<br> 05:00:27 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 07:00:26 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 07:00:26 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3167240945-9652724361<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-57c97fb8f5-fwc9p [433b456b4a]<br>X-Hs-Message-Id: reply-87172-3167240945-9652724361-1765458026-623790649@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;HjPlFtP84dKa2jUTCzS4qSUrQPQqHajaR59GZ90VMc@huntershillphysiotherapy.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 11 Dec 2025 07:00:26 -0600<br>X-Gm-Features: AQt7F2osKFHDaqKvrW4eBUlwMAprX__KhyTDR_1VrcruuxkXT2OjbfqijQBif5E<br>Message-ID: &lt;CAMLnpnHjEaqO62M0XTyqHQZRv0uyRZ4pFCODD3R4B=Wr5QPXBQ@mail.gmail.com&gt;<br>Subject: Re: 181771 (we're on it)<br>To: Wordpress &lt;wordpress@huntershillphysiotherapy.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"00000000000094b8680645acbae0\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-11T13:00:39Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 873349020,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3167241297/attachments/873349020"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3167241297/attachments/873349020/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/873349020/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

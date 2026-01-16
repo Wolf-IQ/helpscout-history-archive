@@ -1,0 +1,209 @@
+{
+    "id": 3178984837,
+    "number": 183334,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to noreply@designtiles.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpErrors",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-23T14:01:40Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-23T14:02:06Z",
+    "customerWaitingSince": {
+        "time": "2025-12-23T14:01:40Z",
+        "friendly": "Dec 24, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3178984837"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3178984837/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3178984837/183334"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9688707207,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-23T14:02:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9688705436,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to noreply@designtiles.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C3.ausprd01.prod.outlook.com 2025-12-23T14:01:28.224Z 08DE404A8331CD64]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 23 Dec 2025 06:01:22 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnGvwj2-jo+Nj8BDHxdVaVLZuTArTsuVP_67e0b8G61grA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; noreply@designtiles.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; designtiles-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::3, the server for the domain designtiles.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C3.ausprd01.prod.outlook.com 2025-12-23T14:01:28.224Z 08DE404A8331CD64]<br>Last-Attempt-Date: Tue, 23 Dec 2025 06:01:28 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1766498484; x=1767103284; darn=designtiles.com.au;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:from:to:cc<br>         :subject:date:message-id:reply-to;<br>        bh=BwhLg+502vA2x9bKP9oWagoht7CQIThgP4AMN/60JiU=;<br>        b=L/ZmyMKwNEcksabnrSP/bfivod65/8zPsR/m7CcKWh91+6B60mDuTVqpI4dij7NWEu<br>         w1AyDMMg+7B5Odnw1/itF12whvCfQQHPybjP9y5BsSr5cxrpW6hlGVog/v+i/3Adq4k4<br>         NjOS+G0rlaMJULM3tszgqWUpH2znRJs9rl+P96e6mJT5VXKv8MO1BwNyswh8EZjD/qnl<br>         pDYZWeWtVxMOHrsW2fcRjHGvjM0V91oFlJmmDT44soewq9hC5ceajPU3Tg4K8flR/pSi<br>         urfyizFZbxhQt0hgycHif1vTJYG2PjHyUaI7XAWZ7UaINPFHE6tJa86ERtjEq5zG1qnw<br>         OXRA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1766498484; x=1767103284;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:x-gm-gg<br>         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;<br>        bh=BwhLg+502vA2x9bKP9oWagoht7CQIThgP4AMN/60JiU=;<br>        b=uJVT/ZcQqKoOYp8CIK9Shj70eQV9ENeq76Peex6T2PDAco8BVs2BR4AMnp2i+4mZR1<br>         4kKViwLUwi0Tj1a1sAhamLQ+6NkSggMV+EoxaSDzY2emkdMT3yHXLyAt9SFryEaMJK0J<br>         nvEJYs467FSjbCx8JeWhxZVXDnea058kSZqy8lQNN1ug4IqiDZdXslTschiztTGNBzhn<br>         jydEzslWyYrXuvcL3NAOIxoDeKSp346OW9DPOqpmY21prrOaBGYt1kWfR+mVS0NirGKK<br>         82bh//7Jp/Mnqr0F3D7dZOd8qQphxwHY2EgsGgDwRbY0+1Iz06tpalha3N0B+fxW1Cej<br>         Z6QA==<br>X-Gm-Message-State: AOJu0YyJ2Rqp1e/4MJEK40Zhn7J8IgUBgOmeVBve9IblfQK5/WYYwPHJ<br>\tFJES1oscwCfoiMl07fT+otqGQTF9m7kGKQWgMGixZNMIQ1DfRDjOsH4rkP6TLIXfm6F7r+TIvoq<br>\tyojLihCezajlVhPrMRw1mQ2wcNDyEzu0j2LdbCRthwl/9n9N5F8yx<br>X-Gm-Gg: AY/fxX6Je6l+ZGU4FsgrZexu2/D+9PKsSEnGZCuSYIiptHTYM4wmVYXMtkl5cDTl6xC<br>\tH5FIP+ZJoCbDKQrzYliw+rTYC781Nl1s6WuzMlhhJVEkZ5NeKCn4VTRUy1pqSH9Rr0peD+w3jbg<br>\tqfGMZXnZ4/njVLi/8/m0GeWY2lEEKWM9y9FTw88k7Et8qxG77FN62pD6vTbb5B7B+DKkqI5+Scn<br>\tAhNRGwkr31mRJRdZTZG5t8B4cIkWzoReCf1LYFUm/KDwaw0UBF8x1oUvOVWM3TJL200ejh0<br>X-Google-Smtp-Source: AGHT+IHbrfEAcsBjHx9pHDtrnT0X1RYh5pempOaIDzdSmFnIBF0JPMo1Y/vn+6jFCUWg8WcZz1T69paIN5a9+Jhsjwo=<br>X-Received: by 2002:a05:6830:4104:b0:7c7:62d0:b462 with SMTP id<br> 46e09a7af769-7cc668ffda5mr7233400a34.6.1766498482369; Tue, 23 Dec 2025<br> 06:01:22 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 23 Dec 2025 09:01:21 -0500<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Tue, 23 Dec 2025 09:01:21 -0500<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-3178983071-9688702394<br>X-Hs-Uid: vV3zYOBmGZ1XjP9j48Dq<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-mailgen-ondemand-7864fd5b9-z29hw [e8a37580a6]<br>X-Hs-Message-Id: reply-87172-3178983071-9688702394-1766498481-312138291@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;694aa07160232f3a0a35a7c1@mailersend.net&gt;<br>Date: Tue, 23 Dec 2025 09:01:21 -0500<br>X-Gm-Features: AQt7F2oTAKc5l1XobQ4DONiIh86w0Lhwdf0YPm3L8q86vVikFt6eEaIjumIltt8<br>Message-ID: &lt;CAMLnpnGvwj2-jo+Nj8BDHxdVaVLZuTArTsuVP_67e0b8G61grA@mail.gmail.com&gt;<br>Subject: Re: Tile Calculator - Admin Notification<br>To: noreply@designtiles.com.au<br>Content-Type: multipart/alternative; boundary=\"00000000000089c88306469efab2\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-23T14:01:40Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 876644112,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3178984837/attachments/876644112"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3178984837/attachments/876644112/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/876644112/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 876644113,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3178984837/attachments/876644113"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3178984837/attachments/876644113/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/876644113/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

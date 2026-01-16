@@ -1,0 +1,364 @@
+{
+    "id": 3160504458,
+    "number": 180715,
+    "threads": 2,
+    "type": "email",
+    "folderId": 8855575,
+    "status": "closed",
+    "state": "published",
+    "subject": "Phone view",
+    "preview": "(Time: 30mins) - Glen",
+    "mailboxId": 353979,
+    "createdBy": {
+        "id": 837066177,
+        "type": "customer",
+        "first": "Steven",
+        "last": "Parker",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "stevenwparker@gmail.com"
+    },
+    "createdAt": "2025-12-05T00:31:05Z",
+    "closedBy": 880518,
+    "closedByUser": {
+        "id": 880518,
+        "type": "user",
+        "first": "Wolf IQ",
+        "last": "Dev Team",
+        "email": "devs@wolfiq.com.au"
+    },
+    "closedAt": "2025-12-05T03:31:01Z",
+    "userUpdatedAt": "2025-12-05T03:31:01Z",
+    "customerWaitingSince": {
+        "time": "2025-12-05T03:31:01Z",
+        "friendly": "Dec 5, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 15919957,
+            "color": "#A5B2BD",
+            "tag": "dentaladvicenetwork.com.au",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#8E8E93"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#E5E9EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 837066177,
+        "type": "customer",
+        "first": "Steven",
+        "last": "Parker",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "stevenwparker@gmail.com"
+    },
+    "customFields": [
+        {
+            "id": 58691,
+            "name": "Project Type",
+            "value": "319322",
+            "text": "Custom Dev"
+        },
+        {
+            "id": 58692,
+            "name": "Status",
+            "value": "319330",
+            "text": "Open"
+        },
+        {
+            "id": 58693,
+            "name": "Assigned Department",
+            "value": "319328",
+            "text": "Development"
+        }
+    ],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3160504458"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/353979"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/837066177"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/837066177"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/880518"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3160504458/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3160504458/180715"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9631588556,
+            "type": "note",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 880518
+                }
+            },
+            "body": "(Time: 30mins)<br>- Glen<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 837066177,
+                "first": "Steven",
+                "last": "Parker",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "stevenwparker@gmail.com"
+            },
+            "createdBy": {
+                "id": 880518,
+                "type": "user",
+                "first": "Wolf IQ",
+                "last": "Dev Team",
+                "email": "devs@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T03:31:01Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/880518"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/837066177"
+                }
+            }
+        },
+        {
+            "id": 9631577620,
+            "type": "message",
+            "status": "closed",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 880518
+                }
+            },
+            "body": "Hi Steven,<br><br>Thanks for reaching out about this! I hope you're having a great week so far.<br><br><b>I\u2019ve jumped in and fixed that display issue for you.</b><br><br>It looks like the homepage was trying to load a specific listing that had been moved to the trash, which triggered that error message. I've updated the page settings so it no longer looks for that missing content.<br><br>Per your request, I also went ahead and:<br><ul><li><b>Checked the rest of the site on mobile</b> to ensure the layout is stacking correctly.<br></li><li><b>Verified the footer area</b> to make sure it's clean and error-free.<br></li></ul><br>Everything is looking sharp and responsive on our end now. You may need to do a quick refresh on your phone to see the changes update.<br><br>Let me know if there is anything else I can give you a hand with.<br><br>Sincerely,<br>Glen<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 837066177,
+                "first": "Steven",
+                "last": "Parker",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "stevenwparker@gmail.com"
+            },
+            "createdBy": {
+                "id": 880518,
+                "type": "user",
+                "first": "Wolf IQ",
+                "last": "Dev Team",
+                "email": "devs@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T03:27:14Z",
+            "openedAt": "2025-12-06T04:41:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/880518"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/837066177"
+                }
+            }
+        },
+        {
+            "id": 9631518273,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 880518
+                }
+            },
+            "body": "Hi Steven, <br><br>Thanks for reaching out about this! I hope you're having a great week so far.<br><br><b>I\u2019ve jumped in and fixed that display issue for you.</b><br><br>It looks like the homepage was trying to load a specific listing that had been moved to the trash, which triggered that error message. I've updated the page settings so it no longer looks for that missing content.<br><br>Per your request, I also went ahead and:<br><ul><li><b>Checked the rest of the site on mobile</b> to ensure the layout is stacking correctly.<br></li><li><b>Verified the footer area</b> to make sure it's clean and error-free.<br></li></ul><br>Everything is looking sharp and responsive on our end now. You may need to do a quick refresh on your phone to see the changes update.<br><br>Let me know if there is anything else I can give you a hand with.<br><br>Sincerely,<br>Glen<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 837066177,
+                "first": "Steven",
+                "last": "Parker",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "stevenwparker@gmail.com"
+            },
+            "createdBy": {
+                "id": 880518,
+                "type": "user",
+                "first": "Wolf IQ",
+                "last": "Dev Team",
+                "email": "devs@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T02:45:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/880518"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/837066177"
+                }
+            }
+        },
+        {
+            "id": 9631324888,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi. I was looking at the website on a phone rather than a computer. There is a problem down the bottom of the homepage. See attached image. Can you please rectify and check the rest of the website on a phone. Thank you.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 837066177,
+                "first": "Steven",
+                "last": "Parker",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "stevenwparker@gmail.com"
+            },
+            "createdBy": {
+                "id": 837066177,
+                "type": "customer",
+                "first": "Steven",
+                "last": "Parker",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "stevenwparker@gmail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T00:31:05Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 871396302,
+                        "filename": "IMG_9134.png",
+                        "mimeType": "image/png",
+                        "width": 590,
+                        "height": 1280,
+                        "size": 177635,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160504458/attachments/871396302"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160504458/attachments/871396302/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871396302/24974e04a57a007ed8f915cb5049c0402e839367/IMG_9134.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/837066177"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/837066177"
+                }
+            }
+        }
+    ]
+}

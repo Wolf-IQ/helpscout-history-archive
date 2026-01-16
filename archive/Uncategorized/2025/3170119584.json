@@ -1,0 +1,189 @@
+{
+    "id": 3170119584,
+    "number": 182139,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@safesite.wolfiq.cloud. See the technical details below.  Learn more here: https://support.google.com/mail/answer/7",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-14T15:26:22Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-14T15:26:24Z",
+    "customerWaitingSince": {
+        "time": "2025-12-14T15:26:22Z",
+        "friendly": "Dec 15, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3170119584"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3170119584/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3170119584/182139"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9661240020,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-14T15:26:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9661239987,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@safesite.wolfiq.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[safesite.wolfiq.cloud 2606:4700:7::a29f:862a: timed out]<br>[safesite.wolfiq.cloud 2606:4700:7::a29f:872a: timed out]<br>[safesite.wolfiq.cloud 162.159.134.42: timed out]<br>[safesite.wolfiq.cloud 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 11 Dec 2025 04:25:31 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnGah_=mHOkxnaBnsCzOjY+WotPrB83hpnzV_+9kYqV7Hg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@safesite.wolfiq.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [safesite.wolfiq.cloud 2606:4700:7::a29f:862a: timed out]<br> [safesite.wolfiq.cloud 2606:4700:7::a29f:872a: timed out]<br> [safesite.wolfiq.cloud 162.159.134.42: timed out]<br> [safesite.wolfiq.cloud 162.159.135.42: timed out]<br>Last-Attempt-Date: Sun, 14 Dec 2025 07:26:13 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765725733; x=1766330533; darn=safesite.wolfiq.cloud;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=r//YRU1GW+Vh8xTfoeyVpcCcNuks7EarRNwmmSJ+8C8=;<br>        b=rVToOc9MhJp/fD0ZC7Q4zjjGqtOUVoyhOfidipB76HGECnsMgE9xw3N+hwSeO9IsM1<br>         EGDSHvHDtmSNxabr5EKcKki2BWJeXNNV1nycwQ0QG4a8pjPHIDyTNfVeOjngr+jLY6Ss<br>         B53/MKriqWNMkdPNuj7rpFG+qA8etRnCe0WYYhdYiNUTyUinb5B+ybUhiumz5blvdrKl<br>         8TfJWwW4oTBah+b3lgxfN0Bok+mfxerRljSXuUCyA1E+IYaa6o20MBoXC5V9O/mhUJtO<br>         JZdcYZaQwjxjC1eSv8SUo0k+7JLJUExWbk0/B/TE/BRiMixBbuka0wwArQOPawt2vhk7<br>         +bnA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765725733; x=1766330533;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=r//YRU1GW+Vh8xTfoeyVpcCcNuks7EarRNwmmSJ+8C8=;<br>        b=BxdbgF4T3i1adJVF8vAkgvXnTWRs/f0JIWvJVEtGA41xDkGUhS+9iHyG3bP/eUf32e<br>         f3RN6ON/dkHkKi+iEgjx2suhrV9keEA8LVSfCpGWCIf0WJn5nULAvVahSg4bFetWmsaL<br>         26mrFXJaaz9lkPs+WrOdSLE1dCu/gp0iyH0Xtt5u9j437qcDKUXb4dvM239T/fxByG4f<br>         cR2uJEHVGRtFGON0c1/loSze3NYuXowkteMJoO29fl8B68phHV5Hd5nP8R7T/mjUCtOS<br>         07D2W5Z3teqSPqxzN3KTtGdtnhyNgmv/pjpeXkaLK1Dns7fXqVxNnm6MKyq6e/lE9s24<br>         Ixyg==<br>X-Gm-Message-State: AOJu0Yxf8dJtGKxR+gQ5OLiGuMXIdFBmGASKUoC3KNR2GHO0WlQX8ZPz<br>\tORlpBXVfcvjwEVjzfGYptw3UpdVpT67CTArlwAjx1QyPqDV9XNwIuELKemfvbHUj7ptjoXihRoI<br>\tZbfyUJKOZju74HWizntkXlZKa0gxb/qBdfoTn8HM7s3XjBq2dRF/K<br>X-Gm-Gg: AY/fxX7HUv2k7GtAkLky44M3PQMhA3aKevG9HXeE5K1LbCZrZkIEbVYqK4UC3QER8Dv<br>\te+QdgDJI4ljlm2afq/MfLKXANPB3weFoVodlW/pkeEHmKJN00sCzd740QXdgvFdPqI7W0Wq+XUM<br>\tjWW//4/GH1KxfbEr0RQfyncbAk8tCxIP0tAQ6VHn4AIftoS5ZuijpMHXtridSbrbWxN4iR0GdL7<br>\taIgVJIzge4T515T/SIf3K+X6HYYHbaBkVNz/vQfCrHafdlKNr2g5ram1NVjGF+Or7Rzw0s=<br>X-Google-Smtp-Source: AGHT+IGqhKpke2ytTriqQ4VFuNlOSTIYWM7/KDZ9w0+VuRSYD0Nslk2DPaVqjhtZfPEDStDMucN4Jp3MmMA1KIXGchM=<br>X-Received: by 2002:a05:6830:65c6:10b0:7c7:7882:8ec6 with SMTP id<br> 46e09a7af769-7cacec742cemr2762438a34.36.1765455931627; Thu, 11 Dec 2025<br> 04:25:31 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 04:25:31 -0800<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 04:25:31 -0800<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3167207150-9652629538<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-648c7544f4-9pfr2 [c964146ddf]<br>X-Hs-Message-Id: reply-87172-3167207150-9652629538-1765455930-375497615@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;ct1CaoXuMnhFUszo6AyD6QzMXN4dJK1yUBIObXsZp4I@safesite.wolfiq.cloud&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 11 Dec 2025 04:25:31 -0800<br>X-Gm-Features: AQt7F2qji_5X17Iy47tCOSlY0VHeqeiH-jBFZNLtF6hU20mnIoD0iGblpv9FccE<br>Message-ID: &lt;CAMLnpnGah_=mHOkxnaBnsCzOjY+WotPrB83hpnzV_+9kYqV7Hg@mail.gmail.com&gt;<br>Subject: Re: 181766 (we're on it)<br>To: Wordpress &lt;wordpress@safesite.wolfiq.cloud&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000abe9630645ac3dc6\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-14T15:26:22Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 874125258,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3170119584/attachments/874125258"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3170119584/attachments/874125258/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/874125258/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

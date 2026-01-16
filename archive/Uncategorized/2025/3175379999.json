@@ -1,0 +1,168 @@
+{
+    "id": 3175379999,
+    "number": 182866,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Duracube] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 204600637,
+        "type": "customer",
+        "first": "wordpress@duracube.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "wordpress@duracube.com.au"
+    },
+    "createdAt": "2025-12-19T05:14:39Z",
+    "closedBy": 870251,
+    "closedByUser": {
+        "id": 870251,
+        "type": "user",
+        "first": "Adriane",
+        "last": "Roa",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/870251.348718.png",
+        "email": "adriane@wolfiq.com.au"
+    },
+    "closedAt": "2025-12-19T08:00:31Z",
+    "userUpdatedAt": "2025-12-19T08:00:31Z",
+    "customerWaitingSince": {
+        "time": "2025-12-19T08:00:31Z",
+        "friendly": "Dec 19, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 204600637,
+        "type": "customer",
+        "first": "wordpress@duracube.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "wordpress@duracube.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3175379999"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600637"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600637"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/870251"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3175379999/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3175379999/182866"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9678098522,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Adriane Roa marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 870251,
+                "type": "user",
+                "first": "Adriane",
+                "last": "Roa",
+                "email": "adriane@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-19T08:00:31Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/870251"
+                }
+            }
+        },
+        {
+            "id": 9677886062,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WP Rocket.<br><br>First, visit your website (https://duracube.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://duracube.com.au/wp-admin/plugins.php?plugin_status=all&amp;paged=1&amp;s) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://duracube.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=RzYWa6GJdJzRoqW008ngD8&amp;rm_key=4WEzuAZdYmPlQvam67v2NM<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.9<br>Active theme: Jupiter Child Theme (version )<br>Current plugin: WP Rocket (version 3.19.4)<br>PHP version 8.1.33<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 22 of the file /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/ThirdParty/Plugins/CDN/CloudflareFacade.php. Error message: Uncaught Error: Class \"CF\\WordPress\\Hooks\" not found in /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/ThirdParty/Plugins/CDN/CloudflareFacade.php:22<br>Stack trace:<br>#0 /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/ThirdParty/Plugins/CDN/CloudflareFacade.php(32): WP_Rocket\\ThirdParty\\Plugins\\CDN\\CloudflareFacade-&gt;set_hooks()<br>#1 /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/ThirdParty/Plugins/CDN/Cloudflare.php(341): WP_Rocket\\ThirdParty\\Plugins\\CDN\\CloudflareFacade-&gt;purge_everything()<br>#2 /www/duracube_651/public/wp-includes/class-wp-hook.php(343): WP_Rocket\\ThirdParty\\Plugins\\CDN\\Cloudflare-&gt;purge_cloudflare('')<br>#3 /www/duracube_651/public/wp-includes/class-wp-hook.php(365): WP_Hook-&gt;apply_filters(NULL, Array)<br>#4 /www/duracube_651/public/wp-includes/plugin.php(522): WP_Hook-&gt;do_action(Array)<br>#5 /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/functions/files.php(910): do_action('rocket_after_cl...', '', Array)<br>#6 /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/admin/options.php(71): rocket_clean_domain()<br>#7 /www/duracube_651/public/wp-includes/class-wp-hook.php(343): rocket_after_save_options(Array, Array)<br>#8 /www/duracube_651/public/wp-includes/class-wp-hook.php(365): WP_Hook-&gt;apply_filters(NULL, Array)<br>#9 /www/duracube_651/public/wp-includes/plugin.php(522): WP_Hook-&gt;do_action(Array)<br>#10 /www/duracube_651/public/wp-includes/option.php(1020): do_action('update_option_w...', Array, Array, 'wp_rocket_setti...')<br>#11 /www/duracube_651/public/wp-content/plugins/wp-rocket/inc/admin/ui/notices.php(454): update_option('wp_rocket_setti...', Array)<br>#12 /www/duracube_651/public/wp-includes/class-wp-hook.php(341): rocket_thank_you_license('')<br>#13 /www/duracube_651/public/wp-includes/class-wp-hook.php(365): WP_Hook-&gt;apply_filters(NULL, Array)<br>#14 /www/duracube_651/public/wp-includes/plugin.php(522): WP_Hook-&gt;do_action(Array)<br>#15 /www/duracube_651/public/wp-admin/admin-header.php(313): do_action('admin_notices')<br>#16 /www/duracube_651/public/wp-admin/plugins.php(637): require_once('/www/duracube_6...')<br>#17 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204600637,
+                "first": "wordpress@duracube.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "wordpress@duracube.com.au"
+            },
+            "createdBy": {
+                "id": 204600637,
+                "type": "customer",
+                "first": "wordpress@duracube.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "wordpress@duracube.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-19T05:14:39Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600637"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600637"
+                }
+            }
+        }
+    ]
+}

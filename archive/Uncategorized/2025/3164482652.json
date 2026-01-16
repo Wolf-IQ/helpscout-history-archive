@@ -1,0 +1,133 @@
+{
+    "id": 3164482652,
+    "number": 181426,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[All Forklift Solutions] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 773799342,
+        "type": "customer",
+        "first": "Wayne",
+        "last": "Stein",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "admin@allforkliftsolutions.net.au"
+    },
+    "createdAt": "2025-12-09T08:16:36Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-09T08:16:36Z",
+    "customerWaitingSince": {
+        "time": "2025-12-09T08:16:36Z",
+        "friendly": "Dec 9, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 773799342,
+        "type": "customer",
+        "first": "Wayne",
+        "last": "Stein",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "admin@allforkliftsolutions.net.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3164482652"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/773799342"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/773799342"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3164482652/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3164482652/181426"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9643378762,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WP Activity Log.<br><br>First, visit your website (https://www.stg-allforkliftsolutions-staging.kinsta.cloud/) and check for any visible issues. Next, visit the page where the error was caught (https://www.stg-allforkliftsolutions-staging.kinsta.cloud/wp-admin/plugins.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.stg-allforkliftsolutions-staging.kinsta.cloud/wp-login.php?action=enter_recovery_mode&amp;rm_token=zfn0K3Ugad4Rs64oXTXD9N&amp;rm_key=01dNt7FJcru7waeNWwveeU<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.3<br>Active theme: Breakdance Zero Theme (version 1.0.0)<br>Current plugin: WP Activity Log (version 5.5.2)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 899 of the file /www/allforkliftsolutions_426/public/wp-content/plugins/wp-security-audit-log/classes/WPSensors/class-wp-plugins-themes-sensor.php. Error message: Uncaught TypeError: strpos(): Argument #1 ($haystack) must be of type string, null given in /www/allforkliftsolutions_426/public/wp-content/plugins/wp-security-audit-log/classes/WPSensors/class-wp-plugins-themes-sensor.php:899<br>Stack trace:<br>#0 /www/allforkliftsolutions_426/public/wp-content/plugins/wp-security-audit-log/classes/WPSensors/class-wp-plugins-themes-sensor.php(899): strpos(NULL, '/')<br>#1 /www/allforkliftsolutions_426/public/wp-content/plugins/wp-security-audit-log/classes/WPSensors/class-wp-plugins-themes-sensor.php(1376): WSAL\\WP_Sensors\\WP_Plugins_Themes_Sensor::get_plugin_dir(NULL)<br>#2 /www/allforkliftsolutions_426/public/wp-includes/class-wp-hook.php(324): WSAL\\WP_Sensors\\WP_Plugins_Themes_Sensor::on_available_plugin_update('update_plugins', Object(stdClass), 0)<br>#3 /www/allforkliftsolutions_426/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#4 /www/allforkliftsolutions_426/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#5 /www/allforkliftsolutions_426/public/wp-includes/option.php(2697): do_action('set_site_transi...', 'update_plugins', Object(stdClass), 0)<br>#6 /www/allforkliftsolutions_426/public/wp-includes/update.php(394): set_site_transient('update_plugins', Object(stdClass))<br>#7 /www/allforkliftsolutions_426/public/wp-includes/class-wp-hook.php(324): wp_update_plugins('')<br>#8 /www/allforkliftsolutions_426/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#9 /www/allforkliftsolutions_426/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#10 /www/allforkliftsolutions_426/public/wp-admin/admin.php(386): do_action('load-plugins.ph...')<br>#11 /www/allforkliftsolutions_426/public/wp-admin/plugins.php(10): require_once('/www/allforklif...')<br>#12 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 773799342,
+                "first": "Wayne",
+                "last": "Stein",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "admin@allforkliftsolutions.net.au"
+            },
+            "createdBy": {
+                "id": 773799342,
+                "type": "customer",
+                "first": "Wayne",
+                "last": "Stein",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "admin@allforkliftsolutions.net.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-09T08:16:36Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/773799342"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/773799342"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "id": 3162131894,
+    "number": 181036,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@ascentium.foxandlee.cloud. See the technical details below.  Learn more here: https://support.google.com/mail/answ",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-06T19:05:45Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-06T19:05:47Z",
+    "customerWaitingSince": {
+        "time": "2025-12-06T19:05:45Z",
+        "friendly": "Dec 7, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3162131894"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3162131894/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3162131894/181036"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9636180173,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-06T19:05:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9636180128,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@ascentium.foxandlee.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[ascentium.foxandlee.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 03 Dec 2025 07:08:15 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnFWpiOMeK6i2eimjrBctq6aGsgHmgFSOH2oRztT9-PZ5g@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@ascentium.foxandlee.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [ascentium.foxandlee.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Sat, 06 Dec 2025 11:05:36 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765047876; x=1765652676; darn=ascentium.foxandlee.cloud;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=S7WkhTjt3Oq4pdYtXqZkYrDpIqsDtpBxvN8BHczJPNE=;<br>        b=YmafAif1b5wJTXf8DMPg6m+8tAA7ImJTWPTVJCAWMF40pxKuXt/qjr33+yXzFjCyHG<br>         Vh0KkJEL8LJBSDD+xm3dt1z077BVt0JM9aagmySa19d/9YYeDule3lmPfBCTJh8lFvjR<br>         mocHfvp2QHa2MWwLV9DZQPYEZl2pNR0RuJzNwCc2VK+OB4ApLLsE+YiyoGGqbLcsF0jZ<br>         YRan/gGSgs7p3da2KMl6BV8lwglD+QlXszoHOYQQ4i69o8zjXlBkRwBo0exjJ04kagIv<br>         tfIobUoSMcZEp2uD4QwVjnS5pEMUP9sWLCVKJZToMGo//6uo0ulnRhzDmdlB7T2KnOoA<br>         tkgw==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765047876; x=1765652676;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=S7WkhTjt3Oq4pdYtXqZkYrDpIqsDtpBxvN8BHczJPNE=;<br>        b=NLPcJhPK08wa4wE7yIRrpN5y+i6b6kLoeNvMzZCeDjPV69DA14jYqa4vxioNw3kSQL<br>         B4w4V997JfHQRrNQgC4Fml5uPC0r8tSNRpZRIRnuLRqMVZK+0W5Q2KF5oEIzkMwRnEV4<br>         /a/TGGkOwCi0Fr9EkdUSXkfdikN1nO5Yk9BSU6/GAZmGJ4jqC7T8vH3ozir0yrXr9psr<br>         MRxRJvpNZKGGY+AOIqee9Nm1xN/uUy99SEbKLa7fHNKXEX+YQrNATkwvGwUSTpAX9mTh<br>         j06Ergof2D++Cj7yFq6xb+51HuPI7f1o7/IZr+G4h9ul+5yDf4Aza6kPlJVUeSFeQj8p<br>         gc9w==<br>X-Gm-Message-State: AOJu0YznsG1tIJ+tRMjl+rXZryTNhSbXWgXI6J5EFTnWE3xm3SU+PQza<br>\thXACoAlPJYHGJ9Hkso1w1H4DhgaCV9m63CYEEv3+qn8/tjkN+M463T0r6ILN0dyRCh0QQf39frT<br>\txezytYw21IiJMvJd/fAHZIoY9zLXWSb16PZH1gD2D6efLDh1QbU50<br>X-Gm-Gg: ASbGncsie5TQzx7NDlLzbGT6GQoTCFe9/765U4BH1OQzVPLEgUodXcqWTLarCfX7VEx<br>\t+RrE1tUF9esy2cEwgyLXhHWso4eiJThaUhElxlTfxe8/ReQWphd/f4XBw8exQdhezORrGci8CLV<br>\tAguCGG4P4ddCXMgEHOMKgjY2zSj2+9sPvAi5tDVyQanSqPrlXNZldvEZqNniO5VKMhcxDwEkujN<br>\taoWqzCgwWwQSfrf9TMwOB6AFHYPWYuitJ6pY2HHyRYZHsidFGIf6U2TRzGmykDOZ4sP0VI=<br>X-Google-Smtp-Source: AGHT+IGQ4GYdPm5+TI4ylSSrIxI1chYQJnwNuqf5jSIZJkzmt/DpUKTGJ/DaL6+YIl+UJlxseqmv2/UJtTJciBlTKus=<br>X-Received: by 2002:a05:6808:1784:b0:450:ac7e:cb7a with SMTP id<br> 5614622812f47-4536e4e707dmr1371566b6e.34.1764774495784; Wed, 03 Dec 2025<br> 07:08:15 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 3 Dec 2025 09:08:14 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 3 Dec 2025 09:08:14 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3158651754-9625452102<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-59b456889c-2fh7x [b5f6580f7a]<br>X-Hs-Message-Id: reply-87172-3158651754-9625452102-1764774494-1177015800@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;qji3gjZ4BKhbJtvTbWxD7AQpnKq0h1h9HRKLJo6c@ascentium.foxandlee.cloud&gt;<br>Auto-Submitted: auto-replied<br>Date: Wed, 3 Dec 2025 09:08:14 -0600<br>X-Gm-Features: AWmQ_bkSiY7NQ7aDtzj9xhQDVVlxAyT9ylsApWqr9kA1trVoAOvmekTmUDv5xFI<br>Message-ID: &lt;CAMLnpnFWpiOMeK6i2eimjrBctq6aGsgHmgFSOH2oRztT9-PZ5g@mail.gmail.com&gt;<br>Subject: Re: 180410 (we're on it)<br>To: Wordpress &lt;wordpress@ascentium.foxandlee.cloud&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000ee214d06450d9471\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-06T19:05:45Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 871896188,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3162131894/attachments/871896188"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3162131894/attachments/871896188/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871896188/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

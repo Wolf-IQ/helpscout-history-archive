@@ -1,0 +1,189 @@
+{
+    "id": 3161865494,
+    "number": 180999,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@alfaforni.com.au. Gmail will retry for 47 more hours. You'll be notified if the delivery fails permanently",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-06T09:23:23Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-06T09:23:24Z",
+    "customerWaitingSince": {
+        "time": "2025-12-06T09:23:23Z",
+        "friendly": "Dec 6, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3161865494"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3161865494/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3161865494/180999"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9635485955,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-06T09:23:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9635485929,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@alfaforni.com.au. Gmail will retry for 47 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[alfaforni.com.au 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 05 Dec 2025 00:56:25 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnEHPXoyCb4nGmE6LpDnZDs-FgUOnHNXz-rKb3G1bb82Pg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@alfaforni.com.au<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [alfaforni.com.au 162.159.135.42: timed out]<br>Last-Attempt-Date: Sat, 06 Dec 2025 01:23:14 -0800 (PST)<br>Will-Retry-Until: Mon, 08 Dec 2025 00:56:25 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765012934; x=1765617734; darn=alfaforni.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=CW6MIjh83q1gx6Uk7XthcUXKjQAGDs2rXE7UkHyCa0Y=;<br>        b=vgExPUAPtBsopM5DcBnPCI5Pzmo3cHP0eC2xr6isIOgPv1Yfbrjqa0LOLQiPwd1M3I<br>         vA80Gpze3M1Px9uCJ8KayxlxkxPzbuDLRnbIAG9qXh3v4kWx/3UNUVbaUOLZVxXLrsHK<br>         UbqmUeONkQ8++mAldqF3IK/K8Nr63E/fPNCyWPfUywNOP308MG0jGqQ3EwaCcge7ZOMX<br>         wgsqRqtyV68td9FpbpTTFtVe/PfCTTYFNEUzHlKNSrDQHRlfWrS6S6MJVfCtp6bVKwfe<br>         Jh0R1Pi7eWe9G2eDHRoAeeihySJmaOzLDyMURfp+cT151BJ3FCxBQzMJyUwqyuXZejon<br>         OnZA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765012934; x=1765617734;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=CW6MIjh83q1gx6Uk7XthcUXKjQAGDs2rXE7UkHyCa0Y=;<br>        b=eA0bOeZ9y7eLsMr5kpTeRznHW4w1OVe+/uQ5r/EztPABCmJkY/ia0vW9gpc0tMtjjY<br>         xgXGWximdzWyNILrWph6dGUUXE2tHp9ZS53gQxpusmo35RfxQFubmWwhg4si/m3DddK+<br>         ob3qDvOpMVNY/92a1/bSIUCt8iVNxZlEniEJq7mgMm03KnvCx1my2Ls+sykV8Ok9pEcW<br>         2xBGCKbZvEVyJLMjevu3qPqzBx62kgvBzYTDcz3Txm5bTrgzmGdcYJ6yslPC48tuQGEL<br>         11V9RnMSUqIPOD5qghoa3OLmxFXS1k1zudbzY4FJXBzZdKT2gc92rWAxkpJof0mpeOwY<br>         HUDQ==<br>X-Gm-Message-State: AOJu0YwMN7R7x9sB1LHI087epkf80/aCwuX1ADgtOri0ooxh06ppdGFA<br>\texer9as4gkPrLe12C80aqPQXtvhM0YuHzL9QRP0urQPlyYPADk9hH/n5Vw8M+6vRfE/W5D1nfJb<br>\tBC1KBpYHdF2FUY3degcHqzRyJX0mEts/QW3lYOsqVELSHS/UvEXVX<br>X-Gm-Gg: ASbGncs6Ap6vRU+3FRwyX0+7X812tpd2Jxx6oKXkPvcCP1s0tntQaZsSYiBLH+oiSGz<br>\tx6SCVxvENO+eCgqUg6QCtXLJz1fsjb2gxsgYhsynjQ7RJgp2HfhSrjzPb9fT9m2mmphPi0KmLrJ<br>\tc9s90ILcnlTGE3jSWe7buMyZ5GAsXYjwGBFQ/R6EjXxXjYeFmz1Ed4EvBhjp34eGe2afA+fXKOT<br>\t5kn0YOztM1hzSBfZv5UZB+tRevF0isavIqL8HzPYD7fQnZotUM6Y2S35z1Z77P35L9aAM4=<br>X-Google-Smtp-Source: AGHT+IEiKAw5Ch6sSrcuc+CIqW9yyLbgUFmG88rsjRp4EuXaDmwLa77P3G+h/KV/n77+ydFkwrWTSiMzsm0Q8m9RWS0=<br>X-Received: by 2002:a05:6830:3487:b0:7c7:540a:d102 with SMTP id<br> 46e09a7af769-7c94dc364ddmr5667368a34.25.1764924985296; Fri, 05 Dec 2025<br> 00:56:25 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 00:56:24 -0800<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 00:56:24 -0800<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3160774883-9632057883<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-98f879cf5-mztgp [919864e7a4]<br>X-Hs-Message-Id: reply-87172-3160774883-9632057883-1764924984-1403273563@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;JHnFBpnWpoRqXRJPumNAKKL6wNuCkF5bnY8isPCynA@alfaforni.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Fri, 5 Dec 2025 00:56:24 -0800<br>X-Gm-Features: AQt7F2oN01Py-8QOTZw2wneQH0Zby4hcwZg2s5AYY2I3BbDqz3V_EaHLg42Ixb8<br>Message-ID: &lt;CAMLnpnEHPXoyCb4nGmE6LpDnZDs-FgUOnHNXz-rKb3G1bb82Pg@mail.gmail.com&gt;<br>Subject: Re: 180832 (we're on it)<br>To: Wordpress &lt;wordpress@alfaforni.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000cdd7d60645309ee3\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-06T09:23:23Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 871846868,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3161865494/attachments/871846868"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3161865494/attachments/871846868/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871846868/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

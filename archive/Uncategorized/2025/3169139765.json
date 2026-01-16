@@ -1,0 +1,189 @@
+{
+    "id": 3169139765,
+    "number": 182017,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to wordpress@theparlorpizza.wolfiq.cloud. Gmail will retry for 46 more hours. You'll be notified if the delivery fails ",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-13T02:58:21Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-13T02:58:24Z",
+    "customerWaitingSince": {
+        "time": "2025-12-13T02:58:21Z",
+        "friendly": "Dec 13, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3169139765"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3169139765/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3169139765/182017"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9658832221,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-13T02:58:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9658832187,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to wordpress@theparlorpizza.wolfiq.cloud. Gmail will retry for 46 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[theparlorpizza.wolfiq.cloud 162.159.135.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 11 Dec 2025 17:21:27 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnGoEHTgc48kwScFEaw1kOHDrDMfoY0eq04ySYx3U9ecJw@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@theparlorpizza.wolfiq.cloud<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [theparlorpizza.wolfiq.cloud 162.159.135.42: timed out]<br>Last-Attempt-Date: Fri, 12 Dec 2025 18:58:12 -0800 (PST)<br>Will-Retry-Until: Sun, 14 Dec 2025 17:21:27 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765594632; x=1766199432; darn=theparlorpizza.wolfiq.cloud;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=fYbLzPkxno6MCiBiOdICb0zumBslRMKEmx3LnJv1Uv4=;<br>        b=e0+lNWXmCpkcFQ8j6fcPaYrh53975ZchqJoh7C1WpnJDwTzuGcWEDITFdRBhcrLVuS<br>         mSTkV0Xks0MBkLZizsgiYDYc5LTLMYchuWbZ3Te9YTYNo1RJTGGniuSI8iiWq4441pXL<br>         ObE8gLzV2bMAffXNDIWjB91Wdp0I7JIBMSLNJYIv4ern7fsOqJr+/XfGsXdlnA05o05x<br>         kQXI9IOse796q95tpkp1rQH1QMV8+Vqp0MYgPpzgtqdb2igv2h9gDVihm1tq+czbpULk<br>         oBOTenxyQZasAdBZFw75WBsb4p+kZ4kLPFAL3E/m3kgSsR6uY4+K1gMOob3rAEH+AYcy<br>         6NLw==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765594632; x=1766199432;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=fYbLzPkxno6MCiBiOdICb0zumBslRMKEmx3LnJv1Uv4=;<br>        b=RmFR8mv/BrvFmWgvXSBzSxZ1i+Ly3019nqV1wa9frTSIk/N7KRNCYpB52ycGzXw6re<br>         FC99CSkxVoOv5XyqmiYbDbE/4+8kt8pvsAEsj2zcoV4W3LyuPVPvqROrJDqVivkDoyfi<br>         aGvqlMaJycBi0HJfApkGSdSPYRAxNpQYXpLiXhWLprqKbNI7i+hvEhhKjwpLfXUBzZJa<br>         OAFGsTX9Ng9WUTDCTy+srjYnhwZjO6VFmM6r6dXJ0jK0y27ugYgpkAnO83gaLv6gGThQ<br>         MHT3C02uu6kVuvJsikj3M8HJYgR/j7O2MYn4iHxwTv711NS8GRUYrgBz/6Q17B4xM8EC<br>         DfPQ==<br>X-Gm-Message-State: AOJu0Yy0tp6whn2OTHZ9e0iuK5dXwrlFg5E29lPWQIIE/uu3cJ8aGsD2<br>\tnHMq0tpWtYaLh56zJLBG7r5aCDAyotGB3MWDTOE7eEdBrSkIMx/LTXdoKeM+Df8lCimMBykncNG<br>\t9/M2lJtaiKe/C+CjflXp4ZzijbpdkXVLw7SYO1BUixfoWascfer2b<br>X-Gm-Gg: AY/fxX4yP9ey6jwal5WYkk42TQFXpJT9e8AsPjaTAvl6vohY7rcVaPOMs9EVW2j/ufL<br>\tfdldAQm2VPtUCAKgSKR6qa+Q1Q2mK8IFnFfzpH2Xur6cISd0COddbzL84QbPBU3baZX19um1rLE<br>\t6Si8G9ULnI/QOXcB4ZvjIUlS3QcZ4LbepDqCfbFNImG/LhKBEnogCyrUn+OStYHZZsUU66ADGnK<br>\tulJ/8kg2wci5un8O1w8GagKa1lxIItFvtN83IYbsqP+TzNDFJkz/eMbyd0gTF1wYa6pz8s=<br>X-Google-Smtp-Source: AGHT+IGMv9THuuHukyHIYpQu4VCQATsQclSdqzchexQzCVwb4DK/ZZyt4CXeFlI+gwZYGVHioqIckWZQVaJ7510CmQY=<br>X-Received: by 2002:a05:6830:254a:b0:7c6:9d7b:b033 with SMTP id<br> 46e09a7af769-7cae8355339mr216747a34.22.1765502487581; Thu, 11 Dec 2025<br> 17:21:27 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 19:21:27 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 19:21:27 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3167998420-9655302644<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-7bdd9fc6fb-xh6ph [e20b0a788f]<br>X-Hs-Message-Id: reply-87172-3167998420-9655302644-1765502486-456093593@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;KK680IIStP7vxJ4KdIPVj0WaMOm4429eglAe2a3WhE@theparlorpizza.wolfiq.cloud&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 11 Dec 2025 19:21:27 -0600<br>X-Gm-Features: AQt7F2r55XFQfYuEXEuAMBzjrROjoFy6JHPxYsyfRT17k6TprW4XgHvllSc_SMQ<br>Message-ID: &lt;CAMLnpnGoEHTgc48kwScFEaw1kOHDrDMfoY0eq04ySYx3U9ecJw@mail.gmail.com&gt;<br>Subject: Re: 181872 (we're on it)<br>To: Wordpress &lt;wordpress@theparlorpizza.wolfiq.cloud&gt;<br>Content-Type: multipart/alternative; boundary=\"0000000000009f65d90645b7141f\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-13T02:58:21Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 873964729,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3169139765/attachments/873964729"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3169139765/attachments/873964729/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/873964729/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

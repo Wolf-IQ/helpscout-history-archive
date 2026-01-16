@@ -1,0 +1,209 @@
+{
+    "id": 3182658136,
+    "number": 183691,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wp-activity-log@diesellink.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmt",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-29T00:09:52Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-29T00:09:53Z",
+    "customerWaitingSince": {
+        "time": "2025-12-29T00:09:52Z",
+        "friendly": "Dec 29, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3182658136"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3182658136/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3182658136/183691"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9698940341,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-29T00:09:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9698940326,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wp-activity-log@diesellink.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C4.ausprd01.prod.outlook.com 2025-12-29T00:08:58.728Z 08DE457373FFD495]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sun, 28 Dec 2025 16:08:55 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnGX36w2LFEJXBM_QMxHXx-YHFXZb4pJ_LTN5B2trCxtVg@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wp-activity-log@diesellink.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; diesellink-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc31::3, the server for the domain diesellink.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [SY1PEPF000066C4.ausprd01.prod.outlook.com 2025-12-29T00:08:58.728Z 08DE457373FFD495]<br>Last-Attempt-Date: Sun, 28 Dec 2025 16:08:58 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1766966935; x=1767571735; darn=diesellink.com.au;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:from:to:cc<br>         :subject:date:message-id:reply-to;<br>        bh=jOdU/SiwVfj/G2Ll8ppQYKF0Uv3Y0lVrRevA6KwXf9w=;<br>        b=vQN8+mA6phCsEpCpOplwrrTZkxjucawmQd3zxYLmPAzxkHuef9mSD+gy6veyjMA3Un<br>         K2rfdbzIqRrQPzUr3AK8eC7xRMd3Q+vH7m4cGZXtirHLMl/FXQKtJvDAlJ/f58cCITDe<br>         cWDq8CmrJaUG5fFIiwrdnNybWGJTPAeydxYDPVqCSAR61dEHdkLAvlVlfStyABEZvOOI<br>         2tlRYJhOohW8tZOwVf5p223YwPc0ZbyLf0l22x2tciLNFAbPiDS7CrGkWNhPnY0Gxuc3<br>         vWiXLK+UF6Hj4Ul/x0c3Bstes7i3YF3fyVE87PryG2gKzvV5w3nIWLjcWYEqRlLB+nwn<br>         zO+g==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1766966935; x=1767571735;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:x-gm-gg<br>         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;<br>        bh=jOdU/SiwVfj/G2Ll8ppQYKF0Uv3Y0lVrRevA6KwXf9w=;<br>        b=qJWxeMvqsaa/jyolL0R8iQxcQIL47dgvownW9vq6dggbHDKWBHfSScFVYlFdA8iie6<br>         JhP08NRiGw+IYbO4Gtlb9TwxZ5/guexmpOPs+hrq/OqFMZ1taPjjLEXiTiLrjmiOFAc2<br>         IGL2II4z7ne2DoL1JrZuYJBybi/3//+WURfgceGMVjd+tnxujxlWXQH5YqPkLoCO6yZL<br>         OZviM51WvYHHKm+ez8kpTzBVwi2j8FHdprP+EABtxImb27ej9pL3koDPV3lG+u6A30lU<br>         r7Au5cwMpuWC3NdlQrv2QyDsB2Z1VR/C/ln2HZ3Vmd/51+qHCu5N0cEC1JkQvYUEB/uJ<br>         xlEQ==<br>X-Gm-Message-State: AOJu0YzeqVifCnWB9jN7ZdloG8C3liavrMWsrP14fYiIn5FVeUJ0sCs9<br>\t+VqPPT7JVXXBBFT1Yqc3x7SFpuYAqIx9pG+DLN5IqxGpV9WQF2MzXennA2CmLS09XemJDcmHLNA<br>\tLFAlxafk091jEGqAdmKT/g8FuQi33qIrJpmnypVVXmRx/NCjy4Grn<br>X-Gm-Gg: AY/fxX4W3ceG+J2L5otllbyX/MqyZzLmWQNhwFmmMQdrYhRx3Y2HBriKFvJcCPDWYSW<br>\tEZzuk8W0ddpPlpFUR7WAdYTQc4EW8nppj1F7aJkllOHE/vrpmFsqYH0HT2NXSxu9gXdmAaPfqtB<br>\trGW53csGPlj5eeBwznm7cPqPzPwW9DOvm/ZGjl5G0c7tr5cd9k/15brUzWFlF5cwVNco5rL7E/N<br>\tevuy5JablY04Hcut0YDWbevWwLBMBUa8/yUUEEk7PSJ6qhaBo5bAtjaN3kRYIrhctNkPD1P7Sm2<br>\t8wb1WQ==<br>X-Google-Smtp-Source: AGHT+IHJC39wuNDtCC5/316gSd+oQE7PFXrMndvjUEGcVK3pL3UieCavArZCPbEpYzJjAAlfPqnNDTTEUq6A3Ii1HZI=<br>X-Received: by 2002:a4a:c104:0:b0:65c:fff0:818e with SMTP id<br> 006d021491bc7-65d0eae44dbmr9894284eaf.63.1766966935151; Sun, 28 Dec 2025<br> 16:08:55 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Sun, 28 Dec 2025 18:08:54 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Sun, 28 Dec 2025 18:08:54 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-3182657191-9698938232<br>X-Hs-Uid: vV3zYOBmGZ1XjP9j48Dq<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-mailgen-ondemand-7864fd5b9-wvbjn [e8a37580a6]<br>X-Hs-Message-Id: reply-87172-3182657191-9698938232-1766966934-200566043@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;6951c629ee7e03d81e2c1538@mailersend.net&gt;<br>Date: Sun, 28 Dec 2025 18:08:54 -0600<br>X-Gm-Features: AQt7F2q_NIRChgK-3H-ZHtJfxTvUDggTK10zxUVm28it30PbLyrcPgQrf9vqaXE<br>Message-ID: &lt;CAMLnpnGX36w2LFEJXBM_QMxHXx-YHFXZb4pJ_LTN5B2trCxtVg@mail.gmail.com&gt;<br>Subject: Re: Activity Log Highlight from diesellink.com.au on December 22,<br> 2025 - December 28, 2025<br>To: Diesel Link &lt;wp-activity-log@diesellink.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"0000000000007ff61a06470c0c98\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-29T00:09:52Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 877412305,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3182658136/attachments/877412305"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3182658136/attachments/877412305/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/877412305/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 877412306,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3182658136/attachments/877412306"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3182658136/attachments/877412306/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/877412306/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

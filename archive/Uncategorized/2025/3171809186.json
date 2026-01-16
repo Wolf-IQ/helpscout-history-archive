@@ -1,0 +1,189 @@
+{
+    "id": 3171809186,
+    "number": 182376,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Delay)",
+    "preview": "** Delivery incomplete **  There was a temporary problem delivering your message to sales@thebugbitething.com.au. Gmail will retry for 47 more hours. You'll be notified if the delivery fails permanent",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-16T06:21:08Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-16T06:21:08Z",
+    "customerWaitingSince": {
+        "time": "2025-12-16T06:21:07Z",
+        "friendly": "Dec 16, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3171809186"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3171809186/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3171809186/182376"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9666639298,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-16T06:21:08Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9666639274,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Delivery incomplete **<br><br>There was a temporary problem delivering your message to sales@thebugbitething.com.au. Gmail will retry for 47 more hours. You'll be notified if the delivery fails permanently.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[thebugbitething.com.au 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sun, 14 Dec 2025 21:23:24 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnGbTaEQMDNBdVrRX_=ub4F9zhXS0av70bPb5aVhYP3F5A@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; sales@thebugbitething.com.au<br>Action: delayed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [thebugbitething.com.au 162.159.134.42: timed out]<br>Last-Attempt-Date: Mon, 15 Dec 2025 22:20:59 -0800 (PST)<br>Will-Retry-Until: Wed, 17 Dec 2025 21:23:24 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765865999; x=1766470799; darn=thebugbitething.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=9Mre2QGOjCUn6CSBwjSoifcfka/Ez7Bbvxe6IV5jtag=;<br>        b=xxeSpP+lpwaDjdnYR8bH9pR3dQndkWaPbExuPsxymcfunS9rNo3agM6AVR+H4Tkjei<br>         rf/zl92oj8dHGrTihPsh+oBNG3X+6FhU/fwVAYPlpVo6kEeJtS682Uewha9DHxhbsWja<br>         45NMn5pNE8JKDtZtNsVrf1olEatoTkIkgmic5csJbNCtTbEaO22UuR1oMfpw2jCy8LZR<br>         7MqBWAuX0v6i3mCo8opTwV+px4bIHPjGgCTICtndzYgtJ7hdXpDxW83ZxQ6sRJvu3E2B<br>         QaLKj03VT3HHJ05cE5zSn6f5eXc4r1HhpdGAxlDk2122ViPsHYQKj2+b3nkXAJaSqJZd<br>         dRhA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765865999; x=1766470799;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=9Mre2QGOjCUn6CSBwjSoifcfka/Ez7Bbvxe6IV5jtag=;<br>        b=Jlnj4uLYOepGn26DPV6C7RUYyOSQwIQYNgFicIZ8vwTIFtulqxjpuXrRWoqDFR2xBP<br>         +eRDsOp2pZ3x/tkycoPN0iJmg6JTL4bEKGH6yKjP5Z6d8LgM2Ntc7cbHGwtzpBG5DHsL<br>         rCAYsLPKQYtg8O/ntx07oIIdZexULZl87nvKAI668C9vFGGX6k27kYyOHR9J3VnRqCoy<br>         S7TbL+yfEvGu1L3lMiz0ha37c/ukFidbVRu20Pcv70npEgp7qWMTCYuZY480cp7OLZXs<br>         sbxna5MZ3zHSuNeQ2A1Ffs9BxjDT67i4+2xAX81/LMv2hi3xaJWo5ltkZNlKa9rUNBth<br>         nfOA==<br>X-Gm-Message-State: AOJu0Yz/myVhRFoEO8vEEg7Y7CItMG510zwTUxM//MvEK/k9ldg2qMLg<br>\t/8sHj+JU5KJskVqH6HlpSRrtHn0SI4FPOpkcY7lL7eyayuv6oBJzp+h4BlWMD+l1e3AZ7BcclqG<br>\tipNF1spXimvg6h55zsSQTrfkQCWxZUpWV3NuWg8D9Z3elYjdFYTd8<br>X-Gm-Gg: AY/fxX4q+G36zGUQkX4PTt5dy6T0d8ICgbm/WTvCUvc/7ALFXDZt5T6RitFsHPBuSI2<br>\tTL11wM/2RNmZPlHXHh1EYv4Qu+P2djnW9j25RsrdT1490EXX+aQ6z5hWLKJ9LUl8TRJy4ijsg5Y<br>\tkr6//FQde/jaMhXuPSbtLkNQC2kUyXBihDhKU+zcdHD3wpoADjupTzdsYZKp+RnRKmBv6IEBRQz<br>\tN4lG+Cs5+HocH/Ny7p1Fv2SWgCuSPObmcBpGKXvCUzmo+OU0VNUXxHswGAqbTq8bK8YBO/w<br>X-Google-Smtp-Source: AGHT+IFPfpg9i3T2H2IdBzwh0WSp4t1aOQUyKhQNnEjPIlPl+EN8n3tDgKj1NSr9NdWSydfRTnxeWPivqyCauWWjEdg=<br>X-Received: by 2002:a05:6830:2549:b0:7ca:f4f4:2bf1 with SMTP id<br> 46e09a7af769-7caf4f42cd3mr3517249a34.37.1765776204146; Sun, 14 Dec 2025<br> 21:23:24 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Sun, 14 Dec 2025 23:23:22 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Sun, 14 Dec 2025 23:23:22 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3170551248-9662346154<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-784b469d68-6bdwm [61f9760ff6]<br>X-Hs-Message-Id: reply-87172-3170551248-9662346154-1765776202-1629430788@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;693f9b3ae406e6b814e89d56@mailersend.net&gt;<br>Auto-Submitted: auto-replied<br>Date: Sun, 14 Dec 2025 23:23:22 -0600<br>X-Gm-Features: AQt7F2p4DzS_-iTWxGeNJHkiHUJ6AfdrV4iwwRpOeWzBAyzif2_1n_wHz5p-NN8<br>Message-ID: &lt;CAMLnpnGbTaEQMDNBdVrRX_=ub4F9zhXS0av70bPb5aVhYP3F5A@mail.gmail.com&gt;<br>Subject: Re: 182246 (we're on it)<br>To: Bug Bite Thing &lt;sales@thebugbitething.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"00000000000066b3a80645f6cf9a\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-16T06:21:07Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 874588563,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 3910,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3171809186/attachments/874588563"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3171809186/attachments/874588563/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/874588563/3fe1e13e82c759975c18518a399cf9e05bf7feb2/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "id": 3170534435,
+    "number": 182234,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@stg-beechwoodhomes-beechwood.kinsta.cloud. See the technical details below.  Learn more here: https://support.goog",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-15T04:44:48Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-15T04:44:50Z",
+    "customerWaitingSince": {
+        "time": "2025-12-15T04:44:48Z",
+        "friendly": "Dec 15, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3170534435"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3170534435/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3170534435/182234"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9662297785,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-15T04:44:50Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9662297757,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@stg-beechwoodhomes-beechwood.kinsta.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br>[stg-beechwoodhomes-beechwood.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br>[stg-beechwoodhomes-beechwood.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br>[stg-beechwoodhomes-beechwood.kinsta.cloud 162.159.135.42: timed out]<br>[stg-beechwoodhomes-beechwood.kinsta.cloud 162.159.134.42: timed out]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 11 Dec 2025 14:08:46 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnF_XrRdvWE3WZnvMTD2L01jq73QUcQyBu5QAfbAX93aeA@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@stg-beechwoodhomes-beechwood.kinsta.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. For more information, go to https://support.google.com/mail/answer/7720 <br> [stg-beechwoodhomes-beechwood.kinsta.cloud 2606:4700:7::a29f:872a: timed out]<br> [stg-beechwoodhomes-beechwood.kinsta.cloud 2606:4700:7::a29f:862a: timed out]<br> [stg-beechwoodhomes-beechwood.kinsta.cloud 162.159.135.42: timed out]<br> [stg-beechwoodhomes-beechwood.kinsta.cloud 162.159.134.42: timed out]<br>Last-Attempt-Date: Sun, 14 Dec 2025 20:44:39 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1765773639; x=1766378439; darn=stg-beechwoodhomes-beechwood.kinsta.cloud;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=h+qu93v4113Wrg7O6+wZu/9H/7a8MWGci+jbXVWX5Ro=;<br>        b=YHYWS+jGg9OBY+PmQDmsS0nfASjIK/kX0jQrbdG4FR+PyAfh8zdnOxnOqZWHUIJ/D7<br>         fiZYrxhdu9qmmb4wX0MjpWbikjX5LxyDFqxCjcGub6E28QtnM0uRdtV5vQhM1Fw/ix44<br>         YUoIXPtrcoMzism3Kh3r1FvkN26nbzEd5YisewObpXib9hvXrWQmaojpblS0mNrkCjzm<br>         n6NeEQ/6Bypks6jPcViI9EjGc86jjxqf4Xnz+ER0uPtG8MNyTSEaJl3xPaWZs9Be0iIT<br>         8yso0Da0waOXhqwHMdZgLDzukZsDTkH7sp2vQalwaoLANK6SheHrHpCrDzlAzHI8+P2g<br>         pZZg==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1765773639; x=1766378439;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=h+qu93v4113Wrg7O6+wZu/9H/7a8MWGci+jbXVWX5Ro=;<br>        b=ck8gDd+IpuqwuWqqiaBU2HM6PXVwsB9J61vzxg+yyNki+eGrI6B5yNRcSgaztafWWB<br>         VrXKaJnnan3kDcTA9v3YzVVg19aOg/DSGjYy5/dOkggOxZ/f3yY2zlAQlFYEZtzrF/oh<br>         jXIab3u33yETmihOHTxzp1be7ls9iN9InFdYlYSZ0mtJg9LAQYgV7EwCq2j9aVk5JCaf<br>         t6wRMnqB1CP3AHn2KP0vwtwmrv/18V9WjAghmlIkxfqvk0c6it79BZd6dHgXZRUJ3tv4<br>         6EeTpcK8pIrZtRTePNllOaZnXSHexi15nvUQ9aTY18KmNVwr+/Vj9OBr51J3moNr+uEj<br>         dpig==<br>X-Gm-Message-State: AOJu0Yz7kNccIStU6PPi4TBY8Di/6c9ULU278Wd5HE97FuMS8+F9nFus<br>\tIGWNo6bTvzvjjNq7zXQdzB4am11GdVj+DxWMeuGlPCwFnu9Jy3Rt+/kbdJe2bDd+I6jrNo90C52<br>\tl/lPfo6ioGjPG5PmNdPxEqhS43ZbHE4bJluKsYKdVTByFFNpqVxt2<br>X-Gm-Gg: AY/fxX4sDK5nGlr62Qcv0dX9INtNxJWZ1NCdXvcmbBO3I7oY7ffFtds9h9PW0zYw0uH<br>\tH4xqTvb6TR023OrOwZ56j8bJCkmd3ST+juuJT2OyVgPCbiuYut9y8WIL1AZPNAPgEX2sjPsRGlH<br>\tQ36pnje3TwdWON9GpK2LRd54BLoc2cK1Xl954A5wibRrnFAeT9EWNnk4uobmoLmc+ERo0jxfkjm<br>\tSifwir2LUazQ1nRHfuwP8XD4QxTLVwweS9SAMc4nqkKiRk8TAK2HJqVKrMDxC5SW0eoy0o=<br>X-Google-Smtp-Source: AGHT+IFpiyIrYZz9/m6XnlpYfnCriNXz6T2hzqT+SXQkvCHErrSZ74W8IdaWcXEsvDfh/9gS3+dm2e98Apn25gE2Mrc=<br>X-Received: by 2002:a05:6830:310a:b0:7c7:59a1:48d5 with SMTP id<br> 46e09a7af769-7caceb9f81bmr4506750a34.1.1765490926136; Thu, 11 Dec 2025<br> 14:08:46 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 16:08:45 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Thu, 11 Dec 2025 16:08:45 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3167856526-9654852859<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-5987c5b78d-bs2qm [34ebb1e8c9]<br>X-Hs-Message-Id: reply-87172-3167856526-9654852859-1765490925-1930675@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;JFi1VLJqyw1HNxekOL7EYddKTxmOGqOp6oXsH6Xg@stg-beechwoodhomes-beechwood.kinsta.cloud&gt;<br>Auto-Submitted: auto-replied<br>Date: Thu, 11 Dec 2025 16:08:45 -0600<br>X-Gm-Features: AQt7F2qa4-GQHnrMzLJZiAFN5QVrgYwgZx8WDWiSE8vD5sLJYbXo95bI8ID390Y<br>Message-ID: &lt;CAMLnpnF_XrRdvWE3WZnvMTD2L01jq73QUcQyBu5QAfbAX93aeA@mail.gmail.com&gt;<br>Subject: Re: 181846 (we're on it)<br>To: Wordpress &lt;wordpress@stg-beechwoodhomes-beechwood.kinsta.cloud&gt;<br>Content-Type: multipart/alternative; boundary=\"00000000000081c4370645b4632c\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-15T04:44:48Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 874193084,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3170534435/attachments/874193084"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3170534435/attachments/874193084/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/874193084/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

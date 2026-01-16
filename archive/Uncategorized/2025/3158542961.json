@@ -1,0 +1,209 @@
+{
+    "id": 3158542961,
+    "number": 180395,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@ghostcharters.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://aka.ms/EXOSmtpEr",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-03T13:36:05Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-03T13:36:05Z",
+    "customerWaitingSince": {
+        "time": "2025-12-03T13:36:04Z",
+        "friendly": "Dec 4, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3158542961"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3158542961/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3158542961/180395"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9625078458,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-03T13:36:05Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9625078425,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@ghostcharters.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://aka.ms/EXOSmtpErrors<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [ML1PEPF00011309.ausprd01.prod.outlook.com 2025-12-03T13:35:56.783Z 08DE2E8E9330100E]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 03 Dec 2025 05:35:53 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnFhPTGenyUpMm3c9EsOQVMBmhhnKbdTcjGwgeAY=5pZCw@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@ghostcharters.com.au<br>Action: failed<br>Status: 5.4.1<br>Remote-MTA: dns; ghostcharters-com-au.mail.protection.outlook.com.<br> (2a01:111:f403:cc33::1, the server for the domain ghostcharters.com.au.)<br>Diagnostic-Code: smtp; 550 5.4.1 Recipient address rejected: Access denied. For more information see https://aka.ms/EXOSmtpErrors [ML1PEPF00011309.ausprd01.prod.outlook.com 2025-12-03T13:35:56.783Z 08DE2E8E9330100E]<br>Last-Attempt-Date: Wed, 03 Dec 2025 05:35:56 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764768953; x=1765373753; darn=ghostcharters.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=UtCir3fl1oTUzs9PTPsQuyIzvqrir/hFT+xs0FPp6oU=;<br>        b=uBJx7slZU6OgupzA/G9KJaniQL+z8RTliB56DI3PznCQnDEKlQ5EwVQ7Qt2D3YbBOE<br>         9FOujAS6anCJ2YoF2jKFr8n6UaF1l0+Y/kRFLmytCxvpQS6UXoaafrZ8YUBCK2NeU1dP<br>         xGPEUh95lYzC5CHQ5ysLP2gsF6C9LiEtjVcHTp+ALBHOhkQ8AfnugPicOHWIPeEneRWR<br>         6LMYKwmvM95bebwnei/x+/O44Q/fUDbVoX2J/Yh1DNzwU1kQMamhCmKb8uulZ0oW5Uqo<br>         0uV6ATtd1X9CueZVYKn3zJfOUX9XoF1ysr5w0PC9SEs/nMSBWsJxkQxkesETO9Ov5nZb<br>         MLwA==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764768953; x=1765373753;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=UtCir3fl1oTUzs9PTPsQuyIzvqrir/hFT+xs0FPp6oU=;<br>        b=v8LsBgdBLo+Z9UXg8nfalEv0fxRwh3+/r8LuY6jNWz1jegHolwRya5Y/LjIJzRLhIx<br>         CXk558+slJ66ZDiLYCC9ro8pQN4YHfNN+X2GLgrtQFvXTJVHT10WzgMuArMyszq4K9K1<br>         A6mUhAFP3xSqGGeJqvhgJAMMv6LM2tuKuHZw9i/Hcb9EcSGnDDutrrk1W7uBtgGWOE3V<br>         o0Bv8eQNq94plaIAWWV5cYAsn84kGSo6BPz/8I7eDfWLpB6nUto6YtMqKK3SbE18K5lc<br>         O//0pPvNSumoAe5+q2zDrYG9B28mJ4DnMXg5nXdPhF2mXG5K5yp2Kv2HHFdmLZXP5j8e<br>         KVZQ==<br>X-Gm-Message-State: AOJu0Yymm4VJkolm8eEm/sylWxHI5yrYpDarDA36NV57u1p6SmiV+Rgg<br>\t3NHp2kSq5xcS9/MbHGEECM4DeJ2d4TfcTxkwf0AjazIOsYrH24O2/+DiNeTXcaiO0adRL2XKXj0<br>\tkfomk2dnO2GHXhnELHZPp/ZsPiiIaepYNI/Al7RyrwW7rkcFOUsqA<br>X-Gm-Gg: ASbGnctPOiAfQh6gdHjYglHkHaYjD1c1CXAhFHhvl1nnV94GvdxMnZsXao8umJZB3vJ<br>\tnOAdCWuPZmV0prYui3sYHhUvNPDoXhTiRW6c06tI7bHSMNfR18cZTnIfips8bbbNKlnDLkexO3m<br>\tOpuleq7kQ2t177zkqEegwDpouAty8tevsYC0ZJwi+LeoWkRyJhi7sV7aLsa53BX7qizkDQkFef3<br>\tClpLpdPgWfz51bX6d5sQ34Ldykj/inWrWYyuf7NBy1zolETq6mkfqi2ihK+9H1ikk4e5Pc=<br>X-Google-Smtp-Source: AGHT+IE3+oEpxUq6VV4N1YPcaLxkTKvGhIw1DMKG9DJW+u9rtTHqNWbt6iB3EA1jvIY5w97lDLaGuE0of52GfGkfG2A=<br>X-Received: by 2002:a05:6830:310c:b0:7c6:ca62:e258 with SMTP id<br> 46e09a7af769-7c94dae68bamr1381772a34.21.1764768953301; Wed, 03 Dec 2025<br> 05:35:53 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 3 Dec 2025 07:35:52 -0600<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Wed, 3 Dec 2025 07:35:52 -0600<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3158542764-9625077731<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-59b456889c-drm96 [b5f6580f7a]<br>X-Hs-Message-Id: reply-87172-3158542764-9625077731-1764768951-934577506@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;ALndrOMTjhS7gdQVwH5Gpn9awvZK54psmjEJHtTM@www.ghostcharters.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Wed, 3 Dec 2025 07:35:52 -0600<br>X-Gm-Features: AWmQ_bn1TDralRpaR5SGFeZhyCjN_IJNqhy_94azvZfi-tCS3yEyJwPsCNfvjK0<br>Message-ID: &lt;CAMLnpnFhPTGenyUpMm3c9EsOQVMBmhhnKbdTcjGwgeAY=5pZCw@mail.gmail.com&gt;<br>Subject: Re: 180394 (we're on it)<br>To: Wordpress &lt;wordpress@ghostcharters.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000928c2606450c4a6a\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-03T13:36:04Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 870750388,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3158542961/attachments/870750388"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3158542961/attachments/870750388/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/870750388/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 870750389,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3158542961/attachments/870750389"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3158542961/attachments/870750389/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/870750389/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

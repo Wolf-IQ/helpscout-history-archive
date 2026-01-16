@@ -1,0 +1,189 @@
+{
+    "id": 3160874626,
+    "number": 180862,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@piermontpg.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://support.google.com/",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-12-05T11:23:45Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-12-05T11:23:47Z",
+    "customerWaitingSince": {
+        "time": "2025-12-05T11:23:45Z",
+        "friendly": "Dec 5, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3160874626"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3160874626/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3160874626/180862"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9632354052,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T11:23:47Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9632353981,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@piermontpg.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://support.google.com/mail/?p=NoSuchUser<br><br>The response was:<br><br>550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-3f50aa37ec2sor1290127fac.4 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 05 Dec 2025 03:23:34 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnF3A8aXKEiPy1FBsu6UHoQ1uO6GJ-_e9jaYN-bBypoh3Q@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@piermontpg.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try<br> 550-5.1.1 double-checking the recipient's email address for typos or<br> 550-5.1.1 unnecessary spaces. For more information, go to<br> 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-3f50aa37ec2sor1290127fac.4 - gsmtp<br>Last-Attempt-Date: Fri, 05 Dec 2025 03:23:36 -0800 (PST)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1764933815; x=1765538615; darn=piermontpg.com.au;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:from:to:cc:subject:date:message-id:reply-to;<br>        bh=H6bR7dlrXHC+9l0VC6SWVcbyt4KWDYa2Eemyv3l3Yok=;<br>        b=gO9NJ/t0/I89iuAt9j/bKS2LoDjwJ3gk3c+CJYUcVXZtoiYDoq+s/Y1uOcs6idYt9/<br>         wGwCVJ8UxC+FTAsgwz9UiKzppAMwYXZk5hqFsuyn9S+h8RNYoep1obzrXyQGymu1JM64<br>         zYA9uEi04AgWeEXgXKj9rt96rAwSgbtu9RfX3nS9VaDvoMAcOTBRpVJ7P5at1f7I2XvB<br>         i4C4Nt7OM98Szy7R0jVBdCov+WqnJr6l/OHqx6JASxGVK004O+e5rL0Cgla7e6TJ/RRt<br>         +eSRQeMPM1AGaQegxZ5ZeuXYv+vNjhgM5Zrq92BeRtEtteBFYHIQyQnfjktSAUs1TRtJ<br>         DVwg==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1764933815; x=1765538615;<br>        h=to:subject:message-id:date:auto-submitted:in-reply-to:mime-version<br>         :from:x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id<br>         :reply-to;<br>        bh=H6bR7dlrXHC+9l0VC6SWVcbyt4KWDYa2Eemyv3l3Yok=;<br>        b=aBLbGYfR+upEw8RzYBNXvXdippfC00U2GDhkkMGAdQkVws6UxglVRdO1ww1l/ui2FX<br>         yu+2b4gCblLui0UMDvUet8JM1oLQSJgSq3C9yWjFowRwIcIDbkr1NRna1MimejtwfMX9<br>         ps0gtdg/c5ZwarEoUpJ1VqEZhHWfH5EFr/BfBGL35/5DmVjevWd6woi5hCSZfPzXkx9d<br>         8ewoRPKf7B7QDpX83/FKXatg7OngG3cuvCQ2GFXGZCW8pEIjiejAqS1+zqcfm8GYWsrA<br>         nwycph+MxCTFNK9F71etwPWYCtA+EdI3A7m+2BlitHudL5N8I2wxiVPJWr62kyfI0Gxr<br>         VbnA==<br>X-Gm-Message-State: AOJu0YxE5sVmryt+V/WMogm5ZXUWwnJGg+TqKwdvFVDqR37M5rOac3Qu<br>\tc+s6PXgehoJUdn0jQ5Aeg5WF8w5wEy4ARmhTONHQCcH1vOY3NRa2T4nNoYwErZaj/Z5yRvaEW6V<br>\tXGSKYyu8PPpH36fnpRf70lKnp3IATYOkGrEF0wAUXjpurMJjasDgH<br>X-Gm-Gg: ASbGncuDZqeS2EvNgxpUkMSU2GCkl+DgE67MBgn1wVuiYlQqisyvOPaxwIJkDUciEMm<br>\tOSPLf8m6DC7NnMdLayiYtyFHJagO7R/JgABMRhsVIWy5N4hEG7p90EFc3FXgcToYE8PT0wkV0Pf<br>\tp/zrjTuc/KddpnfRF1jGHsSzEvmLX5ETwLDwaNFgGyCsYEMi4FKvQjxk6RVA0UKGcsaey5Uzr+f<br>\tkqzNUGrhLKlhZb33rieKV+l2F8tUshOy63j9wwplLrTwNX/TY/w6eyrrwNsesbmpOpucXMF<br>X-Google-Smtp-Source: AGHT+IGnx9gvSUcPp9PMbhcOsauV8KfIhvz2/CVqh6JyJ2xD8ONgz2xxsYUccc0GLcK3TnfcE2Szle/qG6QsG71U9dk=<br>X-Received: by 2002:a05:6808:190e:b0:450:b291:acb4 with SMTP id<br> 5614622812f47-4536e5c7032mr5211192b6e.65.1764933814942; Fri, 05 Dec 2025<br> 03:23:34 -0800 (PST)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 03:23:34 -0800<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 5 Dec 2025 03:23:34 -0800<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-2-158894-3160874478-9632353538<br>X-Hs-State: 3<br>X-Hs-Origin: hs-app-consumer-toolshigh-ondemand-98f879cf5-x5msd [919864e7a4]<br>X-Hs-Message-Id: reply-87172-3160874478-9632353538-1764933814-1980535857@helpscout.net<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;2XJ99mxzERvQpjqf5Qhu8q9IonLhNDhXOP1lmLMUy4@piermontpg.com.au&gt;<br>Auto-Submitted: auto-replied<br>Date: Fri, 5 Dec 2025 03:23:34 -0800<br>X-Gm-Features: AQt7F2ouTNpOeCdWMZSyiJLRTk2SwFzoAMwipqMwhJOSRzLlOZRdtIHSxuMPN7Y<br>Message-ID: &lt;CAMLnpnF3A8aXKEiPy1FBsu6UHoQ1uO6GJ-_e9jaYN-bBypoh3Q@mail.gmail.com&gt;<br>Subject: Re: 180861 (we're on it)<br>To: Wordpress &lt;wordpress@piermontpg.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000178e50064532ad68\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-12-05T11:23:45Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 871511645,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160874626/attachments/871511645"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3160874626/attachments/871511645/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/871511645/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
