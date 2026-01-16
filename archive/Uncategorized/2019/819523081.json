@@ -1,0 +1,174 @@
+{
+    "id": 819523081,
+    "number": 2818,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Premature Update for Sensei 2.0",
+    "preview": "View this email in your browser  Premature Update for Sensei 2.0 Some of you may have seen an update prompt earlier this week that invited you to upgrade to Sensei 2.0. Choosing to update had a few co",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 247596172,
+        "type": "customer",
+        "first": "Sensei",
+        "last": "",
+        "photoUrl": "https://img.fullcontact.com/static/d6011e1590b51601541ce46ba3c6e9de_f76c52f260c4964b323147fcb0a93743908f8b4a89d906ffc59b3c533c3b51e7",
+        "email": "donna.peplinskie@automattic.com"
+    },
+    "createdAt": "2019-04-04T20:31:05Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2019-04-04T22:53:19Z",
+    "userUpdatedAt": "2019-04-04T22:53:19Z",
+    "customerWaitingSince": {
+        "time": "2019-04-04T22:53:19Z",
+        "friendly": "Apr 5, '19"
+    },
+    "source": {
+        "type": "emailfwd",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "heath@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 247596172,
+        "type": "customer",
+        "first": "Sensei",
+        "last": "",
+        "photoUrl": "https://img.fullcontact.com/static/d6011e1590b51601541ce46ba3c6e9de_f76c52f260c4964b323147fcb0a93743908f8b4a89d906ffc59b3c533c3b51e7",
+        "email": "donna.peplinskie@automattic.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/819523081"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/247596172"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/247596172"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/819523081/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/819523081/2818"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2284442148,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-04-04T22:53:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2284140235,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "View this email in your browser<br><br>Premature Update for Sensei 2.0<br>Some of you may have seen an update prompt earlier this week that invited you to upgrade to Sensei 2.0. Choosing to update had a few consequences:<br><br>If you were selling courses, those courses would have been made available for free.<br>If you were using any Sensei extensions (with the exception of Content Drip), those extensions would have stopped functioning.<br>Sensei translations would have broken.<br>If you upgraded to Sensei 2.0, we recommend that you downgrade to 1.12.3 to resolve the above issues. You can do that by downloading Sensei 1.12.3 from WooCommerce.com, deactivating Sensei 2.0, and installing/activating Sensei 1.12.3.<br><br>Why Did This Happen?<br>On Tuesday, April 2nd, 2019, we deployed a free version of Sensei to WordPress.org. Later in the day, we started receiving reports that Sensei wasn\u2019t working correctly after updating to Sensei 2.0.<br><br>This was very concerning, as Sensei being deployed to WordPress.org should have had zero impact on our existing users. This is because existing sites with Sensei installed receive their plugin updates from WooCommerce.com, not WordPress.org, and so should not have had an update prompt displayed in the first place. Yet WordPress.org intercepted Sensei\u2019s plugin update check, detected that a new version was available, and surfaced an update prompt on your site.<br><br>What Did We Do About It?<br>Once we received the first report of someone being asked to upgrade to Sensei 2.0, we contacted the plugin team at WordPress.org. Within 30 minutes of our being made aware of the problem, Sensei was removed from WordPress.org, and the update prompt was no longer displayed in the WordPress admin.<br><br>For those users who opened support tickets with us, we asked that they downgrade to Sensei 1.12.3.<br><br>How Will We Prevent This From Happening Again?<br>We have had some communication with the WordPress.org plugin team to determine why this happened.<br><br>It would seem that WordPress.org used a combination of Sensei\u2019s name and author fields to identify it. This meant that when your site checked in with WordPress.org for plugin updates, WordPress.org compared the name and author fields of the version of Sensei that was installed on your site to the version that it had on its servers, found them to be the same, and pushed out a notice to update.<br><br>We were expecting WordPress.org to use the plugin slug for identification purposes. The plugin slug on WooCommerce.com (woothemes-sensei) was different from the plugin slug on WordPress.org (sensei). Had the slug been used to identify Sensei, this entire incident would have been avoided.<br><br>We are currently planning to resubmit Sensei to WordPress.org. However, we will be submitting it with a different plugin name - Sensei LMS. This will be enough to ensure that WordPress.org does not identify existing versions of Sensei as something that it is responsible for updating.<br><br>Questions?<br>Should you have any questions or comments, we invite you to reply to this email with any questions you have. If you need help downgrading, please open a Support ticket and our Happiness Engineers will take good care of you.<br><br>We sincerely apologize for the inconvenience this has caused some of our users.<br><br><br>Cheers!<br>Donna at Automattic<br>Copyright \u00a9 2019 Automattic Inc., All rights reserved.<br>You are receiving this email because you opted in at checkout.<br><br>Our mailing address is:<br>Automattic Inc.<br>60 29th Street #343<br>San Francisco, CA 94110<br>United States of America<br><br>Want to change how you receive these emails?<br>You can update your preferences or unsubscribe from this list.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 247596172,
+                "first": "Sensei",
+                "last": "",
+                "photoUrl": "https://img.fullcontact.com/static/d6011e1590b51601541ce46ba3c6e9de_f76c52f260c4964b323147fcb0a93743908f8b4a89d906ffc59b3c533c3b51e7",
+                "email": "donna.peplinskie@automattic.com"
+            },
+            "createdBy": {
+                "id": 247596172,
+                "type": "customer",
+                "first": "Sensei",
+                "last": "",
+                "photoUrl": "https://img.fullcontact.com/static/d6011e1590b51601541ce46ba3c6e9de_f76c52f260c4964b323147fcb0a93743908f8b4a89d906ffc59b3c533c3b51e7",
+                "email": "donna.peplinskie@automattic.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [
+                "heath@wolfiq.com.au"
+            ],
+            "bcc": [],
+            "createdAt": "2019-04-04T20:31:05Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/247596172"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/247596172"
+                }
+            }
+        }
+    ]
+}
