@@ -1,0 +1,168 @@
+{
+    "id": 989237721,
+    "number": 4763,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "New ticket for site https://hillsent.com.au",
+    "preview": "Hi, User test has sent a support ticket:  test",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 204600814,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@hillsent.com.au"
+    },
+    "createdAt": "2019-10-24T22:19:04Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2019-10-24T23:09:37Z",
+    "userUpdatedAt": "2019-10-24T23:09:37Z",
+    "customerWaitingSince": {
+        "time": "2019-10-24T23:09:37Z",
+        "friendly": "Oct 25, '19"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 204600814,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@hillsent.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/989237721"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600814"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600814"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/989237721/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/989237721/4763"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2785935956,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-10-24T23:09:37Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2785850955,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hi,<br>User test has sent a support ticket:<br><br>test",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204600814,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@hillsent.com.au"
+            },
+            "createdBy": {
+                "id": 204600814,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@hillsent.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-10-24T22:19:04Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600814"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600814"
+                }
+            }
+        }
+    ]
+}
