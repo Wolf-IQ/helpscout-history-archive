@@ -1,0 +1,168 @@
+{
+    "id": 1861270413,
+    "number": 22228,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[The Beautiful Dancer] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 455797297,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@staging-thebeautifuldancer.temp513.kinsta.cloud"
+    },
+    "createdAt": "2022-04-26T00:41:32Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-04-26T00:43:15Z",
+    "userUpdatedAt": "2022-04-26T00:43:15Z",
+    "customerWaitingSince": {
+        "time": "2022-04-26T00:43:15Z",
+        "friendly": "Apr 26, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 455797297,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@staging-thebeautifuldancer.temp513.kinsta.cloud"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1861270413"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/455797297"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/455797297"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1861270413/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1861270413/22228"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5491316583,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-04-26T00:43:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 5491312820,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, JetElements For Elementor.<br><br>First, visit your website (https://staging-thebeautifuldancer.temp513.kinsta.cloud/) and check for any visible issues. Next, visit the page where the error was caught (https://staging-thebeautifuldancer.temp513.kinsta.cloud/wp-admin/admin.php?page=jet-dashboard-license-page&amp;elementor_updater=continue&amp;_wpnonce=839d90227f) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://staging-thebeautifuldancer.temp513.kinsta.cloud/wp-login.php?action=enter_recovery_mode&amp;rm_token=4B6uyHoUk6evFN28m2xWUJ&amp;rm_key=xKHxuH8VojU8xScKJUUsNQ<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 5.8.4<br>Current theme: Hello Elementor Child (version 1.0.1)<br>Current plugin: JetElements For Elementor (version 2.4.1)<br>PHP version 7.4.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 468 of the file /www/thebeautifuldancer_382/public/wp-content/plugins/jet-elements/includes/addons/jet-elements-slider.php. Error message: Uncaught Error: Class 'Elementor\\Scheme_Color' not found in /www/thebeautifuldancer_382/public/wp-content/plugins/jet-elements/includes/addons/jet-elements-slider.php:468<br>Stack trace:<br>#0 /www/thebeautifuldancer_382/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Elementor\\Jet_Elements_Slider-&gt;_register_controls()<br>#1 /www/thebeautifuldancer_382/public/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\\Controls_Stack-&gt;init_controls()<br>#2 /www/thebeautifuldancer_382/public/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\\Controls_Stack-&gt;get_stack()<br>#3 /www/thebeautifuldancer_382/public/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\\Widget_Base-&gt;get_stack()<br>#4 /www/thebeautifuldancer_382/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2369): Elementor\\Controls_Stack-&gt;get_controls()<br>#5 /www/thebeautifuldancer_382/public/wp-content/plugins/elementor/includes/base/controls-stack.php(110",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 455797297,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@staging-thebeautifuldancer.temp513.kinsta.cloud"
+            },
+            "createdBy": {
+                "id": 455797297,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@staging-thebeautifuldancer.temp513.kinsta.cloud"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-04-26T00:41:32Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/455797297"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/455797297"
+                }
+            }
+        }
+    ]
+}
