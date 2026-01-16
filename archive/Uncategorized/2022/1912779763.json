@@ -1,0 +1,170 @@
+{
+    "id": 1912779763,
+    "number": 25102,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Big Barber Delux] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 364434544,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "wordpress@bigbarberdelux.com"
+    },
+    "createdAt": "2022-06-07T01:16:31Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-06-07T01:18:58Z",
+    "userUpdatedAt": "2022-06-07T01:18:58Z",
+    "customerWaitingSince": {
+        "time": "2022-06-07T01:18:58Z",
+        "friendly": "Jun 7, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 364434544,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "wordpress@bigbarberdelux.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1912779763"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/364434544"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/364434544"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1912779763/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1912779763/25102"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5659987259,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-06-07T01:18:58Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 5659981486,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, JetElements For Elementor.<br><br>First, visit your website (https://bigbarberdelux.com/) and check for any visible issues. Next, visit the page where the error was caught (https://bigbarberdelux.com/wp-admin/post.php?post=58&amp;action=elementor) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://bigbarberdelux.com/wp-login.php?action=enter_recovery_mode&amp;rm_token=MlOvyZQIzm43wKPk5469oA&amp;rm_key=ahbGLMlw8dxMZ9paw6T9oc<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 5.9.3<br>Current theme: bigbarberdulux-child (version 1.0.0)<br>Current plugin: JetElements For Elementor (version 2.5.2)<br>PHP version 7.4.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 363 of the file /www/bigbarberdulux_643/public/wp-content/plugins/jet-elements/includes/addons/jet-elements-brands.php. Error message: Uncaught Error: Class 'Elementor\\Scheme_Color' not found in /www/bigbarberdulux_643/public/wp-content/plugins/jet-elements/includes/addons/jet-elements-brands.php:363<br>Stack trace:<br>#0 /www/bigbarberdulux_643/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2280): Elementor\\Jet_Elements_Brands-&gt;_register_controls()<br>#1 /www/bigbarberdulux_643/public/wp-content/plugins/elementor/includes/base/controls-stack.php(494): Elementor\\Controls_Stack-&gt;init_controls()<br>#2 /www/bigbarberdulux_643/public/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\\Controls_Stack-&gt;get_stack()<br>#3 /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/global-widget/module.php(54): Elementor\\Widget_Base-&gt;get_stack(false)<br>#4 [internal function]: ElementorPro\\Modules\\GlobalWidget\\Module-&gt;ElementorPro\\Modules\\GlobalWidget\\{closure}(Array)<br>#5 /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/global-widget/module.php(57): array_filter(Array, Object(Closure))<br>#6 /",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 364434544,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "wordpress@bigbarberdelux.com"
+            },
+            "createdBy": {
+                "id": 364434544,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "wordpress@bigbarberdelux.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-06-07T01:16:31Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/364434544"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/364434544"
+                }
+            }
+        }
+    ]
+}
