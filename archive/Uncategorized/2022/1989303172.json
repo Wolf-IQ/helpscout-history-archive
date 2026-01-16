@@ -1,0 +1,172 @@
+{
+    "id": 1989303172,
+    "number": 38229,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "DMARC Forensic Report for wolfiq.com.au from IP 23.83.209.46",
+    "preview": "A message claiming to be from you has failed the published DMARC policy for your domain.    Sender Domain: wolfiq.com.au   Sender IP Address: 23.83.209.46   Received Date: Thu, 25 Aug 2022 00:35:21 +0",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 554651214,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "no-reply@mx281.antispamcloud.com"
+    },
+    "createdAt": "2022-08-24T22:35:33Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2022-08-24T22:49:57Z",
+    "userUpdatedAt": "2022-08-24T22:49:57Z",
+    "customerWaitingSince": {
+        "time": "2022-08-24T22:49:57Z",
+        "friendly": "Aug 25, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "team@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 554651214,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "no-reply@mx281.antispamcloud.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1989303172"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/554651214"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/554651214"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1989303172/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1989303172/38229"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5903384206,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-08-24T22:49:57Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 5903355808,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "A message claiming to be from you has failed the published DMARC<br>policy for your domain.<br><br>  Sender Domain: wolfiq.com.au<br>  Sender IP Address: 23.83.209.46<br>  Received Date: Thu, 25 Aug 2022 00:35:21 +0200<br>  SPF Alignment: no<br>  DKIM Alignment: no<br>  DMARC Results: None, Accept<br><br>------ This is a copy of the headers that were received before the error<br>       was detected.<br><br>Received: from cross.birch.relay.mailchannels.net ([23.83.209.46])<br>\tby mx281.antispamcloud.com with esmtps (TLSv1.2:AES128-GCM-SHA256:128)<br>\t(Exim 4.92)<br>\t(envelope-from &lt;ludahouse@ludahouse.kinstamailservice.com&gt;)<br>\tid 1oQyy1-0009JU-5M<br>\tfor sales@ludahus.com.au; Thu, 25 Aug 2022 00:35:21 +0200<br>X-Sender-Id: _forwarded-from|ludahouse.kinstamailservice.com:userid:1001<br>Received: from relay.mailchannels.net (localhost [127.0.0.1])<br>\tby relay.mailchannels.net (Postfix) with ESMTP id 69D70201524<br>\tfor &lt;sales@ludahus.com.au&gt;; Wed, 24 Aug 2022 22:35:18 +0000 (UTC)<br>Received: from ludahouse.kinstamailservice.com (unknown [127.0.0.6])<br>\t(Authenticated sender: kinsta)<br>\tby relay.mailchannels.net (Postfix) with ESMTPA id 7C659200E78<br>\tfor &lt;sales@ludahus.com.au&gt;; Wed, 24 Aug 2022 22:35:17 +0000 (UTC)<br>ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1661380517; a=rsa-sha256;<br>\tcv=none;<br>\tb=ouDKAZHEbBB5+qzgBLrjwUqhSDNRY5qGDBtR+EcmlE3f2Gw7z6PiLBMjp1lM6Of8IYbX/e<br>\teRTtfp8ZWN3u4OV8OUBBnTyQE2tMul5hb9CyvkQNheJrAQUMawhiLfifRWTuPeraTHBZJb<br>\tvwZyxldQIYRkl2wJl6IUFHangCxBpxCNWS2a9CJzPVC7iaij38ANUIrYb93oIthZhVPUpe<br>\tuGo+uZkxUqeSgYe7n4nV31eInCtW4rjXTH0B7xpJ8G0WhIZ53Vd3yHsVeRbxx5ly8Ibra2<br>\tZufPziLZFNloy25ISuWHpHx4JIDT9hPkysPMrhvL27Plnh34sVB6mYZyQkw63w==<br>ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;<br> d=mailchannels.net;<br>\ts=arc-2022; t=1661380517;<br>\th=from:from:reply-to:subject:subject:date:date:message-id:message-id:<br>\t to:to:cc:mime-version:mime-version:content-type:content-type;<br>\tbh=tr8QLaX/FcuwAcRWwn0jnrsRNfKABSpAGvoAJZlYpus=;<br>\tb=1JIOlRb/FdgDEqs2KPuM8uLi14+KCObLy1auGdGSH0J3E7U4tTHdzFstsePmdWBOytBUaT<br>\tckHS8Q7XEw4XDyc0Izv6OLetzjzySwGQvThC+pe8+XbshPYtaaL/ytaA9xPgKG9vVXFnkG<br>\tOreK41SdCyo6qg9TeuMG1g59vGThf1sbalIfFe1tfEMxSTLaxkuJgQnKcsxL/s3So34i7m<br>\t7ztXorGngK5THJ4qVQSXoO8xLWgwKPEYVJgqN+qsa3Gc7eC+5DHtQEfjBBptnEnjDlN0vn<br>\trqgX/OgbfoHw8qPCeIhzydBjn768xahibmz/uvnNJHZkfZiPqIk2fF07ONge+A==<br>ARC-Authentication-Results: i=1;<br>\trspamd-75b4464bd-9zrhv;<br>\tauth=pass smtp.auth=kinsta<br> smtp.mailfrom=ludahouse@ludahouse.kinstamailservice.com<br>X-Sender-Id: _forwarded-from|ludahouse.kinstamailservice.com:userid:1001<br>X-MC-Relay: Forwarding<br>X-MailChannels-SenderId:<br> _forwarded-from|ludahouse.kinstamailservice.com:userid:1001<br>X-MailChannels-Auth-Id: kinsta<br>X-Shade-Sponge: 316f0edb06fe7cc5_1661380518040_2656818570<br>X-MC-Loop-Signature: 1661380518040:3550529488<br>X-MC-Ingress-Time: 1661380518040<br>Received: from ludahouse.kinstamailservice.com<br> (33.71.244.35.bc.googleusercontent.com [35.244.71.33])<br>\t(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)<br>\tby 100.123.39.217 (trex/6.7.1);<br>\tWed, 24 Aug 2022 22:35:18 +0000<br>Received: by ludahouse.kinstamailservice.com (Postfix, from userid 1001)<br>\tid 372BC2CE4D; Wed, 24 Aug 2022 22:35:15 +0000 (UTC)<br>To: sales@ludahus.com.au<br>Subject: New submission from Contact Us<br>Date: Wed, 24 Aug 2022 22:35:15 +0000<br>From: \"support@wolfiq.com.au\" &lt;support@wolfiq.com.au&gt;<br>Message-ID: &lt;Rtu0vC2oA1vuyfVbUOXUVk6oHU5IW8hu7InHaFJ0@ludahus.com.au&gt;<br>X-Mailer: PHPMailer 6.6.0 (https://github.com/PHPMailer/PHPMailer)<br>MIME-Version: 1.0<br>Content-Type: text/html; charset=UTF-8<br>X-rewrote-original-recipient: sales@ludahus.com.au<br>Received-SPF: pass (mx281.antispamcloud.com: domain of ludahouse.kinstamailservice.com designates 23.83.209.46 as permitted sender) client-ip=23.83.209.46; envelope-from=ludahouse@ludahouse.kinstamailservice.com; helo=cross.birch.relay.mailchannels.net;<br>X-SPF-Result: mx281.antispamcloud.com: domain of ludahouse.kinstamailservice.com designates 23.83.209.46 as permitted sender<br>X-Sender-Warning: ludahouse.kinstamailservice.com has no MX records<br>X-DKIM-Status: none /  / ludahouse.kinstamailservice.com /  /  /",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 554651214,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "no-reply@mx281.antispamcloud.com"
+            },
+            "createdBy": {
+                "id": 554651214,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "no-reply@mx281.antispamcloud.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "team@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-08-24T22:35:33Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/554651214"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/554651214"
+                }
+            }
+        }
+    ]
+}
