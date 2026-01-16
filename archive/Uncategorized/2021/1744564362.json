@@ -1,0 +1,209 @@
+{
+    "id": 1744564362,
+    "number": 19724,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to jacque@jacquefinejewllery.com.au because the domain jacquefinejewllery.com.au couldn't be found. Check for typos or unnecessary spaces and try",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2021-12-31T22:04:08Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2022-01-01T11:35:15Z",
+    "userUpdatedAt": "2022-01-01T11:35:15Z",
+    "customerWaitingSince": {
+        "time": "2022-01-01T11:35:15Z",
+        "friendly": "Jan 1, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1744564362"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1744564362/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1744564362/19724"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5123557320,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-01-01T11:35:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 5123003531,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to jacque@jacquefinejewllery.com.au because the domain jacquefinejewllery.com.au couldn't be found. Check for typos or unnecessary spaces and try again.<br><br><br><br>The response was:<br><br>DNS Error: 24501038 DNS type 'mx' lookup of jacquefinejewllery.com.au responded with code NXDOMAIN<br>Domain name not found: jacquefinejewllery.com.au<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Fri, 31 Dec 2021 14:03:17 -0800 (PST)<br>X-Original-Message-ID: &lt;CAK7D+dZ9-8=Hw8=H_CZmYpAXHVbdtxHgrj5cimusVKPPHhtU2A@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; jacque@jacquefinejewllery.com.au<br>Action: failed<br>Status: 4.0.0<br>Diagnostic-Code: smtp; DNS Error: 24501038 DNS type 'mx' lookup of jacquefinejewllery.com.au responded with code NXDOMAIN<br> Domain name not found: jacquefinejewllery.com.au<br>Last-Attempt-Date: Fri, 31 Dec 2021 14:03:18 -0800 (PST)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2021-12-31T22:04:08Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 423969653,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1744564362/attachments/423969653"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1744564362/attachments/423969653/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/423969653/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 423969655,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 2242,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/1744564362/attachments/423969655"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/1744564362/attachments/423969655/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/423969655/c5921848101e7e4f7fe99ced138ca59e8df0d318/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
