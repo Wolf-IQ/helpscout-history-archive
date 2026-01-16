@@ -1,0 +1,168 @@
+{
+    "id": 669995493,
+    "number": 1160,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery report",
+    "preview": "Hello, this is the mail server on mail3.helpscout.net.  I am sending you this message to inform you on the delivery status of a message you previously sent.  Immediately below you will find a list of ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 207305214,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "postmaster@mail3.helpscout.net"
+    },
+    "createdAt": "2018-09-23T20:15:31Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2018-09-23T23:45:13Z",
+    "userUpdatedAt": "2018-09-23T23:45:13Z",
+    "customerWaitingSince": {
+        "time": "2018-09-23T23:45:13Z",
+        "friendly": "Sep 24, '18"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 207305214,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "postmaster@mail3.helpscout.net"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/669995493"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/207305214"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/207305214"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/669995493/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/669995493/1160"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 1851382010,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2018-09-23T23:45:13Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 1851211983,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hello, this is the mail server on mail3.helpscout.net.<br><br>I am sending you this message to inform you on the delivery status of a<br>message you previously sent.  Immediately below you will find a list of<br>the affected recipients;  also attached is a Delivery Status Notification<br>(DSN) report in standard format, as well as the headers of the original<br>message.<br><br>  &lt;wordpress@betterstories.com.au&gt;  delivery failed; will not continue trying<br><br>Reporting-MTA: dns;mail3.helpscout.net<br>X-PowerMTA-VirtualMTA: helpscout-mta<br>Received-From-MTA: dns;pconsumer-0acae01734a69e45d (10.0.201.156)<br>Arrival-Date: Sun, 23 Sep 2018 20:14:58 +0000<br><br>Final-Recipient: rfc822;wordpress@betterstories.com.au<br>Action: failed<br>Status: 5.0.0 (undefined status)<br>Remote-MTA: dns;betterstories.com.au (103.9.171.70)<br>Diagnostic-Code: smtp;550 No Such User Here<br>X-PowerMTA-BounceCategory: bad-mailbox<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=strong1; d=helpscout.net;<br> h=From:To:Subject:Sender:In-Reply-To:Message-Id:Date:Content-Type:MIME-Version;<br> i=support.87172.1e815c9241ee4a53@helpscout.net;<br> bh=B99VaiyrNI5WN+BkWM7J1XhLgm0wfYA/rqqpqwNvtZo=;<br> b=P6lktg7VmFIH2sfNBpE19ch0SGAOB6+PAecIjR/a7sXYj+M1SRjOkz19XhsjXLCiaWdPR7kJafjW<br>   vQfl5dVR7Aiob/O8br59bqO0kxSPq5QxJ23UP0MhKPbv8W6+IJaWM8W8fOjFRem8xSw2zQPUDNv0<br>   XlMlB0wmtN3lrIL/3LU=<br>Received: from pconsumer-0acae01734a69e45d (10.0.201.156) by mail3.helpscout.net id hkvq5i2fg6sg for &lt;wordpress@betterstories.com.au&gt;; Sun, 23 Sep 2018 20:14:58 +0000 (envelope-from &lt;support.87172.1e815c9241ee4a53@helpscout.net&gt;)<br>From: WP Perk Support &lt;support@wpperk.com&gt;<br>To: WordPress &lt;wordpress@betterstories.com.au&gt;<br>Return-Path: support.87172.1e815c9241ee4a53@helpscout.net<br>Subject: Re: [betterstories.com.au] Site Lockout Notification<br>Sender: support.87172.1e815c9241ee4a53@helpscout.net<br>X-Msg-Context: HS-2-158894-669995245-1851211480<br>Auto-Submitted: auto-replied<br>X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@helpscout.net<br>In-Reply-To: &lt;7b34dab81601a4e79f107183b32665fb@betterstories.com.au&gt;<br>Message-Id: &lt;reply-87172-669995245-1851211480-1537733698-1414772109@helpscout.net&gt;<br>X-Msg-Timestamp: 2018-09-23T20:14:58+00:00<br>Date: Sun, 23 Sep 2018 20:14:58 +0000<br>Content-Type: multipart/alternative;<br> boundary=\"=_76bdbf17fe80a3a995c578ba90f4cb18\"<br>MIME-Version: 1.0",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 207305214,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "postmaster@mail3.helpscout.net"
+            },
+            "createdBy": {
+                "id": 207305214,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "postmaster@mail3.helpscout.net"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2018-09-23T20:15:31Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/207305214"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/207305214"
+                }
+            }
+        }
+    ]
+}
