@@ -1,0 +1,189 @@
+{
+    "id": 2320798766,
+    "number": 80729,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Returned mail: see transcript for details",
+    "preview": "----- The following addresses had permanent fatal errors -----      (reason: 550-5.2.1 The user you are trying to contact is receiving mail at a rate that)     ----- Transcript of session follows ----",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 638579526,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "mailer-daemon@mx0b-0023de01.pphosted.com"
+    },
+    "createdAt": "2023-08-03T15:26:09Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-08-03T22:02:57Z",
+    "userUpdatedAt": "2023-08-03T22:02:57Z",
+    "customerWaitingSince": {
+        "time": "2023-08-03T22:02:57Z",
+        "friendly": "Aug 4, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 638579526,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "mailer-daemon@mx0b-0023de01.pphosted.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2320798766"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/638579526"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/638579526"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2320798766/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2320798766/80729"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6938823861,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-08-03T22:02:57Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6937359218,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "----- The following addresses had permanent fatal errors -----<br>&lt;legal-customer-notices@twilio.com&gt;<br>    (reason: 550-5.2.1 The user you are trying to contact is receiving mail at a rate that)<br><br>   ----- Transcript of session follows -----<br>... while talking to aspmx.l.google.com.:<br>&gt;&gt;&gt; DATA<br>&lt;&lt;&lt; 550-5.2.1 The user you are trying to contact is receiving mail at a rate that<br>&lt;&lt;&lt; 550-5.2.1 prevents additional messages from being delivered. For more<br>&lt;&lt;&lt; 550-5.2.1 information, please visit<br>&lt;&lt;&lt; 550 5.2.1  https://support.google.com/mail/?p=ReceivingRatePerm v34-20020a25fc22000000b00cc840df087fsi14012272ybd.387 - gsmtp<br>550 5.1.1 &lt;legal-customer-notices@twilio.com&gt;... User unknown<br>&lt;&lt;&lt; 503 5.5.1 RCPT first. v34-20020a25fc22000000b00cc840df087fsi14012272ybd.387 - gsmtp<br><br>Reporting-MTA: dns; mx0b-0023de01.pphosted.com<br>Arrival-Date: Thu, 3 Aug 2023 08:06:06 -0700<br><br>Final-Recipient: RFC822; legal-customer-notices@twilio.com<br>X-Actual-Recipient: rfc822; legal-customer-notices@twilio.com<br>Action: failed<br>Status: 5.2.1<br>Remote-MTA: DNS; aspmx.l.google.com<br>Diagnostic-Code: SMTP; 550-5.2.1 The user you are trying to contact is receiving mail at a rate that<br>Last-Attempt-Date: Thu, 3 Aug 2023 08:15:46 -0700",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 638579526,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "mailer-daemon@mx0b-0023de01.pphosted.com"
+            },
+            "createdBy": {
+                "id": 638579526,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "mailer-daemon@mx0b-0023de01.pphosted.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-08-03T15:26:09Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 596860208,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 8565,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2320798766/attachments/596860208"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2320798766/attachments/596860208/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/596860208/fad66cc7da193aed0d1881c2a5078909603fb693/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/638579526"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/638579526"
+                }
+            }
+        }
+    ]
+}
