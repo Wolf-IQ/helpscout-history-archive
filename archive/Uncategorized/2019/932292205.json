@@ -1,0 +1,209 @@
+{
+    "id": 932292205,
+    "number": 3864,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  There was a problem delivering your message to wordpress@staging-pizzabirra.kinsta.cloud. See the technical details below.  Learn more here: https://support.google.com/mai",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2019-08-18T08:04:08Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2019-08-18T22:57:19Z",
+    "userUpdatedAt": "2019-08-18T22:57:19Z",
+    "customerWaitingSince": {
+        "time": "2019-08-18T22:57:19Z",
+        "friendly": "Aug 19, '19"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/932292205"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/932292205/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/932292205/3864"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 2616580608,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-08-18T22:57:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 2615673320,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>There was a problem delivering your message to wordpress@staging-pizzabirra.kinsta.cloud. See the technical details below.<br><br>Learn more here: https://support.google.com/mail/answer/7720<br><br>The response was:<br><br>The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 <br>[staging-pizzabirra.kinsta.cloud 35.189.2.37: generic::failed_precondition: connect error (111): Connection refused]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 14 Aug 2019 23:09:22 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAK7D+dbscV4BQCUqnREyzASgB+EdWUuNjr0Jf5Sg4w4jVr95LQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@staging-pizzabirra.kinsta.cloud<br>Action: failed<br>Status: 4.4.1<br>Diagnostic-Code: smtp; The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 <br> [staging-pizzabirra.kinsta.cloud 35.189.2.37: generic::failed_precondition: connect error (111): Connection refused]<br>Last-Attempt-Date: Sun, 18 Aug 2019 01:03:46 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2019-08-18T08:04:08Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 212906444,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/932292205/attachments/212906444"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/932292205/attachments/212906444/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/212906444/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 212906446,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 3990,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/932292205/attachments/212906446"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/932292205/attachments/212906446/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/212906446/5577ab1f8b42514ee843dedc672074dd209d847a/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
