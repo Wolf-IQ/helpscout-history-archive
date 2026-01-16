@@ -12,6 +12,11 @@ permissions:
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
+    permissions: # Add this block here
+      contents: write
+      pages: write
+      id-token: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
