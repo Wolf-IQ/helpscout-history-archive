@@ -1,0 +1,168 @@
+{
+    "id": 2800500072,
+    "number": 139541,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Full Throttle Empire] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 653024071,
+        "type": "customer",
+        "first": "Luke",
+        "last": "Antequera",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "fullthrottleempire@outlook.com"
+    },
+    "createdAt": "2024-12-23T05:21:50Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2024-12-23T22:58:18Z",
+    "userUpdatedAt": "2024-12-23T22:58:18Z",
+    "customerWaitingSince": {
+        "time": "2024-12-23T22:58:18Z",
+        "friendly": "Dec 24, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 653024071,
+        "type": "customer",
+        "first": "Luke",
+        "last": "Antequera",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "fullthrottleempire@outlook.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2800500072"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/653024071"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/653024071"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2800500072/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2800500072/139541"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8483377744,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-12-23T22:58:18Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 8480429713,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WooCommerce Buy One Get One Free.<br><br>First, visit your website (https://www.fullthrottleempireaustralia.com/) and check for any visible issues. Next, visit the page where the error was caught (https://www.fullthrottleempireaustralia.com/wp-admin/user-edit.php?user_id=13&amp;wp_http_referer=%2Fwp-admin%2Fusers.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.fullthrottleempireaustralia.com/wp-login.php?action=enter_recovery_mode&amp;rm_token=N91JXZKZpXfETXO7f7H2g0&amp;rm_key=Ax00zEwVC7ZOwYIxxBIygv<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.7.1<br>Active theme: SWE (version 15.0.7)<br>Current plugin: WooCommerce Buy One Get One Free (version 5.3.2)<br>PHP version 8.2.25<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 49 of the file /www/fullthrottleempireaustralia_516/public/wp-content/plugins/woocommerce-buy-one-get-one-free/includes/admin/class-wc-bogof-admin-navigation.php. Error message: Uncaught TypeError: array_merge(): Argument #1 must be of type array, null given in /www/fullthrottleempireaustralia_516/public/wp-content/plugins/woocommerce-buy-one-get-one-free/includes/admin/class-wc-bogof-admin-navigation.php:49<br>Stack trace:<br>#0 /www/fullthrottleempireaustralia_516/public/wp-content/plugins/woocommerce-buy-one-get-one-free/includes/admin/class-wc-bogof-admin-navigation.php(49): array_merge(NULL, Array)<br>#1 /www/fullthrottleempireaustralia_516/public/wp-includes/class-wp-hook.php(324): WC_BOGOF_Admin_Navigation::init_navigation_menu('')<br>#2 /www/fullthrottleempireaustralia_516/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#3 /www/fullthrottleempireaustralia_516/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#4 /www/fullthrottleempireaustralia_516/public/wp-admin/includes/menu.php(161): do_action('admin_menu', '')<br>#5 /www/fullthrottleempireaustralia_516/public/wp-admin/menu.php(412): require_once('/www/fullthrott...')<br>#6 /www/fullthrottleempireaustralia_516/public/wp-admin/admin.php(158): require('/www/fullthrott...')<br>#7 /www/fullthrottleempireaustralia_516/public/wp-admin/user-edit.php(10): require_once('/www/fullthrott...')<br>#8 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 653024071,
+                "first": "Luke",
+                "last": "Antequera",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "fullthrottleempire@outlook.com"
+            },
+            "createdBy": {
+                "id": 653024071,
+                "type": "customer",
+                "first": "Luke",
+                "last": "Antequera",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "fullthrottleempire@outlook.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-12-23T05:21:50Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/653024071"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/653024071"
+                }
+            }
+        }
+    ]
+}

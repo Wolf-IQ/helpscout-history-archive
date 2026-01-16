@@ -1,0 +1,231 @@
+{
+    "id": 2782937139,
+    "number": 137727,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message blocked **  Your message to lwheeler@mets.edu.au has been blocked. See technical details below for more information.  Learn more here: https://community.mimecast.com/docs/DOC-1369#550 (Warn",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2024-12-05T02:45:29Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2024-12-05T02:45:29Z",
+    "userUpdatedAt": "2024-12-05T02:45:29Z",
+    "customerWaitingSince": {
+        "time": "2024-12-05T02:45:29Z",
+        "friendly": "Dec 5, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2782937139"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2782937139/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2782937139/137727"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8424269293,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-12-05T02:45:29Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 8424269282,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message blocked **<br><br>Your message to lwheeler@mets.edu.au has been blocked. See technical details below for more information.<br><br>Learn more here: https://community.mimecast.com/docs/DOC-1369#550<br>(Warning: This link will take you to a third-party site)<br><br>The response from the remote server was:<br>550 Administrative prohibition - envelope blocked - https://community.mimecast.com/docs/DOC-1369#550 [QKRAER-ANwWDUqRbC-aeqg.au1]<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Wed, 04 Dec 2024 18:45:14 -0800 (PST)<br>X-Original-Message-ID: &lt;CAMLnpnH_FX_DEOJCr8_p4LWZ1fV1hFAryu5rRtAEr2JRjRqW4w@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; lwheeler@mets.edu.au<br>Action: failed<br>Status: 5.7.0<br>Remote-MTA: dns; au-smtp-inbound-1.mimecast.com. (103.96.20.26, the server for<br> the domain mets.edu.au.)<br>Diagnostic-Code: smtp; 550 Administrative prohibition - envelope blocked - https://community.mimecast.com/docs/DOC-1369#550 [QKRAER-ANwWDUqRbC-aeqg.au1]<br>Last-Attempt-Date: Wed, 04 Dec 2024 18:45:18 -0800 (PST)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-12-05T02:45:29Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 742110014,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 4663,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2782937139/attachments/742110014"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2782937139/attachments/742110014/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/742110014/b0a404b033e2e7533dc31f6629d9d89ecc5fd0e7/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 742110015,
+                        "filename": "warning_triangle.png",
+                        "mimeType": "image/png",
+                        "width": 24,
+                        "height": 24,
+                        "size": 466,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2782937139/attachments/742110015"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2782937139/attachments/742110015/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/742110015/356e155795304465d05d86a9102bc33b9ad36efd/warning_triangle.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 742110016,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 2997,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2782937139/attachments/742110016"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2782937139/attachments/742110016/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/742110016/e8dc7ef0f2203182563cb760e323a2c63d42673d/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
