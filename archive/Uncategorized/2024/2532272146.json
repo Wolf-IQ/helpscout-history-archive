@@ -1,0 +1,170 @@
+{
+    "id": 2532272146,
+    "number": 107055,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[RAM Equipment] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 319038411,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "wordpress@ramequipment.com.au"
+    },
+    "createdAt": "2024-03-06T20:19:59Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2024-03-06T22:17:17Z",
+    "userUpdatedAt": "2024-03-06T22:17:17Z",
+    "customerWaitingSince": {
+        "time": "2024-03-06T22:17:17Z",
+        "friendly": "Mar 7, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 319038411,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "wordpress@ramequipment.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2532272146"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/319038411"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/319038411"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2532272146/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2532272146/107055"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7605661385,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-03-06T22:17:17Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7605206647,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Gravity Forms.<br><br>First, visit your website (https://ramequipment.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://ramequipment.com.au/wp-admin/admin.php?1&amp;page[]=woocommerce_settings&amp;saved=true) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://ramequipment.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=38RX39G1pbiGhQfYabw9QH&amp;rm_key=xsxHRStkMMZWjX3laIijFS<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.4.3<br>Active theme: RAM Equipment (version 1.0.0)<br>Current plugin: Gravity Forms (version 2.8.3)<br>PHP version 8.1.18<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 1739 of the file /www/ramequipment20_230/public/wp-content/plugins/gravityforms/gravityforms.php. Error message: Uncaught TypeError: strtolower(): Argument #1 ($string) must be of type string, array given in /www/ramequipment20_230/public/wp-content/plugins/gravityforms/gravityforms.php:1739<br>Stack trace:<br>#0 /www/ramequipment20_230/public/wp-content/plugins/gravityforms/gravityforms.php(1739): strtolower(Array)<br>#1 /www/ramequipment20_230/public/wp-content/plugins/gravityforms/gravityforms.php(212): GFForms::is_gravity_page()<br>#2 /www/ramequipment20_230/public/wp-settings.php(473): include_once('/www/ramequipme...')<br>#3 /www/ramequipment20_230/public/wp-config.php(90): require_once('/www/ramequipme...')<br>#4 /www/ramequipment20_230/public/wp-load.php(50): require_once('/www/ramequipme...')<br>#5 /www/ramequipment20_230/public/wp-admin/admin.php(34): require_once('/www/ramequipme...')<br>#6 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 319038411,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "wordpress@ramequipment.com.au"
+            },
+            "createdBy": {
+                "id": 319038411,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "wordpress@ramequipment.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-03-06T20:19:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/319038411"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/319038411"
+                }
+            }
+        }
+    ]
+}
