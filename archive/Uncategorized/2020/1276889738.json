@@ -1,0 +1,168 @@
+{
+    "id": 1276889738,
+    "number": 9243,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Re: I need technical support",
+    "preview": "Hi there, the site is now back online.   I have cleared some malware file remnants on your site. The following remnants has been found  /plugins/Divi_Children_2.0.8/includes/results-update-child.php  ",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 361550701,
+        "type": "customer",
+        "first": "Andrew From",
+        "last": "Kinsta",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "andrew.caliao@kinsta.intercom-mail.com"
+    },
+    "createdAt": "2020-09-09T02:15:24Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2020-09-09T02:16:46Z",
+    "userUpdatedAt": "2020-09-09T02:16:46Z",
+    "customerWaitingSince": {
+        "time": "2020-09-09T02:16:46Z",
+        "friendly": "Sep 9, '20"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 361550701,
+        "type": "customer",
+        "first": "Andrew From",
+        "last": "Kinsta",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "andrew.caliao@kinsta.intercom-mail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1276889738"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/361550701"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/361550701"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1276889738/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1276889738/9243"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 3663136935,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-09-09T02:16:46Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 3663134269,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div style=\"font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px;line-height:0px;\"><img border=\"0\" width=\"1\" height=\"1\" src=\"https://kinsta.intercom-mail.com/q/a_1fZlWGQddfbko4X_661A~~/AAAAAQA~/RgRhOr-xPVcIaW50ZXJjb21CCgAcsTpYX3SiqHhSEnN1cHBvcnRAd3BwZXJrLmNvbVgEAAAAdQ~~\" alt=\"RgRhOr-xPVcIaW50ZXJjb21CCgAcsTpYX3SiqHhSEnN1cHBvcnRAd3BwZXJrLmNvbVgEAAAAdQ~~\" /></div>\n<table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" align=\"center\" class=\"ex-main\" style=\"background-color:transparent;border-collapse:separate;border-spacing:0;font-family:Helvetica, Arial, sans-serif;letter-spacing:0;table-layout:fixed;width:100%;\"><tr><td class=\"ex-content-td\" style=\"color:#222;font-family:Helvetica, Arial, sans-serif;line-height:20px;padding:0;\">\n<div style=\"margin-top:0;padding-top:0;\">\n<p style=\"margin:0 0 15px;\">Hi there, the site is now back online.<br><br>\nI have cleared some malware file remnants on your site. The following remnants has been found<br>\n/plugins/Divi_Children_2.0.8/includes/results-update-child.php<br>\n/plugins/gravityforms/includes/fields/class-gf-fields.php<br>\n/plugins/all-in-one-seo-pack/admin/index.php<br>\n/plugins/imagify/inc/classes/class-imagify-options.php<br><br>\nImagify was also re-installed as it was causing another error on your site, which may be caused by the malware which may have corrupted some of the files of that plugin.<br><br>\nFor security precaution I have reset both your SFTP/SSH password &amp; mySQL database password. I have rescanned your site both frontend and backend and the results are all clean.<br><br>\nThe wp-file-manager vulnerability issue can be access even if the plugin is deactivated. The latest version should have fixed the issue. But for the plugin as powerful as a file manager, I would recommend on completely removing it if they are not in use, and only have it installed when needed.</p>\n</div>\n</td>\n</tr><tr><td class=\"ex-content-td\" style=\"color:#222;font-family:Helvetica, Arial, sans-serif;line-height:20px;padding:0;\"><a class=\"ex-reply-in-messenger-button\" href=\"https://kinsta.intercom-mail.com/ntfy/RCPd7sotq1H2qq_N7tFrsX_CmCIzij0f\" style=\"background-color:#286efa;border:none;color:#FFF;font-size:12px;margin:5px 0 14px;padding:6px 25px;text-decoration:none;\">Reply in our Messenger</a>\n<p class=\"ex-reply-in-messenger-message\" style=\"color:#8c8c8c;font-size:12px;margin:0;\">You may need to sign in to Kinsta again.</p>\n<p class=\"ex-reply-in-messenger-message\" style=\"color:#8c8c8c;font-size:12px;margin:0;\">You can also reply directly to this email.</p>\n</td>\n</tr><tr><td style=\"font-family:Helvetica, Arial, sans-serif;padding:0;\">\n<div class=\"ex-admin_profile\">\n<table cellspacing=\"0\" border=\"0\" cellpadding=\"0\" style=\"background-color:transparent;border:none;border-collapse:separate;border-spacing:0;margin:0;table-layout:fixed;\"><tr><td></td>\n</tr><tr><td class=\"ex-align_middle\" valign=\"middle\" width=\"50\" align=\"left\" style=\"border:none;font-family:Helvetica, Arial, sans-serif;padding:0;vertical-align:middle;\"><img class=\"ex-avatar\" width=\"32\" height=\"32\" alt=\"Andrew\" src=\"https://kinsta.intercom-mail.com/avatars/4265669/square_128/work_profile-1594789529.jpg?1594789529\" style=\"height:40px;text-decoration:none;width:40px;\" /></td>\n<td class=\"ex-align_middle\" valign=\"middle\" align=\"left\" style=\"border:none;font-family:Helvetica, Arial, sans-serif;padding:0;vertical-align:middle;\"><strong class=\"ex-name\" style=\"color:#000;\">Andrew</strong> <span class=\"ex-dark_text\" style=\"color:#222;\">from Kinsta</span></td>\n</tr></table></div>\n</td>\n</tr><tr><td></td>\n</tr><tr><td class=\"ex-content-td\" style=\"color:#222;font-family:Helvetica, Arial, sans-serif;line-height:20px;padding:0;\">\n<div class=\"ex-history ex-history_reply\" style=\"color:#500050;margin-top:0;padding-top:0;\">On Wed, Sep 9, 2020 at 11:34 AM, \"Andrew Caliao\" &lt;andrew.caliao@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Welcome.</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:34 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Yes please, thank you.</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:33 AM, \"Andrew Caliao\" &lt;andrew.caliao@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Yup. I can clean this up for you. It may take while to fully clean the site but I will update you once it is done.<br><br>\nDo you want me to proceed on this one?</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:32 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Thanks, ok so what's the next step, do your team do that or us?</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:31 AM, \"Andrew Caliao\" &lt;andrew.caliao@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">There seems to be some malware remnants that needs to be cleanup. And this may have caused the site to not work properly.</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:26 AM, \"Andrew Caliao\" &lt;andrew.caliao@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Hi there, thank you for contacting support.<br><br>\nOne moment please while I check on your site.</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:25 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Site down: <a href=\"https://unearth-ed.com.au/\" style=\"border:none;color:#8C8C8C;text-decoration:underline;\">https://unearth-ed.com.au/</a></p>\n</div>\n<div>\n<p style=\"margin:0 0 15px;\">Hi Guys, we received an email yesterday that this site had been cleaned of malware, but now it seems to be down?</p>\n</div>\n<div>\n<p style=\"margin:0 0 15px;\">What do you recommend we do? Thanks</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:24 AM, \"Kinsta\" &lt;operator@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Please describe in detail the issue you're experiencing so that we can help!<br><br><i>Be sure to include the site name or domain name so we can provide faster support.</i></p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:24 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Other</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:24 AM, \"Kinsta\" &lt;operator@kinsta.intercom-mail.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div>\n<p style=\"margin:0 0 15px;\">Sure thing! Our support team is here 24/7 to assist you as needed.</p>\n</div>\n<div>\n<p style=\"margin:0 0 15px;\">Please select a topic from the list below:</p>\n</div>\n<div class=\"ex-history_reply\" style=\"margin-bottom:0;\">On Wed, Sep 9, 2020 at 11:24 AM, \"WP Perk Support Team\" &lt;support@wpperk.com&gt; wrote:<br><blockquote class=\"ex-history_content\" style=\"border-left-color:#ccc;border-left-style:solid;border-left-width:1px;font-style:normal;margin:0 0 0 .8ex;padding:1px 0 10px 1ex;\">\n<div style=\"margin-bottom:0;\">\n<p style=\"margin:0 0 15px;\">I need technical support</p>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</blockquote>\n</div>\n</td>\n</tr></table><img src=\"https://kinsta.intercom-mail.com/via/o?h=a1d1b0fa7d94bcce313eccd19ad8b1292b6131a5-q0io6kmm_12478700143298_6383908237\" width=\"1\" height=\"1\" alt=\"intercom\" /><img border=\"0\" width=\"1\" height=\"1\" alt=\"\" src=\"https://kinsta.intercom-mail.com/q/K8JPuXKXei03UGLxyWeLvQ~~/AAAAAQA~/RgRhOr-xPlcIaW50ZXJjb21CCgAcsTpYX3SiqHhSEnN1cHBvcnRAd3BwZXJrLmNvbVgEAAAAdQ~~\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 361550701,
+                "first": "Andrew From",
+                "last": "Kinsta",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "andrew.caliao@kinsta.intercom-mail.com"
+            },
+            "createdBy": {
+                "id": 361550701,
+                "type": "customer",
+                "first": "Andrew From",
+                "last": "Kinsta",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "andrew.caliao@kinsta.intercom-mail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-09-09T02:15:24Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/361550701"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/361550701"
+                }
+            }
+        }
+    ]
+}
