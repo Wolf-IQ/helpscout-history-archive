@@ -1,0 +1,133 @@
+{
+    "id": 3024305064,
+    "number": 162921,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[Lavazza Business Solutions] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 406293880,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "wordpress@lavazzabusinesssolutions.com.au"
+    },
+    "createdAt": "2025-08-04T01:20:07Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-04T01:20:07Z",
+    "customerWaitingSince": {
+        "time": "2025-08-04T01:20:07Z",
+        "friendly": "Aug 4, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 406293880,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "wordpress@lavazzabusinesssolutions.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3024305064"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/406293880"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/406293880"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3024305064/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3024305064/162921"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9206357022,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, JetSearch.<br><br>First, visit your website (https://www.lavazzabusinesssolutions.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.lavazzabusinesssolutions.com.au/wp-admin/admin.php?page=jet-dashboard-license-page&amp;elementor_updater=continue&amp;_wpnonce=9e76984974) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.lavazzabusinesssolutions.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=D4MgNCesrBq3Dozjz2KeOu&amp;rm_key=Hwlc7pt2RMiHJJ5wHaEeXC<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.1<br>Active theme: Lavazza for Business (version 1.0.1)<br>Current plugin: JetSearch (version 3.5.4)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 5281 of the file /www/bluepod_947/public/wp-content/plugins/jet-search/includes/elementor-views/widgets/ajax-search.php. Error message: Uncaught Error: Class \"Elementor\\Core\\Schemes\\Typography\" not found in /www/bluepod_947/public/wp-content/plugins/jet-search/includes/elementor-views/widgets/ajax-search.php:5281<br>Stack trace:<br>#0 /www/bluepod_947/public/wp-content/plugins/jet-search/includes/elementor-views/widgets/ajax-search.php(3384): Elementor\\Jet_Search_Ajax_Search_Widget-&gt;add_meta_style_controls('title_related', 'Before/After Ti...', 'jet-search-titl...')<br>#1 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2435): Elementor\\Jet_Search_Ajax_Search_Widget-&gt;register_controls()<br>#2 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/widget-base.php(1049): Elementor\\Controls_Stack-&gt;init_controls()<br>#3 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/controls-stack.php(570): Elementor\\Widget_Base-&gt;init_controls()<br>#4 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/widget-base.php(185): Elementor\\Controls_Stack-&gt;get_stack()<br>#5 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/controls-stack.php(315): Elementor\\Widget_Base-&gt;get_stack()<br>#6 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/controls-stack.php(2524): Elementor\\Controls_Stack-&gt;get_controls()<br>#7 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1161): Elementor\\Controls_Stack-&gt;sanitize_settings(Array)<br>#8 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/element-base.php(622): Elementor\\Controls_Stack-&gt;get_data()<br>#9 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/widget-base.php(748): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#10 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/element-base.php(627): Elementor\\Widget_Base-&gt;get_raw_data(false)<br>#11 /www/bluepod_947/public/wp-content/plugins/elementor/includes/base/element-base.php(627): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#12 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/document.php(1094): Elementor\\Element_Base-&gt;get_raw_data(false)<br>#13 /www/bluepod_947/public/wp-content/plugins/elementor/modules/usage/module.php(571): Elementor\\Core\\Base\\Document-&gt;get_elements_raw_data(Array)<br>#14 /www/bluepod_947/public/wp-content/plugins/elementor/modules/usage/module.php(184): Elementor\\Modules\\Usage\\Module-&gt;save_document_usage(Object(Elementor\\Modules\\Library\\Documents\\Section))<br>#15 /www/bluepod_947/public/wp-content/plugins/elementor/modules/usage/module.php(297): Elementor\\Modules\\Usage\\Module-&gt;after_document_save(Object(Elementor\\Modules\\Library\\Documents\\Section))<br>#16 /www/bluepod_947/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(636): Elementor\\Modules\\Usage\\Module-&gt;recalc_usage(100, 0)<br>#17 /www/bluepod_947/public/wp-content/plugins/elementor/core/upgrade/upgrades.php(31): Elementor\\Core\\Upgrade\\Upgrades::recalc_usage_data(Object(Elementor\\Core\\Upgrade\\Updater))<br>#18 [internal function]: Elementor\\Core\\Upgrade\\Upgrades::_on_each_version(Object(Elementor\\Core\\Upgrade\\Updater))<br>#19 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/background-task.php(278): call_user_func(Array, Object(Elementor\\Core\\Upgrade\\Updater))<br>#20 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/background-task.php(181): Elementor\\Core\\Base\\Background_Task-&gt;task(Array)<br>#21 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/background-task.php(136): Elementor\\Core\\Base\\Background_Task-&gt;handle()<br>#22 /www/bluepod_947/public/wp-includes/class-wp-hook.php(324): Elementor\\Core\\Base\\Background_Task-&gt;handle_cron_healthcheck('')<br>#23 /www/bluepod_947/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#24 /www/bluepod_947/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#25 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/background-task.php(96): do_action('elementor_1_ele...')<br>#26 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/background-task-manager.php(71): Elementor\\Core\\Base\\Background_Task-&gt;continue_run()<br>#27 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/background-task-manager.php(86): Elementor\\Core\\Base\\Background_Task_Manager-&gt;continue_run()<br>#28 /www/bluepod_947/public/wp-content/plugins/elementor/core/base/db-upgrades-manager.php(240): Elementor\\Core\\Base\\Background_Task_Manager-&gt;__construct()<br>#29 /www/bluepod_947/public/wp-content/plugins/elementor/includes/plugin.php(759): Elementor\\Core\\Base\\DB_Upgrades_Manager-&gt;__construct()<br>#30 /www/bluepod_947/public/wp-content/plugins/elementor/includes/plugin.php(660): Elementor\\Plugin-&gt;init_components()<br>#31 /www/bluepod_947/public/wp-includes/class-wp-hook.php(324): Elementor\\Plugin-&gt;init('')<br>#32 /www/bluepod_947/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#33 /www/bluepod_947/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#34 /www/bluepod_947/public/wp-settings.php(727): do_action('init')<br>#35 /www/bluepod_947/public/wp-config.php(89): require_once('/www/bluepod_94...')<br>#36 /www/bluepod_947/public/wp-load.php(50): require_once('/www/bluepod_94...')<br>#37 /www/bluepod_947/public/wp-admin/admin.php(35): require_once('/www/bluepod_94...')<br>#38 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 406293880,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "wordpress@lavazzabusinesssolutions.com.au"
+            },
+            "createdBy": {
+                "id": 406293880,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "wordpress@lavazzabusinesssolutions.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-04T01:20:07Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/406293880"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/406293880"
+                }
+            }
+        }
+    ]
+}

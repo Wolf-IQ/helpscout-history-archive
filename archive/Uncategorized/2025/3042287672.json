@@ -1,0 +1,133 @@
+{
+    "id": 3042287672,
+    "number": 165681,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[Total Contacts] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "createdAt": "2025-08-20T00:19:45Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-20T00:19:45Z",
+    "customerWaitingSince": {
+        "time": "2025-08-20T00:19:45Z",
+        "friendly": "Aug 20, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3042287672"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3042287672/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3042287672/165681"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9262423489,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Mail logging - WP Mail Catcher.<br><br>First, visit your website (https://totalcontacts.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://totalcontacts.com.au/wp-cron.php?doing_wp_cron=1755649168.5754039287567138671875) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://totalcontacts.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=MZS6ejmv3rpCjBRUhH3IS2&amp;rm_key=d7g38qaUmCVvL5yHXeYvcj<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.2<br>Active theme: Total Eyecare (version 1.0.1)<br>Current plugin: Mail logging - WP Mail Catcher (version 2.1.11)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 290 of the file /www/totalcontacts2021_947/public/wp-content/plugins/wp-mail-catcher/src/Models/Logs.php. Error message: Uncaught TypeError: Unsupported operand types: int - string in /www/totalcontacts2021_947/public/wp-content/plugins/wp-mail-catcher/src/Models/Logs.php:290<br>Stack trace:<br>#0 /www/totalcontacts2021_947/public/wp-content/plugins/wp-mail-catcher/src/ExpiredLogManager.php(20): WpMailCatcher\\Models\\Logs::deleteOlderThan(NULL)<br>#1 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(324): WpMailCatcher\\ExpiredLogManager::removeExpiredLogs()<br>#2 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#3 /www/totalcontacts2021_947/public/wp-includes/plugin.php(565): WP_Hook-&gt;do_action(Array)<br>#4 /www/totalcontacts2021_947/public/wp-cron.php(191): do_action_ref_array('wp-mail-catcher...', Array)<br>#5 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 475596117,
+                "type": "customer",
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-20T00:19:45Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        }
+    ]
+}

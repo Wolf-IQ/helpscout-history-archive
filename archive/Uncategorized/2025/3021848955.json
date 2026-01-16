@@ -1,0 +1,189 @@
+{
+    "id": 3021848955,
+    "number": 162667,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to mick@hungrydiner.com.au because the address couldn't be found, or is unable to receive mail.  Learn more here: https://support.google.com/mail",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-08-01T06:27:30Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-01T06:27:32Z",
+    "customerWaitingSince": {
+        "time": "2025-08-01T06:27:30Z",
+        "friendly": "Aug 1, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3021848955"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3021848955/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3021848955/162667"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9199374376,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-01T06:27:32Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9199374286,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to mick@hungrydiner.com.au because the address couldn't be found, or is unable to receive mail.<br><br>Learn more here: https://support.google.com/mail/?p=NoSuchUser<br><br>The response was:<br><br>550 5.1.1 The email account that you tried to reach does not exist. Please try double-checking the recipient's email address for typos or unnecessary spaces. For more information, go to https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-307a6e04482sor2059133fac.7 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Thu, 31 Jul 2025 23:27:20 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGV-YBSQ4gvmXxUNVZMrSLxFzGW2-73zpzjY9u0TOFfaQ@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; mick@hungrydiner.com.au<br>Action: failed<br>Status: 5.1.1<br>Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does not exist. Please try<br> 550-5.1.1 double-checking the recipient's email address for typos or<br> 550-5.1.1 unnecessary spaces. For more information, go to<br> 550 5.1.1  https://support.google.com/mail/?p=NoSuchUser 586e51a60fabf-307a6e04482sor2059133fac.7 - gsmtp<br>Last-Attempt-Date: Thu, 31 Jul 2025 23:27:21 -0700 (PDT)<br><br>DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=wolfiq-com-au.20230601.gappssmtp.com; s=20230601; t=1754029640; x=1754634440; darn=hungrydiner.com.au;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from:from:to:cc<br>         :subject:date:message-id:reply-to;<br>        bh=ZM6l4AHdpZoAFP0yvaM0gHWJJkXVQ2kCkcjZTF1oYrk=;<br>        b=2szTamZ8dyyOAuNgi7u6EQ9FtCkeJ392aSUNTQGD7ebw/FyAXtiCAT/gggQ35tVHX9<br>         Mx8RatwkcnTmCaZAL6/G23UNqVf4MLbyKrMLEmLk1N8SJfrtPIbJ6T3an25wxQ+jdpC6<br>         DtjeGNc5aIh9G82awaBgyPizXzYUDYf7GRet0b78TWXSpC9Q3zUN7D/Zb18l9AuRWDoV<br>         Eq7N85HRYL/fIG1sNhM0BYcJ2lvQYh9QXfWWU/F97pftUGH9HQ1AuhA4FTpnHRerohEC<br>         +/7UNNpBtYl80GYgCUeVFHaUY74GSpK+UMQFWDhwu+B9PefyDyew78o+Y+7Hold7A0ao<br>         svMw==<br>X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;<br>        d=1e100.net; s=20230601; t=1754029640; x=1754634440;<br>        h=to:subject:message-id:date:in-reply-to:mime-version:from<br>         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;<br>        bh=ZM6l4AHdpZoAFP0yvaM0gHWJJkXVQ2kCkcjZTF1oYrk=;<br>        b=TqhrJ//MKPDcJBE/78ujBnSOWT/IJjbTV/yFW1y4QES+Q71IY+uTi4G4LVgkKbwyqw<br>         6s/AfWaxlrYn9NWZPbgdHk94++2c7g7NsSbcFWBHmxRJnLXXBCPhvHymuzwaA6fq0nnd<br>         kPdpga7hFIQ0i23oTSpFL1Z6KkP9hv0P1Oq6brgzRCGY+L1yrrpMZS7YL/7/gnER003j<br>         6LtFyirtR23vNZYrYeOuirAAzrMQ60Ci1myLL9g3UqtGGOkiH6e54uz+UxstjcWTUHCg<br>         hqir9DPgTgRgEE+EbIXBoPFknPppAcsAd2k4CjpMtKDo1B7tsyrEjtM/GnLTrd6fTxUy<br>         g+Tg==<br>X-Gm-Message-State: AOJu0YyPgCXgNkA1VhJOPc4tWwqAPzA5UUuNnkkAr90jXu1GgVNHVQM2<br>\t/5+1LELpDE7NeE3Tvd/hy8ewtFG/cjeDEamZ9Av5Nrf2VgdLOf6Bj0/ZlHxfEfBoDhzBFzBtRWB<br>\tDt6tmjOw1VbWirE/KKbtv8gZwHvUUgbtchy5F9aWJaHHxH4oOuMh2<br>X-Gm-Gg: ASbGncugYl3cojr8Kdt1NAi0KBi/6WESDjko935hZ5WUlrQZbsSb9dUQjBt848ZJin0<br>\t8mOsvQIpm1yJl+8fTYBL0aS52ob5KHoUkzNdiEBj7Q0fKGkWipy1D0nExRuW5rYQha2r/MIOHDQ<br>\tPSvktXL9t04Fapd7AzlM6bHxftFbnpND/g6u0Mgu7l6W25gqjRUu2Q3NEnga+OVuw9T2qe/zpTR<br>\tXxG<br>X-Google-Smtp-Source: AGHT+IFHGhgKI6BjACAoMFU+jX466OqJWs5Kse3UsjKE3ky2geULslACroB79oEo7pYyKcbRqPIqo7GbZOs3HM8rKlM=<br>X-Received: by 2002:a05:6871:a31a:b0:307:ba57:d562 with SMTP id<br> 586e51a60fabf-307ba57d654mr1876078fac.31.1754029640356; Thu, 31 Jul 2025<br> 23:27:20 -0700 (PDT)<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 1 Aug 2025 01:27:19 -0500<br>Received: from 545145119934 named unknown by gmailapi.google.com with<br> HTTPREST; Fri, 1 Aug 2025 01:27:19 -0500<br>From: Wolf IQ Support &lt;support@wolfiq.com.au&gt;<br>MIME-Version: 1.0<br>X-Report-Abuse: Please forward a copy of this message, including all headers,<br> to abuse@helpscout.net<br>X-Msg-Context: HS-1-158894-3017591123-9199372196<br>X-Hs-Uid: 2R0WeajkWWNJxkMyxGvB<br>X-Hs-State: 3<br>X-Hs-Origin: pconsumer-0ba9413c04ba28edd [7fdf6d3863]<br>X-Hs-Message-Id: reply-87172-3017591123-9199372196-1754029639-1976268253@helpscout.net<br>X-Hs-Format: 2<br>X-Hs-Cid: 87172<br>In-Reply-To: &lt;CAPwkWTsoHAurrU=LvBSH3-zcROgo5Wpcx+FRE_rpzBLUpGf8HQ@mail.gmail.com&gt;<br>Date: Fri, 1 Aug 2025 01:27:19 -0500<br>X-Gm-Features: Ac12FXyk1fQ14jPQfjL_G-hm8v1K63rmNPjS1E-FqcsH9aUzZfHJe_SUyxIr8lI<br>Message-ID: &lt;CAMLnpnGV-YBSQ4gvmXxUNVZMrSLxFzGW2-73zpzjY9u0TOFfaQ@mail.gmail.com&gt;<br>Subject: Re: [Important] We couldn't charge your Card<br>To: Mick Teasdale &lt;mick@hungrydiner.com.au&gt;<br>Content-Type: multipart/alternative; boundary=\"000000000000a3a7ac063b47d96c\"",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-01T06:27:30Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 817634535,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3021848955/attachments/817634535"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3021848955/attachments/817634535/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/817634535/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

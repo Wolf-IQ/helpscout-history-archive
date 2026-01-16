@@ -1,0 +1,209 @@
+{
+    "id": 3033551174,
+    "number": 164207,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Recipient inbox full **  Your message couldn't be delivered to deeznutz@gmail.com. Their inbox is full, or it's getting too much mail right now.  Learn more here: https://support.google.com/mail/?p",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-08-12T08:32:37Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-12T08:32:39Z",
+    "customerWaitingSince": {
+        "time": "2025-08-12T08:32:37Z",
+        "friendly": "Aug 12, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3033551174"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3033551174/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3033551174/164207"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9234728564,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-12T08:32:39Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9234728445,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Recipient inbox full **<br><br>Your message couldn't be delivered to deeznutz@gmail.com. Their inbox is full, or it's getting too much mail right now.<br><br>Learn more here: https://support.google.com/mail/?p=OverQuotaPerm<br><br>The response was:<br><br>552 5.2.2 The recipient's inbox is out of storage space and inactive. Please direct the recipient to https://support.google.com/mail/?p=OverQuotaPerm 586e51a60fabf-30b8655497csor2690210fac.0 - gsmtp<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Tue, 12 Aug 2025 01:30:56 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnF4OauUU+mLUCkVbieUJNxLmDWGhMCU=rtf5bePCvxm_w@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; deeznutz@gmail.com<br>Action: failed<br>Status: 5.2.2<br>Diagnostic-Code: smtp; 552-5.2.2 The recipient's inbox is out of storage space and inactive. Please<br> 552-5.2.2 direct the recipient to<br> 552 5.2.2  https://support.google.com/mail/?p=OverQuotaPerm 586e51a60fabf-30b8655497csor2690210fac.0 - gsmtp<br>Last-Attempt-Date: Tue, 12 Aug 2025 01:30:57 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-12T08:32:37Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 821760146,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 2187,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3033551174/attachments/821760146"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3033551174/attachments/821760146/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/821760146/2fc9bfadc0f6cc785d52423ae3bd4a5044c0e8a7/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 821760148,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6912,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3033551174/attachments/821760148"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3033551174/attachments/821760148/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/821760148/a77ace336ad490bc0e16dfed83d42c645bab5fdf/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

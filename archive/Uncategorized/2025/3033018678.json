@@ -1,0 +1,133 @@
+{
+    "id": 3033018678,
+    "number": 164102,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[Aussie Industries] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 707230098,
+        "type": "customer",
+        "first": "orders@aussieindustries.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "orders@aussieindustries.com.au"
+    },
+    "createdAt": "2025-08-11T20:54:10Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-11T20:54:10Z",
+    "customerWaitingSince": {
+        "time": "2025-08-11T20:54:10Z",
+        "friendly": "Aug 12, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 707230098,
+        "type": "customer",
+        "first": "orders@aussieindustries.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "orders@aussieindustries.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3033018678"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/707230098"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/707230098"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3033018678/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3033018678/164102"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9233171003,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Custom PHP settings.<br><br>First, visit your website (https://www.aussieindustries.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.aussieindustries.com.au/wp-admin/admin.php?page=custom-php-settings&amp;tab=info) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.aussieindustries.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=yovvd2WrbU4VjcWVU8c45l&amp;rm_key=oPdwsHXCs6WFDBxXRmk7Vl<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.8.2<br>Active theme: Breakdance Zero Theme (version 1.0.0)<br>Current plugin: Custom PHP settings (version 2.3.3)<br>PHP version 8.2.28<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 14 of the file /www/aussieindustriesnew_362/public/wp-content/plugins/custom-php-settings/src/Backend/views/cps-php-info.php. Error message: Uncaught Error: Call to undefined function get_current_user() in /www/aussieindustriesnew_362/public/wp-content/plugins/custom-php-settings/src/Backend/views/cps-php-info.php:14<br>Stack trace:<br>#0 /www/aussieindustriesnew_362/public/wp-content/plugins/custom-php-settings/src/Backend/Backend.php(989): require_once()<br>#1 /www/aussieindustriesnew_362/public/wp-includes/class-wp-hook.php(324): CustomPhpSettings\\Backend\\Backend-&gt;doSettingsPage('')<br>#2 /www/aussieindustriesnew_362/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters('', Array)<br>#3 /www/aussieindustriesnew_362/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#4 /www/aussieindustriesnew_362/public/wp-admin/admin.php(260): do_action('toplevel_page_c...')<br>#5 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 707230098,
+                "first": "orders@aussieindustries.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "orders@aussieindustries.com.au"
+            },
+            "createdBy": {
+                "id": 707230098,
+                "type": "customer",
+                "first": "orders@aussieindustries.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "orders@aussieindustries.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-11T20:54:10Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/707230098"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/707230098"
+                }
+            }
+        }
+    ]
+}

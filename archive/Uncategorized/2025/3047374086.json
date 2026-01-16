@@ -1,0 +1,209 @@
+{
+    "id": 3047374086,
+    "number": 166531,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to wordpress@niwart.tech because the address couldn't be found, or is unable to receive mail.    The response from the remote server was: 550 5.1",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2025-08-25T07:55:51Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-25T07:55:52Z",
+    "customerWaitingSince": {
+        "time": "2025-08-25T07:55:51Z",
+        "friendly": "Aug 25, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3047374086"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3047374086/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3047374086/166531"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9277933691,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-25T07:55:52Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9277933615,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to wordpress@niwart.tech because the address couldn't be found, or is unable to receive mail.<br><br><br><br>The response from the remote server was:<br>550 5.1.1 &lt;wordpress@niwart.tech&gt;: Recipient address rejected: undeliverable address: host uk-fast-smtpin3.hostinger.io[private/dovecot-lmtp] said: 550 5.1.1 &lt;wordpress@niwart.tech&gt; User doesn't exist: wordpress@niwart.tech (in reply to RCPT TO command)<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Mon, 25 Aug 2025 00:55:27 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnGMkYTMuAPkXQ2CpOnn+M6R4fd-GnznCG1Zc0MD4cvt-A@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; wordpress@niwart.tech<br>Action: failed<br>Status: 5.1.1<br>Remote-MTA: dns; mx1.hostinger.com. (2606:4700:90:0:c1f8:f874:2386:b61f, the<br> server for the domain niwart.tech.)<br>Diagnostic-Code: smtp; 550 5.1.1 &lt;wordpress@niwart.tech&gt;: Recipient address rejected: undeliverable address: host uk-fast-smtpin3.hostinger.io[private/dovecot-lmtp] said: 550 5.1.1 &lt;wordpress@niwart.tech&gt; User doesn't exist: wordpress@niwart.tech (in reply to RCPT TO command)<br>Last-Attempt-Date: Mon, 25 Aug 2025 00:55:39 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-25T07:55:51Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 826762286,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3047374086/attachments/826762286"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3047374086/attachments/826762286/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/826762286/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 826762289,
+                        "filename": "Message.eml",
+                        "mimeType": "text/html",
+                        "width": 0,
+                        "height": 0,
+                        "size": 6966,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/3047374086/attachments/826762289"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/3047374086/attachments/826762289/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/826762289/a1a72599cb9cacfaaf8917641b2a838ecd4e742a/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

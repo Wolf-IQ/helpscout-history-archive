@@ -1,0 +1,170 @@
+{
+    "id": 3033186451,
+    "number": 164127,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "Errors on your Kinsta-hosted site",
+    "preview": "Hello Andy,  We've detected a high number of \"Connection timed out - Error code 522\" errors on the following sites:  \u2022 absolutecoolrooms \u2022 creativegenerals \u2022 csgdalligatorcomau \u2022 dalligator ?",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 242057803,
+        "type": "customer",
+        "first": "support@kinsta.com",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "support@kinsta.com"
+    },
+    "createdAt": "2025-08-12T00:04:58Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-12T00:04:59Z",
+    "customerWaitingSince": {
+        "time": "2025-08-12T00:04:58Z",
+        "friendly": "Aug 12, '25"
+    },
+    "source": {
+        "type": "emailfwd",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 242057803,
+        "type": "customer",
+        "first": "support@kinsta.com",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "support@kinsta.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3033186451"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/242057803"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/242057803"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3033186451/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3033186451/164127"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9233682057,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-12T00:04:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9233681953,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Hello Andy,<br><br>We've detected a high number of \"Connection timed out - Error code 522\"<br>errors on the following sites:<br><br>\u2022 absolutecoolrooms<br>\u2022 creativegenerals<br>\u2022 csgdalligatorcomau<br>\u2022 dalligator<br>\u2022 drpanth<br>\u2022 drshiva<br>\u2022 littlealliedhealth<br>\u2022 optivia<br>\u2022 stockandnoble<br>\u2022 tsn2024<br><br>The issue is caused by proxied CNAME DNS records at Cloudflare being<br>configured to point to your domain rather than<br>sitename.hosting.kinsta.cloud.<br><br>What that means is that in one or more of your Cloudflare DNS CNAME<br>entries, the \"Content\" field is:<br><br>yoursite.com<br><br>When it should be:<br><br>yoursite.hosting.kinsta.cloud<br><br>(*The field is named \"Content\" when viewing your DNS records at Cloudflare,<br>and \"Target\" when editing the CNAME record.*)<br><br>The misconfiguration typically affects www CNAMEs, but other subdomains<br>could also be misconfigured.<br><br>The Cloudflare DNS configuration may have been incorrect for the above<br>site(s) for some time, but we're seeing the errors now due to recent<br>configuration changes that Cloudflare made. Correcting the DNS<br>configuration at Cloudflare should stop the errors. (If you have fixed the<br>issue at some point during the past two weeks, you can disregard this<br>email.)<br><br>As always, we appreciate you being a Kinsta client. If you have questions,<br>don't hesitate to reply to this email or contact us in MyKinsta. We\u2019re here<br>to answer your questions around the clock.<br><br><br>The Kinsta Team<br>You are receiving this email because you have an account at Kinsta.<br>\u00a9 2025 Kinsta Inc. All rights reserved. 8605 Santa Monica Blvd #92581, West<br>Hollywood, CA 90069<br><br>Terms of Service<br>&lt;https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWusnsAVLyNjhppnXXDhFSw4YsMV4GTFRRiFfU7HOVzRBkogzA_QhWGwQhi9gh0EXq7EEln2gTtEY8uizMkeyIYnCUJGKCmPghRhLUDOgtDzgLX3PfQ9z3iefd-2BcRuoRdQzCs9ULLMuGlX9XxJQStuksVm3MZTXm2ptbtt9cc5BpKP82GZn0WAVzxYZ3T5hMdCsxyLmnwJNRz7JEHqR8GPgedU-2BIc64PWXrdlgLQ-2BBPaHwR6FrqH0J-2F1bkbh2cTiWMOxJUVUKrnpqn5oZY5RuqeWthGa-2BQX-2BU6tIZgHLcIuDFfGsIql&gt;<br>| Privacy Policy<br>&lt;https://u9019290.ct.sendgrid.net/ls/click?upn=u001.6QPP-2FqJt5LKc0sK5s9FWusnsAVLyNjhppnXXDhFSw4YGyasr-2FmgLQeXVnxGReYL9FNWMKwnybExY3wbvg0Zwsg-3D-3DalV8_QhWGwQhi9gh0EXq7EEln2gTtEY8uizMkeyIYnCUJGKCmPghRhLUDOgtDzgLX3PfQKZO-2FY-2BZhZbmLjzL8WGUW14DndFwgW2jKlohkw1bdchB-2F-2BXfeNnGpftN8-2BE2HCD-2Bl8N3uGe6WgtENEEyQC1Hhs5nYAxV9Hb1Gs5ZBqVdJ06Z8r5mrc76vaayLkfTX8UeLONSI7WBbFTA1AD6jLE-2BCyi2TcNzarLgwmkM9kD5A0jl0bMxhTromSgglM9V1IOUq&gt;",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 242057803,
+                "first": "support@kinsta.com",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "support@kinsta.com"
+            },
+            "createdBy": {
+                "id": 242057803,
+                "type": "customer",
+                "first": "support@kinsta.com",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "support@kinsta.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-12T00:04:58Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/242057803"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/242057803"
+                }
+            }
+        }
+    ]
+}

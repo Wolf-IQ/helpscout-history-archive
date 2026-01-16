@@ -1,0 +1,168 @@
+{
+    "id": 3042318845,
+    "number": 165698,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[Jillian Dinkel] Password Reset",
+    "preview": "Someone has requested a password reset for the following account:  Site Name: Jillian Dinkel  Username: wolfiq  If this was a mistake, ignore this email and nothing will happen.  To reset your passwor",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 809952962,
+        "type": "customer",
+        "first": "Jillian",
+        "last": "Dinkel",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "jillian@jilliandinkel.com"
+    },
+    "createdAt": "2025-08-20T01:06:59Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2025-08-20T01:07:00Z",
+    "customerWaitingSince": {
+        "time": "2025-08-20T01:06:59Z",
+        "friendly": "Aug 20, '25"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 809952962,
+        "type": "customer",
+        "first": "Jillian",
+        "last": "Dinkel",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "jillian@jilliandinkel.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3042318845"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/809952962"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/809952962"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3042318845/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3042318845/165698"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9262509605,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-20T01:07:00Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 9262509535,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Someone has requested a password reset for the following account:<br><br>Site Name: Jillian Dinkel<br><br>Username: wolfiq<br><br>If this was a mistake, ignore this email and nothing will happen.<br><br>To reset your password, visit the following address:<br><br>https://jilliandinkel.com/wp-login.php?login=wolfiq&amp;key=WgZQqwPwoGvmhhW77YQK&amp;action=rp&amp;wp_lang=en_US<br><br>This password reset request originated from the IP address 49.147.72.202.",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 809952962,
+                "first": "Jillian",
+                "last": "Dinkel",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "jillian@jilliandinkel.com"
+            },
+            "createdBy": {
+                "id": 809952962,
+                "type": "customer",
+                "first": "Jillian",
+                "last": "Dinkel",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "jillian@jilliandinkel.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-08-20T01:06:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/809952962"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/809952962"
+                }
+            }
+        }
+    ]
+}
