@@ -1,0 +1,343 @@
+{
+    "id": 2569798929,
+    "number": 110835,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "RE:  Your Simply Solar Solution quote request was submitted, thanks!",
+    "preview": "@chris   Hi there,  I hope you are well. The site is having difficulty receiving emails from the\u00a0https://simplysolarsolutions.com.au/ website, so we are setting up an SMTP account to see if this help",
+    "mailboxId": 158894,
+    "assignee": {
+        "id": 639045,
+        "type": "user",
+        "first": "Chris",
+        "last": "Paradowski",
+        "email": "chris@wolfiq.com.au"
+    },
+    "createdBy": {
+        "id": 657187674,
+        "type": "customer",
+        "first": "support@simplysolarsolutions.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "support@simplysolarsolutions.com.au"
+    },
+    "createdAt": "2024-04-15T02:03:48Z",
+    "closedBy": 639045,
+    "closedByUser": {
+        "id": 639045,
+        "type": "user",
+        "first": "Chris",
+        "last": "Paradowski",
+        "photoUrl": "https://secure.gravatar.com/avatar/bff6e25933ef7020d33ed6d441be23ca",
+        "email": "chris@wolfiq.com.au"
+    },
+    "closedAt": "2024-04-22T02:57:10Z",
+    "userUpdatedAt": "2024-04-22T02:57:10Z",
+    "customerWaitingSince": {
+        "time": "2024-04-22T02:57:10Z",
+        "friendly": "Apr 22, '24"
+    },
+    "source": {
+        "type": "emailfwd",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 657187674,
+        "type": "customer",
+        "first": "support@simplysolarsolutions.com.au",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+        "email": "support@simplysolarsolutions.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2569798929"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/657187674"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/657187674"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/639045"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2569798929/threads"
+        },
+        "assignee": {
+            "href": "https://api.helpscout.net/v2/users/639045"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2569798929/110835"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7742419182,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Chris Paradowski marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 639045,
+                "type": "user",
+                "first": "Chris",
+                "last": "Paradowski",
+                "email": "chris@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-22T02:57:10Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/639045"
+                }
+            }
+        },
+        {
+            "id": 7742321334,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "original-author",
+                "associatedEntities": {
+                    "user": 309820
+                }
+            },
+            "body": "<span class=\"mention-highlight\">@chris</span> <br><br>Hi there,<br><br>I hope you are well. The site is having difficulty receiving emails from the&nbsp;<a href=\"https://simplysolarsolutions.com.au/\">https://simplysolarsolutions.com.au/</a> website, so we are setting up an SMTP account to see if this helps.<br><br>Do you have access to your domain DNS records?<br><br><u><b>Please update the SPF record to be:</b></u><br>v=spf1 include:_spf.mailersend.net include:spf.jcr.com.au include:spf.protection.outlook.com -all<br><br><u><b>Add this TXT record please:</b></u><br><br>Name/host: mlsend._domainkey.simplysolarsolutions.com.au<br>Value: v=DKIM1;t=s;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvjMgLTqWqptd36JmNfIG5NG7dhFcG2+RcgmfzasGGJwb7rBH8w0c4lxP1wj+GAi4Vr9YmwVWwXNwLavmftkpsgr0JGscOfNtzXG6r9XFFwhZ0kq/LLKV14ePB4Av+RoFyWGWV2bxlROIYiNeG51HKXLFEIxhl7Xl4ZiEFVI19OQIDAQAB<br><br><u><b>CNAME:</b></u><br>Name/host:&nbsp;<a href=\"http://mta.wolper.com.au/\" target=\"_blank\">mta.simplysolarsolutions.com.au</a><br>Value:&nbsp;<a href=\"http://mailersend.net/\" target=\"_blank\">mailersend.net</a><br><br>Please let me know when updated. Thanks as always.<br>",
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "customer": {
+                "id": 657187674,
+                "first": "support@simplysolarsolutions.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "support@simplysolarsolutions.com.au"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 639045,
+                "type": "user",
+                "first": "Chris",
+                "last": "Paradowski",
+                "photoUrl": "https://secure.gravatar.com/avatar/bff6e25933ef7020d33ed6d441be23ca",
+                "email": "chris@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-22T01:31:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/639045"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/657187674"
+                }
+            }
+        },
+        {
+            "id": 7722484499,
+            "type": "lineitem",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia assigned to Joel Maligalig",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "mobile",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-15T02:20:03Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7722460666,
+            "type": "note",
+            "state": "published",
+            "body": "Hi Joel, <br><br>An interesting one here. <br><br>These enquiry form notifications aren&#8217;t making it through to our client. Is there anything we can adjust at our end to help deliverability?<br><br>Site: https://simplysolarsolutions.com.au/ <br><br><br>&#65532;<br><br>Thanks!",
+            "source": {
+                "type": "emailfwd",
+                "via": "user"
+            },
+            "customer": {
+                "id": 657187674,
+                "first": "support@simplysolarsolutions.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "support@simplysolarsolutions.com.au"
+            },
+            "createdBy": {
+                "id": 639045,
+                "type": "user",
+                "first": "Chris",
+                "last": "Paradowski",
+                "photoUrl": "https://secure.gravatar.com/avatar/bff6e25933ef7020d33ed6d441be23ca",
+                "email": "chris@wolfiq.com.au"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-15T02:03:48Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/639045"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/657187674"
+                }
+            }
+        },
+        {
+            "id": 7722460665,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Chris,<br><br>Yeh I will. Honestly don\u2019t think they like me anymore because I am making them do their job. Any time I ask questions I feel like its so brushed off.. haha<br><br>Trying to play catch up. Clean some stuff up so they were not missed. I think a couple are there including the install sheet updated. When you get around to them. I will try remembering to shoot you email next time haha sorry!<br><br><br>S<br><br><br>From: Chris Paradowski &lt;chris@wolfiq.com.au &lt;mailto:chris@wolfiq.com.au&gt;&gt;<br>Sent: Monday, April 15, 2024 10:11 AM<br>To: Shantell Grubisic &lt;support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;&gt;<br>Subject: Re:  Your Simply Solar Solution quote request was submitted, thanks!<br><br>Hi Shantell,<br><br>Got it. Are you able to share the screenshot with your IT guys? I can send a higher-resolution version if needed.<br><br>Also, I noticed a handful of install images added to the Dropbox. Please let me know if you like to add these on the fly, rather than waiting for a \u201cChris, new installs are ready\u201d email.<br><br>Regards,<br><br><br><br>Chris Paradowski<br>Partnerships Manager<br>Wolf IQ Pty Ltd<br><br><br>1300 072 134 &lt;tel:1300%20072%20134&gt; | 0421 859 547 &lt;tel:0421%20859%20547&gt;<br><br>chris@wolfiq.com.au &lt;mailto:chris@wolfiq.com.au&gt;<br><br>wolfiq.com.au &lt;file://wolfiq.com.au/&gt;<br><br>Level 2, 383 George Street, Sydney NSW 2000<br><br>&lt;https://www.linkedin.com/in/chris-paradowski-65a847184/?originalSubdomain=au&gt;<br>We'd love to hear from you. Click here to review Wolf IQ! &lt;https://app.wolfiq.com.au/wolf-iq-163218006132999/review-us?dashboard=1&gt;<br><br><br>On 15 Apr 2024, at 9:33\u202fam, Shantell Grubisic &lt;support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;&gt; wrote:<br><br>Chris,<br><br>Havent seen it still must be getting blocked.<br><br>That\u2019s okay will work off your email.<br><br>Thank you<br><br>From: Chris Paradowski &lt;chris@wolfiq.com.au &lt;mailto:chris@wolfiq.com.au&gt;&gt;<br>Sent: Monday, April 15, 2024 9:13 AM<br>To: Shantell Grubisic &lt;support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;&gt;<br>Subject: Re:  Your Simply Solar Solution quote request was submitted, thanks!<br><br>Hi Shantell,<br><br>Thanks and likewise!<br><br>This was a Google Ads enquiry that was submitted on 05/04/24, a screenshot can be seen below. You are right, the email is peculiar. Perhaps it got flagged by your spam filters?<br><br>I have also resent the enquiry to: support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;, can you please tell me if it was received?<br><br>&lt;image001.png&gt;<br><br>Regards,<br><br><br>Chris Paradowski<br>Partnerships Manager<br>Wolf IQ Pty Ltd<br><br><br>1300 072 134 &lt;tel:1300%20072%20134&gt; | 0421 859 547 &lt;tel:0421%20859%20547&gt;<br><br>chris@wolfiq.com.au &lt;mailto:chris@wolfiq.com.au&gt;<br><br>wolfiq.com.au &lt;file://wolfiq.com.au/&gt;<br><br>Level 2, 383 George Street, Sydney NSW 2000<br><br>&lt;https://www.linkedin.com/in/chris-paradowski-65a847184/?originalSubdomain=au&gt;<br>We'd love to hear from you. Click here to review Wolf IQ! &lt;https://app.wolfiq.com.au/wolf-iq-163218006132999/review-us?dashboard=1&gt;<br><br><br><br>On 15 Apr 2024, at 8:37\u202fam, Shantell Grubisic &lt;support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;&gt; wrote:<br><br>Morning!<br>Hope you are well.<br><br>Could you shed some light on this enquiry ?<br><br>I have never seen them like this\u2026. ? They don\u2019t normally come to me??<br>is @email even a real email? And I have not even received the first request?<br><br>Thanks<br><br>Shantell<br><br>From: J Brotha &lt;j_brotha@email.com &lt;mailto:j_brotha@email.com&gt;&gt;<br>Sent: Monday, April 15, 2024 8:27 AM<br>To: Shantell Grubisic &lt;support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;&gt;<br>Subject: Fwd: Your Simply Solar Solution quote request was submitted, thanks!<br><br>Hi,<br>Just wondering how you are travelling with my quote?<br>Thanks<br>Jay<br>On 5/4/24, 5:30 pm \"noreply@simplysolarsolutions.com.au &lt;mailto:noreply@simplysolarsolutions.com.au&gt;\" &lt;manuel@wolfiq.com.au &lt;mailto:manuel@wolfiq.com.au&gt;&gt; wrote:<br>Hi Jay Brotherston,<br><br>Thanks for submitting your quote request.<br><br>Our team will get back to you soon.<br><br>If you have any questions in the meantime, you are welcome to call us on 1300 294 447 &lt;tel:1300%20294%20447&gt;.<br><br>Thanks,<br><br>Rod and the team at Simply Solar Solutions.<br>Ph: 1300 294 447 &lt;tel:1300%20294%20447&gt;<br>E: support@simplysolarsolutions.com.au &lt;mailto:support@simplysolarsolutions.com.au&gt;",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 657187674,
+                "first": "support@simplysolarsolutions.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "support@simplysolarsolutions.com.au"
+            },
+            "createdBy": {
+                "id": 657187674,
+                "type": "customer",
+                "first": "support@simplysolarsolutions.com.au",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/07.png",
+                "email": "support@simplysolarsolutions.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-15T02:03:48Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 672700210,
+                        "filename": "Screenshot-2024-04-15-at-9-09-44--am.png",
+                        "mimeType": "image/png",
+                        "width": 1279,
+                        "height": 617,
+                        "size": 92241,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2569798929/attachments/672700210"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2569798929/attachments/672700210/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/672700210/7b583397d7a9e281e9382e2eca8eef8993ec85de/Screenshot-2024-04-15-at-9-09-44--am.png"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/657187674"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/657187674"
+                }
+            }
+        }
+    ]
+}

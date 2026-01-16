@@ -1,0 +1,249 @@
+{
+    "id": 2580077253,
+    "number": 111850,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698157,
+    "status": "closed",
+    "state": "published",
+    "subject": "[ALERT] Possible error on your MailChimp automation >>> Pipedrive tag >>> Email 1 Zap!",
+    "preview": "We ran into a problem with one of your Zaps. \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 584926260,
+        "type": "customer",
+        "first": "Zapier",
+        "last": "Alerts",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "alerts@mail.zapier.com"
+    },
+    "createdAt": "2024-04-25T13:36:19Z",
+    "closedBy": 639045,
+    "closedByUser": {
+        "id": 639045,
+        "type": "user",
+        "first": "Chris",
+        "last": "Paradowski",
+        "photoUrl": "https://secure.gravatar.com/avatar/bff6e25933ef7020d33ed6d441be23ca",
+        "email": "chris@wolfiq.com.au"
+    },
+    "closedAt": "2024-04-25T23:56:30Z",
+    "userUpdatedAt": "2025-05-13T05:09:48Z",
+    "customerWaitingSince": {
+        "time": "2024-04-25T23:56:30Z",
+        "friendly": "Apr 26, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 584926260,
+        "type": "customer",
+        "first": "Zapier",
+        "last": "Alerts",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "alerts@mail.zapier.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2580077253"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/584926260"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/584926260"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/639045"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2580077253/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2580077253/111850"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8922523564,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Notifications moved to Alerts Inbox** was triggered",
+                "associatedEntities": {
+                    "workflow": 1243169,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2025-05-13T05:09:48Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 7756642927,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Chris Paradowski marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 639045,
+                "type": "user",
+                "first": "Chris",
+                "last": "Paradowski",
+                "email": "chris@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-25T23:56:30Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/639045"
+                }
+            }
+        },
+        {
+            "id": 7754662439,
+            "type": "lineitem",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Zap Alerts** was triggered",
+                "associatedEntities": {
+                    "workflow": 1120592,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "assignedTo": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-25T13:36:20Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 7754662405,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div>\n<div>We ran into a problem with one of your Zaps.</div>\n<div>\u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c \u034f\u200c </div>\n<div class=\"ex-n\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div class=\"ex-o ex-h\">\n<div class=\"ex-v ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMjstqwzAQRb9G2tnoZSteaFEI-Q0jyWNFoIcrj2jp1xeHQLucufdyzmakZ945CoZrrtgk-Kzp0zg_MTWDWKwWyk1aS7cternBzfll8ZxGI5hQTImJSzkzPYK_tp7LfVL7zW5EsWxjGn_sEaGNvmaazBPxOIn8IOJBxOMvum756JhXb_NhYyhE3nMKZQguDaVi3Af8LgO0Vtu52gQNiZhfg1oQChJ5xxZDgLa-Su80wxZ7JvIOl8z7edbePFwEG1PohTZz9uOoDYliXzXt8fOSGm2naP4jfwMAAP__W0xjrw\"><img alt=\"Zapier\" src=\"https://cdn.zapier.com/storage/photos/64e5a58c65d7d71af503b69a6c408107.png\" width=\"121\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-x ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"right\" class=\"ex-m\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td align=\"center\" bgcolor=\"#3D4592\" valign=\"middle\"><a href=\"https://email.mail.zapier.com/c/eJxMjsuK9CAQRp-m3CV4S-x_4eKHJq_RVIzagrcxygzz9EOahpltfXU459DCULPvxGqmmKQLZ6siT70i_nPKSblKcyBTZkcjblw6KXDhVJGgOeWSSr4wIVaqZmsu1jDhFulueICkCUOcv7EG22ZTEon62Xs9QfwHvgHffifgG9YKfIvFhwxiGz09DKaKwWcQ9xR9nvwep1x6cFP_ypNtrbTzgdG2Dnx9ASV3mzuIe2_Be9ser6f3muwRRgJxt1fX-3iW0Yy9DBiiH5k0fY5aS-sg6WeJLnxcfTMO0vVf5U8AAAD___dvZ-k\">Log in</a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><img src=\"https://cdn.zapier.com/storage/photos/fe4aa6c90d0c0b9b981ac2ac00d1cc78.png\" width=\"75\" alt=\"fe4aa6c90d0c0b9b981ac2ac00d1cc78.png\" /></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n<tr>\n<td align=\"left\" class=\"ex-h1\">\n<div>Zap alert</div>\n</td>\n</tr>\n<tr>\n<td align=\"left\" class=\"ex-eq\">\n<div>We ran into a problem with one of your Zaps.</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-h7s ex-xt\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-fj\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div class=\"ex-e ex-h ex-pt\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMjsGupCAQRb-m3GmgQNQFi0k6_kYHobRJEByETGe-fsKkX97bnrq3znVaWGa3rSPNJy7ZiFxN3Uvb2SxWMbNsi52UW5wSs8OdZmkmPo-q8xoZSiZx5EIoNg1kW9dysY9yn40DyU7jw_DXXJ7yYNPZBf0q5bpB_AJcAdfvE-BKzpeUAVe-MGQCZwRcr7oFf7_IgVhtioXeBcQDUNVyPu9UsyUQj-Y5avzgk5yvJ4gHNf6B1pyX8Uds6XDE_thCH1Pxe1_esaecU76fJlAuX4Vmi81Wsj8Oys__oS7ru15XygUk-5PC7n-3_YOpXdE_3_wLAAD__7kUcV4\"><img src=\"https://img1.niftyimages.com/0q5/2-_d/yt1d?trigger.image=https://zapier-images.imgix.net/storage/services/d4a87a6bccbd4490512fb02638086f9b.png?auto=format%2Ccompress&amp;h=128&amp;ixlib=python-3.0.0&amp;q=50&amp;w=128&amp;action-1.image=https://zapier-images.imgix.net/storage/services/d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&amp;h=128&amp;ixlib=python-3.0.0&amp;q=50&amp;w=128&amp;action-2.image=https://zapier-images.imgix.net/storage/services/d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&amp;h=128&amp;ixlib=python-3.0.0&amp;q=50&amp;w=128\" width=\"134\" alt=\"d657ba4f3441a30ced367a4aa7cacacb.png?auto=format%2Ccompress&amp;h=128&amp;ixlib=python-3.0.0&amp;q=50&amp;w=128\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-h7 ex-h ex-t\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" class=\"ex-f5\">\n<div><a href=\"https://email.mail.zapier.com/c/eJxMjsGupCAQRb-m3GmgQNQFi0k6_kYHobRJEByETGe-fsKkX97bnrq3znVaWGa3rSPNJy7ZiFxN3Uvb2SxWMbNsi52UW5wSs8OdZmkmPo-q8xoZSiZx5EIoNg1kW9dysY9yn40DyU7jw_DXXJ7yYNPZBf0q5bpB_AJcAdfvE-BKzpeUAVe-MGQCZwRcr7oFf7_IgVhtioXeBcQDUNVyPu9UsyUQj-Y5avzgk5yvJ4gHNf6B1pyX8Uds6XDE_thCH1Pxe1_esaecU76fJlAuX4Vmi81Wsj8Oys__oS7ru15XygUk-5PC7n-3_YOpXdE_3_wLAAD__7kUcV4\">MailChimp automation &gt;&gt;&gt; Pipedrive tag &gt;&gt;&gt; Email 1</a><br>\nReceived 1 error</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" class=\"ex-d\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" bgcolor=\"#F7F5F2\" valign=\"middle\"><a href=\"https://email.mail.zapier.com/c/eJxMjsGupCAQRb-m3GmgQNQFi0k6_kYHobRJEByETGe-fsKkX97bnrq3znVaWGa3rSPNJy7ZiFxN3Uvb2SxWMbNsi52UW5wSs8OdZmkmPo-q8xoZSiZx5EIoNg1kW9dysY9yn40DyU7jw_DXXJ7yYNPZBf0q5bpB_AJcAdfvE-BKzpeUAVe-MGQCZwRcr7oFf7_IgVhtioXeBcQDUNVyPu9UsyUQj-Y5avzgk5yvJ4gHNf6B1pyX8Uds6XDE_thCH1Pxe1_esaecU76fJlAuX4Vmi81Wsj8Oys__oS7ru15XygUk-5PC7n-3_YOpXdE_3_wLAAD__7kUcV4\">Edit this Zap</a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" class=\"ex-h4\">\n<div>Error Message</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-j\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-yya\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div class=\"ex-y ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><img src=\"https://img1.niftyimages.com/0q5/n-_d/lt1d?app-icon.show&amp;app-icon.image=https://cdn.zapier.com/storage/services/d4a87a6bccbd4490512fb02638086f9b.png\" width=\"75\" alt=\"d4a87a6bccbd4490512fb02638086f9b.png\" /></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-b ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" class=\"ex-h6\">\n<div>Mailchimp</div>\n</td>\n</tr>\n<tr>\n<td align=\"left\">\n<div>Trigger partner failure: The app did not respond in-time. It may or may not have completed successfully.</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div><a href=\"https://email.mail.zapier.com/c/eJxMjtFutCAQRp9mvNMgoO5_wcWfbHyNzYgDS6JAcUibPn3Dpk17e-Y7J7MbZYXdto7MuIxaTHKcl-5p9Lzfpo0moaRwu7Mb4o7un7wts1rQbV0wUkgttJxGpWaxDGSba0flJu1uuIMWJ4Zj-MQcqAw2nd1hnsz5AvUf5Apy_T2BXDFnkGtMHFywyCHF_iLmEP0Faq18Pq5UiyVQ99b1NYKcGz5pD_UEdafGv6HFM2Pwsa0PH3u_Hf2r3fNH7KmUVK4HHlT4R0iRKTKoO5fgPZXHa9QVc9WcU2HQ4j0dLry1fwesHZu_ma8AAAD__3xUbwo\">Edit error notification settings</a> to customize how often to receive them.</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" class=\"ex-h2\">\n<div>What does this mean?</div>\n</td>\n</tr>\n<tr>\n<td align=\"left\" class=\"ex-f5\">\n<div>Zapier generates an error whenever we detect something wrong with how your Zap works. The problem could be with Zap setup or a specific App.</div>\n</td>\n</tr>\n<tr>\n<td align=\"left\" class=\"ex-h2\">\n<div>What should I do?</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"left\" class=\"ex-f5\">\n<div>\n<ul>\n<li><strong>Already know how to fix this error?</strong><br>\nIf you think you know how to fix the issue, go for it!<br>\n<a href=\"https://email.mail.zapier.com/c/eJxMjsGupCAQRb-m3GmgQNQFi0k6_kYHobRJEByETGe-fsKkX97bnrq3znVaWGa3rSPNJy7ZiFxN3Uvb2SxWMbNsi52UW5wSs8OdZmkmPo-q8xoZSiZx5EIoNg1kW9dysY9yn40DyU7jw_DXXJ7yYNPZBf0q5bpB_AJcAdfvE-BKzpeUAVe-MGQCZwRcr7oFf7_IgVhtioXeBcQDUNVyPu9UsyUQj-Y5avzgk5yvJ4gHNf6B1pyX8Uds6XDE_thCH1Pxe1_esaecU76fJlAuX4Vmi81Wsj8Oys__oS7ru15XygUk-5PC7n-3_YOpXdE_3_wLAAD__7kUcV4\">Edit your Zap</a></li>\n<li><strong>Check for current incidents</strong><br>\nCheck our status page for known issues that may be affecting the performance of your apps and subscribe to updates.<br>\n<a href=\"https://email.mail.zapier.com/c/eJxMjsuKAyEQRb9Gd9346pgsXAyE_EYwWm0EHz1aMsN8_WDIItTu1r2c4410zD0eFAzXXLFN8JOmTyP9hemLAgV6ExycmLcxrrwWXrszjUYwoZgSG5fyxPQKbm4dl_um9rP1RLFsY1r_7BGhra5mmswT8ehEfhFxI-LW0eLoH40Zy9vAfHc2HzaGQuQ1p1CW8EhLqRj3BX_LAq3V1u82QUMiTq9BLQgFibxiiyFAu79K728GH0cm8grT6R32OpqDSbAxhVFoM30cR21IFPupaY_fU2q1g6L5RP4HAAD___-FZjo\">Check our status page</a></li>\n<li><strong>Common Mailchimp problems</strong><br>\nCheck the help page for common problems with Mailchimp.<br>\n<a href=\"https://email.mail.zapier.com/c/eJxMjkuOrCAUhleDMw0cKK0aMLiJcXbXYAAPSsKrENKP1XfsVCc1_R_5vk1yQ43WHUo2MUFvwMapO6QC2ASIh7YPLexkNFoKE4ORqge_a9Y5CRQEFXBjnI90GtBcX8O4vQl7VxsRNCjnh2-VHZbBpNB5edSaT8L_EVgILAf6_NZfiSGwYOzbSWA5URVzEL48G5Yvwuf_ynlzuJAJjK2G1aiQldsj4XPwe-x37fuYqrN9_Yw9lpLKuSqPpf4dUqwYK-FzLW7fsay_o1cbcHMtED7jJf4Kz9SKwYugnN9b7Io8W86pVCLoR_LWPS_3QbWuynfkTwAAAP__K5ty7Q\">Common problems with Mailchimp</a></li>\n<li><strong>Learn how to troubleshoot Zap errors</strong><br>\nCheck out our guide to troubleshooting your Zaps to learn how to solve common problems with Zap errors.<br>\n<a href=\"https://email.mail.zapier.com/c/eJxMjstqwzAQRb9G3tmM3vFCi0LwbwRJGdsCPVxZoqVfXxyyyG64dy7nPA334J0b0FBNBUhGlR52Q6WjSkgL0gHTMzBQzt00emnpPM9qCIYBEyCYpJwr0BP6a-spX6VYb_ZJBCQb4vRnj4B18iUN0eytHSfhX4QthC07xuOjvxJP2IJ57Cdhi60t-IjXeROzAq7VDIprwpfe0sPbdNiwZcLvKW553Fwcc2lhHdtvHrHWUs-HjVgbYeo1KLlhboTfWw3bhvXxenq3CZ-hJ8LveGm_w7P06vEi2BC3nodqzn4cpTYi4KfENXxf5pPtQzOfyP8AAAD__wkib28\">View Zap troubleshooting guide</a></li>\n</ul>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"center\" class=\"ex-h4\">\n<div>Still having issues with this Zap?</div>\n</td>\n</tr>\n<tr>\n<td align=\"center\" class=\"ex-eq\">\n<div>We'll be happy to help you get this working again.</div>\n</td>\n</tr>\n<tr>\n<td align=\"center\" class=\"ex-g\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td align=\"center\" bgcolor=\"#3D4592\" valign=\"middle\"><a href=\"https://email.mail.zapier.com/c/eJxMj8FuqzAQRb9m2IHGMw6QhRdPiviNyBhDLIHtZ2w16tdXTlO123vunaNZFBs089xYJQYh8UKiH5qHoiubZb6ysGjlSBpnxmHue6KxZ43YOEVIEiVdBHOPQ2dN3RrB60Wuo15A4qHd3n3q6GzqTDiaXT1yjifwP6AJaPpFQJOOEWgywWdtclvObw40iSsSMo0E_ML2mYFvQH3Jx_0MJRkLfKuurfh3fNjFlQP4Zmv-Do0-onabr-198-02760P2a1tfvrWphTSede7TflnUG2-2nJy22bT_VVqkjpLjCFlkPgR9tX9rz90ujRZ_T3zFQAA__9DCnGA\">Contact Zapier support</a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"center\" class=\"ex-f5\">\n<div><a href=\"https://email.mail.zapier.com/c/eJxMjrlurDAUhp_GdCCvwBQuru6IInmIkW2OGUteiDlWlqePGFGk_Rd936qFo87aDjSbmKSKs3HqnpozL7z10jM1z8yBufnVzWo0t2lUytouaE65pJIrJsRIpwHc-XVMeCX9bFYiaTIhDj9mD1AHV1IX9RNxP4j4R_hC-HJV-L2DLzWdG8IXLIQv7d3-v73lkYilYXo4k3YTtkzEPcUt95uNfS4YfI9fuYdaSz0eJkJFwsfXoWSEjETcsYZtg_p4ja42wRpaIuIOp-IVHqVVByfBhLi13FV9tH0vFYmknyX68HEaDqZ1qP8ifwMAAP__nmZr6A\">Give us feedback</a> on this email.</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-j ex-z\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-xl ex-s\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"center\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr class=\"ex-se\">\n<td>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"30\" bgcolor=\"#95928E\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMzruOszAQBeCnMR3INyApXESKeIi_iQYzONbv2xpbrPbpV0Yptp35js7ZlNBUr2uHis1M0pGzae7eik63aQJBb_I-4wZsvN_FCrhKOVPcGO2s4pRLKvnIhJjoPKBuWc3EPsr9BhuR1IN1ww8ki3nQ0XdOvUtJBxEPwhfCl_M8hx00rjH-b4Dw5d-lHyk1IZZa_EuDT2BNIOLpnQm9WV0fYrF7X75DjznHfLzAYS6ET1cghoKhEPEs2RqD-XWhz9fjZqsn4olt3ud4xJo1tgawztTQZXXUlGIuRNIzut1-tYED1K6ov5W_AQAA__8kuWnT\"><img height=\"30\" src=\"https://cdn.zapier.com/storage/photos/56028a0ec3bc394cf4cf4a84d1385b08.png\" width=\"30\" alt=\"56028a0ec3bc394cf4cf4a84d1385b08.png\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr class=\"ex-my\">\n<td>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"30\" bgcolor=\"#95928E\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMjstuszAQRp9m2IF8A5KFF78U8RpoMAOxft9qbNH26SvSLLqd-Y7OWbU0zCxLQ5qPXLFe8GFsnlpwWtQgb0QSxXDHga9Lr1iPpr-Pt2VsrBZMKKZEz6Uc2NiRuVjD5dar7YYrKObRuu4bk6Xcmegbp5-lpAPkPxATiOk8z87Z8J9WG64BiMlEnzB8gZh-OZBTLX426BPaPYB8eLeHdl9cG2KxW1s-Q0s5x3zM6CgXEMMLiKFQKCAfJdt9pzy_Ru-vp9VWD_JBV-L7eMSaDV0GtG6vocn6qCnFXECxM7rNflyRHdam6L_KnwAAAP__bUFsDw\"><img height=\"30\" src=\"https://cdn.zapier.com/storage/photos/310a4f751f958218a7e986d5e5669fe6.png\" width=\"30\" alt=\"310a4f751f958218a7e986d5e5669fe6.png\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr class=\"ex-f\">\n<td>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"30\" bgcolor=\"#95928E\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMjkluwyAUhk-Dd7YY42TBolLka1gYHgSJwcUPperpKydZdPsP-j6nhaV22wbQbGaSKs4u8_DQ7qZmvxlGqduMAsln46gFKpS_cnlTQ9ScckklV0yIC50nsOfXMuGV9FfjiKTZxDT9mj1Cm2zNQ9IPxP0g4ovwhfAFnxHx3RG-vIdELB3zak3eTQyFiHtOoYxhS2OpGP2IP2WE1mo7VpOgIeGX16EWhIJE3LHFEKCtr9GnzeBiz0Tc4XT6hEftzcJJMDGFXoamj77vtSGR9FmTj9-n2mT6gPo_8i8AAP__u_VnAQ\"><img height=\"30\" src=\"https://cdn.zapier.com/storage/photos/4d90292d9f93fc7a42fa66734b6a6e13.png\" width=\"30\" alt=\"4d90292d9f93fc7a42fa66734b6a6e13.png\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr class=\"ex-c\">\n<td>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"30\" bgcolor=\"#95928E\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMjs2OrCAUhJ8GdxrkIHYvWNyk42t0jog0CT9ePMTJPP2Enl7Mtuqr1LdpMNysa2f1OI-ST2JUc_fSBpS6G7SbnG5KScWFXBE2fr_dFd9h7rwWXEguxTQCKD4P1rStGWGf5H7DjUke0YfhGw9vy2By7IJ-ER0ng39MLEws13UNPp2ErmBsBBPLL956WCrFp8F4oHeJwSMGl3q3hj5l8ntPX6m3peRyPjHYQkyo9yAnsokYPKh452x5vqFPG-3ma2TwsE3uE565FmPbA_rgauqKPutx5EJM8iuH3f9vdgPWjvTfy58AAAD__2g-aTs\"><img height=\"30\" src=\"https://cdn.zapier.com/storage/photos/f9b305633f9141737452ea7b306d62ea.png\" width=\"30\" alt=\"f9b305633f9141737452ea7b306d62ea.png\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr class=\"ex-c4\">\n<td>\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"30\" bgcolor=\"#95928E\">\n<tbody>\n<tr>\n<td><a href=\"https://email.mail.zapier.com/c/eJxMjklqwzAYRk8j7Ww02slCi0LwNYyGX4pAgytLtPT0xSHQbr-B95zillhjMCi6UkEko8uKn4repbux1XCvYRHEWQIGqIXbXUrnHeCoGGGCCCYp5wtZZ7DX11LupfA37ZAgWcc0_-gjQpttzTipZ-_HifgHYhti21-F2GZSDVfMt9HzbnU-dAwF8UdOoUzBpKnUHv3Uv8sErdV27jpB64gtr0MtHUpH_NFbDAHa_hq92wwujoz4Ay6nd3jW0SxcBB1TGAU3dY7jqK0jQb5q8vHzcpv1wF39R_4GAAD__8wFZtA\"><img height=\"30\" src=\"https://cdn.zapier.com/storage/photos/267a1d81cb1edadf08c4d923ce06702b.png\" width=\"30\" alt=\"267a1d81cb1edadf08c4d923ce06702b.png\" /></a></td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"ex-xl\">\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td align=\"left\">\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"center\">\n<div>Got a question? <a href=\"https://email.mail.zapier.com/c/eJxMjjmu6yAUhleDO1tMNrigeFKUbUQYHwgSgx8-6A6rv3KUIu0_6Pt2Ixx12zaAYYpJOnO2qOFp3Cp3r-nKZgDBF7spTrVWimu9eq3WIRpOuaSSz0yIhaoJ3PV1TPhZem13Imm2MU2_9ojQJlfzkMwT8TiJ-Ef4nfC7qzn3EvHnY3Q14t4xP5zNh42hEHHLKZQxbGksFaMf8buM0Fpt58MmaEj48jrUglCQiBu2GAK0x2v0bjPssWcibnBpvcOz9ubgItiYQi9DM2c_jtqQSPpVk4__L6nJ9gHNJ_IvAAD__xl2Z0I\">Ask in our community</a></div>\n</td>\n</tr>\n<tr>\n<td align=\"center\">\n<div>\u00a9 2024 Zapier, Inc. All rights reserved.<br>\n<a>548 Market St #62411, San Francisco, CA 94104-5401</a></div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div>\n<table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td>\n<div class=\"ex-o ex-h\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n<tbody>\n<tr>\n<td align=\"center\">\n<div>You received this email because you signed up for Zapier.</div>\n</td>\n</tr>\n<tr>\n<td align=\"center\">\n<div><a href=\"https://email.mail.zapier.com/c/eJxMjk1uwyAQRk-Dd7aAwXayYFEp8jWiAY8dJP6KoX-nrxxFarfzzdN7qwbLrTEdaTELxUcpprl76Mt2FQqlnBW_GIubQWHATGCARroa3jktuVRcyVEATHweyJ6sFbCNarvgyhQP6Pzwg9lRGWwKndePWvPB4I3Jhcnlb2JyycV9oP1msLQa7hZDRrdHBrfg99jvxvcxVbf19Sv2VEoqxx09lcrk9ARSrBQrg1stbt-p3J9PrzXQ6lpgcKOz6XU8UiuWTgM6v7fYFX20nFOpTPHP5Df3frYN2Lqq_yt_AwAA___O-2cX\">Privacy policy</a>  |  <a href=\"https://email.mail.zapier.com/c/eJxMjstq8zAQRp9mvLORR_LlX2jxQ_BrhLEiKwLdKo9o6dMXh0C7nW8O5zy0NMLse2f1uIxKTDjOS_fUtAplV0SaxTgvq5omsyuJy_xPCLXuqvMaBSqhcBqlnMUyWHOxZpTHpI6VHqBEJB-Gbyre1sHk2AX9ZC4nyP-AG-D2OwFuVArgZnJiMty3E-TWON4NxULeJZC3GFzq3R76lNkfPX-l3taa63mnYCsDzi8gJ7aJQd64eudsvb-e3mu0D98iyJu94t7HM7dq7GUgH1xLXdVnKyVXBiU-czj8xxU5UOtY_1X-BAAA__-esGiE\">Contact us</a></div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<img width=\"1\" height=\"1\" alt=\"\" src=\"https://email.mail.zapier.com/o/eJwUy1EKwyAMANDT1E-JGm398CxDY2RCi11qGez0o78PXk2OgEpRnMxqELw1YVXvBKFujrMvG1DkUlqIgRiw2siRGFVPFiwCWm-cC7BqpueScc1j23JdEI7cd_3LZ2fRNA4l6brPc8hcEL5jb_3zsM63molFhlyvvLPMfwAAAP__OLMtjg\" />",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 584926260,
+                "first": "Zapier",
+                "last": "Alerts",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "alerts@mail.zapier.com"
+            },
+            "createdBy": {
+                "id": 584926260,
+                "type": "customer",
+                "first": "Zapier",
+                "last": "Alerts",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "alerts@mail.zapier.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-25T13:36:19Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/584926260"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/584926260"
+                }
+            }
+        }
+    ]
+}

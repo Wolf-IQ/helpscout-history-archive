@@ -1,0 +1,168 @@
+{
+    "id": 2557452976,
+    "number": 109392,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Design Tiles Sydney] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 651657725,
+        "type": "customer",
+        "first": "Design",
+        "last": "Tiles",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "sales@designtiles.com.au"
+    },
+    "createdAt": "2024-04-01T23:07:21Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2024-04-01T23:23:16Z",
+    "userUpdatedAt": "2024-04-01T23:23:16Z",
+    "customerWaitingSince": {
+        "time": "2024-04-01T23:23:16Z",
+        "friendly": "Apr 2, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 651657725,
+        "type": "customer",
+        "first": "Design",
+        "last": "Tiles",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+        "email": "sales@designtiles.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2557452976"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/651657725"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/651657725"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2557452976/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2557452976/109392"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7684180964,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-01T23:23:16Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7684151268,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Google Listings and Ads.<br><br>First, visit your website (https://www.designtiles.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.designtiles.com.au/wp-admin/post.php?post=51054&amp;action=edit) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.designtiles.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=h42niwXRx9j4hVRm63LP3r&amp;rm_key=C7gaYeIyrdHdHEaV8PXxy1<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.4.3<br>Active theme: SWE (version 15.0.7)<br>Current plugin: Google Listings and Ads (version 2.6.4)<br>PHP version 8.1.27<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 160 of the file /www/designtiles_304/public/wp-content/plugins/google-listings-and-ads/src/Admin/Product/Attributes/AttributesTab.php. Error message: Uncaught TypeError: Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\AttributesTab::get_form(): Argument #1 ($product) must be of type WC_Product, bool given, called in /www/designtiles_304/public/wp-content/plugins/google-listings-and-ads/src/Admin/Product/Attributes/AttributesTab.php on line 119 and defined in /www/designtiles_304/public/wp-content/plugins/google-listings-and-ads/src/Admin/Product/Attributes/AttributesTab.php:160<br>Stack trace:<br>#0 /www/designtiles_304/public/wp-content/plugins/google-listings-and-ads/src/Admin/Product/Attributes/AttributesTab.php(119): Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\AttributesTab-&gt;get_form(false)<br>#1 /www/designtiles_304/public/wp-content/plugins/google-listings-and-ads/src/Admin/Product/Attributes/AttributesTab.php(91): Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\AttributesTab-&gt;render_panel()<br>#2 /www/designtiles_304/public/wp-includes/class-wp-hook.php(324): Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\AttributesTab-&gt;Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\{closure}('')<br>#3 /www/designtiles_304/public/wp-includes/class-wp-hook.php(348): WP_Hook-&gt;apply_filters(NULL, Array)<br>#4 /www/designtiles_304/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#5 /www/designtiles_304/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/views/html-product-data-panel.php(54): do_action('woocommerce_pro...')<br>#6 /www/designtiles_304/public/wp-content/plugins/woocommerce/includes/admin/meta-boxes/class-wc-meta-box-product-data.php(33): include('/www/designtile...')<br>#7 /www/designtiles_304/public/wp-admin/includes/template.php(1456): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)<br>#8 /www/designtiles_304/public/wp-admin/edit-form-advanced.php(714): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))<br>#9 /www/designtiles_304/public/wp-admin/post.php(206): require('/www/designtile...')<br>#10 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 651657725,
+                "first": "Design",
+                "last": "Tiles",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "sales@designtiles.com.au"
+            },
+            "createdBy": {
+                "id": 651657725,
+                "type": "customer",
+                "first": "Design",
+                "last": "Tiles",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/08.png",
+                "email": "sales@designtiles.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-04-01T23:07:21Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/651657725"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/651657725"
+                }
+            }
+        }
+    ]
+}
