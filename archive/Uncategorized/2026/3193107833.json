@@ -1,0 +1,133 @@
+{
+    "id": 3193107833,
+    "number": 185191,
+    "threads": 1,
+    "type": "email",
+    "folderId": 8698152,
+    "status": "active",
+    "state": "published",
+    "subject": "[MDNSW] Your Site is Experiencing a Technical Issue",
+    "preview": "Howdy!  WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caught an error wit",
+    "mailboxId": 344468,
+    "createdBy": {
+        "id": 801919817,
+        "type": "customer",
+        "first": "Mdnsw",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "info@mdnsw.org.au"
+    },
+    "createdAt": "2026-01-09T02:11:53Z",
+    "closedBy": 0,
+    "closedByUser": {
+        "id": 0,
+        "type": "user",
+        "first": "unknown",
+        "last": "unknown",
+        "email": "unknown"
+    },
+    "userUpdatedAt": "2026-01-09T02:11:53Z",
+    "customerWaitingSince": {
+        "time": "2026-01-09T02:11:53Z",
+        "friendly": "6 days ago"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 801919817,
+        "type": "customer",
+        "first": "Mdnsw",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "info@mdnsw.org.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3193107833"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/344468"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/801919817"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/801919817"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/0"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3193107833/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3193107833/185191"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9730908911,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Howdy!<br><br>WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Breakdance.<br><br>First, visit your website (https://mdnsw.org.au/) and check for any visible issues. Next, visit the page where the error was caught (https://mdnsw.org.au/wp-admin/admin-ajax.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://mdnsw.org.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=roY0xxMLOCIMDEniB8IIfX&amp;rm_key=hUvDCgocBciTz1yJUgweXt<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.9<br>Active theme: Breakdance Zero Theme (version 1.0.0)<br>Current plugin: Breakdance (version 2.6.1)<br>PHP version 8.1.32<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 117 of the file /www/mdnsw_972/public/wp-content/plugins/breakdance/plugin/filesystem/functions.php. Error message: Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/www/mdnsw_972/public/wp-content/uploads/breakdance-bd8efe49/twig-auto-generated-cache/11): Failed to open directory: No such file or directory in /www/mdnsw_972/public/wp-content/plugins/breakdance/plugin/filesystem/functions.php:117<br>Stack trace:<br>#0 [internal function]: RecursiveDirectoryIterator-&gt;__construct('/www/mdnsw_972/...', 4096)<br>#1 /www/mdnsw_972/public/wp-content/plugins/breakdance/plugin/filesystem/functions.php(117): RecursiveDirectoryIterator-&gt;getChildren()<br>#2 /www/mdnsw_972/public/wp-content/plugins/breakdance/plugin/setup/activate-and-install.php(103): Breakdance\\Filesystem\\clear_bucket_contents('BREAKDANCE_FS_B...')<br>#3 /www/mdnsw_972/public/wp-includes/class-wp-hook.php(341): Breakdance\\Setup\\handleVersionChange('')<br>#4 /www/mdnsw_972/public/wp-includes/class-wp-hook.php(365): WP_Hook-&gt;apply_filters(NULL, Array)<br>#5 /www/mdnsw_972/public/wp-includes/plugin.php(522): WP_Hook-&gt;do_action(Array)<br>#6 /www/mdnsw_972/public/wp-content/plugins/breakdance/plugin/breakdance-oxygen/actions-filters.php(10): do_action('breakdance_load...')<br>#7 /www/mdnsw_972/public/wp-content/plugins/breakdance/plugin.php(65): bdox_run_action('breakdance_load...')<br>#8 /www/mdnsw_972/public/wp-includes/class-wp-hook.php(341): {closure}('')<br>#9 /www/mdnsw_972/public/wp-includes/class-wp-hook.php(365): WP_Hook-&gt;apply_filters(NULL, Array)<br>#10 /www/mdnsw_972/public/wp-includes/plugin.php(522): WP_Hook-&gt;do_action(Array)<br>#11 /www/mdnsw_972/public/wp-settings.php(593): do_action('plugins_loaded')<br>#12 /www/mdnsw_972/public/wp-config.php(117): require_once('/www/mdnsw_972/...')<br>#13 /www/mdnsw_972/public/wp-load.php(50): require_once('/www/mdnsw_972/...')<br>#14 /www/mdnsw_972/public/wp-admin/admin-ajax.php(22): require_once('/www/mdnsw_972/...')<br>#15 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 801919817,
+                "first": "Mdnsw",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "info@mdnsw.org.au"
+            },
+            "createdBy": {
+                "id": 801919817,
+                "type": "customer",
+                "first": "Mdnsw",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "info@mdnsw.org.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2026-01-09T02:11:53Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/801919817"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/801919817"
+                }
+            }
+        }
+    ]
+}

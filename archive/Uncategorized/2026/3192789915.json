@@ -1,0 +1,172 @@
+{
+    "id": 3192789915,
+    "number": 185126,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Quick question about your client sites",
+    "preview": "Hi, I'll keep this straight. Most web developers don't realize this until it blows up , the majority of small business websites are already vulnerable, even when they look \"fine\" on the surface. We ru",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 848568944,
+        "type": "customer",
+        "first": "Bryan",
+        "last": "Bridle",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "bbridle@shadowscan.com.au"
+    },
+    "createdAt": "2026-01-08T19:29:06Z",
+    "closedBy": 854750,
+    "closedByUser": {
+        "id": 854750,
+        "type": "user",
+        "first": "Allie",
+        "last": "Borcena",
+        "photoUrl": "https://2.gravatar.com/avatar/1d10d44114439172bc28ce57bfcac9cf",
+        "email": "allie@wolfiq.com.au"
+    },
+    "closedAt": "2026-01-08T20:54:17Z",
+    "userUpdatedAt": "2026-01-08T20:54:17Z",
+    "customerWaitingSince": {
+        "time": "2026-01-08T20:54:17Z",
+        "friendly": "Jan 9"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [
+        "hello@wolfiq.com.au"
+    ],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 848568944,
+        "type": "customer",
+        "first": "Bryan",
+        "last": "Bridle",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "bbridle@shadowscan.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/3192789915"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/848568944"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/848568944"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/854750"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/3192789915/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/3192789915/185126"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 9730176544,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Allie Borcena marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "mobile",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 854750,
+                "type": "user",
+                "first": "Allie",
+                "last": "Borcena",
+                "email": "allie@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2026-01-08T20:54:17Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/854750"
+                }
+            }
+        },
+        {
+            "id": 9729892974,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">Hi,</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">I'll keep this straight.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">Most web developers don't realize this until it blows up , <b>the majority of small business websites are already vulnerable</b>, even when they look \"fine\" on the surface.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">We run automated external security free scans on live websites. When we scan agency-managed sites, we regularly find:</div>\n<ul>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">Exposed admin endpoints</div>\n</li>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">Outdated plugins/themes with known exploits</div>\n</li>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">Missing or weak firewall rules</div>\n</li>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">Security headers not set (easy attack surface)</div>\n</li>\n</ul>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">This is usually how it plays out:<br>\nSite works perfectly \u2192 gets compromised quietly \u2192 emails stop, Google flags it, or traffic drops \u2192 <b>the client points the finger at the developer</b>.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">That's exactly why I'm reaching out.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">We built <b>ShadowScan</b> to help agencies <b>find vulnerabilities before attackers do, and secure sites without adding workload</b>.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">I'm not asking you to take my word for it.<br>\nI'm asking you to <b>see it yourself</b>.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">\ud83d\udc49 Run a free scan on <b>any WordPress site you manage</b>: <a style=\"margin:0px;\" title=\"https://shadowscan.com.au/contact\" class=\"ex-x_OWAAutoLink\" id=\"ex-OWAfd9c8e87-b17e-271d-b009-fb0139b6a59e\" href=\"https://shadowscan.com.au/contact\">Request a Free Security Scan | ShadowScan</a></div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">If it comes back clean, you've got proof and peace of mind.<br>\nIf it doesn't, you'll immediately see why agencies partner with us instead of trying to manage security internally.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><b>How partnerships usually work:</b></div>\n<ul>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">\u2705 <b>100% white-label available</b> (your brand, your client, we stay invisible)</div>\n</li>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">\u2705 Or referral-based if you prefer</div>\n</li>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">\u2705 We handle security end-to-end , no tickets, no extra staff</div>\n</li>\n<li style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\">\n<div style=\"margin:1em 0px;\" class=\"ex-elementToProof\">\u2705 You look proactive instead of reactive when something goes wrong</div>\n</li>\n</ul>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">If the scan flags issues, I'm happy to walk you through what they mean and whether a partnership even makes sense for you.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">The scan is free.<br>\nDealing with a hacked client site never is.</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">Regards,<br>\n<b>Bryan</b><br>\nShadowScan<br>\nWebsite Security &amp; Monitoring</div>\n<div style=\"margin:1em 0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">P.S. Attacks don't target \"big businesses\" anymore - they target <b>unprotected websites</b>.</div>\n<div style=\"margin:0px;font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif, serif, EmojiFont;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div class=\"ex-elementToProof\" id=\"ex-Signature\">\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><b>Kind Regards</b></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\">Bryan Bridle - Website Security Consultant </div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><b>Website</b>:<a title=\"https://shadowscans.lovable.app\" class=\"ex-OWAAutoLink\" id=\"ex-OWA6eb98401-3b82-d7ef-7f4d-a05e2828248c\" href=\"https://shadowscans.lovable.app\"> ShadowScan - WordPress Security Experts</a></div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><b>Email</b>: Bbridle@shadowscan.com.au</div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><b>Phone</b>: 0480 465 208</div>\n<div style=\"font-family:Aptos, 'Aptos_EmbeddedFont', 'Aptos_MSFontService', Calibri, Helvetica, sans-serif;font-size:12pt;color:rgb(0,0,0);\" class=\"ex-elementToProof\"><br></div>\n</div>",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 848568944,
+                "first": "Bryan",
+                "last": "Bridle",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "bbridle@shadowscan.com.au"
+            },
+            "createdBy": {
+                "id": 848568944,
+                "type": "customer",
+                "first": "Bryan",
+                "last": "Bridle",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "bbridle@shadowscan.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "hello@wolfiq.com.au"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2026-01-08T19:29:06Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/848568944"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/848568944"
+                }
+            }
+        }
+    ]
+}
