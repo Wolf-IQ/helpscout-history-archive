@@ -1,0 +1,170 @@
+{
+    "id": 2200957300,
+    "number": 64811,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Total Contacts] Password Changed",
+    "preview": "Password changed for user: debra.bond29",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "createdAt": "2023-03-31T21:16:59Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2023-04-02T22:20:35Z",
+    "userUpdatedAt": "2023-04-02T22:20:35Z",
+    "customerWaitingSince": {
+        "time": "2023-04-02T22:20:35Z",
+        "friendly": "Apr 3, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2200957300"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2200957300/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2200957300/64811"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 6565704540,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-04-02T22:20:35Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 6562642608,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Password changed for user: debra.bond29",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 475596117,
+                "type": "customer",
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [
+                "support@wpperk.com"
+            ],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-03-31T21:16:59Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        }
+    ]
+}
