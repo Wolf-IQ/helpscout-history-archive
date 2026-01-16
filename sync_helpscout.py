@@ -103,7 +103,7 @@ def sync():
     generate_index()
 
 def generate_index():
-    """Robust index generation to prevent crashing on large datasets."""
+    """Robust index generation that handles inconsistent tag structures."""
     master_index = []
     print_flush("Generating Master Index...")
     
@@ -117,21 +117,36 @@ def generate_index():
                 try:
                     with open(file_path, 'r') as f:
                         data = json.load(f)
+                        
                         # Extract company name from the folder path safely
                         path_parts = root.split(os.sep)
                         company_name = path_parts[1] if len(path_parts) > 1 else "Unknown"
+                        
+                        # DEFENSIVE TAG EXTRACTION:
+                        # Handles [{'name': 'tag1'}, {'id': 123}] or just ['tag1', 'tag2']
+                        raw_tags = data.get('tags', [])
+                        clean_tags = []
+                        for tag in raw_tags:
+                            if isinstance(tag, dict):
+                                # Use .get() to avoid KeyError if 'name' is missing
+                                tag_name = tag.get('name')
+                                if tag_name:
+                                    clean_tags.append(tag_name)
+                            elif isinstance(tag, str):
+                                clean_tags.append(tag)
                         
                         master_index.append({
                             "id": data.get("id"),
                             "subject": data.get("subject"),
                             "company": company_name,
-                            "tags": [tag['name'] for tag in data.get('tags', [])],
+                            "tags": clean_tags,
                             "customer": data.get('customer', {}).get('email'),
                             "status": data.get("status"),
                             "path": file_path
                         })
                 except Exception as e:
                     # Skip the file if it's empty or corrupted
+                    print_flush(f"Skipping {file}: {e}")
                     continue
     
     with open("index.json", "w") as f:
