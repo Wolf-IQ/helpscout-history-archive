@@ -1,0 +1,168 @@
+{
+    "id": 1209505177,
+    "number": 8070,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Big Barber Delux] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 348644265,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "wordpress@bigbarberdulux.wpperk.cloud"
+    },
+    "createdAt": "2020-06-30T05:34:51Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2020-06-30T05:43:28Z",
+    "userUpdatedAt": "2020-06-30T05:43:28Z",
+    "customerWaitingSince": {
+        "time": "2020-06-30T05:43:28Z",
+        "friendly": "Jun 30, '20"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 348644265,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "wordpress@bigbarberdulux.wpperk.cloud"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1209505177"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/348644265"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/348644265"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1209505177/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1209505177/8070"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 3455087398,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-06-30T05:43:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 3455076946,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Elementor Pro.<br><br>First, visit your website (https://bigbarberdulux.wpperk.cloud/) and check for any visible issues. Next, visit the page where the error was caught (https://bigbarberdulux.wpperk.cloud/wp-admin/admin.php?page=jet-dashboard) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://bigbarberdulux.wpperk.cloud/wp-login.php?action=enter_recovery_mode&amp;rm_token=72hxI3kkFsHNRK1o8IliaK&amp;rm_key=47mVw7vwsJxzxjD8OzIL5E<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 5.4.2<br>Current theme: bigbarberdulux-child (version 1.0.0)<br>Current plugin: Elementor Pro (version 2.10.3)<br>PHP version 7.3.19-1+ubuntu20.04.1+deb.sury.org+1<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 39 of the file /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/archive.php. Error message: Uncaught Error: Class 'ElementorPro\\Classes\\Utils' not found in /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/archive.php:39<br>Stack trace:<br>#0 /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/condition-base.php(66): ElementorPro\\Modules\\ThemeBuilder\\Conditions\\Archive-&gt;register_sub_conditions()<br>#1 /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(195): ElementorPro\\Modules\\ThemeBuilder\\Conditions\\Condition_Base-&gt;__construct(Array)<br>#2 /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(206): ElementorPro\\Modules\\ThemeBuilder\\Classes\\Conditions_Manager-&gt;register_condition('archive', Array)<br>#3 /www/bigbarberdulux_643/public/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(237): ElementorPro\\Modules\\ThemeBuilder\\Classes\\Conditions_Manager-&gt;register_con",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 348644265,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "wordpress@bigbarberdulux.wpperk.cloud"
+            },
+            "createdBy": {
+                "id": 348644265,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "wordpress@bigbarberdulux.wpperk.cloud"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-06-30T05:34:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/348644265"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/348644265"
+                }
+            }
+        }
+    ]
+}
