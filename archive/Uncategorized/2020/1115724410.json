@@ -1,0 +1,168 @@
+{
+    "id": 1115724410,
+    "number": 6471,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Corpsec International] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 240995640,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@corpsecint.com.au"
+    },
+    "createdAt": "2020-03-20T22:56:07Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2020-03-20T23:08:56Z",
+    "userUpdatedAt": "2020-03-20T23:08:56Z",
+    "customerWaitingSince": {
+        "time": "2020-03-20T23:08:56Z",
+        "friendly": "Mar 21, '20"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 240995640,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+        "email": "wordpress@corpsecint.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1115724410"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/240995640"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/240995640"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1115724410/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1115724410/6471"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 3168644356,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-03-20T23:08:56Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 3168625094,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Elementor Pro.<br><br>First, visit your website (https://corpsecint.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://corpsecint.com.au/wp-admin/admin-ajax.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://corpsecint.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=g5OMsiy0pbeVSMpfaiRxop&amp;rm_key=1gWOnceuW4t7Ww3DLMxK9v<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 5.3.2<br>Current theme: corpsec (version 1.0.0)<br>Current plugin: Elementor Pro (version 2.9.1)<br>PHP version 7.3.4-1+ubuntu16.04.1+deb.sury.org+3<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 25 of the file /www/corpsec_861/public/wp-content/plugins/elementor-pro/modules/theme-builder/module.php. Error message: Uncaught Error: Class 'ElementorPro\\Classes\\Utils' not found in /www/corpsec_861/public/wp-content/plugins/elementor-pro/modules/theme-builder/module.php:25<br>Stack trace:<br>#0 /www/corpsec_861/public/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/archive.php(39): ElementorPro\\Modules\\ThemeBuilder\\Module::get_public_post_types()<br>#1 /www/corpsec_861/public/wp-content/plugins/elementor-pro/modules/theme-builder/conditions/condition-base.php(66): ElementorPro\\Modules\\ThemeBuilder\\Conditions\\Archive-&gt;register_sub_conditions()<br>#2 /www/corpsec_861/public/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(195): ElementorPro\\Modules\\ThemeBuilder\\Conditions\\Condition_Base-&gt;__construct(Array)<br>#3 /www/corpsec_861/public/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(206): ElementorPro\\Modules\\ThemeBuilder\\Classes\\Conditions_Manager-&gt;register_condition('archive', Array)<br>#4 /www/corpsec_861/public/wp-content/plugins/elementor-pro/modu",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 240995640,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@corpsecint.com.au"
+            },
+            "createdBy": {
+                "id": 240995640,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/03.png",
+                "email": "wordpress@corpsecint.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2020-03-20T22:56:07Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/240995640"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/240995640"
+                }
+            }
+        }
+    ]
+}
