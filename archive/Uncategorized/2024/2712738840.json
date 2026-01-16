@@ -1,0 +1,168 @@
+{
+    "id": 2712738840,
+    "number": 127511,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[SP. Property Buyers] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 651963468,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "marcus@spbuy.com.au"
+    },
+    "createdAt": "2024-09-20T00:30:15Z",
+    "closedBy": 435792,
+    "closedByUser": {
+        "id": 435792,
+        "type": "user",
+        "first": "Glen",
+        "last": "Tenorio",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/435792.341358.jpg",
+        "email": "glen@wolfiq.com.au"
+    },
+    "closedAt": "2024-09-20T00:37:54Z",
+    "userUpdatedAt": "2024-09-20T00:37:54Z",
+    "customerWaitingSince": {
+        "time": "2024-09-20T00:37:54Z",
+        "friendly": "Sep 20, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 651963468,
+        "type": "customer",
+        "first": "",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "marcus@spbuy.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2712738840"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/651963468"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/651963468"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/435792"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2712738840/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2712738840/127511"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 8177458999,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Glen Tenorio marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 435792,
+                "type": "user",
+                "first": "Glen",
+                "last": "Tenorio",
+                "email": "glen@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-09-20T00:37:54Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/435792"
+                }
+            }
+        },
+        {
+            "id": 8177448368,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, Jetpack Boost.<br><br>First, visit your website (https://www.spbuy.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://www.spbuy.com.au/wp-admin/post.php) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://www.spbuy.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=6EbCGOADcxtUdNDq1dEHOj&amp;rm_key=XQio8M7XvGhCizknrDW4SS<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.3.2<br>Active theme: Swe (version 14.0.5)<br>Current plugin: Jetpack Boost (version 3.4.9)<br>PHP version 8.2.18<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 483 of the file /www/spbuy_352/public/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn.php. Error message: Uncaught Error: Call to undefined method WP_HTML_Tag_Processor::class_list() in /www/spbuy_352/public/wp-content/plugins/jetpack-boost/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn.php:483<br>Stack trace:<br>#0 /www/spbuy_352/public/wp-includes/class-wp-hook.php(310): Automattic\\Jetpack\\Image_CDN\\Image_CDN::filter_the_content('\\n\\t\\t",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 651963468,
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "marcus@spbuy.com.au"
+            },
+            "createdBy": {
+                "id": 651963468,
+                "type": "customer",
+                "first": "",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "marcus@spbuy.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-09-20T00:30:15Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/651963468"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/651963468"
+                }
+            }
+        }
+    ]
+}
