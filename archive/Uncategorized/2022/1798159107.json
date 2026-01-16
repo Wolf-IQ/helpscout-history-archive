@@ -1,0 +1,168 @@
+{
+    "id": 1798159107,
+    "number": 20999,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Acoufelt] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 498524684,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@acoufelt.com.au"
+    },
+    "createdAt": "2022-02-25T00:07:27Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2022-02-25T00:12:43Z",
+    "userUpdatedAt": "2022-02-25T00:12:43Z",
+    "customerWaitingSince": {
+        "time": "2022-02-25T00:12:43Z",
+        "friendly": "Feb 25, '22"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 498524684,
+        "type": "customer",
+        "first": "Wordpress",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+        "email": "wordpress@acoufelt.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/1798159107"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/498524684"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/498524684"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/1798159107/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/1798159107/20999"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 5292401659,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-02-25T00:12:43Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 5292386138,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WP Downgrade | Specific Core Version.<br><br>First, visit your website (https://acoufelt.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://acoufelt.com.au/wp-admin/admin.php?page=ocgfsf_integration&amp;id=6) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://acoufelt.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=Z8ZgipawDX57Vx0SyNOjCr&amp;rm_key=RRCWbau9yVHyDAzzgtUmq3<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 5.9<br>Current theme: Acoufelt (version 1.0.1)<br>Current plugin: WP Downgrade | Specific Core Version (version 1.2.2)<br>PHP version 8.0.12<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 182 of the file /www/acoufeltau_185/public/wp-content/plugins/wp-downgrade/wp-downgrade.php. Error message: Uncaught Error: Attempt to modify property \"updates\" on bool in /www/acoufeltau_185/public/wp-content/plugins/wp-downgrade/wp-downgrade.php:182<br>Stack trace:<br>#0 /www/acoufeltau_185/public/wp-includes/class-wp-hook.php(309): wpdg_specific_version(false)<br>#1 /www/acoufeltau_185/public/wp-includes/plugin.php(189): WP_Hook-&gt;apply_filters(false, Array)<br>#2 /www/acoufeltau_185/public/wp-includes/option.php(1957): apply_filters('site_transient_...', false, 'update_core')<br>#3 /www/acoufeltau_185/public/wp-admin/includes/update.php(50): get_site_transient('update_core')<br>#4 /www/acoufeltau_185/public/wp-includes/update.php(800): get_core_updates(Array)<br>#5 /www/acoufeltau_185/public/wp-admin/menu.php(33): wp_get_update_data()<br>#6 /www/acoufeltau_185/public/wp-admin/admin.php(158): require('/www/acoufeltau...')<br>#7 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 498524684,
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@acoufelt.com.au"
+            },
+            "createdBy": {
+                "id": 498524684,
+                "type": "customer",
+                "first": "Wordpress",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/05.png",
+                "email": "wordpress@acoufelt.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2022-02-25T00:07:27Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/498524684"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/498524684"
+                }
+            }
+        }
+    ]
+}
