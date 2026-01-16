@@ -1,0 +1,236 @@
+{
+    "id": 2640050469,
+    "number": 118668,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Test",
+    "preview": "test",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 204600527,
+        "type": "customer",
+        "first": "Joel Maligalig",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "joel@wolfiq.com.au"
+    },
+    "createdAt": "2024-07-01T09:48:28Z",
+    "closedBy": 481974,
+    "closedByUser": {
+        "id": 481974,
+        "type": "user",
+        "first": "Rica",
+        "last": "Rosario Valencia",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/481974.341283.jpg",
+        "email": "rica@wolfiq.com.au"
+    },
+    "closedAt": "2024-07-01T22:10:51Z",
+    "userUpdatedAt": "2024-07-01T22:10:51Z",
+    "customerWaitingSince": {
+        "time": "2024-07-01T22:10:51Z",
+        "friendly": "Jul 2, '24"
+    },
+    "source": {
+        "type": "api",
+        "via": "customer"
+    },
+    "tags": [
+        {
+            "id": 12118362,
+            "color": "#A5B2BD",
+            "tag": "wolfiq.com.au",
+            "styles": {
+                "dark": {
+                    "background": {
+                        "fill": "#8E8E93"
+                    },
+                    "text": {
+                        "fill": "#161616"
+                    }
+                },
+                "default": {
+                    "background": {
+                        "fill": "#E5E9EC"
+                    },
+                    "text": {
+                        "fill": "#1D2B36"
+                    }
+                }
+            }
+        }
+    ],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 204600527,
+        "type": "customer",
+        "first": "Joel Maligalig",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+        "email": "joel@wolfiq.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2640050469"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600527"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/204600527"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/481974"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2640050469/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2640050469/118668"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7946360492,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Rica Rosario Valencia marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 481974,
+                "type": "user",
+                "first": "Rica",
+                "last": "Rosario Valencia",
+                "email": "rica@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-07-01T22:10:51Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/481974"
+                }
+            }
+        },
+        {
+            "id": 7943831897,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "test",
+            "source": {
+                "type": "api",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 204600527,
+                "first": "Joel Maligalig",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "joel@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 204600527,
+                "type": "customer",
+                "first": "Joel Maligalig",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-07-01T09:48:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600527"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600527"
+                }
+            }
+        },
+        {
+            "id": 7943831896,
+            "type": "note",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "Sent from https://support.wolfiq.com.au/",
+            "source": {
+                "type": "api",
+                "via": "user"
+            },
+            "customer": {
+                "id": 204600527,
+                "first": "Joel Maligalig",
+                "last": "Maligalig",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/01.png",
+                "email": "joel@wolfiq.com.au"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-07-01T09:48:28Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/204600527"
+                }
+            }
+        }
+    ]
+}

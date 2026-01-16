@@ -1,0 +1,211 @@
+{
+    "id": 2640914001,
+    "number": 118747,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Address not found **  Your message wasn't delivered to karlo.aliling@msaustralia.org.au because the domain msaustralia.org.au couldn't be found. Check for typos or unnecessary spaces and try again.",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2024-07-02T00:56:09Z",
+    "closedBy": 1,
+    "closedByUser": {
+        "id": 1,
+        "type": "user",
+        "first": "Help",
+        "last": "Scout",
+        "email": "none@nowhere.com"
+    },
+    "closedAt": "2024-07-02T00:56:10Z",
+    "userUpdatedAt": "2024-07-02T00:56:09Z",
+    "customerWaitingSince": {
+        "time": "2024-07-02T00:56:10Z",
+        "friendly": "Jul 2, '24"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2640914001"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/1"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2640914001/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2640914001/118747"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7946655990,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "automatic-workflow",
+                "text": "Workflow **Delivery Status Notification (Failure)** was triggered",
+                "associatedEntities": {
+                    "workflow": 1119856,
+                    "mailbox": 158894
+                }
+            },
+            "source": {
+                "type": "workflows",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 1,
+                "type": "user",
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-07-02T00:56:10Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                }
+            }
+        },
+        {
+            "id": 7946655968,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Address not found **<br><br>Your message wasn't delivered to karlo.aliling@msaustralia.org.au because the domain msaustralia.org.au couldn't be found. Check for typos or unnecessary spaces and try again.<br><br>Learn more here: https://support.google.com/mail/?p=BadRcptDomain<br><br>The response was:<br><br>DNS Error: DNS type 'mx' lookup of msaustralia.org.au responded with code NXDOMAIN<br>Domain name not found: msaustralia.org.au For more information, go to https://support.google.com/mail/?p=BadRcptDomain<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Mon, 01 Jul 2024 17:55:59 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnFXJmJy=F5e31ebN4n5YGBPHq8Q6xhJh4y8eUx368F31g@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; karlo.aliling@msaustralia.org.au<br>Action: failed<br>Status: 5.1.2<br>Diagnostic-Code: smtp; DNS Error: DNS type 'mx' lookup of msaustralia.org.au responded with code NXDOMAIN<br> Domain name not found: msaustralia.org.au For more information, go to https://support.google.com/mail/?p=BadRcptDomain<br>Last-Attempt-Date: Mon, 01 Jul 2024 17:56:00 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2024-07-02T00:56:09Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 695381667,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 1450,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2640914001/attachments/695381667"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2640914001/attachments/695381667/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/695381667/f9f457946858afb278b400764e7a4c721f598dd4/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 695381669,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 2918,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2640914001/attachments/695381669"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2640914001/attachments/695381669/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/695381669/8a10adc8f6e290037d1121aabe571f4d408eeb4e/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}
