@@ -1,0 +1,209 @@
+{
+    "id": 2384086919,
+    "number": 88573,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "Delivery Status Notification (Failure)",
+    "preview": "** Message not delivered **  Your message couldn't be delivered to info@frostywheels.com.au because the remote server is misconfigured. See technical details below for more information.    The respons",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "createdAt": "2023-10-09T00:44:32Z",
+    "closedBy": 309027,
+    "closedByUser": {
+        "id": 309027,
+        "type": "user",
+        "first": "Heath",
+        "last": "Maguire",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309027.237921.jpg",
+        "email": "heath.maguire@wolfiq.com.au"
+    },
+    "closedAt": "2023-10-09T00:47:23Z",
+    "userUpdatedAt": "2023-10-09T00:47:23Z",
+    "customerWaitingSince": {
+        "time": "2023-10-09T00:47:23Z",
+        "friendly": "Oct 9, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 220753338,
+        "type": "customer",
+        "first": "Mail Delivery",
+        "last": "Subsystem",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+        "email": "mailer-daemon@googlemail.com"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2384086919"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/220753338"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309027"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2384086919/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2384086919/88573"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7137627908,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Heath Maguire marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309027,
+                "type": "user",
+                "first": "Heath",
+                "last": "Maguire",
+                "email": "heath.maguire@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-10-09T00:47:23Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309027"
+                }
+            }
+        },
+        {
+            "id": 7137625049,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "** Message not delivered **<br><br>Your message couldn't be delivered to info@frostywheels.com.au because the remote server is misconfigured. See technical details below for more information.<br><br><br><br>The response from the remote server was:<br>550 Please turn on SMTP Authentication in your mail client, or login to the IMAP/POP3 server before sending your message.  mail-ej1-f49.google.com [209.85.218.49]:52227 is not permitted to relay through this server without authentication.<br><br>Reporting-MTA: dns; googlemail.com<br>Arrival-Date: Sun, 08 Oct 2023 17:35:11 -0700 (PDT)<br>X-Original-Message-ID: &lt;CAMLnpnFxJdxbgQ7e1wL4agkj6BV=CbxcaZB-99mYrx_yLyiHvw@mail.gmail.com&gt;<br><br>Final-Recipient: rfc822; info@frostywheels.com.au<br>Action: failed<br>Status: 4.4.2<br>Remote-MTA: dns; frostywheels.com.au (27.50.91.50, the server for the domain.)<br>Diagnostic-Code: smtp; 550-Please turn on SMTP Authentication in your mail client, or login to the<br> 550-IMAP/POP3 server before sending your message.  mail-ej1-f49.google.com<br> 550-[209.85.218.49]:52227 is not permitted to relay through this server without<br> 550 authentication.<br>Last-Attempt-Date: Sun, 08 Oct 2023 17:44:24 -0700 (PDT)",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 220753338,
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "createdBy": {
+                "id": 220753338,
+                "type": "customer",
+                "first": "Mail Delivery",
+                "last": "Subsystem",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/06.png",
+                "email": "mailer-daemon@googlemail.com"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-10-09T00:44:32Z",
+            "_embedded": {
+                "attachments": [
+                    {
+                        "id": 617265325,
+                        "filename": "icon.png",
+                        "mimeType": "image/png",
+                        "width": 144,
+                        "height": 144,
+                        "size": 5747,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2384086919/attachments/617265325"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2384086919/attachments/617265325/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/617265325/c06c7e352a0aa3541afe6803b01ac5c830f0caab/icon.png"
+                            }
+                        }
+                    },
+                    {
+                        "id": 617265326,
+                        "filename": "Message.eml",
+                        "mimeType": "message/rfc822",
+                        "width": 0,
+                        "height": 0,
+                        "size": 2742,
+                        "state": "valid",
+                        "_links": {
+                            "self": {
+                                "href": "https://api.helpscout.net/v2/conversations/2384086919/attachments/617265326"
+                            },
+                            "data": {
+                                "href": "https://api.helpscout.net/v2/conversations/2384086919/attachments/617265326/data"
+                            },
+                            "web": {
+                                "href": "https://secure.helpscout.net/file/api/617265326/63af3b045927834c1a5f29df58fd17e6c9dc21d1/Message.eml"
+                            }
+                        }
+                    }
+                ]
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/220753338"
+                }
+            }
+        }
+    ]
+}

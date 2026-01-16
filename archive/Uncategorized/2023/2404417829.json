@@ -1,0 +1,168 @@
+{
+    "id": 2404417829,
+    "number": 91392,
+    "threads": 1,
+    "type": "email",
+    "folderId": 2307530,
+    "status": "closed",
+    "state": "published",
+    "subject": "[Total Contacts] Your Site is Experiencing a Technical Issue",
+    "preview": "G'day!  Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.  In this case, WordPress caug",
+    "mailboxId": 158894,
+    "createdBy": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "createdAt": "2023-10-29T01:47:26Z",
+    "closedBy": 309820,
+    "closedByUser": {
+        "id": 309820,
+        "type": "user",
+        "first": "Joel",
+        "last": "Maligalig",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/users/309820.341294.jpg",
+        "email": "joel@wolfiq.com.au"
+    },
+    "closedAt": "2023-10-29T03:09:31Z",
+    "userUpdatedAt": "2023-10-29T03:09:31Z",
+    "customerWaitingSince": {
+        "time": "2023-10-29T03:09:31Z",
+        "friendly": "Oct 29, '23"
+    },
+    "source": {
+        "type": "email",
+        "via": "customer"
+    },
+    "tags": [],
+    "cc": [],
+    "bcc": [],
+    "primaryCustomer": {
+        "id": 475596117,
+        "type": "customer",
+        "first": "Elise",
+        "last": "",
+        "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+        "email": "info@totalcontacts.com.au"
+    },
+    "customFields": [],
+    "_embedded": {
+        "threads": []
+    },
+    "_links": {
+        "self": {
+            "href": "https://api.helpscout.net/v2/conversations/2404417829"
+        },
+        "mailbox": {
+            "href": "https://api.helpscout.net/v2/mailboxes/158894"
+        },
+        "primaryCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "createdByCustomer": {
+            "href": "https://api.helpscout.net/v2/customers/475596117"
+        },
+        "closedBy": {
+            "href": "https://api.helpscout.net/v2/users/309820"
+        },
+        "threads": {
+            "href": "https://api.helpscout.net/v2/conversations/2404417829/threads"
+        },
+        "web": {
+            "href": "https://secure.helpscout.net/conversation/2404417829/91392"
+        }
+    },
+    "full_threads": [
+        {
+            "id": 7201964819,
+            "type": "lineitem",
+            "status": "closed",
+            "action": {
+                "type": "default",
+                "text": "Joel Maligalig marked as Closed",
+                "associatedEntities": {}
+            },
+            "source": {
+                "type": "web",
+                "via": "user"
+            },
+            "createdBy": {
+                "id": 309820,
+                "type": "user",
+                "first": "Joel",
+                "last": "Maligalig",
+                "email": "joel@wolfiq.com.au"
+            },
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-10-29T03:09:31Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "createdByUser": {
+                    "href": "https://api.helpscout.net/v2/users/309820"
+                }
+            }
+        },
+        {
+            "id": 7201915147,
+            "type": "customer",
+            "status": "active",
+            "state": "published",
+            "action": {
+                "type": "default",
+                "associatedEntities": {}
+            },
+            "body": "G'day!<br><br>Since WordPress 5.2 there is a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.<br><br>In this case, WordPress caught an error with one of your plugins, WooCommerce.<br><br>First, visit your website (https://totalcontacts.com.au/) and check for any visible issues. Next, visit the page where the error was caught (https://totalcontacts.com.au/wp-admin/edit.php?post_type=product) and check for any visible issues.<br><br>Please contact your host for assistance with investigating this issue further.<br><br>If your site appears broken and you can't access your dashboard normally, WordPress now has a special \"recovery mode\". This lets you safely login to your dashboard and investigate further.<br><br>https://totalcontacts.com.au/wp-login.php?action=enter_recovery_mode&amp;rm_token=s1xDjhIpB9FZrsqVjI0ag7&amp;rm_key=LlsoyRCHMI8W59uyTMmtig<br><br>To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.<br><br>When seeking help with this issue, you may be asked for some of the following information:<br>WordPress version 6.3.2<br>Active theme: Total Eyecare (version 1.0.1)<br>Current plugin: WooCommerce (version 8.0.2)<br>PHP version 8.0.28<br><br><br><br>Error Details<br>=============<br>An error of type E_ERROR was caused in line 90 of the file /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php. Error message: Uncaught Error: Failed opening required '/www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/V1/CheckoutOrderSchema.php' (include_path='.:/usr/share/php') in /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90<br>Stack trace:<br>#0 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/SchemaController.php(46): Automattic\\Jetpack\\Autoloader\\jp865e0ff1636ff8bf9d922e869851562a\\PHP_Autoloader::load_class('Automattic\\\\WooC...')<br>#1 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(85): Automattic\\WooCommerce\\StoreApi\\SchemaController-&gt;__construct(Object(Automattic\\WooCommerce\\StoreApi\\Schemas\\ExtendSchema))<br>#2 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\\WooCommerce\\StoreApi\\StoreApi::Automattic\\WooCommerce\\StoreApi\\{closure}(Object(Automattic\\WooCommerce\\Blocks\\Registry\\Container))<br>#3 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\\WooCommerce\\Blocks\\Registry\\AbstractDependencyType-&gt;resolve_value(Object(Automattic\\WooCommerce\\Blocks\\Registry\\Container))<br>#4 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\\WooCommerce\\Blocks\\Registry\\SharedType-&gt;get(Object(Automattic\\WooCommerce\\Blocks\\Registry\\Container))<br>#5 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(77): Automattic\\WooCommerce\\Blocks\\Registry\\Container-&gt;get('Automattic\\\\WooC...')<br>#6 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/AbstractDependencyType.php(42): Automattic\\WooCommerce\\StoreApi\\StoreApi::Automattic\\WooCommerce\\StoreApi\\{closure}(Object(Automattic\\WooCommerce\\Blocks\\Registry\\Container))<br>#7 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/SharedType.php(28): Automattic\\WooCommerce\\Blocks\\Registry\\AbstractDependencyType-&gt;resolve_value(Object(Automattic\\WooCommerce\\Blocks\\Registry\\Container))<br>#8 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Registry/Container.php(96): Automattic\\WooCommerce\\Blocks\\Registry\\SharedType-&gt;get(Object(Automattic\\WooCommerce\\Blocks\\Registry\\Container))<br>#9 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/StoreApi.php(27): Automattic\\WooCommerce\\Blocks\\Registry\\Container-&gt;get('Automattic\\\\WooC...')<br>#10 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(310): Automattic\\WooCommerce\\StoreApi\\StoreApi-&gt;Automattic\\WooCommerce\\StoreApi\\{closure}(Object(WP_REST_Server))<br>#11 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(334): WP_Hook-&gt;apply_filters(NULL, Array)<br>#12 /www/totalcontacts2021_947/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#13 /www/totalcontacts2021_947/public/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))<br>#14 /www/totalcontacts2021_947/public/wp-includes/rest-api.php(545): rest_get_server()<br>#15 /www/totalcontacts2021_947/public/wp-includes/rest-api.php(2912): rest_do_request(Object(WP_REST_Request))<br>#16 [internal function]: rest_preload_api_request(Array, '/wc-analytics/r...')<br>#17 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/src/Internal/Admin/Settings.php(147): array_reduce(Array, 'rest_preload_ap...')<br>#18 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(310): Automattic\\WooCommerce\\Internal\\Admin\\Settings-&gt;add_component_settings(Array)<br>#19 /www/totalcontacts2021_947/public/wp-includes/plugin.php(205): WP_Hook-&gt;apply_filters(Array, Array)<br>#20 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/src/Internal/Admin/WCAdminSharedSettings.php(61): apply_filters('woocommerce_adm...', Array)<br>#21 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/AssetDataRegistry.php(267): Automattic\\WooCommerce\\Internal\\Admin\\WCAdminSharedSettings-&gt;Automattic\\WooCommerce\\Internal\\Admin\\{closure}()<br>#22 /www/totalcontacts2021_947/public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/Assets/AssetDataRegistry.php(392): Automattic\\WooCommerce\\Blocks\\Assets\\AssetDataRegistry-&gt;execute_lazy_data()<br>#23 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(310): Automattic\\WooCommerce\\Blocks\\Assets\\AssetDataRegistry-&gt;enqueue_asset_data('')<br>#24 /www/totalcontacts2021_947/public/wp-includes/class-wp-hook.php(334): WP_Hook-&gt;apply_filters('', Array)<br>#25 /www/totalcontacts2021_947/public/wp-includes/plugin.php(517): WP_Hook-&gt;do_action(Array)<br>#26 /www/totalcontacts2021_947/public/wp-admin/admin-footer.php(95): do_action('admin_print_foo...')<br>#27 /www/totalcontacts2021_947/public/wp-admin/edit.php(510): require_once('/www/totalconta...')<br>#28 {main}<br>\u00a0\u00a0thrown",
+            "source": {
+                "type": "email",
+                "via": "customer"
+            },
+            "customer": {
+                "id": 475596117,
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "createdBy": {
+                "id": 475596117,
+                "type": "customer",
+                "first": "Elise",
+                "last": "",
+                "photoUrl": "https://d33v4339jhl8k0.cloudfront.net/customer-avatar/04.png",
+                "email": "info@totalcontacts.com.au"
+            },
+            "assignedTo": {
+                "id": 1,
+                "first": "Help",
+                "last": "Scout",
+                "email": "none@nowhere.com"
+            },
+            "savedReplyId": 0,
+            "to": [],
+            "cc": [],
+            "bcc": [],
+            "createdAt": "2023-10-29T01:47:26Z",
+            "_embedded": {
+                "attachments": []
+            },
+            "_links": {
+                "assignedTo": {
+                    "href": "https://api.helpscout.net/v2/users/1"
+                },
+                "createdByCustomer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                },
+                "customer": {
+                    "href": "https://api.helpscout.net/v2/customers/475596117"
+                }
+            }
+        }
+    ]
+}
